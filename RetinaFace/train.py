@@ -118,7 +118,7 @@ def train_net(args, ctx, pretrained, epoch, prefix, begin_epoch, end_epoch,
     logger.info('output shape %s' % pprint.pformat(out_shape_dict))
 
 
-    for k,v in arg_shape_dict.iteritems():
+    for k,v in arg_shape_dict.items():
       if k.find('upsampling')>=0:
         print('initializing upsampling_weight', k)
         arg_params[k] = mx.nd.zeros(shape=v)
@@ -143,7 +143,7 @@ def train_net(args, ctx, pretrained, epoch, prefix, begin_epoch, end_epoch,
     data_names = [k[0] for k in train_data.provide_data]
     label_names = [k[0] for k in train_data.provide_label]
     fixed_param_names = get_fixed_params(sym, fixed_param_prefix)
-    print('fixed', fixed_param_names, file=sys.stderr)
+    #print('fixed', fixed_param_names, file=sys.stderr)
     mod = Module(sym, data_names=data_names, label_names=label_names,
                         logger=logger, context=ctx, work_load_list=args.work_load_list,
                         fixed_param_names=fixed_param_names)
@@ -167,6 +167,10 @@ def train_net(args, ctx, pretrained, epoch, prefix, begin_epoch, end_epoch,
         _metric = metric.RPNL1LossMetric(loss_idx=mid, weight_idx=mid+1, name='RPNLandMarkL1Loss_s%s'%stride)
         eval_metrics.add(_metric)
         mid+=2
+        
+        _metric = metric.LandmarkDIFFMetric(tg_idx=(5*(mid//7)+3), weight_idx= mid-1, diff_idx=mid, name='RPNLandMarkDiff_s%s'%stride)  #cls_loss = -1 * np.log(cls)
+        eval_metrics.add(_metric)
+        mid+=1
       if config.HEAD_BOX:
         _metric = metric.RPNAccMetric(pred_idx=mid, label_idx=mid+1, name='RPNAcc_head_s%s'%stride)
         eval_metrics.add(_metric)
@@ -210,7 +214,7 @@ def train_net(args, ctx, pretrained, epoch, prefix, begin_epoch, end_epoch,
     end_epoch = 10000
     logger.info('lr %f lr_epoch_diff %s lr_steps %s' % (lr, lr_epoch_diff, lr_steps))
     # optimizer
-    opt = optimizer.SGD(learning_rate=lr, momentum=0.9, wd=0.0005, rescale_grad=1.0/len(ctx), clip_gradient=None)
+    opt = optimizer.SGD(learning_rate=lr, momentum=0.9, wd=0.0005, rescale_grad=1.0/input_batch_size, clip_gradient=None)
     initializer=mx.init.Xavier()
     #initializer = mx.init.Xavier(rnd_type='gaussian', factor_type="out", magnitude=2) #resnet style
 
@@ -262,6 +266,9 @@ def train_net(args, ctx, pretrained, epoch, prefix, begin_epoch, end_epoch,
           print('lr change to', opt.lr,' in batch', mbatch, file=sys.stderr)
           break
 
+      epoch_num = mbatch*input_batch_size/len(roidb)
+      if int(mbatch+1)%(len(roidb)/input_batch_size) == 0:
+        save_model(int(epoch_num))
       if mbatch==lr_steps[-1][0]:
         print('saving final checkpoint', mbatch, file=sys.stderr)
         save_model(0)
@@ -295,7 +302,7 @@ def parse_args():
     parser.add_argument('--no_flip', help='disable flip images', action='store_true')
     parser.add_argument('--no_shuffle', help='disable random shuffle', action='store_true')
     # e2e
-    #parser.add_argument('--gpus', help='GPU device to train with', default='0,1,2,3', type=str)
+    parser.add_argument('--gpus', help='GPU device to train with', default='1', type=str)
     parser.add_argument('--pretrained', help='pretrained model prefix', default=default.pretrained, type=str)
     parser.add_argument('--pretrained_epoch', help='pretrained model epoch', default=default.pretrained_epoch, type=int)
     parser.add_argument('--prefix', help='new model prefix', default=default.prefix, type=str)
@@ -313,9 +320,10 @@ def main():
     logger.info('Called with argument: %s' % args)
     #ctx = [mx.gpu(int(i)) for i in args.gpus.split(',')]
     ctx = []
+    os.environ["CUDA_VISIBLE_DEVICES"] = "1"
     cvd = os.environ['CUDA_VISIBLE_DEVICES'].strip()
     if len(cvd)>0:
-      for i in xrange(len(cvd.split(','))):
+      for i in range(len(cvd.split(','))):
         ctx.append(mx.gpu(i))
     if len(ctx)==0:
       ctx = [mx.cpu()]

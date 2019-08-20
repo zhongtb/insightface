@@ -6,7 +6,7 @@ import mxnet.autograd as ag
 import numpy as np
 from rcnn.config import config
 from rcnn.PY_OP import rpn_fpn_ohem3
-from symbol_common import get_sym_train
+from rcnn.symbol.symbol_common import get_sym_train
 
 def conv_only(from_layer, name, num_filter, kernel=(1,1), pad=(0,0), \
     stride=(1,1), bias_wd_mult=0.0):
@@ -104,6 +104,7 @@ def ssh_detection_module(body, num_filter, filter_in, name):
 
 def get_resnet_conv(data, sym):
     all_layers = sym.get_internals()
+    print("all_layers: ", all_layers)
     isize = 640
     _, out_shape, _ = all_layers.infer_shape(data = (1,3,isize,isize))
     last_entry = None
@@ -342,6 +343,7 @@ def get_out(conv_fpn_feat, prefix, stride, landmark=False, lr_mult=1.0):
         kernel=(1,1), pad=(0,0), stride=(1, 1))
 
     # prepare rpn data
+    config.FBN = True
     if not config.FBN:
       rpn_cls_score_reshape = mx.symbol.Reshape(data=rpn_cls_score,
                                                 shape=(0, 2, -1),
@@ -363,7 +365,7 @@ def get_out(conv_fpn_feat, prefix, stride, landmark=False, lr_mult=1.0):
                                               name="%s_rpn_landmark_pred_reshape_stride%s" % (prefix,stride))
 
     if config.TRAIN.RPN_ENABLE_OHEM>=2:
-      label, anchor_weight = mx.sym.Custom(op_type='rpn_fpn_ohem3', stride=int(stride), network=config.network, dataset=config.dataset, prefix=prefix, cls_score=rpn_cls_score_reshape, labels = label)
+      label, anchor_weight,value = mx.sym.Custom(op_type='rpn_fpn_ohem3', stride=int(stride), network=config.network, dataset=config.dataset, prefix=prefix, cls_score=rpn_cls_score_reshape, labels = label)
 
       _bbox_weight = mx.sym.tile(anchor_weight, (1,1,bbox_pred_len))
       _bbox_weight = _bbox_weight.reshape((0, -1, A * bbox_pred_len)).transpose((0,2,1))
@@ -409,14 +411,14 @@ def get_resnet_train(sym):
     return get_sym_train(sym)
     #data = mx.symbol.Variable(name="data")
     ## shared convolutional layers
-    #conv_fpn_feat, conv_fpn_feat2 = get_resnet_conv(data, sym)
-    #ret_group = []
-    #for stride in config.RPN_FEAT_STRIDE:
-    #  ret = get_out(conv_fpn_feat, 'face', stride, config.FACE_LANDMARK, lr_mult=1.0)
-    #  ret_group += ret
-    #  if config.HEAD_BOX:
-    #    ret = get_out(conv_fpn_feat2, 'head', stride, False, lr_mult=1.0)
-    #    ret_group += ret
+    conv_fpn_feat, conv_fpn_feat2 = get_resnet_conv(data, sym)
+    ret_group = []
+    for stride in config.RPN_FEAT_STRIDE:
+      ret = get_out(conv_fpn_feat, 'face', stride, config.FACE_LANDMARK, lr_mult=1.0)
+      ret_group += ret
+      if config.HEAD_BOX:
+        ret = get_out(conv_fpn_feat2, 'head', stride, False, lr_mult=1.0)
+        ret_group += ret
 
     #return mx.sym.Group(ret_group)
 

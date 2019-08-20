@@ -54,7 +54,7 @@ for _stride in [4, 8, 16, 32, 64]:
   RAC_RETINA[key] = value
 
 
-config.RPN_ANCHOR_CFG = RAC_SSH2#RAC_RETINA#RAC_SSH #default
+config.RPN_ANCHOR_CFG = RAC_RETINA#RAC_SSH2#RAC_RETINA#RAC_SSH #default
 
 config.NET_MODE = 2
 config.HEAD_MODULE = 'RETINA'#'SSH'
@@ -171,7 +171,7 @@ network.mnet.MULTIPLIER = 0.5
 #network.mnet.PIXEL_STDS = np.array([0.225, 0.224, 0.229])
 #network.mnet.PIXEL_SCALE = 255.0
 network.mnet.FIXED_PARAMS = ['^stage1','^stage2', '^.*upsampling']
-network.mnet.BATCH_IMAGES = 64#32#16
+network.mnet.BATCH_IMAGES = 16
 network.mnet.HEAD_FILTER_NUM = 64
 network.mnet.CONTEXT_FILTER_RATIO = 1
 
@@ -210,7 +210,7 @@ network.resnet.PIXEL_MEANS = np.array([0.0, 0.0, 0.0])
 network.resnet.PIXEL_STDS = np.array([1.0, 1.0, 1.0])
 network.resnet.PIXEL_SCALE = 1.0
 network.resnet.FIXED_PARAMS = ['^stage1', '^.*upsampling']
-network.resnet.BATCH_IMAGES = 8
+network.resnet.BATCH_IMAGES = 12#8
 network.resnet.HEAD_FILTER_NUM = 256
 network.resnet.CONTEXT_FILTER_RATIO = 1
 network.resnet.USE_DCN = 2
@@ -218,8 +218,8 @@ network.resnet.RPN_BATCH_SIZE = 256
 network.resnet.RPN_ANCHOR_CFG = RAC_RETINA
 
 network.resnet.USE_DCN = 0
-network.resnet.pretrained = 'model/resnet-50'
-network.resnet.RPN_ANCHOR_CFG = RAC_SSH2#RAC_RETINA#SSH
+network.resnet.pretrained = 'model/resnet-152'
+#network.resnet.RPN_ANCHOR_CFG = RAC_SSH2#RAC_RETINA#SSH
 
 
 # dataset settings
@@ -250,10 +250,10 @@ config.FIXED_PARAMS = ['^conv1', '^conv2', '^conv3', '^.*upsampling']
 #config.FIXED_PARAMS = ['^conv0', '^stage1', 'gamma', 'beta']  #for resnet
 
 # default network
-default.network =  'mnet'#'resnet'
-default.pretrained = 'model/mnetmodel/retina_mnet-0001'
+default.network =  'resnet'#'mnet'#'resnet'
+default.pretrained = 'model/resnet-152'#'model/mnetmodel/retina_mnet-0001'
 #default.network = 'resnetssh'
-default.pretrained_epoch = 76
+default.pretrained_epoch = 0
 # default dataset
 default.dataset = 'retinaface'
 default.image_set = 'train'
@@ -265,8 +265,8 @@ default.frequent = 20
 default.kvstore = 'device'
 # default e2e
 #default.prefix = 'model/retinaface'
-default.prefix = 'model/mnetmodel/retina_mnet'
-default.end_epoch = 10000
+default.prefix = 'model/retina152/reitna'
+default.end_epoch = 100
 default.lr_step = '55,68,80'
 default.lr = 0.01
 

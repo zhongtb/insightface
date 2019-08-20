@@ -170,7 +170,7 @@ def upsampling(data, num_filter, name):
 
 def get_sym_conv(data, sym):
     all_layers = sym.get_internals()
-
+    #print('all_layers: ', all_layers)
     isize = 640
     _, out_shape, _ = all_layers.infer_shape(data = (1,3,isize,isize))
     last_entry = None
@@ -186,7 +186,8 @@ def get_sym_conv(data, sym):
     #print(len(all_layers), len(out_shape))
     #print(all_layers.__class__)
     outputs = all_layers.list_outputs()
-    #print(outputs.__class__, len(outputs))
+    #print('outputs: ', outputs)
+    print(outputs.__class__, len(outputs))
     count = len(outputs)
     stride2name = {}
     stride2layer = {}
@@ -199,6 +200,7 @@ def get_sym_conv(data, sym):
       if len(shape)!=4:
         continue
       assert isize%shape[2]==0
+      #print('name: ', name)
       if shape[1]>config.max_feat_channel:
         break
       stride = isize//shape[2]
@@ -230,24 +232,31 @@ def get_sym_conv(data, sym):
     strides = sorted(stride2name.keys())
     for stride in strides:
       print('stride', stride, stride2name[stride], stride2shape[stride])
-    print('F1_F2', F1, F2)
+    #print('F1_F2', F1, F2)
     #print('cnames', c1_name, c2_name, c3_name, F1, F2)
     _bwm = 1.0
     c0 = stride2layer[4]
     c1 = stride2layer[8]
     c2 = stride2layer[16]
     c3 = stride2layer[32]
+    #print('c0: ',c0)
+    #print('c1: ',c1)
+    #print('c2: ',c2)
+    #print('c3: ',c3)
     c3 = conv_act_layer(c3, 'rf_c3_lateral',
         F2, kernel=(1, 1), pad=(0, 0), stride=(1, 1), act_type='relu', bias_wd_mult=_bwm)
+    
+    #print('c3_after: ',c3)
     #c3_up = mx.symbol.UpSampling(c3, scale=2, sample_type='nearest', workspace=512, name='ssh_c3_up', num_args=1)
     c3_up = upsampling(c3, F2, 'rf_c3_upsampling')
     c2_lateral = conv_act_layer(c2, 'rf_c2_lateral',
         F2, kernel=(1, 1), pad=(0, 0), stride=(1, 1), act_type='relu', bias_wd_mult=_bwm)
     if config.USE_CROP:
-      c3_up = mx.symbol.Crop(*[c3_up, c2_lateral])
+      ic3_up = mx.symbol.Crop(*[c3_up, c2_lateral])
     c2 = c2_lateral+c3_up
     c2 = conv_act_layer(c2, 'rf_c2_aggr',
         F2, kernel=(3, 3), pad=(1, 1), stride=(1, 1), act_type='relu', bias_wd_mult=_bwm)
+    #print('c2: ',c2)
     c1_lateral = conv_act_layer(c1, 'rf_c1_red_conv',
         F2, kernel=(1, 1), pad=(0, 0), stride=(1, 1), act_type='relu', bias_wd_mult=_bwm)
     #c2_up = mx.symbol.UpSampling(c2, scale=2, sample_type='nearest', workspace=512, name='ssh_m2_red_up', num_args=1)
@@ -258,9 +267,13 @@ def get_sym_conv(data, sym):
     c1 = c1_lateral+c2_up
     c1 = conv_act_layer(c1, 'rf_c1_aggr',
         F2, kernel=(3, 3), pad=(1, 1), stride=(1, 1), act_type='relu', bias_wd_mult=_bwm)
+    #print('c1: ',c1)
     m1 = head_module(c1, F2*config.CONTEXT_FILTER_RATIO, F2, 'rf_c1_det')
     m2 = head_module(c2, F1*config.CONTEXT_FILTER_RATIO, F2, 'rf_c2_det')
     m3 = head_module(c3, F1*config.CONTEXT_FILTER_RATIO, F2, 'rf_c3_det')
+    #print('m1: ',m1)
+    #print('m2: ',m2)
+    #print('m3: ',m3)
     if len(config.RPN_ANCHOR_CFG)==3:
       ret = {8: m1, 16:m2, 32: m3}
     elif len(config.RPN_ANCHOR_CFG)==1:
@@ -288,11 +301,15 @@ def get_sym_conv(data, sym):
       c0 = c0_lateral+c1_up
       c0 = conv_act_layer(c0, 'rf_c0_aggr',
           F2, kernel=(3, 3), pad=(1, 1), stride=(1, 1), act_type='relu', bias_wd_mult=_bwm)
+      #print('c0: ',c0)
 
       c4 = conv_act_layer(c3, 'rf_c4',
           F2, kernel=(3, 3), pad=(1, 1), stride=(2, 2), act_type='relu', bias_wd_mult=_bwm)
+      #print('c4: ',c4)
       m0 = head_module(c0, F2*config.CONTEXT_FILTER_RATIO, F2, 'rf_c0_det')
       m4 = head_module(c4, F1*config.CONTEXT_FILTER_RATIO, F2, 'rf_c4_det')
+      #print('m0: ',m0)
+      #print('m4: ',m4)
       ret = {4: m0, 8: m1, 16:m2, 32: m3, 64: m4}
     elif len(config.RPN_ANCHOR_CFG)==6:
       c0_lateral = conv_act_layer(c0, 'rf_c0_lateral',

@@ -6,7 +6,7 @@ import mxnet.autograd as ag
 import numpy as np
 from rcnn.config import config
 from rcnn.PY_OP import rpn_fpn_ohem3
-from symbol_common import get_sym_train
+#from symbol_common import get_sym_train
 
 
 def conv_only(from_layer, name, num_filter, kernel=(1,1), pad=(0,0), \
@@ -104,9 +104,10 @@ def upsampling(data, num_filter, name):
     return ret
 
 def get_mnet_conv(data, sym):
-    mm = config.MULTIPLIER
+    #mm = config.MULTIPLIER
+    mm =0.5
     all_layers = sym.get_internals()
-    #print(all_layers)
+    print('all_laver: ',all_layers)
     ##c1 = all_layers['mobilenetv20_features_linearbottleneck6_relu60_relu6_output'] #96
     #c1 = all_layers['mobilenetv20_features_linearbottleneck5_elemwise_add0_output'] # 16
     ##c2 = all_layers['mobilenetv20_features_linearbottleneck13_relu60_relu6_output']
@@ -117,29 +118,29 @@ def get_mnet_conv(data, sym):
     #c2_filter = int(96*mm)
     #c3_filter = int(160*mm)
 
-    #c1 = all_layers['mobilenet0_relu10_fwd_output']
-    #c2 = all_layers['mobilenet0_relu22_fwd_output']
-    #c3 = all_layers['mobilenet0_relu26_fwd_output']
+    c1 = all_layers['mobilenet0_relu10_fwd_output']
+    c2 = all_layers['mobilenet0_relu22_fwd_output']
+    c3 = all_layers['mobilenet0_relu26_fwd_output']
 
     #c1 = all_layers['conv_6_relu_output']
     #c2 = all_layers['conv_12_relu_output']
     #c3 = all_layers['conv_14_relu_output']
-    #c1_filter = int(256*mm)
-    #c2_filter = int(512*mm)
-    #c3_filter = int(1024*mm)
+    c1_filter = int(256*mm)
+    c2_filter = int(512*mm)
+    c3_filter = int(1024*mm)
 
     isize = 640
     _, out_shape, _ = all_layers.infer_shape(data = (1,3,isize,isize))
     last_entry = None
-    c1 = None
-    c2 = None
-    c3 = None
-    c1_name = None
-    c2_name = None
-    c3_name = None
-    c1_filter = -1
-    c2_filter = -1
-    c3_filter = -1
+    #c1 = None
+    #c2 = None
+    #c3 = None
+    #c1_name = None
+    #c2_name = None
+    #c3_name = None
+    #c1_filter = -1
+    #c2_filter = -1
+    #c3_filter = -1
     #print(len(all_layers), len(out_shape))
     #print(all_layers.__class__)
     outputs = all_layers.list_outputs()
@@ -169,7 +170,7 @@ def get_mnet_conv(data, sym):
         c3_name = name
 
       last_entry = (name, shape)
-    print('cnames', c1_name, c2_name, c3_name)
+      #print('cnames', c1_name, c2_name, c3_name)
 
     F1 = int(256*mm)
     F2 = int(128*mm)
@@ -345,6 +346,7 @@ def get_out(conv_fpn_feat, prefix, stride, landmark=False, lr_mult=1.0, shared_v
     if landmark:
       landmark_target = mx.symbol.Variable(name='%s_landmark_target_stride%d'%(prefix,stride))
       landmark_weight = mx.symbol.Variable(name='%s_landmark_weight_stride%d'%(prefix,stride))
+    landmark_diff = mx.symbol.Variable(name='%s_landmark_diff_stride%d'%(prefix,stride))
     rpn_relu = conv_fpn_feat[stride]
     maxout_stat = 0
     if config.USE_MAXOUT>=1 and stride==config.RPN_FEAT_STRIDE[-1]:
@@ -383,6 +385,7 @@ def get_out(conv_fpn_feat, prefix, stride, landmark=False, lr_mult=1.0, shared_v
         kernel=(1,1), pad=(0,0), stride=(1, 1), shared_weight = shared_vars[1][0], shared_bias = shared_vars[1][1])
 
     # prepare rpn data
+    config.FBN = True
     if not config.FBN:
       rpn_cls_score_reshape = mx.symbol.Reshape(data=rpn_cls_score,
                                                 shape=(0, 2, -1),
@@ -404,7 +407,7 @@ def get_out(conv_fpn_feat, prefix, stride, landmark=False, lr_mult=1.0, shared_v
                                               name="%s_rpn_landmark_pred_reshape_stride%s" % (prefix,stride))
 
     if config.TRAIN.RPN_ENABLE_OHEM>=2:
-      label, anchor_weight = mx.sym.Custom(op_type='rpn_fpn_ohem3', stride=int(stride), network=config.network, dataset=config.dataset, prefix=prefix, cls_score=rpn_cls_score_reshape, labels = label)
+      label, anchor_weight, value = mx.sym.Custom(op_type='rpn_fpn_ohem3', stride=int(stride), network=config.network, dataset=config.dataset, prefix=prefix, cls_score=rpn_cls_score_reshape, labels = label)
 
       _bbox_weight = mx.sym.tile(anchor_weight, (1,1,bbox_pred_len))
       _bbox_weight = _bbox_weight.reshape((0, -1, A * bbox_pred_len)).transpose((0,2,1))
@@ -444,49 +447,50 @@ def get_out(conv_fpn_feat, prefix, stride, landmark=False, lr_mult=1.0, shared_v
       rpn_landmark_loss = mx.sym.MakeLoss(name='%s_rpn_landmark_loss_stride%d'%(prefix,stride), data=rpn_landmark_loss_, grad_scale=0.5*lr_mult / (config.TRAIN.RPN_BATCH_SIZE))
       ret_group.append(rpn_landmark_loss)
       ret_group.append(mx.sym.BlockGrad(landmark_weight))
+      ret_group.append(mx.sym.BlockGrad(landmark_diff))
     return ret_group
 
 def get_mnet_train(sym):
-    return get_sym_train(sym)
-    #data = mx.symbol.Variable(name="data")
+    #return get_sym_train(sym)
+    data = mx.symbol.Variable(name="data")
     ## shared convolutional layers
-    #conv_fpn_feat = get_mnet_conv(data, sym)
-    #ret_group = []
-    #shared_vars = []
-    #if config.SHARE_WEIGHT_BBOX:
-    #  assert config.USE_MAXOUT==0
-    #  _name = 'face_rpn_cls_score_share'
-    #  shared_weight = mx.symbol.Variable(name="{}_weight".format(_name),   
-    #      init=mx.init.Normal(0.01), attr={'__lr_mult__': '1.0'})
-    #  shared_bias = mx.symbol.Variable(name="{}_bias".format(_name),   
-    #      init=mx.init.Constant(0.0), attr={'__lr_mult__': '2.0', '__wd_mult__': str(0.0)})
-    #  shared_vars.append( [shared_weight, shared_bias] )
-    #  _name = 'face_rpn_bbox_pred_share'
-    #  shared_weight = mx.symbol.Variable(name="{}_weight".format(_name),   
-    #      init=mx.init.Normal(0.01), attr={'__lr_mult__': '1.0'})
-    #  shared_bias = mx.symbol.Variable(name="{}_bias".format(_name),   
-    #      init=mx.init.Constant(0.0), attr={'__lr_mult__': '2.0', '__wd_mult__': str(0.0)})
-    #  shared_vars.append( [shared_weight, shared_bias] )
-    #else:
-    #  shared_vars.append( [None, None] )
-    #  shared_vars.append( [None, None] )
-    #if config.SHARE_WEIGHT_LANDMARK:
-    #  _name = 'face_rpn_landmark_pred_share'
-    #  shared_weight = mx.symbol.Variable(name="{}_weight".format(_name),   
-    #      init=mx.init.Normal(0.01), attr={'__lr_mult__': '1.0'})
-    #  shared_bias = mx.symbol.Variable(name="{}_bias".format(_name),   
-    #      init=mx.init.Constant(0.0), attr={'__lr_mult__': '2.0', '__wd_mult__': str(0.0)})
-    #  shared_vars.append( [shared_weight, shared_bias] )
-    #else:
-    #  shared_vars.append( [None, None] )
+    conv_fpn_feat = get_mnet_conv(data, sym)
+    ret_group = []
+    shared_vars = []
+    if config.SHARE_WEIGHT_BBOX:
+      assert config.USE_MAXOUT==0
+      _name = 'face_rpn_cls_score_share'
+      shared_weight = mx.symbol.Variable(name="{}_weight".format(_name),   
+          init=mx.init.Normal(0.01), attr={'__lr_mult__': '1.0'})
+      shared_bias = mx.symbol.Variable(name="{}_bias".format(_name),   
+          init=mx.init.Constant(0.0), attr={'__lr_mult__': '2.0', '__wd_mult__': str(0.0)})
+      shared_vars.append( [shared_weight, shared_bias] )
+      _name = 'face_rpn_bbox_pred_share'
+      shared_weight = mx.symbol.Variable(name="{}_weight".format(_name),   
+          init=mx.init.Normal(0.01), attr={'__lr_mult__': '1.0'})
+      shared_bias = mx.symbol.Variable(name="{}_bias".format(_name),   
+          init=mx.init.Constant(0.0), attr={'__lr_mult__': '2.0', '__wd_mult__': str(0.0)})
+      shared_vars.append( [shared_weight, shared_bias] )
+    else:
+      shared_vars.append( [None, None] )
+      shared_vars.append( [None, None] )
+    if config.SHARE_WEIGHT_LANDMARK:
+      _name = 'face_rpn_landmark_pred_share'
+      shared_weight = mx.symbol.Variable(name="{}_weight".format(_name),   
+          init=mx.init.Normal(0.01), attr={'__lr_mult__': '1.0'})
+      shared_bias = mx.symbol.Variable(name="{}_bias".format(_name),   
+          init=mx.init.Constant(0.0), attr={'__lr_mult__': '2.0', '__wd_mult__': str(0.0)})
+      shared_vars.append( [shared_weight, shared_bias] )
+    else:
+      shared_vars.append( [None, None] )
 
-    #for stride in config.RPN_FEAT_STRIDE:
-    #  ret = get_out(conv_fpn_feat, 'face', stride, config.FACE_LANDMARK, lr_mult=1.0, shared_vars = shared_vars)
-    #  ret_group += ret
-    #  if config.HEAD_BOX:
-    #    ret = get_out(conv_fpn_feat, 'head', stride, False, lr_mult=0.5)
-    #    ret_group += ret
+    for stride in config.RPN_FEAT_STRIDE:
+      ret = get_out(conv_fpn_feat, 'face', stride, config.FACE_LANDMARK, lr_mult=1.0, shared_vars = shared_vars)
+      ret_group += ret
+      if config.HEAD_BOX:
+        ret = get_out(conv_fpn_feat, 'head', stride, False, lr_mult=0.5)
+        ret_group += ret
 
-    #return mx.sym.Group(ret_group)
+    return mx.sym.Group(ret_group)
 
 

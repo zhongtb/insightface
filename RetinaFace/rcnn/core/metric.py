@@ -162,4 +162,58 @@ class RPNL1LossMetric(mx.metric.EvalMetric):
         self.sum_metric += np.sum(bbox_loss)
         self.num_inst += num_inst
 
+#landmark五个点准确度评估
+class LandmarkDIFFMetric(mx.metric.EvalMetric):
+    def __init__(self, tg_idx=-1, weight_idx = -1, diff_idx=-1, anchor_idx=-1, name='LandmarkDIFF'):
+        super(LandmarkDIFFMetric, self).__init__(name)
+        self.pred, self.label = get_rpn_names()
+        self.tg_idx = tg_idx
+        self.weight_idx = weight_idx
+        self.diff_idx = diff_idx
+        #self.anchor_idx = anchor_idx
+        self.name = name
 
+    def update(self, labels, preds):
+        if self.tg_idx>=0 and self.weight_idx>=0:
+          landmark_weight = preds[self.weight_idx].asnumpy()
+          landmark_target = labels[self.tg_idx].asnumpy()
+          landmark_diff = preds[self.diff_idx].asnumpy()
+          #anchor = preds[self.anchor_idx].asnumpy()
+        else:
+          landmark_weight = labels[self.label.index('rpn_landmark_weight')].asnumpy()
+          landmark_target = labels[self.label.index('face_landmark_target')].asnumpy()
+          landmark_diff = preds[self.pred.index('rpn_landmark_diff')].asnumpy()
+          #anchor = preds[self.label.index('anchors')].asnumpy()
+          #bbox_weight = preds[self.pred.index('rpn_bbox_weight')].asnumpy()
+
+        landmark_pred_len = 10
+        if config.USE_OCCLUSION:
+          landmark_pred_len = 15
+        landmark_target = landmark_target.astype(np.float, copy=False).transpose(0,2,1).reshape(-1,landmark_pred_len)
+        landmark_weight = landmark_weight.astype(np.float, copy=False).transpose(0,2,1).reshape(-1,landmark_pred_len)
+        landmark_diff = landmark_diff.astype(np.float, copy=False).transpose(0,2,1).reshape(-1,landmark_pred_len)
+        #anchor = anchor.astype(np.float, copy=False).transpose(0,2,1).reshape(-1,4)
+        index = np.where(landmark_weight[:,0]==1)[0]  #landmark_weight[:,1]等等价，
+        '''   
+        widths = anchor[index, 2] - anchor[index, 0] + 1.0
+        heights = anchor[index, 3] - anchor[index, 1] + 1.0
+        ctr_x = anchor[index, 0] + 0.5 * (widths - 1.0)
+        ctr_y = anchor[index, 1] + 0.5 * (heights - 1.0)
+        '''
+        gt_dx = abs(landmark_target[index,0] - landmark_target[index,2])#*widths  #两眼间距离
+        #print('gt_dx:', min(gt_dx))
+        #print('sum_gt_dx:', sum(gt_dx))
+        diffs = []
+        if landmark_pred_len == 10:
+          for i in range(0,landmark_pred_len,2):   #range(10)
+              diff = np.sum(np.sqrt(np.square(landmark_diff[index,i]) + np.square(landmark_diff[index,i+1])))/np.sum((gt_dx + (2e-10)))
+              diffs.append(diff)
+        elif landmark_pred_len == 15:
+          for i in range(0,landmark_pred_len,3):   #range(10)
+              diff = np.sqrt(np.square(landmark_diff[index,i]) + np.square(landmark_diff[index,i+1]))/(gt_dx+ (2e-10))
+              diffs.append(diff)
+        num_inst = landmark_pred_len //2
+        #print('in_metric log', bbox_loss.shape, num_inst, file=sys.stderr)
+
+        self.sum_metric += np.sum(diffs)
+        self.num_inst += num_inst
