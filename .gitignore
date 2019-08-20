@@ -103,5 +103,5 @@ ENV/
 #big files
 RetinaFace/model/*
 RetinaFace/data/*
-data/*
-model/*
+data
+model
