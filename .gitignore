@@ -101,7 +101,7 @@ ENV/
 .mypy_cache/
 
 #big files
-RetinaFace/model/*
-RetinaFace/data/*
+RetinaFace/model
+RetinaFace/data
 data/*
 model/*
