@@ -54,10 +54,10 @@ for _stride in [4, 8, 16, 32, 64]:
   RAC_RETINA[key] = value
 
 
-config.RPN_ANCHOR_CFG = RAC_RETINA#RAC_SSH2#RAC_RETINA#RAC_SSH #default
+config.RPN_ANCHOR_CFG = RAC_SSH #default
 
 config.NET_MODE = 2
-config.HEAD_MODULE = 'RETINA'#'SSH'
+config.HEAD_MODULE = 'SSH'
 #config.HEAD_MODULE = 'RF'
 config.LR_MODE = 0
 config.LANDMARK_LR_MULT = 2.0
@@ -75,7 +75,7 @@ config.MORE_SMALL_BOX = True
 config.LAYER_FIX = False
 
 config.HEAD_BOX = False
-config.DENSE_ANCHOR = True#False
+config.DENSE_ANCHOR = False
 config.USE_MAXOUT = 0
 config.SHARE_WEIGHT_BBOX = False
 config.SHARE_WEIGHT_LANDMARK = False
@@ -99,7 +99,7 @@ config.TRAIN.MIN_BOX_SIZE = 0
 config.BBOX_MASK_THRESH = config.TRAIN.MIN_BOX_SIZE
 # R-CNN and RPN
 # size of images for each device, 2 for rcnn, 1 for rpn and e2e
-config.TRAIN.BATCH_IMAGES = 24#12
+config.TRAIN.BATCH_IMAGES = 8
 # e2e changes behavior of anchor loader and metric
 config.TRAIN.END2END = True
 # group images with similar aspect ratio
@@ -164,13 +164,13 @@ network.mnet = edict()
 #network.mnet.pretrained = 'model/mnasnet'
 #network.mnet.pretrained = 'model/mobilenetv2_0_5'
 #network.mnet.pretrained = 'model/mobilenet_0_5'
-network.mnet.MULTIPLIER = 0.5
+#network.mnet.MULTIPLIER = 0.5
 #network.mnet.pretrained = 'model/mobilenet_0_25'
 #network.mnet.pretrained_epoch = 0
 #network.mnet.PIXEL_MEANS = np.array([0.406, 0.456, 0.485])
 #network.mnet.PIXEL_STDS = np.array([0.225, 0.224, 0.229])
 #network.mnet.PIXEL_SCALE = 255.0
-network.mnet.FIXED_PARAMS = ['^stage1','^stage2', '^.*upsampling']
+network.mnet.FIXED_PARAMS = ['^stage1', '^.*upsampling']
 network.mnet.BATCH_IMAGES = 16
 network.mnet.HEAD_FILTER_NUM = 64
 network.mnet.CONTEXT_FILTER_RATIO = 1
@@ -180,14 +180,14 @@ network.mnet.PIXEL_STDS = np.array([1.0, 1.0, 1.0])
 network.mnet.PIXEL_SCALE = 1.0
 #network.mnet.pretrained = 'model/mobilenetfd_0_25' #78
 #network.mnet.pretrained = 'model/mobilenetfd2' #75
-network.mnet.pretrained = 'model/mobilenet_0_25'#mobilenet025fd0' #78
+network.mnet.pretrained = 'model/mobilenet025fd0' #78
 #network.mnet.pretrained = 'model/mobilenet025fd1' #75
 #network.mnet.pretrained = 'model/mobilenet025fd2' #
 network.mnet.pretrained_epoch = 0
 network.mnet.max_feat_channel = 8888
 network.mnet.COLOR_MODE = 1
 network.mnet.USE_CROP = True
-network.mnet.RPN_ANCHOR_CFG = RAC_SSH2#RAC_RETINA#SSH
+network.mnet.RPN_ANCHOR_CFG = RAC_SSH
 network.mnet.LAYER_FIX = True
 network.mnet.LANDMARK_LR_MULT = 2.5
 
@@ -210,7 +210,7 @@ network.resnet.PIXEL_MEANS = np.array([0.0, 0.0, 0.0])
 network.resnet.PIXEL_STDS = np.array([1.0, 1.0, 1.0])
 network.resnet.PIXEL_SCALE = 1.0
 network.resnet.FIXED_PARAMS = ['^stage1', '^.*upsampling']
-network.resnet.BATCH_IMAGES = 12#8
+network.resnet.BATCH_IMAGES = 8
 network.resnet.HEAD_FILTER_NUM = 256
 network.resnet.CONTEXT_FILTER_RATIO = 1
 network.resnet.USE_DCN = 2
@@ -218,8 +218,8 @@ network.resnet.RPN_BATCH_SIZE = 256
 network.resnet.RPN_ANCHOR_CFG = RAC_RETINA
 
 network.resnet.USE_DCN = 0
-network.resnet.pretrained = 'model/resnet-152'
-#network.resnet.RPN_ANCHOR_CFG = RAC_SSH2#RAC_RETINA#SSH
+network.resnet.pretrained = 'model/resnet-50'
+network.resnet.RPN_ANCHOR_CFG = RAC_SSH
 
 
 # dataset settings
@@ -250,8 +250,8 @@ config.FIXED_PARAMS = ['^conv1', '^conv2', '^conv3', '^.*upsampling']
 #config.FIXED_PARAMS = ['^conv0', '^stage1', 'gamma', 'beta']  #for resnet
 
 # default network
-default.network =  'resnet'#'mnet'#'resnet'
-default.pretrained = 'model/resnet-152'#'model/mnetmodel/retina_mnet-0001'
+default.network = 'resnet'
+default.pretrained = 'model/resnet-152'
 #default.network = 'resnetssh'
 default.pretrained_epoch = 0
 # default dataset
@@ -264,9 +264,8 @@ default.dataset_path = 'data/retinaface'
 default.frequent = 20
 default.kvstore = 'device'
 # default e2e
-#default.prefix = 'model/retinaface'
-default.prefix = 'model/retina152/reitna'
-default.end_epoch = 100
+default.prefix = 'model/retinaface'
+default.end_epoch = 10000
 default.lr_step = '55,68,80'
 default.lr = 0.01
 
