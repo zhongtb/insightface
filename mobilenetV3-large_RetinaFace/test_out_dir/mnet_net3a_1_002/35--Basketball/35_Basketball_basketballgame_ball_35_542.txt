@@ -1,0 +1,5 @@
+35--Basketball/35_Basketball_basketballgame_ball_35_542.jpg
+3
+551 254 41 52 0.977395 
+318 259 39 51 0.969643 
+87 257 41 47 0.112354 

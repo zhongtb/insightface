@@ -1,0 +1,9 @@
+10--People_Marching/10_People_Marching_People_Marching_10_People_Marching_People_Marching_10_People_Marching_People_Marching_10_1024.jpg
+7
+603 1983 82 93 0.933048 
+205 1955 83 95 0.929652 
+363 1886 77 91 0.745749 
+406 1787 52 62 0.681172 
+733 1853 45 54 0.620672 
+883 1690 38 46 0.57856 
+954 1929 56 63 0.550276 

@@ -1,0 +1,4 @@
+2--Demonstration/2_Demonstration_Protesters_2_117.jpg
+2
+248 213 111 108 0.995004 
+725 232 78 75 0.974816 

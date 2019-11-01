@@ -1,0 +1,4 @@
+45--Balloonist/45_Balloonist_Balloonist_45_134.jpg
+2
+335 71 54 65 0.999621 
+630 180 60 81 0.999507 

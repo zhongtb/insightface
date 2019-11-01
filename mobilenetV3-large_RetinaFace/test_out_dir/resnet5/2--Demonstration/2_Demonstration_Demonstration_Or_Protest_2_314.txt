@@ -1,0 +1,5 @@
+2--Demonstration/2_Demonstration_Demonstration_Or_Protest_2_314.jpg
+3
+557 271 150 209 0.999769 
+143 330 191 270 0.999598 
+843 554 29 35 0.384659 

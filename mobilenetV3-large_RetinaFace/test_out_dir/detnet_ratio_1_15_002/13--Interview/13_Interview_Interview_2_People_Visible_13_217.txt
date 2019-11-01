@@ -1,0 +1,4 @@
+13--Interview/13_Interview_Interview_2_People_Visible_13_217.jpg
+2
+329 179 272 366 0.99872 
+328 2 268 320 0.481118 

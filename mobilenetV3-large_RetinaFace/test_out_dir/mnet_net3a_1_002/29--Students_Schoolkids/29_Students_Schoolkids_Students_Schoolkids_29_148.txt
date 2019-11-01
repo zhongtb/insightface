@@ -1,0 +1,6 @@
+29--Students_Schoolkids/29_Students_Schoolkids_Students_Schoolkids_29_148.jpg
+4
+219 147 184 247 0.999801 
+465 363 183 184 0.0437654 
+259 22 369 465 0.0366861 
+626 47 21 29 0.0206058 

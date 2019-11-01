@@ -1,0 +1,6 @@
+52--Photographers/52_Photographers_taketouristphotos_52_208.jpg
+4
+816 66 43 53 0.999826 
+242 90 136 182 0.999708 
+671 79 36 51 0.999579 
+960 70 33 53 0.998798 

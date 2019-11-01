@@ -1,0 +1,5 @@
+35--Basketball/35_Basketball_playingbasketball_35_582.jpg
+3
+512 112 52 44 0.998902 
+679 94 35 49 0.964157 
+428 99 35 47 0.907894 

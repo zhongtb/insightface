@@ -1,0 +1,5 @@
+16--Award_Ceremony/16_Award_Ceremony_Awards_Ceremony_16_84.jpg
+3
+435 175 250 335 0.997476 
+634 78 25 30 0.0107706 
+799 126 27 33 0.0102332 

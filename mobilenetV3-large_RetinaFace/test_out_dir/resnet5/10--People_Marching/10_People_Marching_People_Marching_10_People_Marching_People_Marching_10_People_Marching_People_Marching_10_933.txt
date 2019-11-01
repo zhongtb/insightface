@@ -1,0 +1,7 @@
+10--People_Marching/10_People_Marching_People_Marching_10_People_Marching_People_Marching_10_People_Marching_People_Marching_10_933.jpg
+5
+109 198 38 49 0.999819 
+539 156 26 33 0.999499 
+982 139 21 30 0.995137 
+516 179 22 28 0.679463 
+673 8 15 19 0.273297 

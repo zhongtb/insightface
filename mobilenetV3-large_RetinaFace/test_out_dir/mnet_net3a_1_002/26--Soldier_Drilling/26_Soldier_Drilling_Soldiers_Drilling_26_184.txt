@@ -1,0 +1,5 @@
+26--Soldier_Drilling/26_Soldier_Drilling_Soldiers_Drilling_26_184.jpg
+3
+415 308 90 123 0.994447 
+378 17 268 379 0.0326454 
+325 701 63 81 0.0287554 

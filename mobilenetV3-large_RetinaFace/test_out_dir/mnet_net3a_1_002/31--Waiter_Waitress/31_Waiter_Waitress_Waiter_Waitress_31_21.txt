@@ -1,0 +1,5 @@
+31--Waiter_Waitress/31_Waiter_Waitress_Waiter_Waitress_31_21.jpg
+3
+317 118 155 214 0.993841 
+228 736 84 93 0.0299786 
+766 311 72 82 0.0224967 

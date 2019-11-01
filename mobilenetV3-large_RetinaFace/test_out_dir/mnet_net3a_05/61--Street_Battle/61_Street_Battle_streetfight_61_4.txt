@@ -1,0 +1,5 @@
+61--Street_Battle/61_Street_Battle_streetfight_61_4.jpg
+3
+383 35 57 57 0.999318 
+810 0 44 29 0.985392 
+681 137 44 32 0.885098 

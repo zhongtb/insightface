@@ -1,0 +1,5 @@
+35--Basketball/35_Basketball_basketballgame_ball_35_133.jpg
+3
+130 51 123 140 0.966633 
+683 48 113 155 0.83744 
+359 93 136 162 0.604309 

@@ -1,0 +1,5 @@
+52--Photographers/52_Photographers_taketouristphotos_52_487.jpg
+3
+629 102 56 55 0.960403 
+0 245 31 55 0.8499 
+941 280 62 54 0.782359 

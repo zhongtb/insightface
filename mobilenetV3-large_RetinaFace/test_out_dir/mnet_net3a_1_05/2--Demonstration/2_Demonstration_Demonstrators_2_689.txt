@@ -1,0 +1,5 @@
+2--Demonstration/2_Demonstration_Demonstrators_2_689.jpg
+3
+349 317 76 87 0.98629 
+178 258 37 54 0.977862 
+123 310 41 55 0.972588 

@@ -1,0 +1,5 @@
+16--Award_Ceremony/16_Award_Ceremony_Awards_Ceremony_16_346.jpg
+3
+650 74 205 289 0.999069 
+222 30 69 96 0.99809 
+646 417 271 328 0.0341671 

@@ -1,0 +1,4 @@
+35--Basketball/35_Basketball_Basketball_35_304.jpg
+2
+703 250 24 33 0.952875 
+766 268 29 35 0.920779 

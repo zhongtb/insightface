@@ -1,0 +1,4 @@
+2--Demonstration/2_Demonstration_Protesters_2_817.jpg
+2
+290 565 32 38 0.969664 
+375 529 43 57 0.753624 

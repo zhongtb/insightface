@@ -1,0 +1,4 @@
+25--Soldier_Patrol/25_Soldier_Patrol_Soldier_Patrol_25_271.jpg
+2
+522 283 19 18 0.799976 
+142 44 15 16 0.545186 

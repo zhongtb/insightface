@@ -1,0 +1,4 @@
+2--Demonstration/2_Demonstration_Political_Rally_2_726.jpg
+2
+520 448 138 166 0.999629 
+110 92 130 161 0.999419 

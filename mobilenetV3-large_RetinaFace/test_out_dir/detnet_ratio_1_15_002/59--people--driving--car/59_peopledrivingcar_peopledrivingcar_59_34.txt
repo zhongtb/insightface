@@ -1,0 +1,6 @@
+59--people--driving--car/59_peopledrivingcar_peopledrivingcar_59_34.jpg
+4
+564 327 100 146 0.0278793 
+833 241 89 150 0.0247156 
+521 0 98 96 0.0236413 
+617 511 27 33 0.0104576 

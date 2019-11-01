@@ -1,0 +1,4 @@
+16--Award_Ceremony/16_Award_Ceremony_Awards_Ceremony_16_305.jpg
+2
+385 287 97 135 0.998688 
+595 291 83 113 0.993849 

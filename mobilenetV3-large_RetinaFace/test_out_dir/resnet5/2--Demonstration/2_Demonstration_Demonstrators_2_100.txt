@@ -1,0 +1,5 @@
+2--Demonstration/2_Demonstration_Demonstrators_2_100.jpg
+3
+405 126 260 372 0.99933 
+686 341 122 179 0.81857 
+416 752 162 122 0.710784 

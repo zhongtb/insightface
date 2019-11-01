@@ -1,0 +1,5 @@
+10--People_Marching/10_People_Marching_People_Marching_2_591.jpg
+3
+893 59 47 21 0.950457 
+673 75 24 12 0.686972 
+756 75 27 13 0.656331 

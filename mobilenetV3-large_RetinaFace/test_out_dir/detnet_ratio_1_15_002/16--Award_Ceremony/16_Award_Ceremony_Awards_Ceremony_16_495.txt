@@ -1,0 +1,5 @@
+16--Award_Ceremony/16_Award_Ceremony_Awards_Ceremony_16_495.jpg
+3
+389 176 202 269 0.998117 
+0 0 37 60 0.0229162 
+911 516 19 26 0.0119023 

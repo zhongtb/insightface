@@ -1,0 +1,4 @@
+52--Photographers/52_Photographers_photographertakingphoto_52_701.jpg
+2
+250 144 103 142 0.99268 
+287 281 101 125 0.992671 

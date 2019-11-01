@@ -1,0 +1,4 @@
+2--Demonstration/2_Demonstration_Political_Rally_2_172.jpg
+2
+422 295 336 467 0.999292 
+27 0 249 228 0.952431 

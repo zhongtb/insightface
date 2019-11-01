@@ -1,0 +1,5 @@
+16--Award_Ceremony/16_Award_Ceremony_Awards_Ceremony_16_124.jpg
+3
+445 125 264 354 0.99493 
+942 772 81 121 0.0438655 
+451 812 298 418 0.0275436 

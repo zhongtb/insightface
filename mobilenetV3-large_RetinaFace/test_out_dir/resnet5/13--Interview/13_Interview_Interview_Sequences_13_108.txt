@@ -1,0 +1,4 @@
+13--Interview/13_Interview_Interview_Sequences_13_108.jpg
+2
+180 104 106 134 0.999766 
+745 42 111 152 0.999735 

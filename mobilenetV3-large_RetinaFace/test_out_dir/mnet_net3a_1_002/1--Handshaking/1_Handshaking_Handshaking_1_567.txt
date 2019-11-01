@@ -1,0 +1,4 @@
+1--Handshaking/1_Handshaking_Handshaking_1_567.jpg
+2
+206 318 451 641 0.999787 
+7 0 965 1028 0.0918997 

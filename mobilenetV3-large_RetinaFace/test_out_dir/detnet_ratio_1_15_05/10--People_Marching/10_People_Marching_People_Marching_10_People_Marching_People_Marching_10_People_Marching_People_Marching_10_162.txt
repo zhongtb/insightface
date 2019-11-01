@@ -1,0 +1,6 @@
+10--People_Marching/10_People_Marching_People_Marching_10_People_Marching_People_Marching_10_People_Marching_People_Marching_10_162.jpg
+4
+389 308 23 27 0.990769 
+135 269 29 31 0.652675 
+911 20 11 14 0.559313 
+782 90 15 17 0.28523 

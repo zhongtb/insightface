@@ -1,0 +1,5 @@
+2--Demonstration/2_Demonstration_Protesters_2_748.jpg
+3
+748 188 23 23 0.942561 
+298 176 24 24 0.934524 
+431 126 56 49 0.508688 

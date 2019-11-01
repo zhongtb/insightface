@@ -1,0 +1,7 @@
+10--People_Marching/10_People_Marching_People_Marching_10_People_Marching_People_Marching_10_People_Marching_People_Marching_10_933.jpg
+5
+539 156 26 33 0.954339 
+111 199 36 51 0.899179 
+545 283 22 25 0.857449 
+981 139 20 29 0.724494 
+279 51 22 30 0.569223 

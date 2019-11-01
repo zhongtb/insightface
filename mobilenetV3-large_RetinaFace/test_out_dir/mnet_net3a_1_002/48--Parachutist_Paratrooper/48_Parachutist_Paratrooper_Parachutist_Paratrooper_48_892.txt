@@ -1,0 +1,6 @@
+48--Parachutist_Paratrooper/48_Parachutist_Paratrooper_Parachutist_Paratrooper_48_892.jpg
+4
+663 185 120 162 0.998815 
+176 245 131 169 0.998609 
+471 119 124 169 0.998578 
+448 65 188 266 0.0232763 

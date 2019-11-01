@@ -1,0 +1,5 @@
+13--Interview/13_Interview_Interview_Sequences_13_187.jpg
+3
+167 0 90 84 0.979608 
+799 129 120 125 0.151011 
+114 0 106 72 0.022111 

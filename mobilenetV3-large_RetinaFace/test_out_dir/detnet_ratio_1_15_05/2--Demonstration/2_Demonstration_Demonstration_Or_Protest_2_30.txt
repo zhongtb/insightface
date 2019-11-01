@@ -1,0 +1,5 @@
+2--Demonstration/2_Demonstration_Demonstration_Or_Protest_2_30.jpg
+3
+767 68 47 70 0.989091 
+596 79 20 24 0.884643 
+436 65 16 18 0.620072 

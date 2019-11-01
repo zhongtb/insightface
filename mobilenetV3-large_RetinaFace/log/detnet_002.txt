@@ -1,0 +1,29 @@
+nohup: ignoring input
+INFO:root:Called with argument: Namespace(bbox_vote=True, dataset='retinaface', dataset_path='./data/retinaface', epoch=32, gpu=2, image_set='val', mode=1, network='detnet', nocrop=False, output='./test_out_dir/detnet_002', part=0, parts=1, prefix='model/detnet/detnet', pyramid=True, root_path='./data', thresh=0.02)
+test with Namespace(bbox_vote=True, dataset='retinaface', dataset_path='./data/retinaface', epoch=32, gpu=2, image_set='val', mode=1, network='detnet', nocrop=False, output='./test_out_dir/detnet_002', part=0, parts=1, prefix='model/detnet/detnet', pyramid=True, root_path='./data', thresh=0.02)
+[16, 8, 4] {'16': {'SCALES': (8, 4), 'BASE_SIZE': 16, 'RATIOS': (1.0, 1.5), 'ALLOWED_BORDER': 9999}, '8': {'SCALES': (2, 1), 'BASE_SIZE': 16, 'RATIOS': (1.0, 1.5), 'ALLOWED_BORDER': 9999}, '4': {'SCALES': (2, 1), 'BASE_SIZE': 16, 'RATIOS': (1.0, 1.5), 'ALLOWED_BORDER': 9999}}
+dense_anchor:  False
+_cfg_anchors:  {'16': {'SCALES': (8, 4), 'BASE_SIZE': 16, 'RATIOS': (1.0, 1.5), 'ALLOWED_BORDER': 9999}, '8': {'SCALES': (2, 1), 'BASE_SIZE': 16, 'RATIOS': (1.0, 1.5), 'ALLOWED_BORDER': 9999}, '4': {'SCALES': (2, 1), 'BASE_SIZE': 16, 'RATIOS': (1.0, 1.5), 'ALLOWED_BORDER': 9999}}
+_num_anchors:  {'stride16': 4, 'stride8': 4, 'stride4': 4}
+args.dataset: retinaface
+args.image_set: val
+args.root_path: ./data
+args.dataset_path: ./data/retinaface
+origin image size 3226
+imdb:  <rcnn.dataset.retinaface.retinaface object at 0x7f4118551f28>
+retinaface_val gt roidb loaded from ./data/cache/retinaface_val_val_gt_roidb.pkl
+roidb size 3226
+im_shape:  (678, 1024, 3)
+scales:  [1.0619469026548674]
+bbox
+box [1003  135 1014  146]
+Traceback (most recent call last):
+  File "test_widerface_pad.py", line 223, in <module>
+    main()
+  File "test_widerface_pad.py", line 220, in main
+    test(args)
+  File "test_widerface_pad.py", line 164, in test
+    boxes = get_boxes(roi, args.pyramid)
+  File "test_widerface_pad.py", line 117, in get_boxes
+    blur = box[5]
+IndexError: index 5 is out of bounds for axis 0 with size 5

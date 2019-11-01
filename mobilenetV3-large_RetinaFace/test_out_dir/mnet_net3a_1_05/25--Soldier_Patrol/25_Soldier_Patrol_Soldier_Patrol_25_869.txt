@@ -1,0 +1,5 @@
+25--Soldier_Patrol/25_Soldier_Patrol_Soldier_Patrol_25_869.jpg
+3
+668 185 117 153 0.987085 
+315 240 34 40 0.97327 
+218 226 20 25 0.887674 

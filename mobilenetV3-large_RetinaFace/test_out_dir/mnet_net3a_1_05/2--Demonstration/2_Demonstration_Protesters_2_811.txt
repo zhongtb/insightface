@@ -1,0 +1,5 @@
+2--Demonstration/2_Demonstration_Protesters_2_811.jpg
+3
+289 300 26 31 0.935523 
+754 261 21 28 0.90213 
+611 368 28 27 0.546282 

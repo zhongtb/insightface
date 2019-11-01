@@ -1,0 +1,4 @@
+59--people--driving--car/59_peopledrivingcar_peopledrivingcar_59_244.jpg
+2
+390 57 240 115 0.989959 
+558 354 51 24 0.516853 

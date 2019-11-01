@@ -1,0 +1,11 @@
+10--People_Marching/10_People_Marching_People_Marching_10_People_Marching_People_Marching_10_People_Marching_People_Marching_10_716.jpg
+9
+2 440 34 37 0.999945 
+120 420 40 41 0.999923 
+74 439 40 45 0.999898 
+768 264 74 93 0.999866 
+506 293 64 73 0.999836 
+196 411 44 47 0.999783 
+326 347 53 65 0.999702 
+930 456 31 34 0.999408 
+652 523 20 23 0.876036 

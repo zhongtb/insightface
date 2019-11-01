@@ -1,0 +1,4 @@
+1--Handshaking/1_Handshaking_Handshaking_1_762.jpg
+2
+221 220 327 405 0.999441 
+623 414 169 239 0.999045 

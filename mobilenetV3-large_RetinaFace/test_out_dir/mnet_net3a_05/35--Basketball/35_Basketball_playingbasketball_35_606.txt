@@ -1,0 +1,5 @@
+35--Basketball/35_Basketball_playingbasketball_35_606.jpg
+3
+25 306 15 14 0.640215 
+181 162 29 25 0.608359 
+381 154 23 23 0.552733 

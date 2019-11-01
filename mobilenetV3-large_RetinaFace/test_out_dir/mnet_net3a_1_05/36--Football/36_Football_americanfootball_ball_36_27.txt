@@ -1,0 +1,5 @@
+36--Football/36_Football_americanfootball_ball_36_27.jpg
+3
+658 51 60 68 0.897888 
+146 190 54 72 0.838794 
+189 209 56 69 0.586915 

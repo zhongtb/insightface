@@ -1,0 +1,5 @@
+9--Press_Conference/9_Press_Conference_Press_Conference_9_74.jpg
+3
+140 279 74 88 0.999474 
+859 274 74 95 0.998183 
+459 267 82 111 0.976217 

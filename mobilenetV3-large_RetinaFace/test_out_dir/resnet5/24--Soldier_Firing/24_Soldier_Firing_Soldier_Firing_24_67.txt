@@ -1,0 +1,5 @@
+24--Soldier_Firing/24_Soldier_Firing_Soldier_Firing_24_67.jpg
+3
+486 215 58 80 0.999775 
+542 115 22 30 0.7569 
+508 72 27 32 0.686726 

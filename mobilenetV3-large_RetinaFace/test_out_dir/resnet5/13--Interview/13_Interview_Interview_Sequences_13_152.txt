@@ -1,0 +1,4 @@
+13--Interview/13_Interview_Interview_Sequences_13_152.jpg
+2
+220 41 115 155 0.999761 
+700 67 123 160 0.999757 

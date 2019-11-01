@@ -1,0 +1,5 @@
+59--people--driving--car/59_peopledrivingcar_peopledrivingcar_59_95.jpg
+3
+585 173 112 162 0.983679 
+153 357 70 116 0.202592 
+163 398 111 146 0.0588892 

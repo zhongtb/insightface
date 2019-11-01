@@ -1,0 +1,5 @@
+10--People_Marching/10_People_Marching_People_Marching_2_944.jpg
+3
+605 191 49 24 0.971369 
+54 189 40 22 0.60279 
+240 215 43 21 0.555656 

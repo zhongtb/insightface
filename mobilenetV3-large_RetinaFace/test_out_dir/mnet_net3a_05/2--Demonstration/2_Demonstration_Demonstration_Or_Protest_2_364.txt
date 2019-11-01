@@ -1,0 +1,5 @@
+2--Demonstration/2_Demonstration_Demonstration_Or_Protest_2_364.jpg
+3
+470 220 131 130 0.994866 
+215 242 121 144 0.993353 
+673 255 122 143 0.993339 

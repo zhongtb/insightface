@@ -1,0 +1,5 @@
+2--Demonstration/2_Demonstration_Political_Rally_2_267.jpg
+3
+747 307 29 36 0.998299 
+813 354 27 44 0.965747 
+195 364 20 23 0.459833 

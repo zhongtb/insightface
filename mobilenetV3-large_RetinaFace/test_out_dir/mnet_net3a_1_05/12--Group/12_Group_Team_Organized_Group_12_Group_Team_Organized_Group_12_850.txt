@@ -1,0 +1,6 @@
+12--Group/12_Group_Team_Organized_Group_12_Group_Team_Organized_Group_12_850.jpg
+4
+470 151 132 175 0.996862 
+281 226 129 154 0.993676 
+670 265 34 50 0.992591 
+926 275 14 18 0.522259 

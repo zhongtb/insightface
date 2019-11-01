@@ -1,0 +1,4 @@
+45--Balloonist/45_Balloonist_Balloonist_45_857.jpg
+2
+494 283 23 22 0.670519 
+613 281 25 23 0.582219 

@@ -1,0 +1,4 @@
+13--Interview/13_Interview_Interview_Sequences_13_187.jpg
+2
+181 0 73 74 0.999938 
+825 142 84 67 0.999749 

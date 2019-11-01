@@ -1,0 +1,5 @@
+52--Photographers/52_Photographers_photographertakingphoto_52_809.jpg
+3
+651 253 286 237 0.999747 
+380 148 295 231 0.999687 
+26 99 327 335 0.980889 

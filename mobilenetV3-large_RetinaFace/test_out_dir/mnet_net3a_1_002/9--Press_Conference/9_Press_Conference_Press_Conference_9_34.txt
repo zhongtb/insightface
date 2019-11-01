@@ -1,0 +1,5 @@
+9--Press_Conference/9_Press_Conference_Press_Conference_9_34.jpg
+3
+263 251 374 502 0.999704 
+641 405 90 128 0.0467555 
+0 350 741 978 0.0202047 

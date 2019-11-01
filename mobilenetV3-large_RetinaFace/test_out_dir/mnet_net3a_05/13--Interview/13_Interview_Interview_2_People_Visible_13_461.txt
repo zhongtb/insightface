@@ -1,0 +1,4 @@
+13--Interview/13_Interview_Interview_2_People_Visible_13_461.jpg
+2
+147 121 76 91 0.944435 
+92 147 66 76 0.62802 

@@ -1,0 +1,4 @@
+45--Balloonist/45_Balloonist_Balloonist_45_107.jpg
+2
+559 330 10 13 0.592291 
+657 360 11 14 0.563035 

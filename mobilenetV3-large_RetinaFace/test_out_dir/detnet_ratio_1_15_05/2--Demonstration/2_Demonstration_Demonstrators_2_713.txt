@@ -1,0 +1,5 @@
+2--Demonstration/2_Demonstration_Demonstrators_2_713.jpg
+3
+94 366 55 86 0.935299 
+359 389 26 36 0.788102 
+558 343 22 32 0.749143 

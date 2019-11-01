@@ -1,0 +1,4 @@
+32--Worker_Laborer/32_Worker_Laborer_Worker_Laborer_32_357.jpg
+2
+201 119 72 65 0.996959 
+720 263 73 76 0.971251 

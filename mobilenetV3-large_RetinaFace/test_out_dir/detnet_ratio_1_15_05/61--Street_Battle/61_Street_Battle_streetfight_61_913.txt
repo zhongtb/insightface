@@ -1,0 +1,4 @@
+61--Street_Battle/61_Street_Battle_streetfight_61_913.jpg
+2
+114 300 48 61 0.769915 
+231 316 28 36 0.733787 

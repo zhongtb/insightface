@@ -1,0 +1,5 @@
+9--Press_Conference/9_Press_Conference_Press_Conference_9_100.jpg
+3
+636 225 29 30 0.995335 
+493 230 30 31 0.991966 
+747 227 28 30 0.98093 

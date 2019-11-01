@@ -1,0 +1,5 @@
+2--Demonstration/2_Demonstration_Political_Rally_2_985.jpg
+3
+550 472 60 75 0.987288 
+785 545 154 200 0.978712 
+312 419 48 90 0.696038 

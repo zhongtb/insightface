@@ -1,0 +1,5 @@
+2--Demonstration/2_Demonstration_Protesters_2_905.jpg
+3
+668 288 56 56 0.973363 
+247 350 56 54 0.971707 
+481 325 48 47 0.911926 

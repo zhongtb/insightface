@@ -1,0 +1,6 @@
+52--Photographers/52_Photographers_photographertakingphoto_52_743.jpg
+4
+695 166 111 155 0.146799 
+244 0 102 121 0.0812838 
+166 0 89 68 0.024694 
+202 0 103 120 0.0202975 

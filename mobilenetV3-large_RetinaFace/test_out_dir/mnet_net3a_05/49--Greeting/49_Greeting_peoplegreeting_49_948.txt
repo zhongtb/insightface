@@ -1,0 +1,4 @@
+49--Greeting/49_Greeting_peoplegreeting_49_948.jpg
+2
+540 180 152 166 0.999449 
+251 0 166 192 0.649723 

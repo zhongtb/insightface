@@ -1,0 +1,6 @@
+12--Group/12_Group_Team_Organized_Group_12_Group_Team_Organized_Group_12_55.jpg
+4
+185 115 32 30 0.931655 
+287 140 36 35 0.923726 
+419 70 45 49 0.787275 
+76 67 42 49 0.610765 

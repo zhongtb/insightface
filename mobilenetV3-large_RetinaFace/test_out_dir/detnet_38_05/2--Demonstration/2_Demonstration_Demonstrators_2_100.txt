@@ -1,0 +1,5 @@
+2--Demonstration/2_Demonstration_Demonstrators_2_100.jpg
+3
+412 53 249 113 0.998224 
+696 115 136 63 0.575547 
+442 222 133 62 0.50823 

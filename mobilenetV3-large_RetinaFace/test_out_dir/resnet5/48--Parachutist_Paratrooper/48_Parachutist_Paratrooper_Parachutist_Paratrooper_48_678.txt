@@ -1,0 +1,8 @@
+48--Parachutist_Paratrooper/48_Parachutist_Paratrooper_Parachutist_Paratrooper_48_678.jpg
+6
+649 306 55 65 0.999713 
+334 326 45 61 0.999283 
+251 277 73 130 0.95546 
+423 331 22 27 0.61329 
+577 317 19 23 0.420411 
+396 351 28 34 0.253456 

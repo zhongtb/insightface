@@ -1,0 +1,5 @@
+16--Award_Ceremony/16_Award_Ceremony_Awards_Ceremony_16_752.jpg
+3
+132 134 67 97 0.999229 
+685 165 63 84 0.998773 
+367 154 59 80 0.998433 

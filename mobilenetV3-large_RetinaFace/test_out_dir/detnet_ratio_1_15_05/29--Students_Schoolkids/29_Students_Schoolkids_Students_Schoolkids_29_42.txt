@@ -1,0 +1,6 @@
+29--Students_Schoolkids/29_Students_Schoolkids_Students_Schoolkids_29_42.jpg
+4
+258 246 169 219 0.99883 
+561 266 20 25 0.941403 
+184 165 27 32 0.893873 
+517 273 14 19 0.366272 

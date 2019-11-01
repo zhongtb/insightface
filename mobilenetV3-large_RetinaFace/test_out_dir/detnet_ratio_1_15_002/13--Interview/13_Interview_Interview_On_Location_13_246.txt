@@ -1,0 +1,4 @@
+13--Interview/13_Interview_Interview_On_Location_13_246.jpg
+2
+587 831 216 386 0.042572 
+621 1133 266 387 0.0258436 

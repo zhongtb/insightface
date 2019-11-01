@@ -1,0 +1,5 @@
+13--Interview/13_Interview_Interview_On_Location_13_33.jpg
+3
+103 75 84 119 0.991796 
+785 55 80 114 0.990298 
+401 93 77 103 0.989927 

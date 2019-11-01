@@ -1,0 +1,4 @@
+39--Ice_Skating/39_Ice_Skating_Ice_Skating_39_344.jpg
+2
+370 141 87 119 0.999312 
+576 69 86 114 0.999296 

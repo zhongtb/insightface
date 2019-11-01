@@ -1,0 +1,5 @@
+2--Demonstration/2_Demonstration_Political_Rally_2_35.jpg
+3
+551 167 22 23 0.987194 
+704 167 24 25 0.986582 
+624 169 22 22 0.979954 

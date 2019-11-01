@@ -1,0 +1,5 @@
+35--Basketball/35_Basketball_basketballgame_ball_35_208.jpg
+3
+602 229 109 137 0.996931 
+260 227 119 158 0.996401 
+610 0 104 97 0.9954 

@@ -1,0 +1,5 @@
+2--Demonstration/2_Demonstration_Demonstration_Or_Protest_2_512.jpg
+3
+403 239 25 30 0.982101 
+148 292 44 53 0.948346 
+961 374 57 85 0.745805 

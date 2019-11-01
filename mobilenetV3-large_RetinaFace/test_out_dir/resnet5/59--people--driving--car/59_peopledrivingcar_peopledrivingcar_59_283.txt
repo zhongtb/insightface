@@ -1,0 +1,4 @@
+59--people--driving--car/59_peopledrivingcar_peopledrivingcar_59_283.jpg
+2
+203 76 154 216 0.999696 
+470 160 83 133 0.999576 

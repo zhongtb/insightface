@@ -1,0 +1,6 @@
+26--Soldier_Drilling/26_Soldier_Drilling_Soldiers_Drilling_26_567.jpg
+4
+556 111 111 92 0.999671 
+360 301 83 74 0.999645 
+906 134 44 52 0.999367 
+450 141 40 63 0.997963 

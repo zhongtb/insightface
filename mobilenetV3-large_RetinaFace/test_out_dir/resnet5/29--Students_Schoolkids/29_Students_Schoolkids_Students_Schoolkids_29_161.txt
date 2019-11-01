@@ -1,0 +1,6 @@
+29--Students_Schoolkids/29_Students_Schoolkids_Students_Schoolkids_29_161.jpg
+4
+519 152 74 97 0.999767 
+844 85 87 103 0.999665 
+576 167 112 148 0.999278 
+365 180 26 37 0.997366 

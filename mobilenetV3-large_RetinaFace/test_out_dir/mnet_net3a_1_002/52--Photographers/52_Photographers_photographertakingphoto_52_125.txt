@@ -1,0 +1,6 @@
+52--Photographers/52_Photographers_photographertakingphoto_52_125.jpg
+4
+837 151 45 67 0.471276 
+870 150 56 68 0.0390245 
+818 152 48 71 0.0338709 
+293 332 214 209 0.0259532 

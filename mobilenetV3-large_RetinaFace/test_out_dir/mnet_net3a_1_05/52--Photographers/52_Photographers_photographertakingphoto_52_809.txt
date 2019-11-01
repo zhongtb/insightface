@@ -1,0 +1,5 @@
+52--Photographers/52_Photographers_photographertakingphoto_52_809.jpg
+3
+651 338 286 316 0.999747 
+380 198 295 308 0.999687 
+26 133 327 447 0.980889 

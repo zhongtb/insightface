@@ -1,0 +1,4 @@
+13--Interview/13_Interview_Interview_Sequences_13_477.jpg
+2
+34 321 175 198 0.120886 
+35 447 151 237 0.0244313 

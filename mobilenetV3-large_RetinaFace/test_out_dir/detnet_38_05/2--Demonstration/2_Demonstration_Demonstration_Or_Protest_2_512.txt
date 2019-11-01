@@ -1,0 +1,5 @@
+2--Demonstration/2_Demonstration_Demonstration_Or_Protest_2_512.jpg
+3
+403 183 25 23 0.982101 
+148 223 44 41 0.948346 
+961 286 57 65 0.745805 

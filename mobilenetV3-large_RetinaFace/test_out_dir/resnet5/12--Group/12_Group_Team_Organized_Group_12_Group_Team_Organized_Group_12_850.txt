@@ -1,0 +1,6 @@
+12--Group/12_Group_Team_Organized_Group_12_Group_Team_Organized_Group_12_850.jpg
+4
+472 160 128 166 0.999791 
+671 265 33 47 0.99975 
+285 232 128 143 0.999548 
+927 275 12 15 0.336511 

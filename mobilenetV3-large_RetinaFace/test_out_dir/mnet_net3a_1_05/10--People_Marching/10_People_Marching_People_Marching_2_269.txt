@@ -1,0 +1,4 @@
+10--People_Marching/10_People_Marching_People_Marching_2_269.jpg
+2
+768 237 25 34 0.991506 
+764 360 21 28 0.593774 

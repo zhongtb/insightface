@@ -1,0 +1,5 @@
+50--Celebration_Or_Party/50_Celebration_Or_Party_houseparty_50_326.jpg
+3
+60 301 115 150 0.994018 
+826 326 114 150 0.986444 
+355 313 47 52 0.974686 

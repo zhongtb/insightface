@@ -1,0 +1,4 @@
+36--Football/36_Football_americanfootball_ball_36_526.jpg
+2
+619 166 106 135 0.998331 
+225 351 150 176 0.0364406 

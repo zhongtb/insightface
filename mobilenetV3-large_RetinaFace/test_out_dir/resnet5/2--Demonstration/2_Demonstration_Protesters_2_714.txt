@@ -1,0 +1,5 @@
+2--Demonstration/2_Demonstration_Protesters_2_714.jpg
+3
+395 480 58 64 0.999871 
+189 423 61 72 0.999591 
+626 391 56 64 0.999151 

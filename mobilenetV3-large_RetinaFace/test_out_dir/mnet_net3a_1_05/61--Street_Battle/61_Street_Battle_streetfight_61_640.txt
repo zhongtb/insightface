@@ -1,0 +1,4 @@
+61--Street_Battle/61_Street_Battle_streetfight_61_640.jpg
+2
+679 120 138 170 0.944614 
+662 670 30 33 0.639026 

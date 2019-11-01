@@ -1,0 +1,5 @@
+25--Soldier_Patrol/25_Soldier_Patrol_Soldier_Patrol_25_747.jpg
+3
+317 120 54 73 0.993567 
+403 186 49 62 0.988661 
+849 280 12 14 0.335774 

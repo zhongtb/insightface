@@ -1,0 +1,5 @@
+2--Demonstration/2_Demonstration_Demonstration_Or_Protest_2_915.jpg
+3
+412 323 247 315 0.995264 
+297 283 22 28 0.84286 
+200 272 19 25 0.671593 

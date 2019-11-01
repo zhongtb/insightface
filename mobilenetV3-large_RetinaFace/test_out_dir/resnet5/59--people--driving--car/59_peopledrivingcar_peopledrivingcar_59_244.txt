@@ -1,0 +1,6 @@
+59--people--driving--car/59_peopledrivingcar_peopledrivingcar_59_244.jpg
+4
+553 955 56 68 0.99979 
+335 960 51 62 0.999728 
+648 981 56 63 0.999643 
+381 137 244 326 0.998846 

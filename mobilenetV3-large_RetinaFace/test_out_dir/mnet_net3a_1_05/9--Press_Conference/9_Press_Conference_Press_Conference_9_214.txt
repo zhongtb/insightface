@@ -1,0 +1,5 @@
+9--Press_Conference/9_Press_Conference_Press_Conference_9_214.jpg
+3
+61 203 111 142 0.995788 
+388 137 111 160 0.995566 
+841 152 115 150 0.995261 

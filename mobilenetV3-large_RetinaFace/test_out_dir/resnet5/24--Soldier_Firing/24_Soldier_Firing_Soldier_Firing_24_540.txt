@@ -1,0 +1,4 @@
+24--Soldier_Firing/24_Soldier_Firing_Soldier_Firing_24_540.jpg
+2
+149 691 104 122 0.999757 
+431 665 93 103 0.998219 

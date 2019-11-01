@@ -1,0 +1,4 @@
+13--Interview/13_Interview_Interview_Sequences_13_936.jpg
+2
+477 154 27 31 0.888732 
+574 198 20 27 0.848591 

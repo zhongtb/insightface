@@ -1,0 +1,4 @@
+59--people--driving--car/59_peopledrivingcar_peopledrivingcar_59_1038.jpg
+2
+183 72 678 920 0.998805 
+23 473 1057 1358 0.0950605 

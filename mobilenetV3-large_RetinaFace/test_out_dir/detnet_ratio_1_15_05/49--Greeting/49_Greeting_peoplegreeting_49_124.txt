@@ -1,0 +1,4 @@
+49--Greeting/49_Greeting_peoplegreeting_49_124.jpg
+2
+488 299 66 92 0.99849 
+244 192 105 137 0.809795 

@@ -1,0 +1,5 @@
+16--Award_Ceremony/16_Award_Ceremony_Awards_Ceremony_16_226.jpg
+3
+201 87 57 83 0.998887 
+604 205 31 39 0.983351 
+746 375 27 34 0.569443 

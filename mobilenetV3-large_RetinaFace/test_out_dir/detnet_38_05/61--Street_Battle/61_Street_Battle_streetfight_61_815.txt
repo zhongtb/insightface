@@ -1,0 +1,4 @@
+61--Street_Battle/61_Street_Battle_streetfight_61_815.jpg
+2
+339 173 53 52 0.981472 
+793 189 55 53 0.814332 

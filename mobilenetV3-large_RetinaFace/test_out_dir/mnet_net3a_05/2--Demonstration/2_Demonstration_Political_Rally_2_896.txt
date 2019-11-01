@@ -1,0 +1,4 @@
+2--Demonstration/2_Demonstration_Political_Rally_2_896.jpg
+2
+293 161 87 62 0.996605 
+691 26 86 63 0.941366 

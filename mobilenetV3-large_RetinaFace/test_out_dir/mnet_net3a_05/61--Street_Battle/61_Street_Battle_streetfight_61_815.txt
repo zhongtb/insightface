@@ -1,0 +1,4 @@
+61--Street_Battle/61_Street_Battle_streetfight_61_815.jpg
+2
+340 177 54 47 0.985768 
+795 196 50 45 0.706194 

@@ -1,0 +1,4 @@
+2--Demonstration/2_Demonstration_Political_Rally_2_286.jpg
+2
+432 728 82 100 0.999742 
+807 666 86 100 0.99973 

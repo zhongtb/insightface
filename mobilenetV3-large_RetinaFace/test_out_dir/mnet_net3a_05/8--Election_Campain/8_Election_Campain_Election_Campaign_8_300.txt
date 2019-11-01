@@ -1,0 +1,6 @@
+8--Election_Campain/8_Election_Campain_Election_Campaign_8_300.jpg
+4
+212 345 129 125 0.996493 
+703 341 138 131 0.995983 
+79 39 121 123 0.995463 
+576 59 134 140 0.995156 

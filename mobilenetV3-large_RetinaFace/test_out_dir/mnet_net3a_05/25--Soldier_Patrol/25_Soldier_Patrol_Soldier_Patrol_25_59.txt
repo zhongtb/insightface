@@ -1,0 +1,5 @@
+25--Soldier_Patrol/25_Soldier_Patrol_Soldier_Patrol_25_59.jpg
+3
+461 76 69 69 0.993844 
+931 385 87 102 0.926381 
+436 166 49 49 0.626749 

@@ -1,0 +1,6 @@
+26--Soldier_Drilling/26_Soldier_Drilling_Soldiers_Drilling_26_64.jpg
+4
+453 132 52 52 0.99783 
+660 123 48 49 0.994593 
+49 124 43 39 0.983746 
+587 143 25 24 0.936113 

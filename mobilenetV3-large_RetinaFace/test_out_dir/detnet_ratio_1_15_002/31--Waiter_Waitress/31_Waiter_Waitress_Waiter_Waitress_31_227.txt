@@ -1,0 +1,5 @@
+31--Waiter_Waitress/31_Waiter_Waitress_Waiter_Waitress_31_227.jpg
+3
+620 217 135 194 0.998895 
+262 103 136 185 0.998535 
+0 526 205 332 0.0262162 

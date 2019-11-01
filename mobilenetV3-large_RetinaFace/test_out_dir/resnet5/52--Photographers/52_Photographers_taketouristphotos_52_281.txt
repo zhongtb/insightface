@@ -1,0 +1,5 @@
+52--Photographers/52_Photographers_taketouristphotos_52_281.jpg
+3
+412 656 36 45 0.999773 
+625 585 36 57 0.983958 
+153 630 33 39 0.818857 

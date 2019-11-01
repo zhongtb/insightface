@@ -1,0 +1,5 @@
+13--Interview/13_Interview_Interview_Sequences_13_37.jpg
+3
+794 143 61 59 0.998619 
+498 129 64 61 0.997858 
+254 138 67 77 0.988159 

@@ -1,0 +1,5 @@
+9--Press_Conference/9_Press_Conference_Press_Conference_9_748.jpg
+3
+296 212 398 553 0.999126 
+0 275 236 574 0.560733 
+0 473 156 343 0.0200171 

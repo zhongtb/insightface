@@ -1,0 +1,5 @@
+26--Soldier_Drilling/26_Soldier_Drilling_Soldiers_Drilling_26_619.jpg
+3
+815 244 24 27 0.98079 
+459 212 29 38 0.950004 
+383 251 17 20 0.810621 

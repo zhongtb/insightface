@@ -1,0 +1,4 @@
+59--people--driving--car/59_peopledrivingcar_peopledrivingcar_59_401.jpg
+2
+217 224 155 167 0.999469 
+393 209 111 123 0.992945 

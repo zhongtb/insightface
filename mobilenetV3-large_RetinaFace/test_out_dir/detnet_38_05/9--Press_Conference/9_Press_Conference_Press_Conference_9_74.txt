@@ -1,0 +1,5 @@
+9--Press_Conference/9_Press_Conference_Press_Conference_9_74.jpg
+3
+142 207 71 68 0.999068 
+856 202 77 75 0.998011 
+458 201 84 82 0.992579 

@@ -1,0 +1,4 @@
+13--Interview/13_Interview_Interview_Sequences_13_31.jpg
+2
+670 267 125 171 0.997373 
+202 153 124 162 0.99701 

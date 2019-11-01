@@ -1,0 +1,3 @@
+41--Swimming/41_Swimming_Swimmer_41_440.jpg
+1
+740 285 120 151 0.344095 

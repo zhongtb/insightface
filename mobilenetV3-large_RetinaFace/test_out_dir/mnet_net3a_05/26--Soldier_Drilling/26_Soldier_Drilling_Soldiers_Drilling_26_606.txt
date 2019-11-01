@@ -1,0 +1,4 @@
+26--Soldier_Drilling/26_Soldier_Drilling_Soldiers_Drilling_26_606.jpg
+2
+199 80 104 160 0.995752 
+571 115 110 171 0.995408 

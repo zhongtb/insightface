@@ -1,0 +1,4 @@
+61--Street_Battle/61_Street_Battle_streetfight_61_546.jpg
+2
+421 132 25 27 0.821418 
+526 130 21 25 0.632838 

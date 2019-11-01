@@ -1,0 +1,5 @@
+2--Demonstration/2_Demonstration_Demonstration_Or_Protest_2_30.jpg
+3
+770 74 48 68 0.998765 
+597 80 18 23 0.982493 
+435 63 19 21 0.889654 

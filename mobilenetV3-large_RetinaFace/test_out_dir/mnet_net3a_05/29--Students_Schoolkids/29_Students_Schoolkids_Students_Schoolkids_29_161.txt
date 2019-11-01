@@ -1,0 +1,6 @@
+29--Students_Schoolkids/29_Students_Schoolkids_Students_Schoolkids_29_161.jpg
+4
+577 132 112 136 0.993529 
+846 67 87 95 0.984659 
+517 124 79 89 0.929686 
+368 152 22 29 0.838859 

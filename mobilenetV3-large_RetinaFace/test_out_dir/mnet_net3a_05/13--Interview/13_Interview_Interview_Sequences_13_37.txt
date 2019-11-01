@@ -1,0 +1,5 @@
+13--Interview/13_Interview_Interview_Sequences_13_37.jpg
+3
+495 131 66 58 0.999539 
+794 145 61 54 0.999362 
+256 138 71 78 0.996579 

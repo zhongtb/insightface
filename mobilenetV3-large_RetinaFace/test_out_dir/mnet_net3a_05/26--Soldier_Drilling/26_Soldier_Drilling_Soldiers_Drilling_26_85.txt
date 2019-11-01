@@ -1,0 +1,5 @@
+26--Soldier_Drilling/26_Soldier_Drilling_Soldiers_Drilling_26_85.jpg
+3
+597 147 27 13 0.793624 
+55 132 31 14 0.623723 
+72 292 29 15 0.508498 

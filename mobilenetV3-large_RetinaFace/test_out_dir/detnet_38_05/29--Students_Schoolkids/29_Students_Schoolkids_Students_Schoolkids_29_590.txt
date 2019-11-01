@@ -1,0 +1,7 @@
+29--Students_Schoolkids/29_Students_Schoolkids_Students_Schoolkids_29_590.jpg
+5
+386 75 101 105 0.998393 
+156 15 41 41 0.983802 
+394 16 62 62 0.929003 
+550 42 110 113 0.845906 
+373 18 94 97 0.806808 

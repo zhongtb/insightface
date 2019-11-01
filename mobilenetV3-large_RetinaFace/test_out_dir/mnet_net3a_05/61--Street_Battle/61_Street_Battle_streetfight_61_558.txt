@@ -1,0 +1,4 @@
+61--Street_Battle/61_Street_Battle_streetfight_61_558.jpg
+2
+140 191 215 142 0.994084 
+705 287 31 22 0.612705 

@@ -1,0 +1,4 @@
+49--Greeting/49_Greeting_peoplegreeting_49_337.jpg
+2
+373 336 229 288 0.99385 
+289 295 407 487 0.0389468 

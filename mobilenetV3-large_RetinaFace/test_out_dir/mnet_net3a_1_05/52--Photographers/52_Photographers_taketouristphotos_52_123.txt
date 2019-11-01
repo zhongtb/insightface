@@ -1,0 +1,5 @@
+52--Photographers/52_Photographers_taketouristphotos_52_123.jpg
+3
+734 260 124 134 0.998858 
+215 127 114 154 0.997319 
+640 215 57 92 0.956646 

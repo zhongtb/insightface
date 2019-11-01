@@ -1,0 +1,4 @@
+13--Interview/13_Interview_Interview_2_People_Visible_13_381.jpg
+2
+401 135 181 160 0.997245 
+490 335 143 87 0.7289 

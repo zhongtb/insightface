@@ -1,0 +1,4 @@
+25--Soldier_Patrol/25_Soldier_Patrol_Soldier_Patrol_25_343.jpg
+2
+673 211 44 24 0.918333 
+300 237 38 18 0.893254 

@@ -1,0 +1,4 @@
+1--Handshaking/1_Handshaking_Handshaking_1_134.jpg
+2
+698 42 97 122 0.996715 
+290 51 95 102 0.995091 

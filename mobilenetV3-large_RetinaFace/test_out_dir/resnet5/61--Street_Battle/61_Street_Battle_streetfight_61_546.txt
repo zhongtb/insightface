@@ -1,0 +1,4 @@
+61--Street_Battle/61_Street_Battle_streetfight_61_546.jpg
+2
+425 150 23 33 0.977312 
+527 150 20 29 0.938345 

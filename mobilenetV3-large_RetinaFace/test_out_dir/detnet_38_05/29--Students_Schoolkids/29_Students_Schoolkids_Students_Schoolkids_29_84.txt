@@ -1,0 +1,6 @@
+29--Students_Schoolkids/29_Students_Schoolkids_Students_Schoolkids_29_84.jpg
+4
+537 368 112 117 0.998571 
+334 338 140 117 0.997521 
+659 229 134 113 0.994875 
+407 68 122 132 0.971235 

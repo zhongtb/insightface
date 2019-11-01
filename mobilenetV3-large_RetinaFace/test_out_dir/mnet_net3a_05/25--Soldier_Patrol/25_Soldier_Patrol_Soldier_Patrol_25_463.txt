@@ -1,0 +1,4 @@
+25--Soldier_Patrol/25_Soldier_Patrol_Soldier_Patrol_25_463.jpg
+2
+351 149 42 49 0.995755 
+798 95 35 45 0.978495 

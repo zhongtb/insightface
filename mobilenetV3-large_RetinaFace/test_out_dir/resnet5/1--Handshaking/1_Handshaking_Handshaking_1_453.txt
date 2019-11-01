@@ -1,0 +1,4 @@
+1--Handshaking/1_Handshaking_Handshaking_1_453.jpg
+2
+280 85 101 130 0.999792 
+673 212 78 124 0.999537 

@@ -1,0 +1,4 @@
+40--Gymnastics/40_Gymnastics_Gymnastics_40_609.jpg
+2
+482 370 111 125 0.962619 
+292 0 206 242 0.796854 

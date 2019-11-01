@@ -1,0 +1,6 @@
+26--Soldier_Drilling/26_Soldier_Drilling_Soldiers_Drilling_26_85.jpg
+4
+0 600 26 49 0.895093 
+57 352 31 39 0.499196 
+597 396 28 33 0.498063 
+215 359 27 32 0.497131 

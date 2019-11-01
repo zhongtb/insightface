@@ -1,0 +1,4 @@
+26--Soldier_Drilling/26_Soldier_Drilling_Soldiers_Drilling_26_390.jpg
+2
+410 409 66 70 0.881433 
+491 182 45 44 0.867232 

@@ -1,0 +1,6 @@
+12--Group/12_Group_Team_Organized_Group_12_Group_Team_Organized_Group_12_55.jpg
+4
+287 167 37 41 0.999755 
+186 136 32 34 0.999651 
+431 99 31 37 0.946902 
+74 112 23 36 0.862569 

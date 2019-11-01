@@ -1,0 +1,5 @@
+16--Award_Ceremony/16_Award_Ceremony_Awards_Ceremony_16_512.jpg
+3
+358 157 232 303 0.998272 
+60 16 24 31 0.0551143 
+136 1501 27 36 0.0218941 

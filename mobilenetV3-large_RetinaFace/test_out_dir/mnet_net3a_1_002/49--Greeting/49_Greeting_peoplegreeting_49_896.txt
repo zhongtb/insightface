@@ -1,0 +1,4 @@
+49--Greeting/49_Greeting_peoplegreeting_49_896.jpg
+2
+312 438 140 166 0.991883 
+275 452 203 229 0.0223646 

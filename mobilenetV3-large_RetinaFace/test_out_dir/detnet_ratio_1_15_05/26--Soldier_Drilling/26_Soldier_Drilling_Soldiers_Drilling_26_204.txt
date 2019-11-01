@@ -1,0 +1,6 @@
+26--Soldier_Drilling/26_Soldier_Drilling_Soldiers_Drilling_26_204.jpg
+4
+371 257 25 34 0.980279 
+437 194 20 27 0.959224 
+599 119 10 12 0.582116 
+499 107 12 14 0.561049 

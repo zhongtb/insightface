@@ -1,0 +1,5 @@
+52--Photographers/52_Photographers_taketouristphotos_52_123.jpg
+3
+216 125 115 165 0.994452 
+734 251 122 153 0.987238 
+642 218 52 78 0.979473 

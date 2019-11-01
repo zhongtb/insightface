@@ -1,0 +1,6 @@
+29--Students_Schoolkids/29_Students_Schoolkids_Students_Schoolkids_29_590.jpg
+4
+385 71 103 110 0.996218 
+554 49 101 103 0.952598 
+396 17 62 62 0.877928 
+157 20 38 37 0.810804 

@@ -1,0 +1,5 @@
+31--Waiter_Waitress/31_Waiter_Waitress_Waiter_Waitress_31_788.jpg
+3
+408 0 50 62 0.995532 
+625 189 63 127 0.864888 
+145 184 41 75 0.680435 

@@ -1,0 +1,4 @@
+35--Basketball/35_Basketball_playingbasketball_35_449.jpg
+2
+340 154 100 136 0.992542 
+719 278 59 96 0.979968 

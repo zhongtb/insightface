@@ -1,0 +1,4 @@
+49--Greeting/49_Greeting_peoplegreeting_49_337.jpg
+2
+372 359 224 269 0.994696 
+432 410 142 161 0.0328667 

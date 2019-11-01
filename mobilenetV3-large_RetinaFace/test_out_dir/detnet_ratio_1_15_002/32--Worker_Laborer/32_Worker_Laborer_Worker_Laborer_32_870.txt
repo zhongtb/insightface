@@ -1,0 +1,5 @@
+32--Worker_Laborer/32_Worker_Laborer_Worker_Laborer_32_870.jpg
+3
+480 317 82 99 0.987392 
+747 484 98 131 0.0871865 
+716 489 62 93 0.0116372 

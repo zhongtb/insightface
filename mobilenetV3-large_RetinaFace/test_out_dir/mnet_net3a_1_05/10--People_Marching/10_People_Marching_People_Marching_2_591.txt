@@ -1,0 +1,5 @@
+10--People_Marching/10_People_Marching_People_Marching_2_591.jpg
+3
+893 153 47 56 0.950457 
+673 194 24 31 0.686972 
+756 193 27 34 0.656331 

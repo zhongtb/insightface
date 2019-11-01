@@ -1,0 +1,5 @@
+2--Demonstration/2_Demonstration_Demonstration_Or_Protest_2_242.jpg
+3
+172 401 51 62 0.93565 
+18 374 26 24 0.918805 
+802 253 55 75 0.759233 

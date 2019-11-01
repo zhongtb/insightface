@@ -1,0 +1,6 @@
+29--Students_Schoolkids/29_Students_Schoolkids_Students_Schoolkids_29_590.jpg
+4
+386 88 103 133 0.999798 
+158 20 41 48 0.990404 
+398 21 58 73 0.981626 
+554 64 100 121 0.729732 

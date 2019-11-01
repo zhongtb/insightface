@@ -1,0 +1,4 @@
+32--Worker_Laborer/32_Worker_Laborer_Worker_Laborer_32_812.jpg
+2
+384 76 102 128 0.987947 
+678 575 54 81 0.516751 

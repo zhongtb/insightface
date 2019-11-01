@@ -1,0 +1,6 @@
+47--Matador_Bullfighter/47_Matador_Bullfighter_Matador_Bullfighter_47_827.jpg
+4
+713 45 58 78 0.996493 
+631 371 46 78 0.0689596 
+596 331 88 144 0.0438184 
+228 0 116 95 0.0430191 

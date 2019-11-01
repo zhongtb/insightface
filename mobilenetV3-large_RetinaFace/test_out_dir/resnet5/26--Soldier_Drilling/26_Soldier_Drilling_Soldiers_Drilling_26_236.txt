@@ -1,0 +1,6 @@
+26--Soldier_Drilling/26_Soldier_Drilling_Soldiers_Drilling_26_236.jpg
+4
+595 180 117 108 0.999876 
+361 373 95 82 0.999838 
+476 203 44 72 0.997324 
+979 241 44 55 0.995157 

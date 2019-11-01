@@ -1,0 +1,5 @@
+9--Press_Conference/9_Press_Conference_Press_Conference_9_74.jpg
+3
+142 277 71 91 0.999068 
+856 270 77 101 0.998011 
+458 269 84 110 0.992579 

@@ -1,0 +1,5 @@
+2--Demonstration/2_Demonstration_Demonstration_Or_Protest_2_364.jpg
+3
+470 293 131 173 0.994866 
+215 323 121 192 0.993353 
+673 340 122 191 0.993339 

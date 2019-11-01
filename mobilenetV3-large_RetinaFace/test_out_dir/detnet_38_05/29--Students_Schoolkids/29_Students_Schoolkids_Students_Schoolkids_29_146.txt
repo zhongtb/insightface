@@ -1,0 +1,6 @@
+29--Students_Schoolkids/29_Students_Schoolkids_Students_Schoolkids_29_146.jpg
+4
+197 91 127 131 0.99938 
+594 113 109 118 0.999354 
+765 240 128 134 0.999286 
+972 100 29 30 0.531955 

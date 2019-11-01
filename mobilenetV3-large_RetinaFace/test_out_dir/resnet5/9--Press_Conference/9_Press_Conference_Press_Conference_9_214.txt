@@ -1,0 +1,6 @@
+9--Press_Conference/9_Press_Conference_Press_Conference_9_214.jpg
+4
+387 141 112 154 0.999799 
+59 202 114 142 0.99979 
+839 159 118 144 0.999656 
+532 0 73 93 0.932271 

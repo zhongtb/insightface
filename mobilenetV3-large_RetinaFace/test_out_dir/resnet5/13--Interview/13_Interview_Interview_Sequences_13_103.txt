@@ -1,0 +1,4 @@
+13--Interview/13_Interview_Interview_Sequences_13_103.jpg
+2
+452 18 206 240 0.997461 
+210 12 42 51 0.915266 

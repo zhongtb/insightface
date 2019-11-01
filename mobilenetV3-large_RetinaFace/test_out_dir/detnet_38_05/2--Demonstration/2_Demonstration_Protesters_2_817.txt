@@ -1,0 +1,4 @@
+2--Demonstration/2_Demonstration_Protesters_2_817.jpg
+2
+290 476 32 32 0.969664 
+375 446 43 48 0.753624 

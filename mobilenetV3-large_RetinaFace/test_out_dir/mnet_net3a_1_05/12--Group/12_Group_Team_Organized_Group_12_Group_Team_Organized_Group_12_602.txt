@@ -1,0 +1,6 @@
+12--Group/12_Group_Team_Organized_Group_12_Group_Team_Organized_Group_12_602.jpg
+4
+641 169 159 170 0.998643 
+404 238 140 184 0.99744 
+255 160 143 199 0.995867 
+522 171 120 145 0.943849 

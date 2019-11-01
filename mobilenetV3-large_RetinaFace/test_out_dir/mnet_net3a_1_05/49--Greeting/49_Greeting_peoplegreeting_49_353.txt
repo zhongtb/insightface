@@ -1,0 +1,4 @@
+49--Greeting/49_Greeting_peoplegreeting_49_353.jpg
+2
+548 408 14 20 0.67045 
+247 432 16 20 0.501824 

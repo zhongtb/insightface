@@ -1,0 +1,5 @@
+24--Soldier_Firing/24_Soldier_Firing_Soldier_Firing_24_540.jpg
+3
+153 256 105 51 0.968884 
+436 241 101 46 0.784721 
+742 396 27 12 0.363045 

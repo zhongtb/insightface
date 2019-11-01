@@ -1,0 +1,6 @@
+8--Election_Campain/8_Election_Campain_Election_Campaign_8_433.jpg
+4
+170 290 61 68 0.999978 
+521 286 54 64 0.999893 
+644 233 61 85 0.99985 
+837 309 51 69 0.999833 

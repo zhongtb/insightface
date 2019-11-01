@@ -1,0 +1,4 @@
+1--Handshaking/1_Handshaking_Handshaking_1_453.jpg
+2
+282 78 97 137 0.997474 
+676 202 80 132 0.980403 

@@ -1,0 +1,4 @@
+2--Demonstration/2_Demonstration_Political_Rally_2_940.jpg
+2
+406 170 254 328 0.99988 
+58 7 154 205 0.989191 

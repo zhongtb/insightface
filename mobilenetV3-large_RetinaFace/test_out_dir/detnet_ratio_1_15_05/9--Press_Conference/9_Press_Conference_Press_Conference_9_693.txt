@@ -1,0 +1,6 @@
+9--Press_Conference/9_Press_Conference_Press_Conference_9_693.jpg
+4
+653 114 92 121 0.999124 
+873 223 93 123 0.998476 
+258 189 85 114 0.988992 
+0 99 63 121 0.965224 

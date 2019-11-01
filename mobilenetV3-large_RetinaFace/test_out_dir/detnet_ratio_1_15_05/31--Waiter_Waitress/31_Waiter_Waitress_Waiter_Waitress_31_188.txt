@@ -1,0 +1,4 @@
+31--Waiter_Waitress/31_Waiter_Waitress_Waiter_Waitress_31_188.jpg
+2
+295 229 102 133 0.990467 
+570 359 97 125 0.980111 

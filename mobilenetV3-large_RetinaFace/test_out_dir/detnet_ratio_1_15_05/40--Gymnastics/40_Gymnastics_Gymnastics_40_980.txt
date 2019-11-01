@@ -1,0 +1,4 @@
+40--Gymnastics/40_Gymnastics_Gymnastics_40_980.jpg
+2
+560 107 203 344 0.982801 
+346 88 240 347 0.689476 

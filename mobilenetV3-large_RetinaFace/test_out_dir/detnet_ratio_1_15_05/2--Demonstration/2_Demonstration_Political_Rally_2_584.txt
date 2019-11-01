@@ -1,0 +1,4 @@
+2--Demonstration/2_Demonstration_Political_Rally_2_584.jpg
+2
+649 488 129 164 0.996322 
+202 188 43 53 0.546314 

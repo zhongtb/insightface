@@ -1,0 +1,4 @@
+35--Basketball/35_Basketball_basketballgame_ball_35_689.jpg
+2
+300 9 12 15 0.518082 
+315 315 16 22 0.518019 

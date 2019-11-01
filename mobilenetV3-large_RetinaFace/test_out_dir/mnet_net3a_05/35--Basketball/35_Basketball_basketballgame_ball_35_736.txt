@@ -1,0 +1,5 @@
+35--Basketball/35_Basketball_basketballgame_ball_35_736.jpg
+3
+478 161 63 74 0.997875 
+377 121 80 96 0.971018 
+715 130 76 99 0.95956 

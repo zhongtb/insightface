@@ -1,0 +1,6 @@
+52--Photographers/52_Photographers_photographertakingphoto_52_303.jpg
+4
+432 220 74 100 0.948572 
+493 180 10 14 0.0357526 
+441 165 58 69 0.0334311 
+282 222 54 65 0.0259589 

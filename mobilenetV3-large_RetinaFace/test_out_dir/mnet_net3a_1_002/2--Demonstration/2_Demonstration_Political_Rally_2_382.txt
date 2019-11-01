@@ -1,0 +1,4 @@
+2--Demonstration/2_Demonstration_Political_Rally_2_382.jpg
+2
+377 478 152 190 0.970852 
+158 724 485 462 0.0328403 

@@ -1,0 +1,4 @@
+59--people--driving--car/59_peopledrivingcar_peopledrivingcar_59_690.jpg
+2
+291 184 48 55 0.992241 
+746 217 46 48 0.986288 

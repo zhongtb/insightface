@@ -1,0 +1,4 @@
+1--Handshaking/1_Handshaking_Handshaking_1_766.jpg
+2
+379 96 271 375 0.999026 
+568 893 80 101 0.252991 

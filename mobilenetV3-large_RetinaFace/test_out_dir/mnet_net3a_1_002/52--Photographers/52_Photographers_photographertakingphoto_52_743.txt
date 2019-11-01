@@ -1,0 +1,5 @@
+52--Photographers/52_Photographers_photographertakingphoto_52_743.jpg
+3
+681 143 137 197 0.997939 
+0 0 229 405 0.244772 
+329 0 328 319 0.0203121 

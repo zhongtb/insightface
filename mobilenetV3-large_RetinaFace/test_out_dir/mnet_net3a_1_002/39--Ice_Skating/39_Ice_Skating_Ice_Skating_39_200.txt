@@ -1,0 +1,4 @@
+39--Ice_Skating/39_Ice_Skating_Ice_Skating_39_200.jpg
+2
+507 187 94 98 0.992447 
+467 196 137 125 0.106472 

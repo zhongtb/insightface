@@ -1,0 +1,5 @@
+25--Soldier_Patrol/25_Soldier_Patrol_Soldier_Patrol_25_463.jpg
+3
+347 177 46 62 0.999685 
+784 153 36 49 0.999251 
+799 113 34 53 0.998762 

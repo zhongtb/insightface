@@ -1,0 +1,6 @@
+55--Sports_Coach_Trainer/55_Sports_Coach_Trainer_sportcoaching_55_380.jpg
+4
+508 290 17 24 0.994733 
+762 0 38 53 0.945665 
+417 173 40 49 0.632237 
+26 195 24 28 0.528766 

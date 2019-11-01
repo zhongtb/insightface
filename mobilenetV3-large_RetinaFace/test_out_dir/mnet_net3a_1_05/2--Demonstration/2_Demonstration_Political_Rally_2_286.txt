@@ -1,0 +1,5 @@
+2--Demonstration/2_Demonstration_Political_Rally_2_286.jpg
+3
+807 666 83 105 0.992424 
+434 730 79 97 0.985049 
+120 337 219 268 0.925151 

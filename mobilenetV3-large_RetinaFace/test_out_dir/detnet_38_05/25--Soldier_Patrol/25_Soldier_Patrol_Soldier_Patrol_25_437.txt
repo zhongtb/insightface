@@ -1,0 +1,5 @@
+25--Soldier_Patrol/25_Soldier_Patrol_Soldier_Patrol_25_437.jpg
+3
+700 237 30 38 0.96507 
+263 101 25 36 0.730825 
+368 324 26 32 0.586866 

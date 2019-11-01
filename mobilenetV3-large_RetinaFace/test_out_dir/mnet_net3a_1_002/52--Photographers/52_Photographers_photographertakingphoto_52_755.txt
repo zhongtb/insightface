@@ -1,0 +1,5 @@
+52--Photographers/52_Photographers_photographertakingphoto_52_755.jpg
+3
+460 239 130 114 0.972478 
+3 36 459 661 0.0640748 
+393 216 226 183 0.0339577 

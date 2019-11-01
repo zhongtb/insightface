@@ -1,0 +1,5 @@
+36--Football/36_Football_americanfootball_ball_36_373.jpg
+3
+409 86 61 50 0.989003 
+629 45 83 80 0.931492 
+551 25 54 54 0.650956 

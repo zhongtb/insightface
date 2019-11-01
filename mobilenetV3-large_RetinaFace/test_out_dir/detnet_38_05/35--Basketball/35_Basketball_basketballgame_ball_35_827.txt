@@ -1,0 +1,4 @@
+35--Basketball/35_Basketball_basketballgame_ball_35_827.jpg
+2
+371 156 215 109 0.99892 
+714 341 245 128 0.991271 

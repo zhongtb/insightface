@@ -1,0 +1,4 @@
+49--Greeting/49_Greeting_peoplegreeting_49_207.jpg
+2
+246 156 46 60 0.999587 
+366 118 48 72 0.978822 

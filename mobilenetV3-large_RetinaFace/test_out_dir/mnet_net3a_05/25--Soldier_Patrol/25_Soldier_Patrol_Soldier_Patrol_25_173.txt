@@ -1,0 +1,4 @@
+25--Soldier_Patrol/25_Soldier_Patrol_Soldier_Patrol_25_173.jpg
+2
+267 85 118 122 0.973799 
+224 54 171 200 0.595586 

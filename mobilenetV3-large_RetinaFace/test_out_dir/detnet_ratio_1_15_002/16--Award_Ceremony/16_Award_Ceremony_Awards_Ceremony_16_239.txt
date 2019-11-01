@@ -1,0 +1,5 @@
+16--Award_Ceremony/16_Award_Ceremony_Awards_Ceremony_16_239.jpg
+3
+563 117 113 147 0.998125 
+69 224 149 194 0.0945225 
+526 144 117 152 0.0211179 

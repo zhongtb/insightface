@@ -1,0 +1,4 @@
+32--Worker_Laborer/32_Worker_Laborer_Worker_Laborer_32_468.jpg
+2
+349 102 110 160 0.994559 
+181 226 126 198 0.0213548 

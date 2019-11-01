@@ -1,0 +1,5 @@
+13--Interview/13_Interview_Interview_2_People_Visible_13_325.jpg
+3
+290 84 37 32 0.992007 
+250 47 33 28 0.619795 
+368 427 28 22 0.506412 

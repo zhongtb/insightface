@@ -1,0 +1,7 @@
+10--People_Marching/10_People_Marching_People_Marching_10_People_Marching_People_Marching_10_524.jpg
+5
+587 160 63 84 0.994614 
+65 127 72 93 0.988642 
+840 133 53 69 0.986624 
+281 202 44 55 0.87272 
+44 64 103 144 0.553683 

@@ -1,0 +1,4 @@
+59--people--driving--car/59_peopledrivingcar_peopledrivingcar_59_1020.jpg
+2
+479 149 148 235 0.995753 
+367 0 121 139 0.987295 

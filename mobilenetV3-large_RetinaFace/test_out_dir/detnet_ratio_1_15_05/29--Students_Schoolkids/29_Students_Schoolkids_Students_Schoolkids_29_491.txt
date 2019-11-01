@@ -1,0 +1,5 @@
+29--Students_Schoolkids/29_Students_Schoolkids_Students_Schoolkids_29_491.jpg
+3
+497 212 26 30 0.993951 
+610 231 27 33 0.992373 
+416 235 25 29 0.982761 

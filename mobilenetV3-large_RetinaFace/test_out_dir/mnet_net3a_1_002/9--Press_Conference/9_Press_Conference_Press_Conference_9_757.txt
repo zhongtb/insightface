@@ -1,0 +1,4 @@
+9--Press_Conference/9_Press_Conference_Press_Conference_9_757.jpg
+2
+136 144 339 467 0.999827 
+483 286 83 115 0.0219748 

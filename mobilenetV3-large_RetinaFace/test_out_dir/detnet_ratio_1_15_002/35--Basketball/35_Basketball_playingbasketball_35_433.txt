@@ -1,0 +1,4 @@
+35--Basketball/35_Basketball_playingbasketball_35_433.jpg
+2
+524 157 115 167 0.998722 
+675 0 253 208 0.0311453 

@@ -1,0 +1,6 @@
+26--Soldier_Drilling/26_Soldier_Drilling_Soldiers_Drilling_26_85.jpg
+4
+597 148 27 13 0.959101 
+57 132 31 14 0.949685 
+216 134 27 12 0.686271 
+0 226 25 15 0.390355 

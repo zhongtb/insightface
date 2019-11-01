@@ -1,0 +1,4 @@
+59--people--driving--car/59_peopledrivingcar_peopledrivingcar_59_856.jpg
+2
+182 251 24 27 0.938115 
+555 245 13 17 0.566391 

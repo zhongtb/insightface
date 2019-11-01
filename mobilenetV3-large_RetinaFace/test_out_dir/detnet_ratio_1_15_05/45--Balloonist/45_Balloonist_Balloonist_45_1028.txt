@@ -1,0 +1,4 @@
+45--Balloonist/45_Balloonist_Balloonist_45_1028.jpg
+2
+194 554 13 16 0.603844 
+767 532 13 15 0.523798 

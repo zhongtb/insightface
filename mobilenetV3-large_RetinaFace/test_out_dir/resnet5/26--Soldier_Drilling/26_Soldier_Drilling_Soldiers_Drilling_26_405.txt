@@ -1,0 +1,6 @@
+26--Soldier_Drilling/26_Soldier_Drilling_Soldiers_Drilling_26_405.jpg
+4
+399 205 46 50 0.999899 
+554 180 47 53 0.999861 
+141 347 25 31 0.999188 
+853 265 23 29 0.997603 

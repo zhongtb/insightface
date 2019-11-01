@@ -1,0 +1,5 @@
+9--Press_Conference/9_Press_Conference_Press_Conference_9_343.jpg
+3
+491 117 133 174 0.998685 
+971 136 25 33 0.0354145 
+280 637 100 147 0.031339 

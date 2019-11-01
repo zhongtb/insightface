@@ -1,0 +1,6 @@
+50--Celebration_Or_Party/50_Celebration_Or_Party_birthdayparty_50_396.jpg
+4
+192 131 121 154 0.998154 
+715 821 100 128 0.99782 
+760 1052 75 84 0.991629 
+160 827 166 229 0.954209 

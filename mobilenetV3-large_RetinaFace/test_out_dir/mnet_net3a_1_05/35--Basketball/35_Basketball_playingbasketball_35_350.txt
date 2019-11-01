@@ -1,0 +1,5 @@
+35--Basketball/35_Basketball_playingbasketball_35_350.jpg
+3
+487 166 145 180 0.996871 
+178 0 67 72 0.995149 
+227 191 114 149 0.918344 

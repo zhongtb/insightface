@@ -1,0 +1,4 @@
+32--Worker_Laborer/32_Worker_Laborer_Worker_Laborer_32_530.jpg
+2
+258 113 119 154 0.998914 
+606 171 129 168 0.997434 

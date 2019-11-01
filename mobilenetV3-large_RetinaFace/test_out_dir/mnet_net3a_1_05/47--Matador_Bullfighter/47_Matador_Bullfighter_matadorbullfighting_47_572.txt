@@ -1,0 +1,6 @@
+47--Matador_Bullfighter/47_Matador_Bullfighter_matadorbullfighting_47_572.jpg
+4
+232 26 26 31 0.957872 
+889 97 23 30 0.948312 
+648 103 22 31 0.673778 
+79 2 27 34 0.664445 

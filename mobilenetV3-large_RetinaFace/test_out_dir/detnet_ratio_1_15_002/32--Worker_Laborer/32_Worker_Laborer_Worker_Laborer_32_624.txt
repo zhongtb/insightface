@@ -1,0 +1,5 @@
+32--Worker_Laborer/32_Worker_Laborer_Worker_Laborer_32_624.jpg
+3
+252 321 121 190 0.811562 
+0 167 130 237 0.0609269 
+241 346 18 21 0.0115568 

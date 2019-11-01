@@ -1,0 +1,5 @@
+9--Press_Conference/9_Press_Conference_Press_Conference_9_883.jpg
+3
+275 187 276 371 0.995909 
+835 111 67 84 0.0537633 
+0 276 86 148 0.0348311 

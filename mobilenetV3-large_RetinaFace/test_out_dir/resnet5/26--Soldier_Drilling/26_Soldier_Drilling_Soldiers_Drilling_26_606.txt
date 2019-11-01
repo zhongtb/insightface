@@ -1,0 +1,4 @@
+26--Soldier_Drilling/26_Soldier_Drilling_Soldiers_Drilling_26_606.jpg
+2
+220 79 122 161 0.999711 
+641 113 127 172 0.999155 

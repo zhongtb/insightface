@@ -1,0 +1,4 @@
+40--Gymnastics/40_Gymnastics_Gymnastics_40_484.jpg
+2
+495 270 78 103 0.99988 
+832 76 46 56 0.519578 

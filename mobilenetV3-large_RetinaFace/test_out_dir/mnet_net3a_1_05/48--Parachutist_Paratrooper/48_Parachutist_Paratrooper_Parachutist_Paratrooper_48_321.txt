@@ -1,0 +1,6 @@
+48--Parachutist_Paratrooper/48_Parachutist_Paratrooper_Parachutist_Paratrooper_48_321.jpg
+4
+894 24 36 55 0.998905 
+122 18 39 53 0.997707 
+350 24 32 53 0.981776 
+608 28 36 49 0.796272 

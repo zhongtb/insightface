@@ -1,0 +1,5 @@
+16--Award_Ceremony/16_Award_Ceremony_Awards_Ceremony_16_338.jpg
+3
+360 178 250 336 0.997763 
+672 23 334 421 0.0374792 
+787 640 32 38 0.0238303 

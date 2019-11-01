@@ -1,0 +1,6 @@
+48--Parachutist_Paratrooper/48_Parachutist_Paratrooper_Parachutist_Paratrooper_48_321.jpg
+4
+110 18 36 55 0.997615 
+809 22 33 59 0.995617 
+317 25 29 51 0.988783 
+551 27 35 50 0.708156 

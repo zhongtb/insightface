@@ -1,0 +1,5 @@
+13--Interview/13_Interview_Interview_On_Location_13_33.jpg
+3
+400 93 77 102 0.999855 
+103 77 82 114 0.999786 
+786 55 78 110 0.999785 

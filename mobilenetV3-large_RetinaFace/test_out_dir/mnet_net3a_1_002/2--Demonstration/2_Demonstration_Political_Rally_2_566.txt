@@ -1,0 +1,4 @@
+2--Demonstration/2_Demonstration_Political_Rally_2_566.jpg
+2
+414 212 314 449 0.9991 
+604 1279 223 235 0.0217622 

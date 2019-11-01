@@ -1,0 +1,5 @@
+52--Photographers/52_Photographers_taketouristphotos_52_86.jpg
+3
+418 351 82 105 0.976177 
+526 0 478 486 0.0698187 
+9 141 86 111 0.0266239 

@@ -1,0 +1,5 @@
+59--people--driving--car/59_peopledrivingcar_peopledrivingcar_59_789.jpg
+3
+31 458 102 130 0.05456 
+5 432 131 166 0.0330205 
+261 277 170 260 0.0263428 

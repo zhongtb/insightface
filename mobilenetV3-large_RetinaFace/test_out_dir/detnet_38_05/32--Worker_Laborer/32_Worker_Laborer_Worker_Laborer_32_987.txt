@@ -1,0 +1,4 @@
+32--Worker_Laborer/32_Worker_Laborer_Worker_Laborer_32_987.jpg
+2
+610 50 53 69 0.998329 
+760 49 56 63 0.997422 

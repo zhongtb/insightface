@@ -1,0 +1,4 @@
+61--Street_Battle/61_Street_Battle_streetfight_61_907.jpg
+2
+251 113 147 73 0.998041 
+529 66 144 71 0.997385 

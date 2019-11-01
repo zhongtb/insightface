@@ -1,0 +1,5 @@
+47--Matador_Bullfighter/47_Matador_Bullfighter_matadorbullfighting_47_845.jpg
+3
+534 230 385 560 0.998177 
+160 127 467 631 0.165483 
+489 178 135 192 0.0332092 

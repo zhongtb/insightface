@@ -1,0 +1,4 @@
+35--Basketball/35_Basketball_Basketball_35_801.jpg
+2
+920 216 13 14 0.703207 
+642 235 12 15 0.699482 

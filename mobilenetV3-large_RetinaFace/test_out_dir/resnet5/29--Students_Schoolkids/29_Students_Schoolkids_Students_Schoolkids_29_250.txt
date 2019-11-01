@@ -1,0 +1,7 @@
+29--Students_Schoolkids/29_Students_Schoolkids_Students_Schoolkids_29_250.jpg
+5
+663 64 104 138 0.999501 
+72 168 21 25 0.961062 
+166 170 15 21 0.454167 
+133 188 15 19 0.40581 
+31 197 13 17 0.392864 

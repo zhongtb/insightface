@@ -1,0 +1,4 @@
+9--Press_Conference/9_Press_Conference_Press_Conference_9_518.jpg
+2
+754 157 173 260 0.999547 
+394 311 165 256 0.999425 

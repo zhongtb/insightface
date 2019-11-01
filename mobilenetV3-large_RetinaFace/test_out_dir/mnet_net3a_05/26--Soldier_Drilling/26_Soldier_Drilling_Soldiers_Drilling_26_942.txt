@@ -1,0 +1,5 @@
+26--Soldier_Drilling/26_Soldier_Drilling_Soldiers_Drilling_26_942.jpg
+3
+356 149 36 30 0.939579 
+101 148 34 34 0.916268 
+292 205 26 28 0.799493 

@@ -1,0 +1,5 @@
+10--People_Marching/10_People_Marching_People_Marching_2_935.jpg
+3
+367 310 206 310 0.998034 
+790 217 252 366 0.762338 
+76 107 199 259 0.587285 

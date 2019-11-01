@@ -1,0 +1,4 @@
+2--Demonstration/2_Demonstration_Protesters_2_583.jpg
+2
+809 182 59 71 0.978247 
+903 102 11 11 0.748132 

@@ -1,0 +1,4 @@
+26--Soldier_Drilling/26_Soldier_Drilling_Soldiers_Drilling_26_942.jpg
+2
+102 197 35 47 0.977239 
+353 195 42 52 0.913106 

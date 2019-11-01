@@ -1,0 +1,4 @@
+10--People_Marching/10_People_Marching_People_Marching_2_236.jpg
+2
+462 132 33 37 0.782357 
+559 117 49 57 0.77338 

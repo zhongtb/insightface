@@ -1,0 +1,4 @@
+8--Election_Campain/8_Election_Campain_Election_Campaign_8_620.jpg
+2
+213 125 213 287 0.999629 
+648 141 195 275 0.999474 

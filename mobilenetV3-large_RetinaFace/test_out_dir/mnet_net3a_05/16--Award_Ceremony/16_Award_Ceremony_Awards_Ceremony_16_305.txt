@@ -1,0 +1,4 @@
+16--Award_Ceremony/16_Award_Ceremony_Awards_Ceremony_16_305.jpg
+2
+385 107 97 50 0.998688 
+595 109 83 42 0.993849 

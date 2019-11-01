@@ -1,0 +1,4 @@
+2--Demonstration/2_Demonstration_Demonstrators_2_595.jpg
+2
+663 66 76 64 0.999053 
+274 93 180 157 0.994553 

@@ -1,0 +1,4 @@
+1--Handshaking/1_Handshaking_Handshaking_1_357.jpg
+2
+587 169 110 125 0.995785 
+139 92 117 123 0.99509 

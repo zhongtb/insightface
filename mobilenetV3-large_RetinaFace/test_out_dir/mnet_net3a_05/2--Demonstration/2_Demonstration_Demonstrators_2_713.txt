@@ -1,0 +1,5 @@
+2--Demonstration/2_Demonstration_Demonstrators_2_713.jpg
+3
+362 290 26 29 0.909159 
+557 254 24 26 0.585008 
+399 232 22 24 0.575275 

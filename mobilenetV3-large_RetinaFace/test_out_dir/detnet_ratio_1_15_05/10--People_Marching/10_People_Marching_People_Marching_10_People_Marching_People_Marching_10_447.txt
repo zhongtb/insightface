@@ -1,0 +1,8 @@
+10--People_Marching/10_People_Marching_People_Marching_10_People_Marching_People_Marching_10_447.jpg
+6
+462 481 26 31 0.958535 
+963 394 23 28 0.544724 
+806 312 23 28 0.53269 
+492 786 33 38 0.521335 
+311 645 26 32 0.505549 
+175 832 23 28 0.25474 

@@ -1,0 +1,4 @@
+13--Interview/13_Interview_Interview_2_People_Visible_13_381.jpg
+2
+401 200 181 237 0.997245 
+490 495 143 129 0.7289 

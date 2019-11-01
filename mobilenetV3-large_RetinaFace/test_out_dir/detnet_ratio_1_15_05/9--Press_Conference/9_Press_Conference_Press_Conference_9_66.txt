@@ -1,0 +1,5 @@
+9--Press_Conference/9_Press_Conference_Press_Conference_9_66.jpg
+3
+214 169 80 100 0.999241 
+882 265 74 92 0.99447 
+458 284 49 69 0.940963 

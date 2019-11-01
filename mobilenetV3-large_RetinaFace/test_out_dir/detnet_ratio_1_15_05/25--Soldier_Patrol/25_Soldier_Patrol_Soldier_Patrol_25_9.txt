@@ -1,0 +1,4 @@
+25--Soldier_Patrol/25_Soldier_Patrol_Soldier_Patrol_25_9.jpg
+2
+577 135 120 141 0.896793 
+698 140 110 178 0.623156 

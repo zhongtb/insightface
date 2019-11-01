@@ -1,0 +1,6 @@
+26--Soldier_Drilling/26_Soldier_Drilling_Soldiers_Drilling_26_345.jpg
+4
+855 190 25 29 0.90838 
+665 185 25 34 0.831211 
+163 193 25 28 0.770761 
+469 190 26 34 0.670725 

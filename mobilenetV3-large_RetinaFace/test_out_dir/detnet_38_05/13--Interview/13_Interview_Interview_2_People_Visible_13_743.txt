@@ -1,0 +1,5 @@
+13--Interview/13_Interview_Interview_2_People_Visible_13_743.jpg
+3
+856 45 43 65 0.997357 
+151 0 62 68 0.990242 
+545 8 44 69 0.941219 

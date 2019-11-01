@@ -1,0 +1,4 @@
+61--Street_Battle/61_Street_Battle_streetfight_61_179.jpg
+2
+459 71 165 224 0.99969 
+289 89 144 231 0.860637 

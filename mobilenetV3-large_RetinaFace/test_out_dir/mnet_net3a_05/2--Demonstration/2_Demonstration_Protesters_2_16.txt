@@ -1,0 +1,4 @@
+2--Demonstration/2_Demonstration_Protesters_2_16.jpg
+2
+628 222 80 37 0.972559 
+287 190 86 38 0.970524 

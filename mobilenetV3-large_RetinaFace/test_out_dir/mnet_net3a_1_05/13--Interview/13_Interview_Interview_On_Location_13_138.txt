@@ -1,0 +1,5 @@
+13--Interview/13_Interview_Interview_On_Location_13_138.jpg
+3
+494 245 18 25 0.824459 
+672 276 19 22 0.603334 
+45 336 43 53 0.563698 

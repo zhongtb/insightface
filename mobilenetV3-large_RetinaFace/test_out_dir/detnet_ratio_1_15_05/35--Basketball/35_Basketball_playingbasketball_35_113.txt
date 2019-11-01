@@ -1,0 +1,4 @@
+35--Basketball/35_Basketball_playingbasketball_35_113.jpg
+2
+575 113 45 64 0.988196 
+474 155 59 71 0.984996 

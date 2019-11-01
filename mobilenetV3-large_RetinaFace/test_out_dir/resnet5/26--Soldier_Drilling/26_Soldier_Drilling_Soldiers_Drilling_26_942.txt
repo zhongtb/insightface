@@ -1,0 +1,5 @@
+26--Soldier_Drilling/26_Soldier_Drilling_Soldiers_Drilling_26_942.jpg
+3
+99 195 38 50 0.999793 
+352 196 42 45 0.999691 
+227 209 27 46 0.973486 

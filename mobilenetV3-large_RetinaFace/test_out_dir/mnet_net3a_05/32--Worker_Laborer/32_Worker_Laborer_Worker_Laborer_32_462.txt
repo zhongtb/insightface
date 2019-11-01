@@ -1,0 +1,4 @@
+32--Worker_Laborer/32_Worker_Laborer_Worker_Laborer_32_462.jpg
+2
+458 182 65 64 0.924023 
+537 126 54 63 0.550757 

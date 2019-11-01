@@ -1,0 +1,4 @@
+45--Balloonist/45_Balloonist_Balloonist_45_692.jpg
+2
+815 735 32 31 0.968931 
+612 157 32 32 0.628812 

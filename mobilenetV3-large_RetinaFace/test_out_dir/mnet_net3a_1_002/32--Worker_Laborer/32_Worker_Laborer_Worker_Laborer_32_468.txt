@@ -1,0 +1,5 @@
+32--Worker_Laborer/32_Worker_Laborer_Worker_Laborer_32_468.jpg
+3
+349 105 114 156 0.985857 
+25 690 18 24 0.0440697 
+111 556 153 168 0.03027 

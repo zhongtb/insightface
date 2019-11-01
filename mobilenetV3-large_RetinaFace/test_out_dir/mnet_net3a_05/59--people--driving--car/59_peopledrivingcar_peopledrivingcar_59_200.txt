@@ -1,0 +1,4 @@
+59--people--driving--car/59_peopledrivingcar_peopledrivingcar_59_200.jpg
+2
+422 46 85 93 0.97828 
+141 207 87 89 0.969813 

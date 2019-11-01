@@ -1,0 +1,4 @@
+2--Demonstration/2_Demonstration_Protesters_2_881.jpg
+2
+333 287 31 46 0.999744 
+42 298 26 28 0.999443 

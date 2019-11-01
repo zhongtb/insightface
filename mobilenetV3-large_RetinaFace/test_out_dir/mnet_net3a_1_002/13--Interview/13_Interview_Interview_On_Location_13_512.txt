@@ -1,0 +1,4 @@
+13--Interview/13_Interview_Interview_On_Location_13_512.jpg
+2
+346 132 201 287 0.987426 
+620 1340 58 95 0.0443018 

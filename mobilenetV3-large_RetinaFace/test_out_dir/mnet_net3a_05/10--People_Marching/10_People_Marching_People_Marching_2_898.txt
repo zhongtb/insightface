@@ -1,0 +1,5 @@
+10--People_Marching/10_People_Marching_People_Marching_2_898.jpg
+3
+511 323 48 26 0.957038 
+678 268 52 27 0.950545 
+263 366 46 24 0.828462 

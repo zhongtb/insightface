@@ -1,0 +1,5 @@
+16--Award_Ceremony/16_Award_Ceremony_Awards_Ceremony_16_309.jpg
+3
+277 199 268 362 0.996793 
+886 445 164 235 0.889171 
+717 318 116 181 0.815295 

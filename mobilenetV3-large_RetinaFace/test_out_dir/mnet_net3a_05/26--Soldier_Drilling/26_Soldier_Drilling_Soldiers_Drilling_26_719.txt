@@ -1,0 +1,5 @@
+26--Soldier_Drilling/26_Soldier_Drilling_Soldiers_Drilling_26_719.jpg
+3
+455 210 37 43 0.914776 
+814 243 26 28 0.829114 
+380 248 21 26 0.684276 

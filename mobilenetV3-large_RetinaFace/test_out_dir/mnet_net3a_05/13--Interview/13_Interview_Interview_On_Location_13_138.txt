@@ -1,0 +1,5 @@
+13--Interview/13_Interview_Interview_On_Location_13_138.jpg
+3
+494 220 18 22 0.824459 
+672 248 19 20 0.603334 
+45 301 43 48 0.563698 

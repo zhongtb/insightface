@@ -1,0 +1,6 @@
+55--Sports_Coach_Trainer/55_Sports_Coach_Trainer_sportcoaching_55_711.jpg
+4
+631 108 287 362 0.993826 
+57 493 298 339 0.0319142 
+773 1106 26 36 0.0236455 
+784 1106 28 38 0.0204962 

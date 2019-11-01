@@ -1,0 +1,4 @@
+45--Balloonist/45_Balloonist_Balloonist_45_692.jpg
+2
+815 551 32 23 0.968931 
+612 117 32 24 0.628812 

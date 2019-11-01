@@ -1,0 +1,5 @@
+9--Press_Conference/9_Press_Conference_Press_Conference_9_183.jpg
+3
+558 144 165 203 0.99826 
+221 188 111 164 0.992197 
+294 230 86 133 0.947442 

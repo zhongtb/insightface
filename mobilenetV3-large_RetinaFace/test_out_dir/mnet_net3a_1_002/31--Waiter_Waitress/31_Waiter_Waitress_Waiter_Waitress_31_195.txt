@@ -1,0 +1,5 @@
+31--Waiter_Waitress/31_Waiter_Waitress_Waiter_Waitress_31_195.jpg
+3
+180 62 146 185 0.992534 
+615 94 144 200 0.991918 
+390 930 81 115 0.308524 

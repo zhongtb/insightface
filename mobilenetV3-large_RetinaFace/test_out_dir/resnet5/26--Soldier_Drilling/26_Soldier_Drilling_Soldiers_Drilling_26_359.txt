@@ -1,0 +1,4 @@
+26--Soldier_Drilling/26_Soldier_Drilling_Soldiers_Drilling_26_359.jpg
+2
+517 681 58 68 0.978473 
+665 335 68 84 0.950208 

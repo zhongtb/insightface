@@ -1,0 +1,6 @@
+2--Demonstration/2_Demonstration_Demonstration_Or_Protest_2_771.jpg
+4
+423 131 89 132 0.996006 
+605 472 23 32 0.990879 
+720 496 22 29 0.94516 
+121 455 19 25 0.918093 

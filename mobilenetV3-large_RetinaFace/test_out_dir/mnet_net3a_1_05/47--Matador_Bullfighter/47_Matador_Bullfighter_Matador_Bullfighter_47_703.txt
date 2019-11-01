@@ -1,0 +1,5 @@
+47--Matador_Bullfighter/47_Matador_Bullfighter_Matador_Bullfighter_47_703.jpg
+3
+473 117 128 167 0.998662 
+128 96 77 131 0.90066 
+273 323 103 131 0.827403 

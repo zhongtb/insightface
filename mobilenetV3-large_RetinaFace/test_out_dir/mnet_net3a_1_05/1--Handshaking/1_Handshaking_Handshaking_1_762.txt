@@ -1,0 +1,4 @@
+1--Handshaking/1_Handshaking_Handshaking_1_762.jpg
+2
+232 224 320 396 0.998956 
+622 399 175 248 0.97565 

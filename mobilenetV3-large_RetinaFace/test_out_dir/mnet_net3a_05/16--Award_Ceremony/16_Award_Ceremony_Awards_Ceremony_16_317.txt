@@ -1,0 +1,5 @@
+16--Award_Ceremony/16_Award_Ceremony_Awards_Ceremony_16_317.jpg
+3
+215 89 39 42 0.993165 
+843 97 33 40 0.911644 
+599 115 27 35 0.908212 

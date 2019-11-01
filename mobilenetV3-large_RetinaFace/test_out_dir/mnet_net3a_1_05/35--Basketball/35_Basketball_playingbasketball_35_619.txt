@@ -1,0 +1,4 @@
+35--Basketball/35_Basketball_playingbasketball_35_619.jpg
+2
+80 279 14 17 0.611024 
+198 281 15 21 0.559293 

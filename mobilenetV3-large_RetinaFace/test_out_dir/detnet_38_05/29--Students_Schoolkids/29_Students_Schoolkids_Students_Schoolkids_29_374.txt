@@ -1,0 +1,5 @@
+29--Students_Schoolkids/29_Students_Schoolkids_Students_Schoolkids_29_374.jpg
+3
+689 109 28 29 0.994687 
+390 99 22 23 0.986106 
+420 376 44 54 0.838395 

@@ -1,0 +1,4 @@
+24--Soldier_Firing/24_Soldier_Firing_Soldier_Firing_24_824.jpg
+2
+707 32 145 172 0.0912427 
+731 125 62 78 0.038192 

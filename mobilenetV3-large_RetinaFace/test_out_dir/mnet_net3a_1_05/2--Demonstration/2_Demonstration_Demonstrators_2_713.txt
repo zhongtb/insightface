@@ -1,0 +1,5 @@
+2--Demonstration/2_Demonstration_Demonstrators_2_713.jpg
+3
+362 386 26 39 0.909159 
+557 338 24 35 0.585008 
+399 309 22 32 0.575275 

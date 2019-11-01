@@ -1,0 +1,5 @@
+47--Matador_Bullfighter/47_Matador_Bullfighter_matadorbullfighting_47_266.jpg
+3
+255 100 61 69 0.998558 
+687 319 175 250 0.104173 
+300 250 11 13 0.0241345 

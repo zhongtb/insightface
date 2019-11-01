@@ -1,0 +1,4 @@
+13--Interview/13_Interview_Interview_Sequences_13_237.jpg
+2
+471 81 146 232 0.999658 
+305 317 93 98 0.518952 

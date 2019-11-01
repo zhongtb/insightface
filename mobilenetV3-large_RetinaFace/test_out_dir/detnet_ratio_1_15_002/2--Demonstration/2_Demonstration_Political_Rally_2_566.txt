@@ -1,0 +1,4 @@
+2--Demonstration/2_Demonstration_Political_Rally_2_566.jpg
+2
+431 237 280 388 0.997074 
+551 1273 261 241 0.0338399 

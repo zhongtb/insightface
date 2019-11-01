@@ -1,0 +1,6 @@
+9--Press_Conference/9_Press_Conference_Press_Conference_9_214.jpg
+4
+60 206 96 131 0.999136 
+787 157 99 140 0.997805 
+371 142 95 144 0.993446 
+487 0 87 101 0.806882 

@@ -1,0 +1,6 @@
+48--Parachutist_Paratrooper/48_Parachutist_Paratrooper_Parachutist_Paratrooper_48_841.jpg
+4
+187 684 227 294 0.994134 
+630 334 276 378 0.973755 
+55 1013 275 342 0.0314889 
+245 769 143 179 0.0202924 

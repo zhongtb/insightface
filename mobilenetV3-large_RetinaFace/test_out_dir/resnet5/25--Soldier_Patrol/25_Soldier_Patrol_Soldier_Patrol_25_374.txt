@@ -1,0 +1,5 @@
+25--Soldier_Patrol/25_Soldier_Patrol_Soldier_Patrol_25_374.jpg
+3
+227 282 47 60 0.999722 
+51 289 49 62 0.999686 
+488 72 51 67 0.999606 

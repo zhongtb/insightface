@@ -1,0 +1,5 @@
+13--Interview/13_Interview_Interview_Sequences_13_541.jpg
+3
+484 250 22 30 0.998906 
+496 168 18 20 0.678688 
+182 95 32 39 0.527028 

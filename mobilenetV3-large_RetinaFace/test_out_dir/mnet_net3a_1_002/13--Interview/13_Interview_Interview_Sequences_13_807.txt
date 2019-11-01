@@ -1,0 +1,4 @@
+13--Interview/13_Interview_Interview_Sequences_13_807.jpg
+2
+404 104 185 262 0.999408 
+231 160 15 18 0.0214871 

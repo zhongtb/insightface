@@ -1,0 +1,5 @@
+35--Basketball/35_Basketball_basketballgame_ball_35_341.jpg
+3
+500 90 118 67 0.999175 
+662 22 124 71 0.995716 
+250 111 102 72 0.9946 

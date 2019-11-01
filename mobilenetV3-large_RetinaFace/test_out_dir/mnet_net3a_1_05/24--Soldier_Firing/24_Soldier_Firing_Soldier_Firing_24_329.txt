@@ -1,0 +1,4 @@
+24--Soldier_Firing/24_Soldier_Firing_Soldier_Firing_24_329.jpg
+2
+867 189 155 199 0.900043 
+605 340 119 152 0.743255 

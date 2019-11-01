@@ -1,0 +1,5 @@
+25--Soldier_Patrol/25_Soldier_Patrol_Soldier_Patrol_25_437.jpg
+3
+701 280 31 50 0.998935 
+260 121 29 50 0.789855 
+369 379 26 42 0.657689 

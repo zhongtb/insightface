@@ -1,0 +1,4 @@
+36--Football/36_Football_americanfootball_ball_36_373.jpg
+2
+400 100 69 84 0.988928 
+639 64 67 86 0.983949 

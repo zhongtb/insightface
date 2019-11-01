@@ -1,0 +1,4 @@
+35--Basketball/35_Basketball_playingbasketball_35_276.jpg
+2
+511 212 109 72 0.999896 
+440 64 60 84 0.999559 

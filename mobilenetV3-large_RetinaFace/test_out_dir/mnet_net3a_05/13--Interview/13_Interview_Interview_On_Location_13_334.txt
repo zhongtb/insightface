@@ -1,0 +1,5 @@
+13--Interview/13_Interview_Interview_On_Location_13_334.jpg
+3
+510 133 81 55 0.999249 
+741 131 83 57 0.998763 
+202 129 92 62 0.998186 

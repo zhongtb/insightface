@@ -1,0 +1,4 @@
+8--Election_Campain/8_Election_Campain_Election_Campaign_8_69.jpg
+2
+114 120 157 220 0.999157 
+859 669 24 31 0.059671 

@@ -1,0 +1,6 @@
+8--Election_Campain/8_Election_Campain_Election_Campaign_8_113.jpg
+4
+696 32 51 56 0.997733 
+234 144 54 68 0.994321 
+816 277 48 51 0.993472 
+356 86 76 85 0.98233 

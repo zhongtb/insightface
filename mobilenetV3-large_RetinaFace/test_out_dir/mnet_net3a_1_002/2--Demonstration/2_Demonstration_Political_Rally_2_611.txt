@@ -1,0 +1,5 @@
+2--Demonstration/2_Demonstration_Political_Rally_2_611.jpg
+3
+177 170 148 191 0.992979 
+36 552 23 28 0.0252354 
+0 955 71 67 0.0238227 

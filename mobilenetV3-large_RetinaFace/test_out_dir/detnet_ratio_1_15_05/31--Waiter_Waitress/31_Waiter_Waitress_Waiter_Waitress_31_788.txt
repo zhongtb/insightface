@@ -1,0 +1,5 @@
+31--Waiter_Waitress/31_Waiter_Waitress_Waiter_Waitress_31_788.jpg
+3
+459 0 56 62 0.995532 
+703 189 71 127 0.864888 
+163 184 46 75 0.680435 

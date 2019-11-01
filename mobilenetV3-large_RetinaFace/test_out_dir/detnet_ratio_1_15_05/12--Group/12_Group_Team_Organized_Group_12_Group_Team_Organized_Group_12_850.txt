@@ -1,0 +1,6 @@
+12--Group/12_Group_Team_Organized_Group_12_Group_Team_Organized_Group_12_850.jpg
+4
+476 162 121 159 0.998537 
+288 216 119 161 0.997844 
+671 266 32 45 0.991109 
+926 276 12 15 0.914494 

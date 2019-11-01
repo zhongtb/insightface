@@ -1,0 +1,6 @@
+9--Press_Conference/9_Press_Conference_Press_Conference_9_89.jpg
+4
+404 173 78 111 0.999349 
+665 211 69 97 0.999238 
+788 222 51 63 0.964944 
+139 126 65 113 0.872069 

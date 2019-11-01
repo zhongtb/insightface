@@ -1,0 +1,5 @@
+13--Interview/13_Interview_Interview_Sequences_13_5.jpg
+3
+352 36 68 113 0.992769 
+80 292 25 47 0.879339 
+84 299 20 33 0.507636 

@@ -1,0 +1,5 @@
+2--Demonstration/2_Demonstration_Demonstration_Or_Protest_2_364.jpg
+3
+472 298 125 166 0.999451 
+673 350 119 176 0.99746 
+216 331 115 176 0.99651 

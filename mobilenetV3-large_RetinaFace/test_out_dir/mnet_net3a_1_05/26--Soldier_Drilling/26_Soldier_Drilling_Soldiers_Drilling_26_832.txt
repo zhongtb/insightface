@@ -1,0 +1,6 @@
+26--Soldier_Drilling/26_Soldier_Drilling_Soldiers_Drilling_26_832.jpg
+4
+435 215 59 76 0.99711 
+785 219 66 84 0.995258 
+553 264 46 60 0.975451 
+756 589 28 32 0.551167 

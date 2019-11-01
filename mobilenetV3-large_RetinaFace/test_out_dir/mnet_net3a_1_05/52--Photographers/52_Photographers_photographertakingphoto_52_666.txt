@@ -1,0 +1,4 @@
+52--Photographers/52_Photographers_photographertakingphoto_52_666.jpg
+2
+238 240 341 460 0.999727 
+483 258 376 467 0.996773 

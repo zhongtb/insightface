@@ -1,0 +1,4 @@
+1--Handshaking/1_Handshaking_Handshaking_1_356.jpg
+2
+125 595 131 165 0.996769 
+659 199 142 188 0.94524 

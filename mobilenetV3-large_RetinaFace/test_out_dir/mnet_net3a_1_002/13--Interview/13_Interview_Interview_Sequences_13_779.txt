@@ -1,0 +1,4 @@
+13--Interview/13_Interview_Interview_Sequences_13_779.jpg
+2
+356 163 340 463 0.971813 
+470 139 399 538 0.0503775 

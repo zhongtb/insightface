@@ -1,0 +1,5 @@
+31--Waiter_Waitress/31_Waiter_Waitress_Waiter_Waitress_31_685.jpg
+3
+826 57 79 113 0.999104 
+528 66 78 108 0.998582 
+149 45 78 108 0.998569 

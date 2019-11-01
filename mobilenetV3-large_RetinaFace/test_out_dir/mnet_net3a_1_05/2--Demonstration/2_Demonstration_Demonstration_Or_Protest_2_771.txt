@@ -1,0 +1,6 @@
+2--Demonstration/2_Demonstration_Demonstration_Or_Protest_2_771.jpg
+4
+469 131 98 132 0.996006 
+671 472 26 32 0.990879 
+798 496 24 29 0.94516 
+134 455 21 25 0.918093 

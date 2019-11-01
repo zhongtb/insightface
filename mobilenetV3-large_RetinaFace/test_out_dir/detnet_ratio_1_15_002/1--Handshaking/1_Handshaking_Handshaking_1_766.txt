@@ -1,0 +1,4 @@
+1--Handshaking/1_Handshaking_Handshaking_1_766.jpg
+2
+294 689 168 286 0.0481897 
+405 151 216 302 0.0292652 

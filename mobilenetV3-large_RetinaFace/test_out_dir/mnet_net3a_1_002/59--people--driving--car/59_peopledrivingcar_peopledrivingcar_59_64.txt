@@ -1,0 +1,5 @@
+59--people--driving--car/59_peopledrivingcar_peopledrivingcar_59_64.jpg
+3
+531 147 154 194 0.997997 
+593 138 181 230 0.0263543 
+241 306 104 121 0.021199 

@@ -1,0 +1,4 @@
+1--Handshaking/1_Handshaking_Handshaking_1_134.jpg
+2
+698 55 97 159 0.996715 
+290 67 95 133 0.995091 

@@ -1,0 +1,4 @@
+26--Soldier_Drilling/26_Soldier_Drilling_Soldiers_Drilling_26_336.jpg
+2
+635 180 41 37 0.988405 
+83 192 41 41 0.986746 

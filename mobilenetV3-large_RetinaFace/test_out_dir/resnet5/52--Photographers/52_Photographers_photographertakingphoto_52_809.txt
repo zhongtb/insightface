@@ -1,0 +1,5 @@
+52--Photographers/52_Photographers_photographertakingphoto_52_809.jpg
+3
+648 343 301 326 0.999415 
+21 130 330 455 0.999137 
+372 199 306 302 0.998957 

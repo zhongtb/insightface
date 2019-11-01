@@ -1,0 +1,6 @@
+29--Students_Schoolkids/29_Students_Schoolkids_Students_Schoolkids_29_132.jpg
+4
+484 92 130 174 0.992799 
+734 160 132 180 0.985744 
+73 14 133 192 0.643412 
+416 501 109 154 0.540395 

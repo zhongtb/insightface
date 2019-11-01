@@ -1,0 +1,5 @@
+24--Soldier_Firing/24_Soldier_Firing_Soldier_Firing_24_633.jpg
+3
+873 393 45 62 0.999479 
+0 271 28 47 0.999059 
+772 403 39 37 0.9927 

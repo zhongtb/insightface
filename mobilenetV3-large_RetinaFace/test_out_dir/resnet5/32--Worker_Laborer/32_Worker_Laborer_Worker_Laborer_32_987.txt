@@ -1,0 +1,5 @@
+32--Worker_Laborer/32_Worker_Laborer_Worker_Laborer_32_987.jpg
+3
+608 60 56 77 0.999711 
+267 222 58 65 0.999695 
+760 59 56 70 0.996877 

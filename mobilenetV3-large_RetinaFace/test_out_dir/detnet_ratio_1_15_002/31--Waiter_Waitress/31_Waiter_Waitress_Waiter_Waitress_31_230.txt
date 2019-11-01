@@ -1,0 +1,4 @@
+31--Waiter_Waitress/31_Waiter_Waitress_Waiter_Waitress_31_230.jpg
+2
+392 195 108 132 0.997621 
+305 508 71 104 0.0422438 

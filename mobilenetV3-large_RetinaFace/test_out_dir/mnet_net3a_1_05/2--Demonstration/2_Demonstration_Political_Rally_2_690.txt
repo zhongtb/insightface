@@ -1,0 +1,5 @@
+2--Demonstration/2_Demonstration_Political_Rally_2_690.jpg
+3
+819 405 61 81 0.998764 
+513 385 103 149 0.896994 
+644 391 26 43 0.801654 

@@ -1,0 +1,5 @@
+8--Election_Campain/8_Election_Campain_Election_Campaign_8_266.jpg
+3
+276 101 139 206 0.996078 
+623 210 131 180 0.977543 
+631 170 184 255 0.0643489 

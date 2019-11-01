@@ -1,0 +1,4 @@
+1--Handshaking/1_Handshaking_Handshaking_1_107.jpg
+2
+386 179 187 247 0.99833 
+771 611 31 35 0.0221938 

@@ -1,0 +1,4 @@
+59--people--driving--car/59_peopledrivingcar_peopledrivingcar_59_201.jpg
+2
+816 128 180 275 0.999109 
+640 180 142 201 0.998862 

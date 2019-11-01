@@ -1,0 +1,5 @@
+25--Soldier_Patrol/25_Soldier_Patrol_Soldier_Patrol_25_1026.jpg
+3
+203 185 49 45 0.99498 
+577 193 22 24 0.888288 
+636 109 11 12 0.702237 

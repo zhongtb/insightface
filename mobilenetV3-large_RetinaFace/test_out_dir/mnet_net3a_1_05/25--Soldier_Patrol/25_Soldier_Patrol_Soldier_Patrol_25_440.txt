@@ -1,0 +1,4 @@
+25--Soldier_Patrol/25_Soldier_Patrol_Soldier_Patrol_25_440.jpg
+2
+557 67 62 73 0.993923 
+39 185 53 65 0.887618 

@@ -1,0 +1,5 @@
+25--Soldier_Patrol/25_Soldier_Patrol_Soldier_Patrol_25_343.jpg
+3
+675 535 42 59 0.997539 
+302 599 39 45 0.969198 
+888 825 39 38 0.499089 

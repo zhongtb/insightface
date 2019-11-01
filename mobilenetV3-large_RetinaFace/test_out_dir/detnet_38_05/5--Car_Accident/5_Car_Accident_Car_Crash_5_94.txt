@@ -1,0 +1,4 @@
+5--Car_Accident/5_Car_Accident_Car_Crash_5_94.jpg
+2
+245 280 31 30 0.617263 
+517 233 12 11 0.506004 

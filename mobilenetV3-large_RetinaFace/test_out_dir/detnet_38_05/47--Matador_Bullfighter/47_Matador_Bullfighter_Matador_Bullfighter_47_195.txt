@@ -1,0 +1,7 @@
+47--Matador_Bullfighter/47_Matador_Bullfighter_Matador_Bullfighter_47_195.jpg
+5
+897 167 66 65 0.998501 
+758 64 61 58 0.998075 
+568 80 55 60 0.997282 
+698 73 56 61 0.992959 
+283 0 54 46 0.981192 

@@ -1,0 +1,6 @@
+29--Students_Schoolkids/29_Students_Schoolkids_Students_Schoolkids_29_761.jpg
+4
+651 76 114 144 0.990756 
+645 0 94 109 0.0449762 
+653 17 46 59 0.0367701 
+656 21 23 33 0.0132389 

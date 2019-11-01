@@ -1,0 +1,5 @@
+9--Press_Conference/9_Press_Conference_Press_Conference_9_828.jpg
+3
+235 254 590 797 0.997567 
+192 1091 423 438 0.51642 
+0 751 627 779 0.0221375 

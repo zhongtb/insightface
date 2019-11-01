@@ -1,0 +1,4 @@
+9--Press_Conference/9_Press_Conference_Press_Conference_9_930.jpg
+2
+289 167 302 430 0.834535 
+624 1286 293 254 0.057843 

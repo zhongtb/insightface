@@ -1,0 +1,6 @@
+26--Soldier_Drilling/26_Soldier_Drilling_Soldiers_Drilling_26_236.jpg
+4
+600 78 114 55 0.998812 
+475 92 46 35 0.980697 
+702 61 80 61 0.978661 
+456 149 77 54 0.576331 

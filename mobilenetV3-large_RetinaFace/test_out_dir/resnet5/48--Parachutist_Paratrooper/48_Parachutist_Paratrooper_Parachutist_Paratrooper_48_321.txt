@@ -1,0 +1,5 @@
+48--Parachutist_Paratrooper/48_Parachutist_Paratrooper_Parachutist_Paratrooper_48_321.jpg
+3
+123 21 38 50 0.999737 
+895 25 34 51 0.999572 
+350 27 30 50 0.998235 

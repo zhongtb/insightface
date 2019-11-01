@@ -1,0 +1,4 @@
+15--Stock_Market/15_Stock_Market_Stock_Market_15_301.jpg
+2
+188 87 99 154 0.97701 
+123 76 80 108 0.839453 

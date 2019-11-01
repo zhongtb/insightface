@@ -1,0 +1,4 @@
+1--Handshaking/1_Handshaking_Handshaking_1_209.jpg
+2
+617 53 93 157 0.994245 
+188 143 101 137 0.991957 

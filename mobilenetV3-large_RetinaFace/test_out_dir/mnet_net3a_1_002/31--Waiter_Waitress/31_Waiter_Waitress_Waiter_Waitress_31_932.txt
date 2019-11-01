@@ -1,0 +1,5 @@
+31--Waiter_Waitress/31_Waiter_Waitress_Waiter_Waitress_31_932.jpg
+3
+471 308 101 128 0.99842 
+924 513 23 30 0.0279712 
+907 610 24 31 0.0232837 

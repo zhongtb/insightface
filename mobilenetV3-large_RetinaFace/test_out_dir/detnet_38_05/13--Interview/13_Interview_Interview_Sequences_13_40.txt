@@ -1,0 +1,4 @@
+13--Interview/13_Interview_Interview_Sequences_13_40.jpg
+2
+300 151 60 102 0.995191 
+453 162 62 130 0.989583 

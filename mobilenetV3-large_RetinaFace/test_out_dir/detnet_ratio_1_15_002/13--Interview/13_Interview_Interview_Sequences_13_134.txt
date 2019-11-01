@@ -1,0 +1,4 @@
+13--Interview/13_Interview_Interview_Sequences_13_134.jpg
+2
+786 188 17 20 0.575222 
+388 0 75 72 0.0775763 

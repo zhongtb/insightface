@@ -1,0 +1,5 @@
+16--Award_Ceremony/16_Award_Ceremony_Awards_Ceremony_16_311.jpg
+3
+393 122 190 258 0.993054 
+292 938 32 39 0.0844286 
+286 932 33 38 0.038326 

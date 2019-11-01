@@ -1,0 +1,4 @@
+35--Basketball/35_Basketball_basketballgame_ball_35_478.jpg
+2
+125 411 74 98 0.994451 
+721 319 10 12 0.771467 

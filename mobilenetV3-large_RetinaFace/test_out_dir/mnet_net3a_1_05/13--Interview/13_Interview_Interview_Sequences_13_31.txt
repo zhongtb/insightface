@@ -1,0 +1,4 @@
+13--Interview/13_Interview_Interview_Sequences_13_31.jpg
+2
+194 151 138 170 0.996321 
+660 258 142 190 0.993672 

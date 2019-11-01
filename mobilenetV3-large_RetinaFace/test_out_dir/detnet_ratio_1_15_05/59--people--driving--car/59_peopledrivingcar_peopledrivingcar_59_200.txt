@@ -1,0 +1,4 @@
+59--people--driving--car/59_peopledrivingcar_peopledrivingcar_59_200.jpg
+2
+423 62 83 108 0.997404 
+143 258 85 108 0.996903 

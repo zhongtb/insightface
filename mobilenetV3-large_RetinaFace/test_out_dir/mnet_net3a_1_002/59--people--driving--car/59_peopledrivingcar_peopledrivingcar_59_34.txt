@@ -1,0 +1,5 @@
+59--people--driving--car/59_peopledrivingcar_peopledrivingcar_59_34.jpg
+3
+235 42 224 300 0.998911 
+223 427 10 13 0.0225891 
+240 397 26 33 0.0220244 

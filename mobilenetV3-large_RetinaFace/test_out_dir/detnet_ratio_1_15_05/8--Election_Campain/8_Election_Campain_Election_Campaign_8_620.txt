@@ -1,0 +1,4 @@
+8--Election_Campain/8_Election_Campain_Election_Campaign_8_620.jpg
+2
+658 171 166 237 0.772153 
+257 170 164 238 0.611254 

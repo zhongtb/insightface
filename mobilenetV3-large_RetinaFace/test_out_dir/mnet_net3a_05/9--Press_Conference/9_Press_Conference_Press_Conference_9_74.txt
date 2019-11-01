@@ -1,0 +1,5 @@
+9--Press_Conference/9_Press_Conference_Press_Conference_9_74.jpg
+3
+140 209 74 66 0.999474 
+859 205 74 71 0.998183 
+459 200 82 83 0.976217 

@@ -1,0 +1,6 @@
+50--Celebration_Or_Party/50_Celebration_Or_Party_houseparty_50_752.jpg
+4
+426 48 105 145 0.998338 
+708 195 99 107 0.951325 
+688 0 126 132 0.676173 
+568 0 53 52 0.661923 

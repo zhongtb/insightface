@@ -1,0 +1,5 @@
+16--Award_Ceremony/16_Award_Ceremony_Awards_Ceremony_16_309.jpg
+3
+274 204 269 360 0.999727 
+888 455 152 218 0.998396 
+699 322 127 189 0.996523 

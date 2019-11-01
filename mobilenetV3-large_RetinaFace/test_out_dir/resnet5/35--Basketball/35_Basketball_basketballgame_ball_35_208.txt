@@ -1,0 +1,5 @@
+35--Basketball/35_Basketball_basketballgame_ball_35_208.jpg
+3
+602 230 108 138 0.999795 
+610 0 105 95 0.999634 
+257 222 121 165 0.99961 

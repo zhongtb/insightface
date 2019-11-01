@@ -1,0 +1,5 @@
+9--Press_Conference/9_Press_Conference_Press_Conference_9_945.jpg
+3
+206 227 425 610 0.999209 
+0 0 489 1195 0.0309512 
+10 700 781 842 0.0235433 

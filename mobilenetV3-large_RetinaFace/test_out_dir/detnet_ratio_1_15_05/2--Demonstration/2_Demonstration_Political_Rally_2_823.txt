@@ -1,0 +1,5 @@
+2--Demonstration/2_Demonstration_Political_Rally_2_823.jpg
+3
+260 137 73 92 0.998718 
+571 356 52 69 0.997731 
+360 239 35 52 0.783466 

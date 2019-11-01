@@ -1,0 +1,4 @@
+35--Basketball/35_Basketball_basketballgame_ball_35_858.jpg
+2
+571 196 64 73 0.992539 
+772 415 91 71 0.981225 

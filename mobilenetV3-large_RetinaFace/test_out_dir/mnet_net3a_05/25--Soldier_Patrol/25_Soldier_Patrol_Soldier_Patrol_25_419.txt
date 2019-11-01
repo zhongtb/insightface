@@ -1,0 +1,4 @@
+25--Soldier_Patrol/25_Soldier_Patrol_Soldier_Patrol_25_419.jpg
+2
+469 99 85 105 0.991319 
+691 491 49 57 0.674355 

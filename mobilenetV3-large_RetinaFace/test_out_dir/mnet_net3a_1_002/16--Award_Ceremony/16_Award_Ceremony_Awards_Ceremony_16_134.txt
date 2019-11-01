@@ -1,0 +1,5 @@
+16--Award_Ceremony/16_Award_Ceremony_Awards_Ceremony_16_134.jpg
+3
+410 210 168 211 0.999377 
+402 487 130 206 0.128979 
+0 0 120 159 0.0306125 

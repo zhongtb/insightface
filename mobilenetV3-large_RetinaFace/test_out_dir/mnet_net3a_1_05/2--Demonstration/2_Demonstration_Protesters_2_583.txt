@@ -1,0 +1,4 @@
+2--Demonstration/2_Demonstration_Protesters_2_583.jpg
+2
+812 233 54 79 0.993955 
+785 257 62 72 0.580361 

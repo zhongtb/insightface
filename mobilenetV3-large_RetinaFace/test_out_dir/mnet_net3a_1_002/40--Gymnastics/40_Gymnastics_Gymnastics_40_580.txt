@@ -1,0 +1,4 @@
+40--Gymnastics/40_Gymnastics_Gymnastics_40_580.jpg
+2
+152 257 119 125 0.223747 
+516 114 137 191 0.0530855 

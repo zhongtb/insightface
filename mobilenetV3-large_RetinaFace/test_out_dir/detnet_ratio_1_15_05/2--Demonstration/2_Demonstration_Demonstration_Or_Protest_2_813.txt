@@ -1,0 +1,6 @@
+2--Demonstration/2_Demonstration_Demonstration_Or_Protest_2_813.jpg
+4
+835 375 19 24 0.907516 
+539 357 20 26 0.83517 
+253 330 22 32 0.685694 
+495 369 23 28 0.563014 

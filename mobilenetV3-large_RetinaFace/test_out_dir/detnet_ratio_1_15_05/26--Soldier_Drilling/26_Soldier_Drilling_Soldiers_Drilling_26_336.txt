@@ -1,0 +1,4 @@
+26--Soldier_Drilling/26_Soldier_Drilling_Soldiers_Drilling_26_336.jpg
+2
+84 228 38 48 0.985107 
+637 215 39 43 0.980444 

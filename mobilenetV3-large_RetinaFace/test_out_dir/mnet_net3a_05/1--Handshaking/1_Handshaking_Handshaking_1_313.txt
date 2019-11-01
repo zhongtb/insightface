@@ -1,0 +1,4 @@
+1--Handshaking/1_Handshaking_Handshaking_1_313.jpg
+2
+252 30 94 125 0.991571 
+632 94 80 100 0.978099 

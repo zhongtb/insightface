@@ -1,0 +1,4 @@
+5--Car_Accident/5_Car_Accident_Car_Crash_5_457.jpg
+2
+248 89 124 193 0.879865 
+72 128 93 190 0.743688 

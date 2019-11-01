@@ -1,0 +1,5 @@
+2--Demonstration/2_Demonstration_Political_Rally_2_90.jpg
+3
+537 268 55 80 0.996006 
+786 381 22 27 0.92817 
+921 378 12 15 0.69669 

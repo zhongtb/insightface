@@ -1,0 +1,4 @@
+49--Greeting/49_Greeting_peoplegreeting_49_564.jpg
+2
+320 41 206 306 0.99972 
+685 426 137 164 0.995105 

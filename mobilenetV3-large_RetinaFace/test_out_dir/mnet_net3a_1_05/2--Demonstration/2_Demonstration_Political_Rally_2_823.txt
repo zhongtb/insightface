@@ -1,0 +1,5 @@
+2--Demonstration/2_Demonstration_Political_Rally_2_823.jpg
+3
+572 358 49 63 0.999 
+261 139 70 91 0.975033 
+357 247 34 45 0.529416 

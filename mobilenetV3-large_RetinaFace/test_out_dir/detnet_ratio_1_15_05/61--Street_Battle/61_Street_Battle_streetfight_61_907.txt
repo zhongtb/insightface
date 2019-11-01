@@ -1,0 +1,4 @@
+61--Street_Battle/61_Street_Battle_streetfight_61_907.jpg
+2
+524 170 150 198 0.998057 
+252 304 142 188 0.998019 

@@ -1,0 +1,4 @@
+35--Basketball/35_Basketball_Basketball_35_185.jpg
+2
+460 638 43 55 0.75437 
+295 433 54 63 0.540181 

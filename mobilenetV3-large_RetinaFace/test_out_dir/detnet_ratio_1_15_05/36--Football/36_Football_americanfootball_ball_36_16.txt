@@ -1,0 +1,4 @@
+36--Football/36_Football_americanfootball_ball_36_16.jpg
+2
+556 94 118 149 0.997081 
+289 273 113 148 0.917241 

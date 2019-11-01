@@ -1,0 +1,5 @@
+52--Photographers/52_Photographers_taketouristphotos_52_97.jpg
+3
+259 215 164 157 0.987936 
+823 514 52 52 0.987909 
+313 223 105 107 0.885779 

@@ -1,0 +1,5 @@
+59--people--driving--car/59_peopledrivingcar_peopledrivingcar_59_244.jpg
+3
+371 55 251 121 0.987972 
+333 356 54 24 0.714772 
+647 363 56 24 0.503842 

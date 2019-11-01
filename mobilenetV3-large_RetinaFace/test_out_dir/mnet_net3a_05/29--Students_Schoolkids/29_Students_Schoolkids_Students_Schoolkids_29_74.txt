@@ -1,0 +1,5 @@
+29--Students_Schoolkids/29_Students_Schoolkids_Students_Schoolkids_29_74.jpg
+3
+590 178 210 200 0.999576 
+291 209 170 144 0.992257 
+915 65 29 31 0.837043 

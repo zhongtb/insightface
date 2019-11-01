@@ -1,0 +1,4 @@
+1--Handshaking/1_Handshaking_Handshaking_1_209.jpg
+2
+187 118 100 117 0.998623 
+620 47 89 128 0.99195 

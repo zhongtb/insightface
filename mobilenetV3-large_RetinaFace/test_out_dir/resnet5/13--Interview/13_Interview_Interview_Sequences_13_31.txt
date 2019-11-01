@@ -1,0 +1,4 @@
+13--Interview/13_Interview_Interview_Sequences_13_31.jpg
+2
+195 143 139 173 0.999894 
+662 252 141 191 0.99968 

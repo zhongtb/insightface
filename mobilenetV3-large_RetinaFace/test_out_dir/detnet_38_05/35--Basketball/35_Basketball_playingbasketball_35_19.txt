@@ -1,0 +1,4 @@
+35--Basketball/35_Basketball_playingbasketball_35_19.jpg
+2
+118 235 26 31 0.986819 
+521 190 33 28 0.645716 

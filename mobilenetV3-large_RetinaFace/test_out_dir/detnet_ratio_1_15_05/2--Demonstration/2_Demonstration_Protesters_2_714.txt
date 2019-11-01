@@ -1,0 +1,5 @@
+2--Demonstration/2_Demonstration_Protesters_2_714.jpg
+3
+189 412 61 79 0.992399 
+395 473 59 75 0.98853 
+623 384 62 77 0.76897 

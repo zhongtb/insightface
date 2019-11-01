@@ -1,0 +1,6 @@
+8--Election_Campain/8_Election_Campain_Election_Campaign_8_113.jpg
+4
+697 34 48 51 0.999072 
+817 281 47 47 0.999035 
+236 146 54 66 0.998812 
+359 85 74 87 0.924866 

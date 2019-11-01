@@ -1,0 +1,5 @@
+25--Soldier_Patrol/25_Soldier_Patrol_Soldier_Patrol_25_1045.jpg
+3
+66 55 266 362 0.998456 
+659 62 284 386 0.995993 
+709 0 359 516 0.528612 

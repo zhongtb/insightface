@@ -1,0 +1,5 @@
+52--Photographers/52_Photographers_photographertakingphoto_52_695.jpg
+3
+593 140 169 214 0.999859 
+178 169 54 87 0.999521 
+973 181 25 40 0.440399 

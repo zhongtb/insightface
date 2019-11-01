@@ -1,0 +1,6 @@
+48--Parachutist_Paratrooper/48_Parachutist_Paratrooper_Parachutist_Paratrooper_48_656.jpg
+4
+48 363 149 200 0.973332 
+618 359 25 39 0.864371 
+559 196 36 34 0.683017 
+75 22 111 162 0.669988 

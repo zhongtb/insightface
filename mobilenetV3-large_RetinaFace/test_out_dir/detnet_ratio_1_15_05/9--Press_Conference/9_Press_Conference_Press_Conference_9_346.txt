@@ -1,0 +1,6 @@
+9--Press_Conference/9_Press_Conference_Press_Conference_9_346.jpg
+4
+416 669 52 60 0.995822 
+79 639 54 64 0.98729 
+265 661 52 62 0.980889 
+609 709 44 56 0.776376 

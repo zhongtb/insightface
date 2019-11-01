@@ -1,0 +1,5 @@
+25--Soldier_Patrol/25_Soldier_Patrol_Soldier_Patrol_25_18.jpg
+3
+227 35 53 52 0.996826 
+830 346 12 12 0.677797 
+750 330 20 21 0.546656 

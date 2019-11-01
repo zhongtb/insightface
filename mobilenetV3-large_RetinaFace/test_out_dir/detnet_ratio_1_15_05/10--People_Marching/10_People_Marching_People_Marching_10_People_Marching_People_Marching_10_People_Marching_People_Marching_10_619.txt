@@ -1,0 +1,4 @@
+10--People_Marching/10_People_Marching_People_Marching_10_People_Marching_People_Marching_10_People_Marching_People_Marching_10_619.jpg
+2
+430 460 13 17 0.732058 
+48 483 15 18 0.541085 

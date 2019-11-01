@@ -1,0 +1,5 @@
+25--Soldier_Patrol/25_Soldier_Patrol_Soldier_Patrol_25_469.jpg
+3
+267 102 71 93 0.999913 
+913 168 65 77 0.999764 
+607 182 55 70 0.998873 

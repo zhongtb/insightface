@@ -1,0 +1,5 @@
+32--Worker_Laborer/32_Worker_Laborer_Worker_Laborer_32_135.jpg
+3
+304 83 327 450 0.999341 
+204 0 69 63 0.299916 
+166 0 105 95 0.0313339 

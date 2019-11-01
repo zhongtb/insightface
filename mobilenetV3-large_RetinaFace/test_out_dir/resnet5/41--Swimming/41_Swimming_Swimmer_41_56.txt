@@ -1,0 +1,3 @@
+41--Swimming/41_Swimming_Swimmer_41_56.jpg
+1
+113 153 81 60 0.981082 

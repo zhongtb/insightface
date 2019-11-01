@@ -1,0 +1,4 @@
+59--people--driving--car/59_peopledrivingcar_peopledrivingcar_59_1019.jpg
+2
+92 343 18 14 0.985226 
+960 321 28 22 0.567393 

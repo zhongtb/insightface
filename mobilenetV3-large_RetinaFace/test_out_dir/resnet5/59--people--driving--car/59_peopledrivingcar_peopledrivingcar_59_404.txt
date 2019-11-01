@@ -1,0 +1,6 @@
+59--people--driving--car/59_peopledrivingcar_peopledrivingcar_59_404.jpg
+4
+865 185 48 60 0.99988 
+793 114 17 19 0.514339 
+697 84 15 17 0.498543 
+740 82 14 17 0.485161 

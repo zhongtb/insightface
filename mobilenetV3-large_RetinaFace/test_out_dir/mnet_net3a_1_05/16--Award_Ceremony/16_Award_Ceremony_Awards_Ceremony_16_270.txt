@@ -1,0 +1,5 @@
+16--Award_Ceremony/16_Award_Ceremony_Awards_Ceremony_16_270.jpg
+3
+208 892 84 116 0.992908 
+441 143 247 368 0.992453 
+728 0 278 274 0.568273 

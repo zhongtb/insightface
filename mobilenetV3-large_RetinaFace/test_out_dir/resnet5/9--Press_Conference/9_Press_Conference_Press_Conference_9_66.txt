@@ -1,0 +1,5 @@
+9--Press_Conference/9_Press_Conference_Press_Conference_9_66.jpg
+3
+216 175 74 82 0.999861 
+886 270 72 82 0.999629 
+449 283 56 79 0.999518 

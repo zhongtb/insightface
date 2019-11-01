@@ -1,0 +1,4 @@
+59--people--driving--car/59_peopledrivingcar_peopledrivingcar_59_763.jpg
+2
+444 172 48 51 0.993984 
+749 334 67 81 0.993223 

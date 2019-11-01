@@ -1,0 +1,7 @@
+29--Students_Schoolkids/29_Students_Schoolkids_Students_Schoolkids_29_902.jpg
+5
+432 85 111 108 0.999145 
+712 230 64 65 0.990096 
+968 279 46 43 0.980771 
+280 211 51 56 0.969114 
+885 263 48 47 0.870079 

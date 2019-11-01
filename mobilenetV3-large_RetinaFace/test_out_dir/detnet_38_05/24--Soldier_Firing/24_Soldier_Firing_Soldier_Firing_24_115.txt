@@ -1,0 +1,4 @@
+24--Soldier_Firing/24_Soldier_Firing_Soldier_Firing_24_115.jpg
+2
+266 62 90 96 0.975719 
+233 40 113 121 0.744875 

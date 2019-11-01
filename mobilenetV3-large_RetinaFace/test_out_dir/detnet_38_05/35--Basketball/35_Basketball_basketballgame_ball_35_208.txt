@@ -1,0 +1,5 @@
+35--Basketball/35_Basketball_basketballgame_ball_35_208.jpg
+3
+248 236 99 141 0.999351 
+569 0 92 93 0.999266 
+562 227 95 133 0.998164 

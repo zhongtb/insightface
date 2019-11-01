@@ -1,0 +1,5 @@
+2--Demonstration/2_Demonstration_Political_Rally_2_690.jpg
+3
+819 305 61 61 0.998764 
+513 290 103 112 0.896994 
+644 294 26 32 0.801654 

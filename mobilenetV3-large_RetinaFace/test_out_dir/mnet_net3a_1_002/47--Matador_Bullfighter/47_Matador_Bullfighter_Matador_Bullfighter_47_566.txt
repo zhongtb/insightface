@@ -1,0 +1,6 @@
+47--Matador_Bullfighter/47_Matador_Bullfighter_Matador_Bullfighter_47_566.jpg
+4
+692 270 63 73 0.999007 
+182 622 46 52 0.037917 
+712 465 25 31 0.0247161 
+253 236 46 62 0.0238463 

@@ -1,0 +1,5 @@
+31--Waiter_Waitress/31_Waiter_Waitress_Waiter_Waitress_31_111.jpg
+3
+195 126 143 195 0.993031 
+693 91 123 165 0.978915 
+0 379 572 643 0.0210518 

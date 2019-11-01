@@ -1,0 +1,6 @@
+47--Matador_Bullfighter/47_Matador_Bullfighter_matadorbullfighting_47_660.jpg
+4
+479 202 125 141 0.80577 
+366 591 221 341 0.0398387 
+401 700 38 57 0.0233743 
+354 0 793 563 0.0207434 

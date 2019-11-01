@@ -1,0 +1,5 @@
+16--Award_Ceremony/16_Award_Ceremony_Awards_Ceremony_16_270.jpg
+3
+208 333 84 43 0.992908 
+441 53 247 137 0.992453 
+728 0 278 102 0.568273 

@@ -1,0 +1,4 @@
+9--Press_Conference/9_Press_Conference_Press_Conference_9_41.jpg
+2
+153 192 74 94 0.999763 
+700 191 79 101 0.999673 

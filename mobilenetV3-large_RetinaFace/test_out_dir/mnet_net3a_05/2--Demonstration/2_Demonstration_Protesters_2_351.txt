@@ -1,0 +1,5 @@
+2--Demonstration/2_Demonstration_Protesters_2_351.jpg
+3
+224 93 33 34 0.96002 
+382 0 45 34 0.893177 
+104 15 57 48 0.765561 

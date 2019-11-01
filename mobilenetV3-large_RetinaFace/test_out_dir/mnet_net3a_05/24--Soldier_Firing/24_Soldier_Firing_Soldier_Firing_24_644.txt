@@ -1,0 +1,5 @@
+24--Soldier_Firing/24_Soldier_Firing_Soldier_Firing_24_644.jpg
+3
+544 172 33 23 0.693475 
+278 105 31 22 0.682125 
+207 91 29 25 0.543236 

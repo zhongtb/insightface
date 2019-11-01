@@ -1,0 +1,4 @@
+40--Gymnastics/40_Gymnastics_Gymnastics_40_57.jpg
+2
+524 180 171 237 0.9716 
+0 122 146 291 0.0426459 

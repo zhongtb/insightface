@@ -1,0 +1,5 @@
+26--Soldier_Drilling/26_Soldier_Drilling_Soldiers_Drilling_26_149.jpg
+3
+229 219 96 114 0.999829 
+760 245 94 109 0.999826 
+465 195 95 118 0.99981 

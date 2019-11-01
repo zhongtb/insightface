@@ -1,0 +1,4 @@
+13--Interview/13_Interview_Interview_2_People_Visible_13_204.jpg
+2
+453 146 143 197 0.999166 
+192 307 384 299 0.0495557 

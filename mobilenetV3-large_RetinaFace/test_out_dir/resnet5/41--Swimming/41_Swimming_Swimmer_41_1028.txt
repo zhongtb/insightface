@@ -1,0 +1,3 @@
+41--Swimming/41_Swimming_Swimmer_41_1028.jpg
+1
+357 127 247 311 0.998464 

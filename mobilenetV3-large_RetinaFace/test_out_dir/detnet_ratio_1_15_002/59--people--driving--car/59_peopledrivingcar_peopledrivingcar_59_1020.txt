@@ -1,0 +1,6 @@
+59--people--driving--car/59_peopledrivingcar_peopledrivingcar_59_1020.jpg
+4
+366 0 117 139 0.988328 
+496 169 126 209 0.977319 
+304 0 111 138 0.0241152 
+411 1 66 104 0.0230744 

@@ -1,0 +1,5 @@
+48--Parachutist_Paratrooper/48_Parachutist_Paratrooper_Parachutist_Paratrooper_48_892.jpg
+3
+665 186 119 160 0.998815 
+176 245 130 168 0.998609 
+471 119 124 169 0.998578 

@@ -1,0 +1,5 @@
+52--Photographers/52_Photographers_photographertakingphoto_52_416.jpg
+3
+507 63 186 249 0.999409 
+146 272 208 260 0.0866363 
+833 370 214 287 0.0395731 

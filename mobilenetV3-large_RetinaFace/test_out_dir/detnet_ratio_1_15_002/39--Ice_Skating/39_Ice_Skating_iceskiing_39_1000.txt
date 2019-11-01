@@ -1,0 +1,4 @@
+39--Ice_Skating/39_Ice_Skating_iceskiing_39_1000.jpg
+2
+364 72 25 30 0.214062 
+356 66 24 34 0.0109423 

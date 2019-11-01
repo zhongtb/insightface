@@ -1,0 +1,6 @@
+8--Election_Campain/8_Election_Campain_Election_Campaign_8_433.jpg
+4
+834 302 58 77 0.997642 
+169 285 61 76 0.996694 
+517 273 63 80 0.993423 
+641 231 64 84 0.989743 

@@ -1,0 +1,4 @@
+2--Demonstration/2_Demonstration_Demonstrators_2_595.jpg
+2
+661 64 79 72 0.991527 
+282 95 156 150 0.964604 

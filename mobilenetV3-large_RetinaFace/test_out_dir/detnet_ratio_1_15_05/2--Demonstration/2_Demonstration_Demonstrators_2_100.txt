@@ -1,0 +1,5 @@
+2--Demonstration/2_Demonstration_Demonstrators_2_100.jpg
+3
+412 154 249 330 0.998224 
+696 334 136 183 0.575547 
+442 647 133 182 0.50823 

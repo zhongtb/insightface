@@ -1,0 +1,6 @@
+2--Demonstration/2_Demonstration_Demonstration_Or_Protest_2_242.jpg
+4
+18 488 26 33 0.999187 
+271 509 30 37 0.997334 
+167 521 53 87 0.979602 
+803 337 51 86 0.933559 

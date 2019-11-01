@@ -1,0 +1,5 @@
+16--Award_Ceremony/16_Award_Ceremony_Awards_Ceremony_16_116.jpg
+3
+393 168 129 181 0.999719 
+550 124 122 172 0.999461 
+910 514 31 43 0.496211 

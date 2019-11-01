@@ -1,0 +1,4 @@
+2--Demonstration/2_Demonstration_Protesters_2_881.jpg
+2
+333 244 31 36 0.98792 
+42 251 26 25 0.984268 

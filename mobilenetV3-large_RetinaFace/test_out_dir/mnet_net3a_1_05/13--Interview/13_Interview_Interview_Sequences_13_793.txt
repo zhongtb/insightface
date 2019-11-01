@@ -1,0 +1,4 @@
+13--Interview/13_Interview_Interview_Sequences_13_793.jpg
+2
+50 242 33 47 0.979389 
+879 299 33 41 0.960489 

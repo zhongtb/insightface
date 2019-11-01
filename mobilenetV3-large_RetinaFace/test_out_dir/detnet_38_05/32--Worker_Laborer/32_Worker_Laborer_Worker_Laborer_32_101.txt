@@ -1,0 +1,5 @@
+32--Worker_Laborer/32_Worker_Laborer_Worker_Laborer_32_101.jpg
+3
+199 20 105 98 0.998828 
+570 88 102 105 0.997419 
+764 381 116 119 0.937646 

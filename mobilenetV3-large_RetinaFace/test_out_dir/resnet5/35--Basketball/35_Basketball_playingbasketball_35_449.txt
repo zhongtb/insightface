@@ -1,0 +1,4 @@
+35--Basketball/35_Basketball_playingbasketball_35_449.jpg
+2
+340 161 100 123 0.999701 
+719 267 64 110 0.998997 

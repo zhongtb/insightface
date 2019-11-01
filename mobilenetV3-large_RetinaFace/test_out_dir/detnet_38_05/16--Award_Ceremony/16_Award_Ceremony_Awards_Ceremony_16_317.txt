@@ -1,0 +1,5 @@
+16--Award_Ceremony/16_Award_Ceremony_Awards_Ceremony_16_317.jpg
+3
+215 90 39 43 0.992993 
+600 116 27 34 0.977695 
+841 101 30 34 0.919416 

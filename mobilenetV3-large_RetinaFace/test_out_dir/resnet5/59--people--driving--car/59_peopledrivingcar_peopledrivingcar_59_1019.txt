@@ -1,0 +1,6 @@
+59--people--driving--car/59_peopledrivingcar_peopledrivingcar_59_1019.jpg
+4
+961 515 28 34 0.931854 
+298 500 22 33 0.835319 
+92 548 19 25 0.49913 
+123 559 16 22 0.486142 

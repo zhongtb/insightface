@@ -1,0 +1,6 @@
+52--Photographers/52_Photographers_photographertakingphoto_52_315.jpg
+4
+474 164 59 76 0.999748 
+236 120 57 83 0.995369 
+163 162 98 130 0.991949 
+691 89 98 139 0.990269 

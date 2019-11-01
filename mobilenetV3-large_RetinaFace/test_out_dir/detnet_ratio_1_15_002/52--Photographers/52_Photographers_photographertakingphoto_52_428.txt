@@ -1,0 +1,6 @@
+52--Photographers/52_Photographers_photographertakingphoto_52_428.jpg
+4
+499 274 125 174 0.931362 
+625 245 92 147 0.181565 
+282 5 10 14 0.028157 
+562 260 118 174 0.0225481 

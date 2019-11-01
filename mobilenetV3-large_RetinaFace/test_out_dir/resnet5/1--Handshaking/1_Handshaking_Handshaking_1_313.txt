@@ -1,0 +1,4 @@
+1--Handshaking/1_Handshaking_Handshaking_1_313.jpg
+2
+633 114 76 115 0.999351 
+256 40 91 142 0.999168 

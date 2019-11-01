@@ -1,0 +1,5 @@
+8--Election_Campain/8_Election_Campain_Election_Campaign_8_173.jpg
+3
+233 45 205 280 0.999467 
+726 152 180 241 0.99632 
+938 103 213 362 0.0220945 

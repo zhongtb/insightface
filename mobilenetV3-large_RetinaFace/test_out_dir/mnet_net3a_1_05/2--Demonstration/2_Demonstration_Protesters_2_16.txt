@@ -1,0 +1,4 @@
+2--Demonstration/2_Demonstration_Protesters_2_16.jpg
+2
+628 592 80 99 0.972559 
+287 506 86 102 0.970524 

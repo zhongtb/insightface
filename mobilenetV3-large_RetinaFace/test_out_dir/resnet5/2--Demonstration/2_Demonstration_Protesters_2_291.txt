@@ -1,0 +1,4 @@
+2--Demonstration/2_Demonstration_Protesters_2_291.jpg
+2
+426 630 286 378 0.999795 
+0 910 169 256 0.991453 

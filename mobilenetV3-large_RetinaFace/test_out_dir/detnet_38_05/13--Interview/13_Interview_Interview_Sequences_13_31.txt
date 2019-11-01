@@ -1,0 +1,4 @@
+13--Interview/13_Interview_Interview_Sequences_13_31.jpg
+2
+670 225 125 144 0.997373 
+202 129 124 136 0.99701 

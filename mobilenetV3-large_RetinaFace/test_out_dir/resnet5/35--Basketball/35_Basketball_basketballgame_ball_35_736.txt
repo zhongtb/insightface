@@ -1,0 +1,5 @@
+35--Basketball/35_Basketball_basketballgame_ball_35_736.jpg
+3
+478 192 63 92 0.999854 
+383 148 74 115 0.999413 
+714 155 71 120 0.99893 

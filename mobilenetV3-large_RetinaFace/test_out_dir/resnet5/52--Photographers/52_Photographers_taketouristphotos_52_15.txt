@@ -1,0 +1,5 @@
+52--Photographers/52_Photographers_taketouristphotos_52_15.jpg
+3
+764 428 139 184 0.999924 
+228 320 142 190 0.999891 
+530 679 85 126 0.984665 

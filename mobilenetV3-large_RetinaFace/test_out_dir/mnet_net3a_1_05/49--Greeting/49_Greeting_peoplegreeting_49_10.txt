@@ -1,0 +1,4 @@
+49--Greeting/49_Greeting_peoplegreeting_49_10.jpg
+2
+722 99 95 146 0.992794 
+264 79 94 148 0.99211 

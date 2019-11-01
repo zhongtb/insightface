@@ -1,0 +1,6 @@
+47--Matador_Bullfighter/47_Matador_Bullfighter_matadorbullfighting_47_152.jpg
+4
+192 218 32 40 0.994426 
+778 277 26 41 0.992637 
+116 11 15 17 0.92913 
+312 8 15 18 0.918741 

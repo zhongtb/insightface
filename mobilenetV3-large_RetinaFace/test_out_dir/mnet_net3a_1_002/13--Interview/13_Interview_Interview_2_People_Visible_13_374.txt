@@ -1,0 +1,5 @@
+13--Interview/13_Interview_Interview_2_People_Visible_13_374.jpg
+3
+394 43 221 297 0.999697 
+98 412 121 94 0.0503233 
+0 0 225 358 0.0248988 

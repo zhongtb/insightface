@@ -1,0 +1,5 @@
+32--Worker_Laborer/32_Worker_Laborer_Worker_Laborer_32_101.jpg
+3
+200 23 101 95 0.989842 
+570 85 102 110 0.9883 
+768 389 119 101 0.952197 

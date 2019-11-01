@@ -1,0 +1,6 @@
+55--Sports_Coach_Trainer/55_Sports_Coach_Trainer_sportcoaching_55_130.jpg
+4
+486 972 248 313 0.988675 
+211 693 302 291 0.910021 
+543 498 313 377 0.755902 
+286 404 282 294 0.734553 

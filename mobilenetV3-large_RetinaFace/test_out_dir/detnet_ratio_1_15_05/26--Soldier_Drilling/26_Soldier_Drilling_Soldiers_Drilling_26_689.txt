@@ -1,0 +1,5 @@
+26--Soldier_Drilling/26_Soldier_Drilling_Soldiers_Drilling_26_689.jpg
+3
+330 140 85 135 0.994895 
+629 209 24 29 0.965766 
+244 107 74 98 0.879206 

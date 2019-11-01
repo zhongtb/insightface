@@ -1,0 +1,4 @@
+1--Handshaking/1_Handshaking_Handshaking_1_762.jpg
+2
+232 96 320 171 0.998956 
+622 172 175 107 0.97565 

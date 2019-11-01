@@ -1,0 +1,4 @@
+25--Soldier_Patrol/25_Soldier_Patrol_Soldier_Patrol_25_912.jpg
+2
+331 204 31 28 0.985279 
+289 245 32 28 0.585566 

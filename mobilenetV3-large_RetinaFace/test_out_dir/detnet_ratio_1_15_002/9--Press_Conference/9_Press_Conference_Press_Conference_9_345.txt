@@ -1,0 +1,5 @@
+9--Press_Conference/9_Press_Conference_Press_Conference_9_345.jpg
+3
+385 277 231 303 0.99756 
+218 432 127 180 0.974865 
+767 0 252 223 0.0206633 

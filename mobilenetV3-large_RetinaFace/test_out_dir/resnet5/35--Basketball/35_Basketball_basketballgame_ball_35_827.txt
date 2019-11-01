@@ -1,0 +1,4 @@
+35--Basketball/35_Basketball_basketballgame_ball_35_827.jpg
+2
+375 406 210 300 0.999591 
+715 913 243 376 0.999387 

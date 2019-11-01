@@ -1,0 +1,4 @@
+1--Handshaking/1_Handshaking_Handshaking_1_134.jpg
+2
+292 75 95 131 0.999785 
+697 57 94 159 0.99914 

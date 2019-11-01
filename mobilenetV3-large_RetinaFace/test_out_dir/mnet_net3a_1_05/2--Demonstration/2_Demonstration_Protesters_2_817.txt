@@ -1,0 +1,4 @@
+2--Demonstration/2_Demonstration_Protesters_2_817.jpg
+2
+290 562 30 39 0.955933 
+381 541 35 42 0.83235 

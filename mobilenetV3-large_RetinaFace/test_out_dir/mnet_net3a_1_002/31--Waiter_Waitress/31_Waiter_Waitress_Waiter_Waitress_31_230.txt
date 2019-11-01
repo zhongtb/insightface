@@ -1,0 +1,5 @@
+31--Waiter_Waitress/31_Waiter_Waitress_Waiter_Waitress_31_230.jpg
+3
+393 200 108 122 0.99835 
+577 488 20 24 0.0758583 
+674 488 21 25 0.0353194 

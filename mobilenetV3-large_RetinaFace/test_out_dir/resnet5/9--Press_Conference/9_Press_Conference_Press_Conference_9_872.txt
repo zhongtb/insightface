@@ -1,0 +1,5 @@
+9--Press_Conference/9_Press_Conference_Press_Conference_9_872.jpg
+3
+407 324 214 277 0.999626 
+62 479 43 58 0.758827 
+248 434 25 36 0.273381 

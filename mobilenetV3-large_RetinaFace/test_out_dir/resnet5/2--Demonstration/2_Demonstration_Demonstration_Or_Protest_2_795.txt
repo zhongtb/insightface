@@ -1,0 +1,5 @@
+2--Demonstration/2_Demonstration_Demonstration_Or_Protest_2_795.jpg
+3
+450 442 136 146 0.9998 
+619 147 12 14 0.436907 
+408 142 10 12 0.422426 

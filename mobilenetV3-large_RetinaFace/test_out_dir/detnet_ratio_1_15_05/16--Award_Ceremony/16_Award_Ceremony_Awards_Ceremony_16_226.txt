@@ -1,0 +1,5 @@
+16--Award_Ceremony/16_Award_Ceremony_Awards_Ceremony_16_226.jpg
+3
+202 86 57 84 0.99671 
+606 206 30 36 0.994268 
+748 375 27 34 0.660764 

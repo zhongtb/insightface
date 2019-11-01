@@ -1,0 +1,5 @@
+9--Press_Conference/9_Press_Conference_Press_Conference_9_332.jpg
+3
+513 199 246 412 0.0776834 
+561 1178 259 401 0.0415537 
+720 1266 224 313 0.0203988 

@@ -1,0 +1,5 @@
+10--People_Marching/10_People_Marching_People_Marching_2_236.jpg
+3
+461 160 29 38 0.94014 
+553 130 53 78 0.802644 
+36 124 12 14 0.284716 

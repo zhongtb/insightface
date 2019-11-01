@@ -1,0 +1,4 @@
+13--Interview/13_Interview_Interview_Sequences_13_793.jpg
+2
+50 170 33 33 0.979389 
+879 210 33 29 0.960489 

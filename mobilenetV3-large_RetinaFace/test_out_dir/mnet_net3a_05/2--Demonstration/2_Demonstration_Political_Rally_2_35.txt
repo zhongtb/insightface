@@ -1,0 +1,5 @@
+2--Demonstration/2_Demonstration_Political_Rally_2_35.jpg
+3
+705 166 23 26 0.967478 
+552 166 21 23 0.924492 
+624 167 21 23 0.912057 

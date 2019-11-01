@@ -1,0 +1,4 @@
+49--Greeting/49_Greeting_peoplegreeting_49_564.jpg
+2
+327 46 203 289 0.999772 
+681 425 142 162 0.999494 

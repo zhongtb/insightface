@@ -1,0 +1,5 @@
+16--Award_Ceremony/16_Award_Ceremony_Awards_Ceremony_16_4.jpg
+3
+380 279 12 14 0.918604 
+371 303 14 20 0.71339 
+848 272 18 27 0.517391 

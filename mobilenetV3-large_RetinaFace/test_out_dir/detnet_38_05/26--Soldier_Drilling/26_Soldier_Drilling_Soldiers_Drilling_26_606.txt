@@ -1,0 +1,4 @@
+26--Soldier_Drilling/26_Soldier_Drilling_Soldiers_Drilling_26_606.jpg
+2
+202 90 95 143 0.998663 
+576 125 97 152 0.985768 

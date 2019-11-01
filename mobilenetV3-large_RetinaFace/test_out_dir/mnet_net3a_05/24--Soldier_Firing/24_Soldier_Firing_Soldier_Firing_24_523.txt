@@ -1,0 +1,4 @@
+24--Soldier_Firing/24_Soldier_Firing_Soldier_Firing_24_523.jpg
+2
+340 162 147 115 0.920849 
+270 160 208 164 0.599013 

@@ -1,0 +1,4 @@
+1--Handshaking/1_Handshaking_Handshaking_1_357.jpg
+2
+590 175 108 116 0.999053 
+143 90 112 125 0.998375 

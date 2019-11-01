@@ -1,0 +1,4 @@
+2--Demonstration/2_Demonstration_Demonstrators_2_595.jpg
+2
+661 90 79 101 0.991527 
+282 133 156 210 0.964604 

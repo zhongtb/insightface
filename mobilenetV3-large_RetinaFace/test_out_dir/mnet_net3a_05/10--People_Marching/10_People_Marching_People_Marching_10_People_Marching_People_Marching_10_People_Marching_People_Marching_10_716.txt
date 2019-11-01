@@ -1,0 +1,11 @@
+10--People_Marching/10_People_Marching_People_Marching_10_People_Marching_People_Marching_10_People_Marching_People_Marching_10_716.jpg
+9
+327 291 53 55 0.998999 
+506 245 62 62 0.997651 
+2 367 35 36 0.988367 
+121 353 38 36 0.984189 
+197 345 41 41 0.984015 
+74 370 38 37 0.980317 
+766 216 77 86 0.966288 
+929 381 33 31 0.643919 
+123 463 41 46 0.543217 

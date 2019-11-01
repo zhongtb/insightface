@@ -1,0 +1,5 @@
+2--Demonstration/2_Demonstration_Demonstration_Or_Protest_2_438.jpg
+3
+449 263 50 66 0.998634 
+468 545 56 78 0.997544 
+233 467 123 142 0.614432 

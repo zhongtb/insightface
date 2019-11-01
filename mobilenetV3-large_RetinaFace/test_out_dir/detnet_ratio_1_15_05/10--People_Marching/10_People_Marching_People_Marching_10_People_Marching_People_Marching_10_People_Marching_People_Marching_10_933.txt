@@ -1,0 +1,6 @@
+10--People_Marching/10_People_Marching_People_Marching_10_People_Marching_People_Marching_10_People_Marching_People_Marching_10_933.jpg
+4
+538 158 26 31 0.986921 
+110 199 38 52 0.984089 
+982 141 20 28 0.697829 
+736 12 11 13 0.611127 

@@ -1,0 +1,6 @@
+8--Election_Campain/8_Election_Campain_Election_Campaign_8_347.jpg
+4
+211 133 31 39 0.999268 
+750 166 27 34 0.998122 
+24 572 12 18 0.752021 
+922 588 12 14 0.708081 

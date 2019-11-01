@@ -1,0 +1,5 @@
+32--Worker_Laborer/32_Worker_Laborer_Worker_Laborer_32_658.jpg
+3
+616 382 19 19 0.783469 
+487 353 19 20 0.675121 
+678 387 19 20 0.591121 

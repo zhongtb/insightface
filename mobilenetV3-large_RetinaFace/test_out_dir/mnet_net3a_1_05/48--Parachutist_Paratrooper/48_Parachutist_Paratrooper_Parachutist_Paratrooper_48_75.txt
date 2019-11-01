@@ -1,0 +1,4 @@
+48--Parachutist_Paratrooper/48_Parachutist_Paratrooper_Parachutist_Paratrooper_48_75.jpg
+2
+384 95 37 44 0.935043 
+854 157 41 65 0.865863 

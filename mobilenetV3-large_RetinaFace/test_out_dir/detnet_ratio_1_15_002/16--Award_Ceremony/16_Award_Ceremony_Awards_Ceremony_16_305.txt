@@ -1,0 +1,5 @@
+16--Award_Ceremony/16_Award_Ceremony_Awards_Ceremony_16_305.jpg
+3
+385 285 100 139 0.996603 
+593 292 83 114 0.993814 
+616 319 34 42 0.0156121 

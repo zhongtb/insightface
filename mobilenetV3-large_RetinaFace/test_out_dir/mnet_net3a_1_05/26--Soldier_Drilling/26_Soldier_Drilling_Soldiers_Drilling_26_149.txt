@@ -1,0 +1,6 @@
+26--Soldier_Drilling/26_Soldier_Drilling_Soldiers_Drilling_26_149.jpg
+4
+464 192 96 117 0.992122 
+229 215 97 118 0.99193 
+759 245 94 111 0.99125 
+694 361 53 65 0.500817 

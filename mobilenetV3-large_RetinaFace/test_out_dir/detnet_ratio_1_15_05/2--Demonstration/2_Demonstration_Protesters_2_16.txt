@@ -1,0 +1,4 @@
+2--Demonstration/2_Demonstration_Protesters_2_16.jpg
+2
+286 507 88 108 0.985476 
+627 592 83 100 0.973487 

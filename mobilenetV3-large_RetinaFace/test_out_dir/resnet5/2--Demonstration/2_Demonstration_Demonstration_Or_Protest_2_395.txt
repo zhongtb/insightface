@@ -1,0 +1,6 @@
+2--Demonstration/2_Demonstration_Demonstration_Or_Protest_2_395.jpg
+4
+874 341 50 71 0.999489 
+805 482 109 124 0.996805 
+736 336 60 82 0.995828 
+980 253 70 125 0.830917 

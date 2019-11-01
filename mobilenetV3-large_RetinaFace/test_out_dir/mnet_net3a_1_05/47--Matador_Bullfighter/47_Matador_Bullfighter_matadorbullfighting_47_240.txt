@@ -1,0 +1,6 @@
+47--Matador_Bullfighter/47_Matador_Bullfighter_matadorbullfighting_47_240.jpg
+4
+753 107 77 102 0.988341 
+961 116 34 44 0.98418 
+538 52 38 46 0.952606 
+214 377 47 55 0.597836 

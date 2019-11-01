@@ -1,0 +1,6 @@
+26--Soldier_Drilling/26_Soldier_Drilling_Soldiers_Drilling_26_764.jpg
+4
+691 126 22 28 0.999488 
+85 135 10 12 0.478855 
+740 169 10 12 0.377657 
+67 142 9 11 0.274317 

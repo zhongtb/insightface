@@ -1,0 +1,5 @@
+26--Soldier_Drilling/26_Soldier_Drilling_Soldiers_Drilling_26_149.jpg
+3
+231 213 95 117 0.9997 
+466 190 95 118 0.999529 
+760 241 92 113 0.999134 

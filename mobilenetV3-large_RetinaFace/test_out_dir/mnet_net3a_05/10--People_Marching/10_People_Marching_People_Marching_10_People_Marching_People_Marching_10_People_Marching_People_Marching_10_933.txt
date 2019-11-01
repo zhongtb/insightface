@@ -1,0 +1,7 @@
+10--People_Marching/10_People_Marching_People_Marching_10_People_Marching_People_Marching_10_People_Marching_People_Marching_10_933.jpg
+5
+400 156 19 33 0.954339 
+83 199 27 51 0.899179 
+405 283 16 25 0.857449 
+729 139 15 29 0.724494 
+207 51 16 30 0.569223 

@@ -1,0 +1,5 @@
+13--Interview/13_Interview_Interview_Sequences_13_270.jpg
+3
+304 133 350 468 0.999775 
+0 613 55 90 0.493704 
+0 0 422 423 0.0211921 

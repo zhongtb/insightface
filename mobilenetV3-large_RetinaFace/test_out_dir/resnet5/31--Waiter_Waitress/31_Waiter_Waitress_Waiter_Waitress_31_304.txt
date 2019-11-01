@@ -1,0 +1,5 @@
+31--Waiter_Waitress/31_Waiter_Waitress_Waiter_Waitress_31_304.jpg
+3
+397 173 226 315 0.998993 
+701 128 227 287 0.998884 
+89 125 207 273 0.998752 

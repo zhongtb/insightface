@@ -1,0 +1,5 @@
+16--Award_Ceremony/16_Award_Ceremony_Awards_Ceremony_16_566.jpg
+3
+316 292 295 404 0.99032 
+800 487 245 342 0.0347659 
+0 513 215 368 0.0210767 

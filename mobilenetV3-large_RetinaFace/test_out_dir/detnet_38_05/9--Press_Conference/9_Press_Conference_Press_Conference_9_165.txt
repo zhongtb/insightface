@@ -1,0 +1,5 @@
+9--Press_Conference/9_Press_Conference_Press_Conference_9_165.jpg
+3
+471 39 76 81 0.994648 
+837 37 81 92 0.99089 
+88 33 77 84 0.986582 

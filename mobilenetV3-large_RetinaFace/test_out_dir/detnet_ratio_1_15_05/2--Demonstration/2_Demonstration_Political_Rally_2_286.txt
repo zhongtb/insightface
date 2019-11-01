@@ -1,0 +1,5 @@
+2--Demonstration/2_Demonstration_Political_Rally_2_286.jpg
+3
+807 670 83 101 0.993069 
+433 732 83 99 0.992768 
+117 317 227 280 0.889365 

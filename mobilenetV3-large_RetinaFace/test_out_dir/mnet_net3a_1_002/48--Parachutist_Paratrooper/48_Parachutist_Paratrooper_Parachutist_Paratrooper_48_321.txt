@@ -1,0 +1,8 @@
+48--Parachutist_Paratrooper/48_Parachutist_Paratrooper_Parachutist_Paratrooper_48_321.jpg
+6
+895 25 36 54 0.998905 
+122 18 39 53 0.997707 
+349 24 32 52 0.981776 
+609 30 36 47 0.796272 
+373 25 36 52 0.0555422 
+836 108 76 104 0.0261765 

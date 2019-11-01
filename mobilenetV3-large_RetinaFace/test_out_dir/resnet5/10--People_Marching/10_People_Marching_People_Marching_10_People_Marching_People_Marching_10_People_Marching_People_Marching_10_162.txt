@@ -1,0 +1,10 @@
+10--People_Marching/10_People_Marching_People_Marching_10_People_Marching_People_Marching_10_People_Marching_People_Marching_10_162.jpg
+8
+389 309 23 26 0.999852 
+140 273 20 23 0.989282 
+709 285 21 22 0.934001 
+667 293 22 26 0.926813 
+696 278 18 25 0.808148 
+335 273 19 21 0.745318 
+96 292 20 22 0.681679 
+779 90 16 18 0.439155 

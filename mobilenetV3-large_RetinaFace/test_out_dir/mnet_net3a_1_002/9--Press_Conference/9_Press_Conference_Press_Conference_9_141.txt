@@ -1,0 +1,5 @@
+9--Press_Conference/9_Press_Conference_Press_Conference_9_141.jpg
+3
+240 239 537 735 0.996284 
+206 549 854 775 0.0325015 
+47 857 380 465 0.0308615 

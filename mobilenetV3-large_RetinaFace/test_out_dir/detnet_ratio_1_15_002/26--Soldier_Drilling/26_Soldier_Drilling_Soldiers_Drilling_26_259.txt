@@ -1,0 +1,4 @@
+26--Soldier_Drilling/26_Soldier_Drilling_Soldiers_Drilling_26_259.jpg
+2
+410 343 123 159 0.990686 
+201 179 20 24 0.0114557 

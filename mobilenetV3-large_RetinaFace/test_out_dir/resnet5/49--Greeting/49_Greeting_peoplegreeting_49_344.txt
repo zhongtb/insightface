@@ -1,0 +1,4 @@
+49--Greeting/49_Greeting_peoplegreeting_49_344.jpg
+2
+212 253 93 118 0.999812 
+625 335 95 110 0.999497 

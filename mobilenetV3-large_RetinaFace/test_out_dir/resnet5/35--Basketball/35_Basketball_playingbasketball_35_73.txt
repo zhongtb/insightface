@@ -1,0 +1,4 @@
+35--Basketball/35_Basketball_playingbasketball_35_73.jpg
+2
+489 372 52 56 0.999953 
+794 379 53 63 0.999891 

@@ -1,0 +1,5 @@
+16--Award_Ceremony/16_Award_Ceremony_Awards_Ceremony_16_226.jpg
+3
+750 375 26 34 0.999567 
+201 89 59 80 0.99946 
+605 205 29 36 0.999031 

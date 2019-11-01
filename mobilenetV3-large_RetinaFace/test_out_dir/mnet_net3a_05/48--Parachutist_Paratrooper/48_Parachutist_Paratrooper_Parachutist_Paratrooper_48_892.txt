@@ -1,0 +1,5 @@
+48--Parachutist_Paratrooper/48_Parachutist_Paratrooper_Parachutist_Paratrooper_48_892.jpg
+3
+665 62 119 53 0.998815 
+176 82 130 56 0.998609 
+471 40 124 56 0.998578 

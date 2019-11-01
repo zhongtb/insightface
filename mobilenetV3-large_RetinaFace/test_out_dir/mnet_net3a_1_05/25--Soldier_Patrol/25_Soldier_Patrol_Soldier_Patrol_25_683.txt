@@ -1,0 +1,4 @@
+25--Soldier_Patrol/25_Soldier_Patrol_Soldier_Patrol_25_683.jpg
+2
+688 407 196 210 0.999825 
+669 611 52 58 0.897879 

@@ -1,0 +1,5 @@
+10--People_Marching/10_People_Marching_People_Marching_2_898.jpg
+3
+511 709 48 57 0.957038 
+678 589 52 61 0.950545 
+263 804 46 54 0.828462 

@@ -1,0 +1,5 @@
+13--Interview/13_Interview_Interview_2_People_Visible_13_381.jpg
+3
+400 199 182 238 0.997245 
+491 493 145 133 0.7289 
+521 508 78 81 0.0208774 

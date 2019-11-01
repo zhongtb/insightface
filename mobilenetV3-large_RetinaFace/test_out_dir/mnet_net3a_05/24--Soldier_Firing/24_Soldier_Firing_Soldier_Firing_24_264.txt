@@ -1,0 +1,4 @@
+24--Soldier_Firing/24_Soldier_Firing_Soldier_Firing_24_264.jpg
+2
+689 134 59 87 0.953931 
+257 52 58 83 0.877075 

@@ -1,0 +1,5 @@
+9--Press_Conference/9_Press_Conference_Press_Conference_9_352.jpg
+3
+177 397 520 712 0.999789 
+627 1221 428 318 0.0763594 
+733 1346 265 194 0.0422097 

@@ -1,0 +1,4 @@
+5--Car_Accident/5_Car_Accident_Car_Crash_5_457.jpg
+2
+248 67 124 145 0.879865 
+72 96 93 143 0.743688 

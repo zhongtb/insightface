@@ -1,0 +1,4 @@
+2--Demonstration/2_Demonstration_Political_Rally_2_90.jpg
+2
+538 272 52 74 0.998459 
+788 380 23 30 0.672793 

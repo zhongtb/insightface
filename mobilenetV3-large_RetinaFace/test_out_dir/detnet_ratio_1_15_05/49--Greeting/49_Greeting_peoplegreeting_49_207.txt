@@ -1,0 +1,4 @@
+49--Greeting/49_Greeting_peoplegreeting_49_207.jpg
+2
+246 152 48 70 0.997258 
+366 109 55 85 0.531905 

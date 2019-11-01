@@ -1,0 +1,5 @@
+31--Waiter_Waitress/31_Waiter_Waitress_Waiter_Waitress_31_740.jpg
+3
+409 102 83 112 0.963641 
+248 364 34 42 0.431461 
+0 0 366 511 0.0716692 

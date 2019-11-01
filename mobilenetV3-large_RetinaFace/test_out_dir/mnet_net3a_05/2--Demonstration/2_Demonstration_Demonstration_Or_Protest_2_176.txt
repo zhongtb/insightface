@@ -1,0 +1,6 @@
+2--Demonstration/2_Demonstration_Demonstration_Or_Protest_2_176.jpg
+4
+541 218 29 28 0.993657 
+66 224 32 31 0.986889 
+752 209 28 32 0.967733 
+569 218 29 29 0.916978 

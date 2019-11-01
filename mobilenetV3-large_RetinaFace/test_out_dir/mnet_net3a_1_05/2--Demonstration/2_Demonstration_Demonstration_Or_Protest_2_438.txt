@@ -1,0 +1,6 @@
+2--Demonstration/2_Demonstration_Demonstration_Or_Protest_2_438.jpg
+4
+468 546 58 75 0.998683 
+449 266 49 62 0.998512 
+602 563 26 31 0.559169 
+579 645 50 37 0.502688 

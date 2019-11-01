@@ -1,0 +1,6 @@
+26--Soldier_Drilling/26_Soldier_Drilling_Soldiers_Drilling_26_64.jpg
+4
+454 134 50 47 0.998954 
+661 126 47 44 0.997636 
+585 143 27 26 0.928705 
+48 124 45 39 0.928658 

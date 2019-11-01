@@ -1,0 +1,3 @@
+4--Dancing/4_Dancing_Dancing_4_1000.jpg
+1
+323 258 389 581 0.998915 

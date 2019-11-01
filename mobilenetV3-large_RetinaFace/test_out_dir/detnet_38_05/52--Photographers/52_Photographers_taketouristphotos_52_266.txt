@@ -1,0 +1,5 @@
+52--Photographers/52_Photographers_taketouristphotos_52_266.jpg
+3
+604 337 54 67 0.994679 
+320 292 28 25 0.957378 
+243 309 25 31 0.828063 

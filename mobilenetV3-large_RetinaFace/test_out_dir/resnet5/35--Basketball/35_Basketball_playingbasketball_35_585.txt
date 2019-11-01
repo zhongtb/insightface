@@ -1,0 +1,4 @@
+35--Basketball/35_Basketball_playingbasketball_35_585.jpg
+2
+246 221 204 274 0.999703 
+626 204 199 314 0.999647 

@@ -1,0 +1,6 @@
+9--Press_Conference/9_Press_Conference_Press_Conference_9_89.jpg
+4
+402 165 83 126 0.998262 
+663 204 71 107 0.995346 
+135 116 72 125 0.975305 
+784 222 56 65 0.907536 

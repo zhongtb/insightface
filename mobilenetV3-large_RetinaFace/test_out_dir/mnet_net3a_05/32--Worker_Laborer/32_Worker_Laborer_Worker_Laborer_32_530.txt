@@ -1,0 +1,4 @@
+32--Worker_Laborer/32_Worker_Laborer_Worker_Laborer_32_530.jpg
+2
+605 120 130 117 0.993904 
+258 80 118 107 0.992265 

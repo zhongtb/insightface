@@ -1,0 +1,5 @@
+2--Demonstration/2_Demonstration_Protesters_2_817.jpg
+3
+290 557 33 46 0.9998 
+378 541 39 45 0.999776 
+522 93 30 31 0.998996 

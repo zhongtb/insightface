@@ -1,0 +1,6 @@
+29--Students_Schoolkids/29_Students_Schoolkids_Students_Schoolkids_29_81.jpg
+4
+81 255 42 48 0.999764 
+189 178 39 44 0.999762 
+780 124 116 152 0.999703 
+694 306 37 42 0.999068 

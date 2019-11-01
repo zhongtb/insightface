@@ -1,0 +1,5 @@
+52--Photographers/52_Photographers_taketouristphotos_52_123.jpg
+3
+734 97 124 50 0.998858 
+215 47 114 57 0.997319 
+640 80 57 34 0.956646 

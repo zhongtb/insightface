@@ -1,0 +1,4 @@
+59--people--driving--car/59_peopledrivingcar_peopledrivingcar_59_401.jpg
+2
+398 210 106 121 0.996924 
+230 231 132 152 0.992186 

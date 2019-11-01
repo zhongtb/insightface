@@ -1,0 +1,4 @@
+49--Greeting/49_Greeting_peoplegreeting_49_344.jpg
+2
+210 246 96 125 0.991254 
+626 338 92 109 0.975044 

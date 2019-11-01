@@ -1,0 +1,5 @@
+13--Interview/13_Interview_Interview_2_People_Visible_13_245.jpg
+3
+462 78 158 215 0.994613 
+228 115 165 202 0.978757 
+657 0 217 275 0.0317167 

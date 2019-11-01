@@ -1,0 +1,6 @@
+2--Demonstration/2_Demonstration_Demonstration_Or_Protest_2_655.jpg
+4
+277 112 25 30 0.999732 
+514 95 22 28 0.99535 
+681 68 28 34 0.98905 
+74 182 15 19 0.497536 

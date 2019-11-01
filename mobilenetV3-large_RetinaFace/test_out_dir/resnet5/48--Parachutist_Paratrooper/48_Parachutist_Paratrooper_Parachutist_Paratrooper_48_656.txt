@@ -1,0 +1,5 @@
+48--Parachutist_Paratrooper/48_Parachutist_Paratrooper_Parachutist_Paratrooper_48_656.jpg
+3
+561 200 36 27 0.99414 
+617 362 27 34 0.922313 
+0 321 215 249 0.692477 

@@ -1,0 +1,4 @@
+10--People_Marching/10_People_Marching_People_Marching_10_People_Marching_People_Marching_10_499.jpg
+2
+577 360 30 35 0.954117 
+786 148 58 75 0.784899 

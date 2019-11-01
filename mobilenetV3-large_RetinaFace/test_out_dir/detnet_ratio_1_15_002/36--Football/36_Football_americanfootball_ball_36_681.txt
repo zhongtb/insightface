@@ -1,0 +1,4 @@
+36--Football/36_Football_americanfootball_ball_36_681.jpg
+2
+427 141 145 190 0.997505 
+376 121 235 279 0.02547 

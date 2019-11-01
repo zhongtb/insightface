@@ -1,0 +1,5 @@
+32--Worker_Laborer/32_Worker_Laborer_Worker_Laborer_32_209.jpg
+3
+718 123 96 115 0.991828 
+695 98 88 144 0.10252 
+738 147 58 65 0.031849 

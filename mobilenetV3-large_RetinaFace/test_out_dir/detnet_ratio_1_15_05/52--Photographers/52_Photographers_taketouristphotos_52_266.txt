@@ -1,0 +1,5 @@
+52--Photographers/52_Photographers_taketouristphotos_52_266.jpg
+3
+604 448 54 89 0.994679 
+320 388 28 34 0.957378 
+243 411 25 41 0.828063 

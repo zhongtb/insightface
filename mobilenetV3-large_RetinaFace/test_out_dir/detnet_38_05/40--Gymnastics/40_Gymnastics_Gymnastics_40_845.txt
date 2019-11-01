@@ -1,0 +1,4 @@
+40--Gymnastics/40_Gymnastics_Gymnastics_40_845.jpg
+2
+399 108 64 77 0.997824 
+138 151 49 80 0.563031 

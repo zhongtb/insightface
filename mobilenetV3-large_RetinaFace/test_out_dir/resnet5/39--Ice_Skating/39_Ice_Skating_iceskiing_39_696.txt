@@ -1,0 +1,4 @@
+39--Ice_Skating/39_Ice_Skating_iceskiing_39_696.jpg
+2
+361 213 25 27 0.999811 
+607 252 27 29 0.997896 

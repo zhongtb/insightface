@@ -1,0 +1,4 @@
+31--Waiter_Waitress/31_Waiter_Waitress_Waiter_Waitress_31_572.jpg
+2
+309 67 147 195 0.999675 
+656 116 149 201 0.999598 

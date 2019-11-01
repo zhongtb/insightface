@@ -1,0 +1,5 @@
+25--Soldier_Patrol/25_Soldier_Patrol_Soldier_Patrol_25_469.jpg
+3
+915 136 60 64 0.994859 
+265 81 77 82 0.99172 
+606 140 55 68 0.977695 

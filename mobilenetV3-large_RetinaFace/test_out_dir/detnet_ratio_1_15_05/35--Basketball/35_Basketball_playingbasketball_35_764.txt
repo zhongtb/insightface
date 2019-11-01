@@ -1,0 +1,5 @@
+35--Basketball/35_Basketball_playingbasketball_35_764.jpg
+3
+488 247 30 40 0.994996 
+303 193 30 34 0.644001 
+132 84 33 42 0.310975 

@@ -1,0 +1,5 @@
+2--Demonstration/2_Demonstration_Protesters_2_714.jpg
+3
+399 341 55 46 0.995462 
+191 299 58 48 0.994232 
+624 279 62 50 0.983461 

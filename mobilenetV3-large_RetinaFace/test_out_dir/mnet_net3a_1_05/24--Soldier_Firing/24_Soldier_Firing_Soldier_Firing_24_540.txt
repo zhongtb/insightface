@@ -1,0 +1,5 @@
+24--Soldier_Firing/24_Soldier_Firing_Soldier_Firing_24_540.jpg
+3
+166 710 83 98 0.84922 
+441 669 82 88 0.814975 
+739 1056 30 36 0.509511 

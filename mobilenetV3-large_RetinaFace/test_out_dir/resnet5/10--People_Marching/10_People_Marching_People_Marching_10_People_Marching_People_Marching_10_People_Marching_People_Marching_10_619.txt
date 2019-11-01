@@ -1,0 +1,8 @@
+10--People_Marching/10_People_Marching_People_Marching_10_People_Marching_People_Marching_10_People_Marching_People_Marching_10_619.jpg
+6
+431 460 14 17 0.497825 
+521 446 13 17 0.462766 
+785 417 12 15 0.437017 
+669 443 11 15 0.36651 
+50 486 14 15 0.301382 
+232 466 11 14 0.258283 

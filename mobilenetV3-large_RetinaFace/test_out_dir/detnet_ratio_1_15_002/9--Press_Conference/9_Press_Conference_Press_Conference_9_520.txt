@@ -1,0 +1,5 @@
+9--Press_Conference/9_Press_Conference_Press_Conference_9_520.jpg
+3
+277 489 204 270 0.99911 
+418 175 309 308 0.077095 
+794 217 277 384 0.0612506 

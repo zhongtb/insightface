@@ -1,0 +1,6 @@
+9--Press_Conference/9_Press_Conference_Press_Conference_9_693.jpg
+4
+653 114 92 125 0.978943 
+873 222 94 123 0.976694 
+259 188 83 117 0.939702 
+0 100 63 118 0.916592 

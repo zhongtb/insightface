@@ -1,0 +1,5 @@
+9--Press_Conference/9_Press_Conference_Press_Conference_9_100.jpg
+3
+636 268 29 34 0.999817 
+493 272 29 36 0.999564 
+747 269 27 35 0.999544 

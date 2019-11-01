@@ -1,0 +1,7 @@
+29--Students_Schoolkids/29_Students_Schoolkids_Students_Schoolkids_29_130.jpg
+5
+105 253 50 72 0.9962 
+378 172 40 46 0.966346 
+239 241 31 32 0.849581 
+531 245 31 36 0.83259 
+596 422 55 76 0.770561 

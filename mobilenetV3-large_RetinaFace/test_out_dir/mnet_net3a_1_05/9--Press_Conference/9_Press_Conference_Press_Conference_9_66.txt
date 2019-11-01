@@ -1,0 +1,5 @@
+9--Press_Conference/9_Press_Conference_Press_Conference_9_66.jpg
+3
+885 266 74 89 0.979018 
+215 173 76 89 0.975312 
+459 289 45 62 0.952796 

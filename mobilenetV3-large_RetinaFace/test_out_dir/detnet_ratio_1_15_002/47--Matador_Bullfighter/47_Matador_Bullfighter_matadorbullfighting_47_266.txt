@@ -1,0 +1,5 @@
+47--Matador_Bullfighter/47_Matador_Bullfighter_matadorbullfighting_47_266.jpg
+3
+256 99 61 78 0.992828 
+915 0 111 145 0.0234596 
+578 0 120 96 0.0201715 

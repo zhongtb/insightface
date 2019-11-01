@@ -1,0 +1,6 @@
+55--Sports_Coach_Trainer/55_Sports_Coach_Trainer_sportcoaching_55_786.jpg
+4
+360 200 100 100 0.999339 
+553 191 102 100 0.998761 
+472 90 100 100 0.998707 
+717 198 101 96 0.998457 

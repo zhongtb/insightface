@@ -1,0 +1,5 @@
+16--Award_Ceremony/16_Award_Ceremony_Awards_Ceremony_16_752.jpg
+3
+132 135 68 93 0.999771 
+365 152 60 81 0.99964 
+684 166 64 81 0.999636 

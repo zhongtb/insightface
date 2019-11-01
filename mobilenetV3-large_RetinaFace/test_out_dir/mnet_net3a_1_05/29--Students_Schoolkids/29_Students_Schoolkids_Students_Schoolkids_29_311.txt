@@ -1,0 +1,6 @@
+29--Students_Schoolkids/29_Students_Schoolkids_Students_Schoolkids_29_311.jpg
+4
+47 375 13 16 0.705542 
+298 379 14 17 0.686988 
+120 369 11 14 0.551905 
+259 419 20 23 0.502448 

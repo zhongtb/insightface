@@ -1,0 +1,6 @@
+52--Photographers/52_Photographers_photographertakingphoto_52_315.jpg
+4
+477 161 58 82 0.999367 
+161 159 100 132 0.997625 
+691 88 94 136 0.99632 
+236 123 58 82 0.988064 

@@ -1,0 +1,4 @@
+8--Election_Campain/8_Election_Campain_Election_Campaign_8_529.jpg
+2
+285 112 178 221 0.999764 
+368 98 170 235 0.508457 

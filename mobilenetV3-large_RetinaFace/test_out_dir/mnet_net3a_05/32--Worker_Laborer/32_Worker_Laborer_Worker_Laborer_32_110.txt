@@ -1,0 +1,5 @@
+32--Worker_Laborer/32_Worker_Laborer_Worker_Laborer_32_110.jpg
+3
+322 327 25 46 0.995576 
+457 37 62 113 0.993252 
+298 15 12 23 0.921109 

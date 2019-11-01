@@ -1,0 +1,6 @@
+10--People_Marching/10_People_Marching_People_Marching_10_People_Marching_People_Marching_10_People_Marching_People_Marching_10_933.jpg
+4
+400 158 20 31 0.986921 
+81 199 28 52 0.984089 
+730 141 14 28 0.697829 
+546 12 8 13 0.611127 

@@ -1,0 +1,4 @@
+61--Street_Battle/61_Street_Battle_streetfight_61_395.jpg
+2
+496 186 67 92 0.99961 
+272 473 35 45 0.994486 

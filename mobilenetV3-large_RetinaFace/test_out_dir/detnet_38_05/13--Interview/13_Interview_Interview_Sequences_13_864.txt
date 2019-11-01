@@ -1,0 +1,5 @@
+13--Interview/13_Interview_Interview_Sequences_13_864.jpg
+3
+607 111 44 47 0.927147 
+544 75 53 53 0.87972 
+523 56 45 62 0.650977 

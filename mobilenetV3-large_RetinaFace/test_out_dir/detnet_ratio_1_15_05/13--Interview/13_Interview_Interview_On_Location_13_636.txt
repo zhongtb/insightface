@@ -1,0 +1,5 @@
+13--Interview/13_Interview_Interview_On_Location_13_636.jpg
+3
+187 39 55 77 0.993347 
+799 116 32 38 0.974866 
+721 110 36 45 0.933665 

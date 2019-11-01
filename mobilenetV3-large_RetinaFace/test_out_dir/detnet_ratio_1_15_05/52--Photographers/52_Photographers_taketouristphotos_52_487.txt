@@ -1,0 +1,5 @@
+52--Photographers/52_Photographers_taketouristphotos_52_487.jpg
+3
+629 136 56 74 0.960403 
+0 327 31 73 0.8499 
+941 373 62 72 0.782359 

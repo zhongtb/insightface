@@ -1,0 +1,5 @@
+59--people--driving--car/59_peopledrivingcar_peopledrivingcar_59_690.jpg
+3
+294 252 43 64 0.996964 
+749 294 44 62 0.995281 
+743 313 32 44 0.0221891 

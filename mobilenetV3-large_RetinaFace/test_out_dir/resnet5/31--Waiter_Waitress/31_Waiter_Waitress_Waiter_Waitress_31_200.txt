@@ -1,0 +1,4 @@
+31--Waiter_Waitress/31_Waiter_Waitress_Waiter_Waitress_31_200.jpg
+2
+679 50 117 161 0.999781 
+158 58 119 162 0.999765 

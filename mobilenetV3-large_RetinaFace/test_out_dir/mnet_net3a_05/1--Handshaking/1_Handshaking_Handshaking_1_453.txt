@@ -1,0 +1,4 @@
+1--Handshaking/1_Handshaking_Handshaking_1_453.jpg
+2
+282 70 100 110 0.995067 
+674 173 79 111 0.973753 

@@ -1,0 +1,4 @@
+49--Greeting/49_Greeting_peoplegreeting_49_153.jpg
+2
+515 102 393 214 0.999761 
+190 29 350 204 0.904242 

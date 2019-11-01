@@ -1,0 +1,4 @@
+25--Soldier_Patrol/25_Soldier_Patrol_Soldier_Patrol_25_734.jpg
+2
+543 390 29 37 0.887763 
+28 435 30 36 0.688779 

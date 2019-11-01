@@ -1,0 +1,4 @@
+2--Demonstration/2_Demonstration_Protesters_2_228.jpg
+2
+348 143 144 204 0.998024 
+644 71 201 318 0.99653 

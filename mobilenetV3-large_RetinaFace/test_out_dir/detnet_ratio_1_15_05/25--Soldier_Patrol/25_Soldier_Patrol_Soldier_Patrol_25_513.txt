@@ -1,0 +1,4 @@
+25--Soldier_Patrol/25_Soldier_Patrol_Soldier_Patrol_25_513.jpg
+2
+507 259 198 255 0.999198 
+115 102 194 241 0.993612 

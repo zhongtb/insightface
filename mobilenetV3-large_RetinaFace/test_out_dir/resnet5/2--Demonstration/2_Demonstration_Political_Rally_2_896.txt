@@ -1,0 +1,4 @@
+2--Demonstration/2_Demonstration_Political_Rally_2_896.jpg
+2
+295 285 87 106 0.99944 
+688 44 88 116 0.999258 

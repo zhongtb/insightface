@@ -1,0 +1,4 @@
+35--Basketball/35_Basketball_playingbasketball_35_556.jpg
+2
+369 519 191 246 0.99967 
+305 385 235 318 0.0324559 

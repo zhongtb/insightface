@@ -1,0 +1,5 @@
+35--Basketball/35_Basketball_basketballgame_ball_35_375.jpg
+3
+993 534 12 18 0.496903 
+984 481 14 18 0.397903 
+772 213 10 13 0.284226 

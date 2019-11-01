@@ -1,0 +1,4 @@
+31--Waiter_Waitress/31_Waiter_Waitress_Waiter_Waitress_31_21.jpg
+2
+320 127 148 201 0.997617 
+243 734 69 104 0.0450864 

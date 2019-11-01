@@ -1,0 +1,6 @@
+26--Soldier_Drilling/26_Soldier_Drilling_Soldiers_Drilling_26_405.jpg
+4
+398 143 45 36 0.979015 
+554 123 50 41 0.976485 
+139 244 27 22 0.974282 
+853 186 23 20 0.763524 

@@ -1,0 +1,6 @@
+29--Students_Schoolkids/29_Students_Schoolkids_Students_Schoolkids_29_374.jpg
+4
+690 128 28 36 0.99223 
+390 116 22 30 0.947508 
+405 265 58 60 0.940124 
+392 246 45 68 0.625331 

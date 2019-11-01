@@ -1,0 +1,5 @@
+61--Street_Battle/61_Street_Battle_streetfight_61_4.jpg
+3
+381 39 62 93 0.997624 
+812 0 42 39 0.98095 
+683 192 40 34 0.802621 

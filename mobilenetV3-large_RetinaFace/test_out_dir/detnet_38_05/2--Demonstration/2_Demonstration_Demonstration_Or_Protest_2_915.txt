@@ -1,0 +1,4 @@
+2--Demonstration/2_Demonstration_Demonstration_Or_Protest_2_915.jpg
+2
+200 230 19 19 0.885826 
+297 240 22 22 0.713495 

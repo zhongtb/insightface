@@ -1,0 +1,5 @@
+26--Soldier_Drilling/26_Soldier_Drilling_Soldiers_Drilling_26_606.jpg
+3
+224 80 117 160 0.995752 
+642 115 125 171 0.995408 
+384 61 25 30 0.0230745 

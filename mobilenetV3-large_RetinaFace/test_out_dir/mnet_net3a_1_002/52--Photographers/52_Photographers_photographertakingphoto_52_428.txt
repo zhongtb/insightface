@@ -1,0 +1,5 @@
+52--Photographers/52_Photographers_photographertakingphoto_52_428.jpg
+3
+493 304 131 119 0.963014 
+629 265 80 120 0.12333 
+515 350 79 75 0.0263437 

@@ -1,0 +1,6 @@
+9--Press_Conference/9_Press_Conference_Press_Conference_9_693.jpg
+4
+653 86 92 91 0.999124 
+873 167 93 92 0.998476 
+258 141 85 85 0.988992 
+0 74 63 91 0.965224 

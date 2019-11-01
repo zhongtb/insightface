@@ -1,0 +1,5 @@
+9--Press_Conference/9_Press_Conference_Press_Conference_9_595.jpg
+3
+264 168 315 416 0.999775 
+155 0 635 500 0.133151 
+796 523 277 366 0.0347407 

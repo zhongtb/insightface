@@ -1,0 +1,5 @@
+31--Waiter_Waitress/31_Waiter_Waitress_Waiter_Waitress_31_410.jpg
+3
+463 92 122 161 0.999091 
+0 307 127 262 0.225327 
+0 260 118 190 0.0255 

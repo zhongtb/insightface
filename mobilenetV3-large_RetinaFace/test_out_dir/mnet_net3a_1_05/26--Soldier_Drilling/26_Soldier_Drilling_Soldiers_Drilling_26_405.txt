@@ -1,0 +1,6 @@
+26--Soldier_Drilling/26_Soldier_Drilling_Soldiers_Drilling_26_405.jpg
+4
+397 202 45 53 0.986297 
+552 179 50 56 0.948287 
+140 347 27 33 0.945439 
+852 264 24 30 0.818353 

@@ -1,0 +1,6 @@
+47--Matador_Bullfighter/47_Matador_Bullfighter_Matador_Bullfighter_47_354.jpg
+4
+432 97 58 73 0.939047 
+445 314 14 17 0.0333237 
+619 69 50 66 0.0299249 
+663 75 50 66 0.0286595 

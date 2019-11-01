@@ -1,0 +1,6 @@
+2--Demonstration/2_Demonstration_Demonstration_Or_Protest_2_158.jpg
+4
+515 143 41 40 0.99209 
+985 167 30 28 0.825047 
+471 177 28 26 0.811584 
+855 184 18 16 0.658543 

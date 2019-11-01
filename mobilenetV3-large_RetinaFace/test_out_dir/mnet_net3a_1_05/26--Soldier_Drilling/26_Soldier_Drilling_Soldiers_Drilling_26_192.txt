@@ -1,0 +1,6 @@
+26--Soldier_Drilling/26_Soldier_Drilling_Soldiers_Drilling_26_192.jpg
+4
+72 297 32 38 0.987612 
+518 302 27 34 0.962097 
+640 293 30 40 0.937544 
+95 407 23 29 0.826051 

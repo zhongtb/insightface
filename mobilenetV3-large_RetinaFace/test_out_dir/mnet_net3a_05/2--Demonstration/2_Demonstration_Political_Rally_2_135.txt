@@ -1,0 +1,5 @@
+2--Demonstration/2_Demonstration_Political_Rally_2_135.jpg
+3
+935 237 73 32 0.930532 
+154 206 59 29 0.887073 
+66 248 47 26 0.54826 

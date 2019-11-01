@@ -1,0 +1,5 @@
+16--Award_Ceremony/16_Award_Ceremony_Awards_Ceremony_16_226.jpg
+3
+202 65 57 63 0.99671 
+606 155 30 27 0.994268 
+748 281 27 25 0.660764 

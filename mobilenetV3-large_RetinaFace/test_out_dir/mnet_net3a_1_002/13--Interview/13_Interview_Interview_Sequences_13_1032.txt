@@ -1,0 +1,4 @@
+13--Interview/13_Interview_Interview_Sequences_13_1032.jpg
+2
+387 141 211 283 0.992968 
+259 1341 134 133 0.0789732 

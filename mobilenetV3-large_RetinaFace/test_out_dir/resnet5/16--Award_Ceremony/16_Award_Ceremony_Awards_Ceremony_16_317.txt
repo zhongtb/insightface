@@ -1,0 +1,5 @@
+16--Award_Ceremony/16_Award_Ceremony_Awards_Ceremony_16_317.jpg
+3
+842 115 30 44 0.999683 
+215 104 37 51 0.999625 
+599 134 28 42 0.999417 

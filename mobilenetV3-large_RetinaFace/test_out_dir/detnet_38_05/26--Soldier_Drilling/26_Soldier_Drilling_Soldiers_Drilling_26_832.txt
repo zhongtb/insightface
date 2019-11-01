@@ -1,0 +1,6 @@
+26--Soldier_Drilling/26_Soldier_Drilling_Soldiers_Drilling_26_832.jpg
+4
+433 180 60 68 0.993471 
+782 183 69 76 0.991478 
+549 218 47 56 0.96619 
+40 257 11 12 0.502491 

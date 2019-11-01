@@ -1,0 +1,5 @@
+2--Demonstration/2_Demonstration_Demonstration_Or_Protest_2_487.jpg
+3
+190 93 317 423 0.999573 
+1 389 118 178 0.999412 
+454 1065 125 167 0.98545 

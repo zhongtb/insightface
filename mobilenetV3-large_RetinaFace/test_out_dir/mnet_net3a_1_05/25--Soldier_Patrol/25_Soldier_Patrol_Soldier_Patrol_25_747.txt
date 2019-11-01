@@ -1,0 +1,4 @@
+25--Soldier_Patrol/25_Soldier_Patrol_Soldier_Patrol_25_747.jpg
+2
+320 127 51 61 0.998994 
+403 190 47 56 0.995848 

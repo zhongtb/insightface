@@ -1,0 +1,7 @@
+10--People_Marching/10_People_Marching_People_Marching_10_People_Marching_People_Marching_10_524.jpg
+5
+586 169 63 73 0.998851 
+839 139 52 62 0.99837 
+66 136 70 82 0.998192 
+277 213 35 42 0.820933 
+470 112 57 76 0.566296 

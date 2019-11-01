@@ -1,0 +1,5 @@
+26--Soldier_Drilling/26_Soldier_Drilling_Soldiers_Drilling_26_359.jpg
+3
+540 447 39 50 0.0921737 
+666 326 69 88 0.048546 
+112 1404 41 52 0.0341746 

@@ -1,0 +1,5 @@
+2--Demonstration/2_Demonstration_Demonstration_Or_Protest_2_30.jpg
+3
+596 77 20 26 0.771867 
+768 73 50 68 0.686768 
+365 280 107 143 0.539834 

@@ -1,0 +1,6 @@
+59--people--driving--car/59_peopledrivingcar_peopledrivingcar_59_401.jpg
+4
+398 248 106 143 0.996924 
+230 274 132 180 0.992186 
+525 281 10 12 0.0351773 
+655 262 10 12 0.013461 

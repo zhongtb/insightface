@@ -1,0 +1,5 @@
+10--People_Marching/10_People_Marching_People_Marching_2_944.jpg
+3
+605 452 49 58 0.971369 
+54 449 40 53 0.60279 
+240 511 43 50 0.555656 

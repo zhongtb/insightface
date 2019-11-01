@@ -1,0 +1,4 @@
+39--Ice_Skating/39_Ice_Skating_Ice_Skating_39_283.jpg
+2
+471 207 64 85 0.999591 
+626 40 64 90 0.991207 

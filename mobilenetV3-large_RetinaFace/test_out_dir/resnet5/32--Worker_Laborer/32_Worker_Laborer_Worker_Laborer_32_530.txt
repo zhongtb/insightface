@@ -1,0 +1,4 @@
+32--Worker_Laborer/32_Worker_Laborer_Worker_Laborer_32_530.jpg
+2
+259 117 118 151 0.999762 
+604 169 131 168 0.999739 

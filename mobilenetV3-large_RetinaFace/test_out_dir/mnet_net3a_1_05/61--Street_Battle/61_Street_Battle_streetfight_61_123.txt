@@ -1,0 +1,4 @@
+61--Street_Battle/61_Street_Battle_streetfight_61_123.jpg
+2
+196 120 119 156 0.995729 
+783 101 125 208 0.810355 

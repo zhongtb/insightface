@@ -1,0 +1,5 @@
+2--Demonstration/2_Demonstration_Demonstrators_2_713.jpg
+3
+94 274 55 65 0.935299 
+359 292 26 27 0.788102 
+558 257 22 24 0.749143 

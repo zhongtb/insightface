@@ -1,0 +1,5 @@
+35--Basketball/35_Basketball_basketballgame_ball_35_341.jpg
+3
+500 202 118 151 0.999175 
+662 49 124 159 0.995716 
+250 249 102 160 0.9946 

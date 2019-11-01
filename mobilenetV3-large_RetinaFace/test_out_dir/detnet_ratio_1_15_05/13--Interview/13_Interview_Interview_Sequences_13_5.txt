@@ -1,0 +1,5 @@
+13--Interview/13_Interview_Interview_Sequences_13_5.jpg
+3
+476 36 92 113 0.992769 
+109 292 34 47 0.879339 
+114 299 27 33 0.507636 

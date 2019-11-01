@@ -1,0 +1,4 @@
+1--Handshaking/1_Handshaking_Handshaking_1_275.jpg
+2
+440 242 214 288 0.991174 
+187 774 378 590 0.222205 

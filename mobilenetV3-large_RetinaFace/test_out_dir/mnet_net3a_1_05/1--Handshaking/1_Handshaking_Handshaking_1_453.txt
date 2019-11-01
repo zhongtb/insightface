@@ -1,0 +1,4 @@
+1--Handshaking/1_Handshaking_Handshaking_1_453.jpg
+2
+282 83 100 131 0.995067 
+674 206 79 131 0.973753 

@@ -1,0 +1,4 @@
+59--people--driving--car/59_peopledrivingcar_peopledrivingcar_59_401.jpg
+2
+395 247 107 140 0.999543 
+216 257 156 206 0.999355 

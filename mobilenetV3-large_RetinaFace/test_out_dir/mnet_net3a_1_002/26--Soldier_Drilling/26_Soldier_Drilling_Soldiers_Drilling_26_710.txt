@@ -1,0 +1,5 @@
+26--Soldier_Drilling/26_Soldier_Drilling_Soldiers_Drilling_26_710.jpg
+3
+277 455 576 744 0.99966 
+79 160 817 1227 0.085004 
+0 59 634 1429 0.0449555 

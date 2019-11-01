@@ -1,0 +1,6 @@
+29--Students_Schoolkids/29_Students_Schoolkids_Students_Schoolkids_29_436.jpg
+4
+320 161 162 177 0.997802 
+200 386 482 325 0.207923 
+298 148 45 72 0.051735 
+736 18 28 39 0.0224362 

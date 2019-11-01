@@ -1,0 +1,4 @@
+2--Demonstration/2_Demonstration_Protesters_2_291.jpg
+2
+422 623 288 385 0.997042 
+0 916 163 261 0.95751 

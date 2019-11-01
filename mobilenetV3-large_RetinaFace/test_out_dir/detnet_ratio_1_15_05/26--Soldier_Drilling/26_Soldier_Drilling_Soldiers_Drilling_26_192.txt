@@ -1,0 +1,6 @@
+26--Soldier_Drilling/26_Soldier_Drilling_Soldiers_Drilling_26_192.jpg
+4
+71 296 33 39 0.995582 
+639 295 31 38 0.96801 
+518 305 27 31 0.908508 
+92 407 23 29 0.714834 

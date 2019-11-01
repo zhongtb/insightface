@@ -1,0 +1,4 @@
+25--Soldier_Patrol/25_Soldier_Patrol_Soldier_Patrol_25_883.jpg
+2
+265 125 105 153 0.992727 
+526 44 70 102 0.975873 

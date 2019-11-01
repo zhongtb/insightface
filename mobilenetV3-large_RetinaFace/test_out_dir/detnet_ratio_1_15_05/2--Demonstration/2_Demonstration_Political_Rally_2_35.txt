@@ -1,0 +1,5 @@
+2--Demonstration/2_Demonstration_Political_Rally_2_35.jpg
+3
+551 197 22 27 0.987194 
+704 198 24 30 0.986582 
+624 199 22 26 0.979954 

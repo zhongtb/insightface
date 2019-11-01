@@ -1,0 +1,9 @@
+10--People_Marching/10_People_Marching_People_Marching_10_People_Marching_People_Marching_10_People_Marching_People_Marching_10_1024.jpg
+7
+603 466 82 21 0.933048 
+205 459 83 22 0.929652 
+363 443 77 21 0.745749 
+406 420 52 14 0.681172 
+733 435 45 12 0.620672 
+883 397 38 11 0.57856 
+954 453 56 14 0.550276 

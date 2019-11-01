@@ -1,0 +1,7 @@
+29--Students_Schoolkids/29_Students_Schoolkids_Students_Schoolkids_29_130.jpg
+5
+105 189 50 54 0.9962 
+378 128 40 34 0.966346 
+239 180 31 24 0.849581 
+531 183 31 27 0.83259 
+596 316 55 57 0.770561 

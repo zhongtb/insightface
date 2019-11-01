@@ -1,0 +1,5 @@
+2--Demonstration/2_Demonstration_Political_Rally_2_842.jpg
+3
+505 243 42 45 0.98425 
+366 501 16 16 0.956695 
+291 524 17 16 0.730022 

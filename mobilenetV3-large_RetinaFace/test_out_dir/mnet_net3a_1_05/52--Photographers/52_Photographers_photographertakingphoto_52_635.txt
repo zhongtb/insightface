@@ -1,0 +1,6 @@
+52--Photographers/52_Photographers_photographertakingphoto_52_635.jpg
+4
+361 347 68 91 0.99711 
+258 122 26 34 0.991711 
+218 126 23 30 0.972025 
+126 327 76 100 0.943715 

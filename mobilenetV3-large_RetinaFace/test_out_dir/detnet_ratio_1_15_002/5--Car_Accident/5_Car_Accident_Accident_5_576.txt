@@ -1,0 +1,4 @@
+5--Car_Accident/5_Car_Accident_Accident_5_576.jpg
+2
+350 0 130 110 0.0763769 
+418 444 161 184 0.0514702 

@@ -1,0 +1,5 @@
+47--Matador_Bullfighter/47_Matador_Bullfighter_Matador_Bullfighter_47_703.jpg
+3
+420 117 113 167 0.998662 
+114 96 69 131 0.90066 
+242 323 91 131 0.827403 

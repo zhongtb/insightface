@@ -1,0 +1,5 @@
+13--Interview/13_Interview_Interview_2_People_Visible_13_743.jpg
+3
+151 0 59 68 0.999885 
+856 48 43 61 0.999084 
+543 13 46 67 0.999083 

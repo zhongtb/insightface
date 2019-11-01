@@ -1,0 +1,4 @@
+16--Award_Ceremony/16_Award_Ceremony_Awards_Ceremony_16_524.jpg
+2
+435 288 102 131 0.999777 
+842 320 90 130 0.999671 

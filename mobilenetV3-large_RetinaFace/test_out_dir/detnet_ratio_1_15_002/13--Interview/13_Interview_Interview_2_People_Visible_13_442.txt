@@ -1,0 +1,5 @@
+13--Interview/13_Interview_Interview_2_People_Visible_13_442.jpg
+3
+218 530 14 18 0.231544 
+225 531 15 19 0.0357009 
+213 526 14 19 0.0113708 

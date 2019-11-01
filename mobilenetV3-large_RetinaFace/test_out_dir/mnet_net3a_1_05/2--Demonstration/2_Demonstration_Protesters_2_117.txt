@@ -1,0 +1,4 @@
+2--Demonstration/2_Demonstration_Protesters_2_117.jpg
+2
+729 313 72 86 0.991742 
+248 293 107 134 0.988925 

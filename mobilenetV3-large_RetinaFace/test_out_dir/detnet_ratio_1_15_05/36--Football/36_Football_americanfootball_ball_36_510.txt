@@ -1,0 +1,5 @@
+36--Football/36_Football_americanfootball_ball_36_510.jpg
+3
+571 139 68 84 0.989655 
+565 32 44 63 0.802657 
+389 85 46 59 0.652222 

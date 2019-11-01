@@ -1,0 +1,5 @@
+10--People_Marching/10_People_Marching_People_Marching_2_496.jpg
+3
+446 155 91 128 0.996305 
+980 983 47 77 0.0354035 
+273 88 103 151 0.0235465 

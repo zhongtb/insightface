@@ -1,0 +1,5 @@
+29--Students_Schoolkids/29_Students_Schoolkids_Students_Schoolkids_29_126.jpg
+3
+567 4 459 539 0.9951 
+0 2 414 546 0.980022 
+85 617 67 93 0.0970825 

@@ -1,0 +1,6 @@
+55--Sports_Coach_Trainer/55_Sports_Coach_Trainer_sportcoaching_55_786.jpg
+4
+551 189 104 102 0.991896 
+363 199 98 102 0.991696 
+472 90 100 102 0.991255 
+717 198 100 96 0.990039 

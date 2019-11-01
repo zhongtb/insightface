@@ -1,0 +1,4 @@
+25--Soldier_Patrol/25_Soldier_Patrol_Soldier_Patrol_25_585.jpg
+2
+548 118 109 152 0.996822 
+370 660 64 87 0.51328 

@@ -1,0 +1,11 @@
+10--People_Marching/10_People_Marching_People_Marching_10_People_Marching_People_Marching_10_People_Marching_People_Marching_10_716.jpg
+9
+326 287 54 62 0.996607 
+508 242 62 68 0.992172 
+4 371 33 31 0.991651 
+766 216 78 85 0.991227 
+200 349 39 37 0.977541 
+75 372 37 36 0.972011 
+121 355 37 34 0.944616 
+655 445 15 15 0.56887 
+930 381 32 32 0.534322 

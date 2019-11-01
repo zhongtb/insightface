@@ -1,0 +1,4 @@
+1--Handshaking/1_Handshaking_Handshaking_1_522.jpg
+2
+698 37 96 139 0.993902 
+171 160 25 37 0.837355 

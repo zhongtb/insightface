@@ -1,0 +1,5 @@
+35--Basketball/35_Basketball_basketballgame_ball_35_412.jpg
+3
+657 158 68 95 0.999766 
+855 205 62 97 0.999294 
+62 202 62 68 0.998248 

@@ -1,0 +1,6 @@
+2--Demonstration/2_Demonstration_Demonstration_Or_Protest_2_915.jpg
+4
+414 320 249 300 0.998844 
+297 285 21 25 0.994045 
+200 271 18 25 0.99007 
+263 268 12 16 0.432153 

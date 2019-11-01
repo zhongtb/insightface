@@ -1,0 +1,4 @@
+40--Gymnastics/40_Gymnastics_Gymnastics_40_612.jpg
+2
+306 190 100 97 0.991486 
+37 410 40 48 0.89348 

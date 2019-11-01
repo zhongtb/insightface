@@ -1,0 +1,5 @@
+13--Interview/13_Interview_Interview_Sequences_13_37.jpg
+3
+254 187 74 97 0.99993 
+492 174 70 77 0.999695 
+790 193 68 74 0.999206 

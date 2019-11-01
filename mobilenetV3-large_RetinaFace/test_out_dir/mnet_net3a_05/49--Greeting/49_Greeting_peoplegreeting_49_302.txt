@@ -1,0 +1,4 @@
+49--Greeting/49_Greeting_peoplegreeting_49_302.jpg
+2
+381 144 319 159 0.996186 
+219 224 176 78 0.953785 

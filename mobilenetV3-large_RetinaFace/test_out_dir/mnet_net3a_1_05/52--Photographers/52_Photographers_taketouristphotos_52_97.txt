@@ -1,0 +1,5 @@
+52--Photographers/52_Photographers_taketouristphotos_52_97.jpg
+3
+259 256 164 186 0.987936 
+823 612 52 62 0.987909 
+313 265 105 128 0.885779 

@@ -1,0 +1,4 @@
+24--Soldier_Firing/24_Soldier_Firing_Soldier_Firing_24_633.jpg
+2
+871 220 47 35 0.930645 
+0 152 29 27 0.665635 

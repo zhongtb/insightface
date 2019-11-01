@@ -1,0 +1,4 @@
+49--Greeting/49_Greeting_peoplegreeting_49_302.jpg
+2
+385 379 323 430 0.999751 
+218 594 192 210 0.999313 

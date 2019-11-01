@@ -1,0 +1,5 @@
+2--Demonstration/2_Demonstration_Political_Rally_2_690.jpg
+3
+818 397 62 92 0.991665 
+645 393 25 38 0.930244 
+509 370 108 167 0.822547 

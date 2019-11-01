@@ -1,0 +1,5 @@
+2--Demonstration/2_Demonstration_Demonstration_Or_Protest_2_813.jpg
+3
+248 279 26 29 0.786246 
+835 316 22 23 0.756733 
+537 302 21 22 0.522172 

@@ -1,0 +1,5 @@
+16--Award_Ceremony/16_Award_Ceremony_Awards_Ceremony_16_447.jpg
+3
+325 183 293 411 0.99372 
+13 946 799 547 0.127442 
+702 290 56 78 0.0224431 

@@ -1,0 +1,4 @@
+26--Soldier_Drilling/26_Soldier_Drilling_Soldiers_Drilling_26_9.jpg
+2
+505 220 32 41 0.999678 
+620 211 24 30 0.999509 

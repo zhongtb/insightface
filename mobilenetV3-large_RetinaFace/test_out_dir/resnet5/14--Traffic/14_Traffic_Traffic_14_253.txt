@@ -1,0 +1,3 @@
+14--Traffic/14_Traffic_Traffic_14_253.jpg
+1
+318 115 103 128 0.999677 

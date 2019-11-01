@@ -1,0 +1,5 @@
+26--Soldier_Drilling/26_Soldier_Drilling_Soldiers_Drilling_26_719.jpg
+3
+459 206 35 49 0.966116 
+815 245 24 26 0.913472 
+382 250 18 21 0.686837 

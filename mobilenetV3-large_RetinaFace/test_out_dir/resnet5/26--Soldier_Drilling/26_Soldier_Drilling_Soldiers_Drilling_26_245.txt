@@ -1,0 +1,5 @@
+26--Soldier_Drilling/26_Soldier_Drilling_Soldiers_Drilling_26_245.jpg
+3
+289 346 93 104 0.999811 
+796 517 41 42 0.996545 
+151 261 20 26 0.487056 

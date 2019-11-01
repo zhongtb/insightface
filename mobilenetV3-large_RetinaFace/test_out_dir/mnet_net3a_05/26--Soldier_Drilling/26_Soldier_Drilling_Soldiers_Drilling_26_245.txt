@@ -1,0 +1,4 @@
+26--Soldier_Drilling/26_Soldier_Drilling_Soldiers_Drilling_26_245.jpg
+2
+293 146 89 43 0.997247 
+796 216 43 20 0.540784 

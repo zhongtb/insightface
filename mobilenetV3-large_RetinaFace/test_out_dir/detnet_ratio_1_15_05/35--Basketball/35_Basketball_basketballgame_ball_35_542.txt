@@ -1,0 +1,4 @@
+35--Basketball/35_Basketball_basketballgame_ball_35_542.jpg
+2
+550 257 42 51 0.97886 
+317 259 42 52 0.974362 

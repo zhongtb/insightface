@@ -1,0 +1,4 @@
+49--Greeting/49_Greeting_peoplegreeting_49_991.jpg
+2
+403 182 12 15 0.698063 
+639 164 12 14 0.566076 

@@ -1,0 +1,4 @@
+59--people--driving--car/59_peopledrivingcar_peopledrivingcar_59_283.jpg
+2
+211 80 145 210 0.998746 
+465 153 87 138 0.983131 

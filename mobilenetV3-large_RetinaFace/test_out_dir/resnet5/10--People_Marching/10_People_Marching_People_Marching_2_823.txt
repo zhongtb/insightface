@@ -1,0 +1,5 @@
+10--People_Marching/10_People_Marching_People_Marching_2_823.jpg
+3
+361 198 185 258 0.999672 
+946 488 22 31 0.492681 
+798 448 25 30 0.487556 

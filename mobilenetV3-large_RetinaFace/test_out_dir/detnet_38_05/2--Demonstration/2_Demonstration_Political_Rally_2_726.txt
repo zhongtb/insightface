@@ -1,0 +1,4 @@
+2--Demonstration/2_Demonstration_Political_Rally_2_726.jpg
+2
+116 72 121 120 0.999152 
+525 346 128 126 0.998646 

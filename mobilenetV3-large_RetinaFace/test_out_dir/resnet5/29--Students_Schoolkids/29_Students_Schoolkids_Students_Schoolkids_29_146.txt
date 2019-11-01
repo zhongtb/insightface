@@ -1,0 +1,6 @@
+29--Students_Schoolkids/29_Students_Schoolkids_Students_Schoolkids_29_146.jpg
+4
+755 287 147 180 0.999682 
+191 109 139 172 0.999539 
+592 137 114 153 0.998882 
+975 123 28 38 0.88927 

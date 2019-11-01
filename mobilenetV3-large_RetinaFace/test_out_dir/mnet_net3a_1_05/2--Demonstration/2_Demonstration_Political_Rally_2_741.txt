@@ -1,0 +1,4 @@
+2--Demonstration/2_Demonstration_Political_Rally_2_741.jpg
+2
+575 483 41 52 0.964958 
+121 499 32 54 0.821705 

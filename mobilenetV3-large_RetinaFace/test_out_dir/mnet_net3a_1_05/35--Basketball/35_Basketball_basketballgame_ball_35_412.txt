@@ -1,0 +1,5 @@
+35--Basketball/35_Basketball_basketballgame_ball_35_412.jpg
+3
+655 160 71 92 0.999382 
+850 206 63 92 0.990514 
+407 745 64 79 0.674615 

@@ -1,0 +1,4 @@
+2--Demonstration/2_Demonstration_Protesters_2_117.jpg
+2
+252 300 106 123 0.999872 
+726 313 73 89 0.999864 

@@ -1,0 +1,4 @@
+25--Soldier_Patrol/25_Soldier_Patrol_Soldier_Patrol_25_883.jpg
+2
+263 116 104 160 0.99556 
+528 47 68 99 0.976459 

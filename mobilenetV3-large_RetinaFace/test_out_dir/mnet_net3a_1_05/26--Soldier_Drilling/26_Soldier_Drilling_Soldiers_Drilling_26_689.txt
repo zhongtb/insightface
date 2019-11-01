@@ -1,0 +1,6 @@
+26--Soldier_Drilling/26_Soldier_Drilling_Soldiers_Drilling_26_689.jpg
+4
+331 145 87 130 0.991805 
+629 208 23 30 0.968895 
+165 161 22 31 0.884982 
+244 112 70 88 0.816094 

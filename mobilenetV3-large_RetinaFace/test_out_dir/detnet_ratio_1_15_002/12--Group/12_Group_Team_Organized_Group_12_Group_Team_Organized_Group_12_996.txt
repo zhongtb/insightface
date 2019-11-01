@@ -1,0 +1,6 @@
+12--Group/12_Group_Team_Organized_Group_12_Group_Team_Organized_Group_12_996.jpg
+4
+365 375 287 394 0.997187 
+603 688 294 390 0.994952 
+59 568 51 66 0.0422426 
+723 0 305 329 0.041784 

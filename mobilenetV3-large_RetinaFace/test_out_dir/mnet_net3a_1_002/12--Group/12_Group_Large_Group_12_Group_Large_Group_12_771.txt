@@ -1,0 +1,4 @@
+12--Group/12_Group_Large_Group_12_Group_Large_Group_12_771.jpg
+2
+180 175 372 492 0.999456 
+780 1008 72 90 0.0290186 

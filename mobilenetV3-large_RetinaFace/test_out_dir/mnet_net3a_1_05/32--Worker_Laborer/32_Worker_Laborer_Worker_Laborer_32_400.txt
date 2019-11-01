@@ -1,0 +1,4 @@
+32--Worker_Laborer/32_Worker_Laborer_Worker_Laborer_32_400.jpg
+2
+697 178 46 54 0.980689 
+0 239 338 527 0.624919 

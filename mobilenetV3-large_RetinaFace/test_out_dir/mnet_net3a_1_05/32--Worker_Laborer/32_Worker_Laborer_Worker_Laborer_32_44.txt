@@ -1,0 +1,5 @@
+32--Worker_Laborer/32_Worker_Laborer_Worker_Laborer_32_44.jpg
+3
+504 266 263 335 0.996537 
+194 15 220 345 0.70348 
+245 415 184 256 0.530729 

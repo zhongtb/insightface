@@ -1,0 +1,4 @@
+1--Handshaking/1_Handshaking_Handshaking_1_134.jpg
+2
+697 41 99 124 0.992964 
+290 55 95 101 0.984194 

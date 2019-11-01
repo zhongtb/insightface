@@ -1,0 +1,6 @@
+9--Press_Conference/9_Press_Conference_Press_Conference_9_346.jpg
+4
+416 250 52 22 0.995822 
+79 238 54 24 0.98729 
+265 247 52 23 0.980889 
+609 264 44 21 0.776376 

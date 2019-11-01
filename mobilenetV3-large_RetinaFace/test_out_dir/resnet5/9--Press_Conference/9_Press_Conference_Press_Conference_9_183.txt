@@ -1,0 +1,5 @@
+9--Press_Conference/9_Press_Conference_Press_Conference_9_183.jpg
+3
+565 145 159 201 0.999431 
+219 187 108 165 0.999241 
+295 232 80 132 0.99233 

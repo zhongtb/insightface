@@ -1,0 +1,5 @@
+32--Worker_Laborer/32_Worker_Laborer_Worker_Laborer_32_209.jpg
+3
+722 134 92 101 0.984373 
+564 543 20 26 0.0489203 
+711 77 83 131 0.0290869 

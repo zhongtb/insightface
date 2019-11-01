@@ -1,0 +1,5 @@
+2--Demonstration/2_Demonstration_Political_Rally_2_741.jpg
+3
+574 304 44 32 0.938911 
+121 315 31 30 0.908777 
+738 299 15 13 0.559944 

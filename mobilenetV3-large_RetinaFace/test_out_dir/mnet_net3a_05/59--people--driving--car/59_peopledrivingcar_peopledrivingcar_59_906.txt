@@ -1,0 +1,4 @@
+59--people--driving--car/59_peopledrivingcar_peopledrivingcar_59_906.jpg
+2
+268 153 267 130 0.995749 
+465 393 49 22 0.5686 

@@ -1,0 +1,4 @@
+31--Waiter_Waitress/31_Waiter_Waitress_Waiter_Waitress_31_43.jpg
+2
+660 42 111 153 0.999819 
+297 57 107 144 0.999814 

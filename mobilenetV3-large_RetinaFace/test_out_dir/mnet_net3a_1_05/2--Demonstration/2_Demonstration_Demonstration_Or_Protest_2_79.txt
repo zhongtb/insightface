@@ -1,0 +1,6 @@
+2--Demonstration/2_Demonstration_Demonstration_Or_Protest_2_79.jpg
+4
+897 624 31 40 0.944156 
+689 508 10 12 0.650589 
+818 521 11 14 0.600249 
+538 597 11 15 0.57623 

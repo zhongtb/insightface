@@ -1,0 +1,8 @@
+10--People_Marching/10_People_Marching_People_Marching_10_People_Marching_People_Marching_10_447.jpg
+6
+462 180 26 11 0.958535 
+963 147 23 10 0.544724 
+806 117 23 10 0.53269 
+492 294 33 14 0.521335 
+311 241 26 12 0.505549 
+175 311 23 10 0.25474 

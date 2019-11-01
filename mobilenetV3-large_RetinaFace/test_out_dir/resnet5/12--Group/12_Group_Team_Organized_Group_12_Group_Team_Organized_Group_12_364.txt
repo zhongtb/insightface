@@ -1,0 +1,6 @@
+12--Group/12_Group_Team_Organized_Group_12_Group_Team_Organized_Group_12_364.jpg
+4
+843 121 40 50 0.999897 
+306 128 40 52 0.999874 
+155 117 36 46 0.999835 
+608 150 40 48 0.999761 

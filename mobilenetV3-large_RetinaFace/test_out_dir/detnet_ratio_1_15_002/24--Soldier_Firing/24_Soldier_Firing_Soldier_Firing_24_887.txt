@@ -1,0 +1,4 @@
+24--Soldier_Firing/24_Soldier_Firing_Soldier_Firing_24_887.jpg
+2
+617 537 77 94 0.921416 
+637 567 34 41 0.020947 

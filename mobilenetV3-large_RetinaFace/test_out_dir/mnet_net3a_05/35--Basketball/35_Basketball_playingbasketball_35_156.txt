@@ -1,0 +1,5 @@
+35--Basketball/35_Basketball_playingbasketball_35_156.jpg
+3
+404 356 93 68 0.867753 
+812 318 66 65 0.575679 
+491 280 45 51 0.534148 

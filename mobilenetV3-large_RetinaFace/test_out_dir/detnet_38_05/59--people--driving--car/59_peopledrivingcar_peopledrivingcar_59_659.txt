@@ -1,0 +1,6 @@
+59--people--driving--car/59_peopledrivingcar_peopledrivingcar_59_659.jpg
+4
+788 243 23 26 0.921436 
+185 190 27 24 0.908984 
+297 207 20 18 0.86339 
+508 181 20 20 0.855663 

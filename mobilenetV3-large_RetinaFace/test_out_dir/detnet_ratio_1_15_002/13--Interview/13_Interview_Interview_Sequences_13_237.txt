@@ -1,0 +1,4 @@
+13--Interview/13_Interview_Interview_Sequences_13_237.jpg
+2
+147 227 101 137 0.101483 
+938 0 84 121 0.049671 

@@ -1,0 +1,6 @@
+48--Parachutist_Paratrooper/48_Parachutist_Paratrooper_Parachutist_Paratrooper_48_841.jpg
+4
+607 294 323 438 0.999471 
+186 692 237 286 0.993241 
+94 984 92 115 0.0499696 
+355 689 213 306 0.0297018 

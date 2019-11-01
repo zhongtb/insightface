@@ -1,0 +1,4 @@
+35--Basketball/35_Basketball_playingbasketball_35_764.jpg
+2
+490 247 28 39 0.976065 
+302 187 30 40 0.936664 

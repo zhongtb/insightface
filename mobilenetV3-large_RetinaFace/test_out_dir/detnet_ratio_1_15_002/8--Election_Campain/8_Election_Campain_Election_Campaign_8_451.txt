@@ -1,0 +1,5 @@
+8--Election_Campain/8_Election_Campain_Election_Campaign_8_451.jpg
+3
+430 116 240 291 0.99395 
+476 176 297 327 0.0632543 
+228 683 123 155 0.0259574 

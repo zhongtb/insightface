@@ -1,0 +1,4 @@
+26--Soldier_Drilling/26_Soldier_Drilling_Soldiers_Drilling_26_893.jpg
+2
+433 119 31 45 0.740994 
+418 81 35 55 0.70925 

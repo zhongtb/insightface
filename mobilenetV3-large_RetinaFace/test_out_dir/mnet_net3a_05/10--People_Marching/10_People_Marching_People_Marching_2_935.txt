@@ -1,0 +1,4 @@
+10--People_Marching/10_People_Marching_People_Marching_2_935.jpg
+2
+366 114 214 118 0.992285 
+817 86 234 125 0.830738 

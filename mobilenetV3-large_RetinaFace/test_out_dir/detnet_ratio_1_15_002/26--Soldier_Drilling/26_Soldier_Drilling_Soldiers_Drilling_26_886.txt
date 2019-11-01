@@ -1,0 +1,5 @@
+26--Soldier_Drilling/26_Soldier_Drilling_Soldiers_Drilling_26_886.jpg
+3
+673 95 63 81 0.994453 
+509 47 104 130 0.0772136 
+316 388 142 158 0.0299956 

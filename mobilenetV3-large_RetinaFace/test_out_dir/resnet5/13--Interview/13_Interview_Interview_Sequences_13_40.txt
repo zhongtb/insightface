@@ -1,0 +1,4 @@
+13--Interview/13_Interview_Interview_Sequences_13_40.jpg
+2
+389 155 75 90 0.999494 
+586 164 71 126 0.999191 

@@ -1,0 +1,4 @@
+15--Stock_Market/15_Stock_Market_Stock_Market_15_751.jpg
+2
+261 112 151 203 0.996777 
+345 22 92 146 0.184218 

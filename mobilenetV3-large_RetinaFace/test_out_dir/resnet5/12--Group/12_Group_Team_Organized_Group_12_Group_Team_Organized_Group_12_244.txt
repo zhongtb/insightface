@@ -1,0 +1,5 @@
+12--Group/12_Group_Team_Organized_Group_12_Group_Team_Organized_Group_12_244.jpg
+3
+142 108 138 136 0.999781 
+615 109 127 201 0.999762 
+396 56 136 167 0.999595 

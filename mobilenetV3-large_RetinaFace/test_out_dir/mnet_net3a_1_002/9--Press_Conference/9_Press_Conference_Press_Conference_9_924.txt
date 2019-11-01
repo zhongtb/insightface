@@ -1,0 +1,5 @@
+9--Press_Conference/9_Press_Conference_Press_Conference_9_924.jpg
+3
+388 167 258 359 0.998985 
+545 588 236 178 0.0319495 
+607 389 431 377 0.0256766 

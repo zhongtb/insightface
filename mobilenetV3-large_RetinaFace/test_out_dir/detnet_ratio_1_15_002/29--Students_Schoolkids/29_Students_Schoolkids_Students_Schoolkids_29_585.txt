@@ -1,0 +1,6 @@
+29--Students_Schoolkids/29_Students_Schoolkids_Students_Schoolkids_29_585.jpg
+4
+109 161 46 62 0.993107 
+464 43 76 91 0.973674 
+315 422 105 164 0.0894848 
+968 42 25 30 0.0115961 

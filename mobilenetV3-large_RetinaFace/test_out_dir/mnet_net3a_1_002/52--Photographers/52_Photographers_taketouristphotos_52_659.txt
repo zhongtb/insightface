@@ -1,0 +1,5 @@
+52--Photographers/52_Photographers_taketouristphotos_52_659.jpg
+3
+246 138 108 133 0.960618 
+217 349 250 269 0.18311 
+890 449 36 51 0.0415063 

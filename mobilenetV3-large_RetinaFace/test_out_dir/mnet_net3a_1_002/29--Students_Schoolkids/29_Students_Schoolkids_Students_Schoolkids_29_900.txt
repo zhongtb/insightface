@@ -1,0 +1,5 @@
+29--Students_Schoolkids/29_Students_Schoolkids_Students_Schoolkids_29_900.jpg
+3
+299 103 195 271 0.996345 
+558 663 143 191 0.0471351 
+455 0 668 421 0.0214075 

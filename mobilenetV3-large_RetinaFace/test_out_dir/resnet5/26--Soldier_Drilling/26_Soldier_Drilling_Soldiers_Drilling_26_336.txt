@@ -1,0 +1,4 @@
+26--Soldier_Drilling/26_Soldier_Drilling_Soldiers_Drilling_26_336.jpg
+2
+637 212 40 45 0.999625 
+85 230 36 45 0.99942 

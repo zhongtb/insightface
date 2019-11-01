@@ -1,0 +1,6 @@
+29--Students_Schoolkids/29_Students_Schoolkids_Students_Schoolkids_29_81.jpg
+4
+782 121 113 153 0.994558 
+190 179 38 45 0.991246 
+83 255 40 48 0.979223 
+695 306 36 41 0.976838 

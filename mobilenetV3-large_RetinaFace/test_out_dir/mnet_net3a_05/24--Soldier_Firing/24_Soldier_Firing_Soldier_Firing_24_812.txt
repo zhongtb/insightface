@@ -1,0 +1,4 @@
+24--Soldier_Firing/24_Soldier_Firing_Soldier_Firing_24_812.jpg
+2
+772 76 52 52 0.839342 
+806 0 137 112 0.635982 
