@@ -1,0 +1,31 @@
+nohup: ignoring input
+INFO:root:Called with argument: Namespace(bbox_vote=True, dataset='retinaface', dataset_path='./data/retinaface', epoch=42, gpu=2, image_set='val', mode=1, network='detnet', nocrop=False, output='./test_out_dir/detnet_00', part=0, parts=1, prefix='model/detnet_ratios_1/detnet_ratios_1', pyramid=True, root_path='./data', thresh=0.5)
+test with Namespace(bbox_vote=True, dataset='retinaface', dataset_path='./data/retinaface', epoch=42, gpu=2, image_set='val', mode=1, network='detnet', nocrop=False, output='./test_out_dir/detnet_00', part=0, parts=1, prefix='model/detnet_ratios_1/detnet_ratios_1', pyramid=True, root_path='./data', thresh=0.5)
+[16, 8, 4] {'16': {'SCALES': (8, 4), 'BASE_SIZE': 16, 'RATIOS': (1.0, 1.5), 'ALLOWED_BORDER': 9999}, '8': {'SCALES': (2, 1), 'BASE_SIZE': 16, 'RATIOS': (1.0, 1.5), 'ALLOWED_BORDER': 9999}, '4': {'SCALES': (2, 1), 'BASE_SIZE': 16, 'RATIOS': (1.0, 1.5), 'ALLOWED_BORDER': 9999}}
+dense_anchor:  False
+_cfg_anchors:  {'16': {'SCALES': (8, 4), 'BASE_SIZE': 16, 'RATIOS': (1.0, 1.5), 'ALLOWED_BORDER': 9999}, '8': {'SCALES': (2, 1), 'BASE_SIZE': 16, 'RATIOS': (1.0, 1.5), 'ALLOWED_BORDER': 9999}, '4': {'SCALES': (2, 1), 'BASE_SIZE': 16, 'RATIOS': (1.0, 1.5), 'ALLOWED_BORDER': 9999}}
+_num_anchors:  {'stride16': 4, 'stride8': 4, 'stride4': 4}
+args.dataset: retinaface
+args.image_set: val
+args.root_path: ./data
+args.dataset_path: ./data/retinaface
+origin image size 3226
+imdb:  <rcnn.dataset.retinaface.retinaface object at 0x7fab3c311f28>
+retinaface_val gt roidb loaded from ./data/cache/retinaface_val_val_gt_roidb.pkl
+roidb size 3226
+im_shape:  (539, 960, 3)
+scales:  [1.3333333333333333]
+Traceback (most recent call last):
+  File "test_widerface_pad.py", line 225, in <module>
+    main()
+  File "test_widerface_pad.py", line 222, in main
+    test(args)
+  File "test_widerface_pad.py", line 166, in test
+    boxes = get_boxes(roi, args.pyramid)
+  File "test_widerface_pad.py", line 102, in get_boxes
+    boxes, landmarks = detector.detect(im, threshold=args.thresh, scales = scales, do_flip=do_flip)
+  File "/home/tianbo.zhong/zhongtb/insightface/mnetRetinaface/retinaface_val_pad.py", line 312, in detect
+    proposals = self.bbox_pred(anchors, bbox_deltas)
+  File "/home/tianbo.zhong/zhongtb/insightface/mnetRetinaface/retinaface_val_pad.py", line 598, in bbox_pred
+    pred_boxes[:, 0:1] = pred_ctr_x - 0.5 * (pred_w - 1.0)
+ValueError: could not broadcast input array from shape (14400,0) into shape (14400,1)

@@ -1,0 +1,527 @@
+nohup: ignoring input
+INFO:root:Called with argument: Namespace(begin_epoch=0, dataset='retinaface', dataset_path='data/retinaface', end_epoch=100, frequent=20, image_set='train', kvstore='device', lr=0.01, lr_step='55,68,80', network='mnet', no_flip=False, no_ohem=False, no_shuffle=False, prefix='model/mnet_net3a_maxout2/mnet_net3a_maxout2', pretrained='model/mobilenet_0_25', pretrained_epoch=0, root_path='data', work_load_list=None)
+INFO:root:{'BBOX_MASK_THRESH': 0,
+ 'COLOR_JITTERING': 0.125,
+ 'COLOR_MODE': 1,
+ 'CONTEXT_FILTER_RATIO': 1,
+ 'DENSE_ANCHOR': False,
+ 'FACE_LANDMARK': True,
+ 'FIXED_PARAMS': ['^stage1', '^.*upsampling'],
+ 'HEAD_BOX': False,
+ 'HEAD_FILTER_NUM': 64,
+ 'HEAD_MODULE': 'SSH',
+ 'IMAGE_STRIDE': 0,
+ 'LANDMARK_LR_MULT': 2.5,
+ 'LAYER_FIX': True,
+ 'LR_MODE': 0,
+ 'MIXUP': 0.0,
+ 'MORE_SMALL_BOX': True,
+ 'NET_MODE': 2,
+ 'NUM_ANCHORS': 4,
+ 'NUM_CLASSES': 2,
+ 'NUM_CPU': 4,
+ 'ORIGIN_SCALE': False,
+ 'PIXEL_MEANS': array([0., 0., 0.]),
+ 'PIXEL_SCALE': 1.0,
+ 'PIXEL_STDS': array([1., 1., 1.]),
+ 'PLATFORM_DEVICES': False,
+ 'PRE_SCALES': [(1200, 1600)],
+ 'RANDOM_FEAT_STRIDE': False,
+ 'RPN_ANCHOR_CFG': {'16': {'ALLOWED_BORDER': 9999,
+                           'BASE_SIZE': 16,
+                           'NUM_ANCHORS': 4,
+                           'RATIOS': [1.0, 1.5],
+                           'SCALES': [8, 4]},
+                    '32': {'ALLOWED_BORDER': 9999,
+                           'BASE_SIZE': 16,
+                           'NUM_ANCHORS': 4,
+                           'RATIOS': [1.0, 1.5],
+                           'SCALES': [32, 16]},
+                    '8': {'ALLOWED_BORDER': 9999,
+                          'BASE_SIZE': 16,
+                          'NUM_ANCHORS': 4,
+                          'RATIOS': [1.0, 1.5],
+                          'SCALES': [2, 1]}},
+ 'RPN_FEAT_STRIDE': [32, 16, 8],
+ 'SCALES': [(640, 640)],
+ 'SHARE_WEIGHT_BBOX': False,
+ 'SHARE_WEIGHT_LANDMARK': False,
+ 'TEST': {'BATCH_IMAGES': 1,
+          'CXX_PROPOSAL': True,
+          'HAS_RPN': False,
+          'IOU_THRESH': 0.5,
+          'NMS': 0.3,
+          'RPN_NMS_THRESH': 0.3,
+          'RPN_POST_NMS_TOP_N': 3000,
+          'RPN_PRE_NMS_TOP_N': 1000,
+          'SCORE_THRESH': 0.05},
+ 'TRAIN': {'ASPECT_GROUPING': False,
+           'BATCH_IMAGES': 32,
+           'END2END': True,
+           'IMAGE_ALIGN': 0,
+           'MIN_BOX_SIZE': 0,
+           'RPN_BATCH_SIZE': 256,
+           'RPN_CLOBBER_POSITIVES': False,
+           'RPN_ENABLE_OHEM': 2,
+           'RPN_FG_FRACTION': 0.25,
+           'RPN_FORCE_POSITIVE': False,
+           'RPN_NEGATIVE_OVERLAP': 0.3,
+           'RPN_POSITIVE_OVERLAP': 0.5},
+ 'USE_3D': False,
+ 'USE_BLUR': False,
+ 'USE_CROP': True,
+ 'USE_DCN': 0,
+ 'USE_MAXOUT': 2,
+ 'USE_OCCLUSION': False,
+ 'dataset': 'retinaface',
+ 'max_feat_channel': 8888,
+ 'network': 'mnet'}
+INFO:root:retinaface_train append flipped images to roidb
+INFO:root:loading model/mobilenet_0_25,0
+[22:21:26] src/nnvm/legacy_json_util.cc:209: Loading symbol saved by previous version v1.3.0. Attempting to upgrade...
+[22:21:26] src/nnvm/legacy_json_util.cc:217: Symbol successfully upgraded!
+gpu num: 1
+origin image size 12880
+retinaface_train gt roidb loaded from data/cache/retinaface_train_train_gt_roidb.pkl
+roidb size 12876
+flipped roidb size 25752
+before_mnet:  <Symbol group [data, mobilenet0_conv0_weight, mobilenet0_conv0_fwd, mobilenet0_batchnorm0_gamma, mobilenet0_batchnorm0_beta, mobilenet0_batchnorm0_running_mean, mobilenet0_batchnorm0_running_var, mobilenet0_batchnorm0_fwd, mobilenet0_relu0_fwd, mobilenet0_conv1_weight, mobilenet0_conv1_fwd, mobilenet0_batchnorm1_gamma, mobilenet0_batchnorm1_beta, mobilenet0_batchnorm1_running_mean, mobilenet0_batchnorm1_running_var, mobilenet0_batchnorm1_fwd, mobilenet0_relu1_fwd, mobilenet0_conv2_weight, mobilenet0_conv2_fwd, mobilenet0_batchnorm2_gamma, mobilenet0_batchnorm2_beta, mobilenet0_batchnorm2_running_mean, mobilenet0_batchnorm2_running_var, mobilenet0_batchnorm2_fwd, mobilenet0_relu2_fwd, mobilenet0_conv3_weight, mobilenet0_conv3_fwd, mobilenet0_batchnorm3_gamma, mobilenet0_batchnorm3_beta, mobilenet0_batchnorm3_running_mean, mobilenet0_batchnorm3_running_var, mobilenet0_batchnorm3_fwd, mobilenet0_relu3_fwd, mobilenet0_conv4_weight, mobilenet0_conv4_fwd, mobilenet0_batchnorm4_gamma, mobilenet0_batchnorm4_beta, mobilenet0_batchnorm4_running_mean, mobilenet0_batchnorm4_running_var, mobilenet0_batchnorm4_fwd, mobilenet0_relu4_fwd, mobilenet0_conv5_weight, mobilenet0_conv5_fwd, mobilenet0_batchnorm5_gamma, mobilenet0_batchnorm5_beta, mobilenet0_batchnorm5_running_mean, mobilenet0_batchnorm5_running_var, mobilenet0_batchnorm5_fwd, mobilenet0_relu5_fwd, mobilenet0_conv6_weight, mobilenet0_conv6_fwd, mobilenet0_batchnorm6_gamma, mobilenet0_batchnorm6_beta, mobilenet0_batchnorm6_running_mean, mobilenet0_batchnorm6_running_var, mobilenet0_batchnorm6_fwd, mobilenet0_relu6_fwd, mobilenet0_conv7_weight, mobilenet0_conv7_fwd, mobilenet0_batchnorm7_gamma, mobilenet0_batchnorm7_beta, mobilenet0_batchnorm7_running_mean, mobilenet0_batchnorm7_running_var, mobilenet0_batchnorm7_fwd, mobilenet0_relu7_fwd, mobilenet0_conv8_weight, mobilenet0_conv8_fwd, mobilenet0_batchnorm8_gamma, mobilenet0_batchnorm8_beta, mobilenet0_batchnorm8_running_mean, mobilenet0_batchnorm8_running_var, mobilenet0_batchnorm8_fwd, mobilenet0_relu8_fwd, mobilenet0_conv9_weight, mobilenet0_conv9_fwd, mobilenet0_batchnorm9_gamma, mobilenet0_batchnorm9_beta, mobilenet0_batchnorm9_running_mean, mobilenet0_batchnorm9_running_var, mobilenet0_batchnorm9_fwd, mobilenet0_relu9_fwd, mobilenet0_conv10_weight, mobilenet0_conv10_fwd, mobilenet0_batchnorm10_gamma, mobilenet0_batchnorm10_beta, mobilenet0_batchnorm10_running_mean, mobilenet0_batchnorm10_running_var, mobilenet0_batchnorm10_fwd, mobilenet0_relu10_fwd, mobilenet0_conv11_weight, mobilenet0_conv11_fwd, mobilenet0_batchnorm11_gamma, mobilenet0_batchnorm11_beta, mobilenet0_batchnorm11_running_mean, mobilenet0_batchnorm11_running_var, mobilenet0_batchnorm11_fwd, mobilenet0_relu11_fwd, mobilenet0_conv12_weight, mobilenet0_conv12_fwd, mobilenet0_batchnorm12_gamma, mobilenet0_batchnorm12_beta, mobilenet0_batchnorm12_running_mean, mobilenet0_batchnorm12_running_var, mobilenet0_batchnorm12_fwd, mobilenet0_relu12_fwd, mobilenet0_conv13_weight, mobilenet0_conv13_fwd, mobilenet0_batchnorm13_gamma, mobilenet0_batchnorm13_beta, mobilenet0_batchnorm13_running_mean, mobilenet0_batchnorm13_running_var, mobilenet0_batchnorm13_fwd, mobilenet0_relu13_fwd, mobilenet0_conv14_weight, mobilenet0_conv14_fwd, mobilenet0_batchnorm14_gamma, mobilenet0_batchnorm14_beta, mobilenet0_batchnorm14_running_mean, mobilenet0_batchnorm14_running_var, mobilenet0_batchnorm14_fwd, mobilenet0_relu14_fwd, mobilenet0_conv15_weight, mobilenet0_conv15_fwd, mobilenet0_batchnorm15_gamma, mobilenet0_batchnorm15_beta, mobilenet0_batchnorm15_running_mean, mobilenet0_batchnorm15_running_var, mobilenet0_batchnorm15_fwd, mobilenet0_relu15_fwd, mobilenet0_conv16_weight, mobilenet0_conv16_fwd, mobilenet0_batchnorm16_gamma, mobilenet0_batchnorm16_beta, mobilenet0_batchnorm16_running_mean, mobilenet0_batchnorm16_running_var, mobilenet0_batchnorm16_fwd, mobilenet0_relu16_fwd, mobilenet0_conv17_weight, mobilenet0_conv17_fwd, mobilenet0_batchnorm17_gamma, mobilenet0_batchnorm17_beta, mobilenet0_batchnorm17_running_mean, mobilenet0_batchnorm17_running_var, mobilenet0_batchnorm17_fwd, mobilenet0_relu17_fwd, mobilenet0_conv18_weight, mobilenet0_conv18_fwd, mobilenet0_batchnorm18_gamma, mobilenet0_batchnorm18_beta, mobilenet0_batchnorm18_running_mean, mobilenet0_batchnorm18_running_var, mobilenet0_batchnorm18_fwd, mobilenet0_relu18_fwd, mobilenet0_conv19_weight, mobilenet0_conv19_fwd, mobilenet0_batchnorm19_gamma, mobilenet0_batchnorm19_beta, mobilenet0_batchnorm19_running_mean, mobilenet0_batchnorm19_running_var, mobilenet0_batchnorm19_fwd, mobilenet0_relu19_fwd, mobilenet0_conv20_weight, mobilenet0_conv20_fwd, mobilenet0_batchnorm20_gamma, mobilenet0_batchnorm20_beta, mobilenet0_batchnorm20_running_mean, mobilenet0_batchnorm20_running_var, mobilenet0_batchnorm20_fwd, mobilenet0_relu20_fwd, mobilenet0_conv21_weight, mobilenet0_conv21_fwd, mobilenet0_batchnorm21_gamma, mobilenet0_batchnorm21_beta, mobilenet0_batchnorm21_running_mean, mobilenet0_batchnorm21_running_var, mobilenet0_batchnorm21_fwd, mobilenet0_relu21_fwd, mobilenet0_conv22_weight, mobilenet0_conv22_fwd, mobilenet0_batchnorm22_gamma, mobilenet0_batchnorm22_beta, mobilenet0_batchnorm22_running_mean, mobilenet0_batchnorm22_running_var, mobilenet0_batchnorm22_fwd, mobilenet0_relu22_fwd, mobilenet0_conv23_weight, mobilenet0_conv23_fwd, mobilenet0_batchnorm23_gamma, mobilenet0_batchnorm23_beta, mobilenet0_batchnorm23_running_mean, mobilenet0_batchnorm23_running_var, mobilenet0_batchnorm23_fwd, mobilenet0_relu23_fwd, mobilenet0_conv24_weight, mobilenet0_conv24_fwd, mobilenet0_batchnorm24_gamma, mobilenet0_batchnorm24_beta, mobilenet0_batchnorm24_running_mean, mobilenet0_batchnorm24_running_var, mobilenet0_batchnorm24_fwd, mobilenet0_relu24_fwd, mobilenet0_conv25_weight, mobilenet0_conv25_fwd, mobilenet0_batchnorm25_gamma, mobilenet0_batchnorm25_beta, mobilenet0_batchnorm25_running_mean, mobilenet0_batchnorm25_running_var, mobilenet0_batchnorm25_fwd, mobilenet0_relu25_fwd, mobilenet0_conv26_weight, mobilenet0_conv26_fwd, mobilenet0_batchnorm26_gamma, mobilenet0_batchnorm26_beta, mobilenet0_batchnorm26_running_mean, mobilenet0_batchnorm26_running_var, mobilenet0_batchnorm26_fwd, mobilenet0_relu26_fwd, mobilenet0_pool0_fwd, mobilenet0_flatten0_reshape0, mobilenet0_dense0_weight, mobilenet0_dense0_bias, mobilenet0_dense0_fwd]>
+all_layers: <Symbol group [data, mobilenet0_conv0_weight, mobilenet0_conv0_fwd, mobilenet0_batchnorm0_gamma, mobilenet0_batchnorm0_beta, mobilenet0_batchnorm0_running_mean, mobilenet0_batchnorm0_running_var, mobilenet0_batchnorm0_fwd, mobilenet0_relu0_fwd, mobilenet0_conv1_weight, mobilenet0_conv1_fwd, mobilenet0_batchnorm1_gamma, mobilenet0_batchnorm1_beta, mobilenet0_batchnorm1_running_mean, mobilenet0_batchnorm1_running_var, mobilenet0_batchnorm1_fwd, mobilenet0_relu1_fwd, mobilenet0_conv2_weight, mobilenet0_conv2_fwd, mobilenet0_batchnorm2_gamma, mobilenet0_batchnorm2_beta, mobilenet0_batchnorm2_running_mean, mobilenet0_batchnorm2_running_var, mobilenet0_batchnorm2_fwd, mobilenet0_relu2_fwd, mobilenet0_conv3_weight, mobilenet0_conv3_fwd, mobilenet0_batchnorm3_gamma, mobilenet0_batchnorm3_beta, mobilenet0_batchnorm3_running_mean, mobilenet0_batchnorm3_running_var, mobilenet0_batchnorm3_fwd, mobilenet0_relu3_fwd, mobilenet0_conv4_weight, mobilenet0_conv4_fwd, mobilenet0_batchnorm4_gamma, mobilenet0_batchnorm4_beta, mobilenet0_batchnorm4_running_mean, mobilenet0_batchnorm4_running_var, mobilenet0_batchnorm4_fwd, mobilenet0_relu4_fwd, mobilenet0_conv5_weight, mobilenet0_conv5_fwd, mobilenet0_batchnorm5_gamma, mobilenet0_batchnorm5_beta, mobilenet0_batchnorm5_running_mean, mobilenet0_batchnorm5_running_var, mobilenet0_batchnorm5_fwd, mobilenet0_relu5_fwd, mobilenet0_conv6_weight, mobilenet0_conv6_fwd, mobilenet0_batchnorm6_gamma, mobilenet0_batchnorm6_beta, mobilenet0_batchnorm6_running_mean, mobilenet0_batchnorm6_running_var, mobilenet0_batchnorm6_fwd, mobilenet0_relu6_fwd, mobilenet0_conv7_weight, mobilenet0_conv7_fwd, mobilenet0_batchnorm7_gamma, mobilenet0_batchnorm7_beta, mobilenet0_batchnorm7_running_mean, mobilenet0_batchnorm7_running_var, mobilenet0_batchnorm7_fwd, mobilenet0_relu7_fwd, mobilenet0_conv8_weight, mobilenet0_conv8_fwd, mobilenet0_batchnorm8_gamma, mobilenet0_batchnorm8_beta, mobilenet0_batchnorm8_running_mean, mobilenet0_batchnorm8_running_var, mobilenet0_batchnorm8_fwd, mobilenet0_relu8_fwd, mobilenet0_conv9_weight, mobilenet0_conv9_fwd, mobilenet0_batchnorm9_gamma, mobilenet0_batchnorm9_beta, mobilenet0_batchnorm9_running_mean, mobilenet0_batchnorm9_running_var, mobilenet0_batchnorm9_fwd, mobilenet0_relu9_fwd, mobilenet0_conv10_weight, mobilenet0_conv10_fwd, mobilenet0_batchnorm10_gamma, mobilenet0_batchnorm10_beta, mobilenet0_batchnorm10_running_mean, mobilenet0_batchnorm10_running_var, mobilenet0_batchnorm10_fwd, mobilenet0_relu10_fwd, mobilenet0_conv11_weight, mobilenet0_conv11_fwd, mobilenet0_batchnorm11_gamma, mobilenet0_batchnorm11_beta, mobilenet0_batchnorm11_running_mean, mobilenet0_batchnorm11_running_var, mobilenet0_batchnorm11_fwd, mobilenet0_relu11_fwd, mobilenet0_conv12_weight, mobilenet0_conv12_fwd, mobilenet0_batchnorm12_gamma, mobilenet0_batchnorm12_beta, mobilenet0_batchnorm12_running_mean, mobilenet0_batchnorm12_running_var, mobilenet0_batchnorm12_fwd, mobilenet0_relu12_fwd, mobilenet0_conv13_weight, mobilenet0_conv13_fwd, mobilenet0_batchnorm13_gamma, mobilenet0_batchnorm13_beta, mobilenet0_batchnorm13_running_mean, mobilenet0_batchnorm13_running_var, mobilenet0_batchnorm13_fwd, mobilenet0_relu13_fwd, mobilenet0_conv14_weight, mobilenet0_conv14_fwd, mobilenet0_batchnorm14_gamma, mobilenet0_batchnorm14_beta, mobilenet0_batchnorm14_running_mean, mobilenet0_batchnorm14_running_var, mobilenet0_batchnorm14_fwd, mobilenet0_relu14_fwd, mobilenet0_conv15_weight, mobilenet0_conv15_fwd, mobilenet0_batchnorm15_gamma, mobilenet0_batchnorm15_beta, mobilenet0_batchnorm15_running_mean, mobilenet0_batchnorm15_running_var, mobilenet0_batchnorm15_fwd, mobilenet0_relu15_fwd, mobilenet0_conv16_weight, mobilenet0_conv16_fwd, mobilenet0_batchnorm16_gamma, mobilenet0_batchnorm16_beta, mobilenet0_batchnorm16_running_mean, mobilenet0_batchnorm16_running_var, mobilenet0_batchnorm16_fwd, mobilenet0_relu16_fwd, mobilenet0_conv17_weight, mobilenet0_conv17_fwd, mobilenet0_batchnorm17_gamma, mobilenet0_batchnorm17_beta, mobilenet0_batchnorm17_running_mean, mobilenet0_batchnorm17_running_var, mobilenet0_batchnorm17_fwd, mobilenet0_relu17_fwd, mobilenet0_conv18_weight, mobilenet0_conv18_fwd, mobilenet0_batchnorm18_gamma, mobilenet0_batchnorm18_beta, mobilenet0_batchnorm18_running_mean, mobilenet0_batchnorm18_running_var, mobilenet0_batchnorm18_fwd, mobilenet0_relu18_fwd, mobilenet0_conv19_weight, mobilenet0_conv19_fwd, mobilenet0_batchnorm19_gamma, mobilenet0_batchnorm19_beta, mobilenet0_batchnorm19_running_mean, mobilenet0_batchnorm19_running_var, mobilenet0_batchnorm19_fwd, mobilenet0_relu19_fwd, mobilenet0_conv20_weight, mobilenet0_conv20_fwd, mobilenet0_batchnorm20_gamma, mobilenet0_batchnorm20_beta, mobilenet0_batchnorm20_running_mean, mobilenet0_batchnorm20_running_var, mobilenet0_batchnorm20_fwd, mobilenet0_relu20_fwd, mobilenet0_conv21_weight, mobilenet0_conv21_fwd, mobilenet0_batchnorm21_gamma, mobilenet0_batchnorm21_beta, mobilenet0_batchnorm21_running_mean, mobilenet0_batchnorm21_running_var, mobilenet0_batchnorm21_fwd, mobilenet0_relu21_fwd, mobilenet0_conv22_weight, mobilenet0_conv22_fwd, mobilenet0_batchnorm22_gamma, mobilenet0_batchnorm22_beta, mobilenet0_batchnorm22_running_mean, mobilenet0_batchnorm22_running_var, mobilenet0_batchnorm22_fwd, mobilenet0_relu22_fwd, mobilenet0_conv23_weight, mobilenet0_conv23_fwd, mobilenet0_batchnorm23_gamma, mobilenet0_batchnorm23_beta, mobilenet0_batchnorm23_running_mean, mobilenet0_batchnorm23_running_var, mobilenet0_batchnorm23_fwd, mobilenet0_relu23_fwd, mobilenet0_conv24_weight, mobilenet0_conv24_fwd, mobilenet0_batchnorm24_gamma, mobilenet0_batchnorm24_beta, mobilenet0_batchnorm24_running_mean, mobilenet0_batchnorm24_running_var, mobilenet0_batchnorm24_fwd, mobilenet0_relu24_fwd, mobilenet0_conv25_weight, mobilenet0_conv25_fwd, mobilenet0_batchnorm25_gamma, mobilenet0_batchnorm25_beta, mobilenet0_batchnorm25_running_mean, mobilenet0_batchnorm25_running_var, mobilenet0_batchnorm25_fwd, mobilenet0_relu25_fwd, mobilenet0_conv26_weight, mobilenet0_conv26_fwd, mobilenet0_batchnorm26_gamma, mobilenet0_batchnorm26_beta, mobilenet0_batchnorm26_running_mean, mobilenet0_batchnorm26_running_var, mobilenet0_batchnorm26_fwd, mobilenet0_relu26_fwd, mobilenet0_pool0_fwd, mobilenet0_flatten0_reshape0, mobilenet0_dense0_weight, mobilenet0_dense0_bias, mobilenet0_dense0_fwd]>
+stride 2 mobilenet0_relu2_fwd_output <Symbol mobilenet0_relu2_fwd> (1, 16, 320, 320)
+stride 4 mobilenet0_relu6_fwd_output <Symbol mobilenet0_relu6_fwd> (1, 32, 160, 160)
+stride 8 mobilenet0_relu10_fwd_output <Symbol mobilenet0_relu10_fwd> (1, 64, 80, 80)
+stride 16 mobilenet0_relu22_fwd_output <Symbol mobilenet0_relu22_fwd> (1, 128, 40, 40)
+stride 32 mobilenet0_relu26_fwd_output <Symbol mobilenet0_relu26_fwd> (1, 256, 20, 20)
+stride 640 mobilenet0_pool0_fwd_output <Symbol mobilenet0_pool0_fwd> (1, 256, 1, 1)
+F1_F2 64 64
+c0:  <Symbol mobilenet0_relu6_fwd>
+c1:  <Symbol mobilenet0_relu10_fwd>
+c2:  <Symbol mobilenet0_relu22_fwd>
+c3:  <Symbol mobilenet0_relu26_fwd>
+after_mnet:  <Symbol group [data, mobilenet0_conv0_weight, mobilenet0_conv0_fwd, mobilenet0_batchnorm0_gamma, mobilenet0_batchnorm0_beta, mobilenet0_batchnorm0_running_mean, mobilenet0_batchnorm0_running_var, mobilenet0_batchnorm0_fwd, mobilenet0_relu0_fwd, mobilenet0_conv1_weight, mobilenet0_conv1_fwd, mobilenet0_batchnorm1_gamma, mobilenet0_batchnorm1_beta, mobilenet0_batchnorm1_running_mean, mobilenet0_batchnorm1_running_var, mobilenet0_batchnorm1_fwd, mobilenet0_relu1_fwd, mobilenet0_conv2_weight, mobilenet0_conv2_fwd, mobilenet0_batchnorm2_gamma, mobilenet0_batchnorm2_beta, mobilenet0_batchnorm2_running_mean, mobilenet0_batchnorm2_running_var, mobilenet0_batchnorm2_fwd, mobilenet0_relu2_fwd, mobilenet0_conv3_weight, mobilenet0_conv3_fwd, mobilenet0_batchnorm3_gamma, mobilenet0_batchnorm3_beta, mobilenet0_batchnorm3_running_mean, mobilenet0_batchnorm3_running_var, mobilenet0_batchnorm3_fwd, mobilenet0_relu3_fwd, mobilenet0_conv4_weight, mobilenet0_conv4_fwd, mobilenet0_batchnorm4_gamma, mobilenet0_batchnorm4_beta, mobilenet0_batchnorm4_running_mean, mobilenet0_batchnorm4_running_var, mobilenet0_batchnorm4_fwd, mobilenet0_relu4_fwd, mobilenet0_conv5_weight, mobilenet0_conv5_fwd, mobilenet0_batchnorm5_gamma, mobilenet0_batchnorm5_beta, mobilenet0_batchnorm5_running_mean, mobilenet0_batchnorm5_running_var, mobilenet0_batchnorm5_fwd, mobilenet0_relu5_fwd, mobilenet0_conv6_weight, mobilenet0_conv6_fwd, mobilenet0_batchnorm6_gamma, mobilenet0_batchnorm6_beta, mobilenet0_batchnorm6_running_mean, mobilenet0_batchnorm6_running_var, mobilenet0_batchnorm6_fwd, mobilenet0_relu6_fwd, mobilenet0_conv7_weight, mobilenet0_conv7_fwd, mobilenet0_batchnorm7_gamma, mobilenet0_batchnorm7_beta, mobilenet0_batchnorm7_running_mean, mobilenet0_batchnorm7_running_var, mobilenet0_batchnorm7_fwd, mobilenet0_relu7_fwd, mobilenet0_conv8_weight, mobilenet0_conv8_fwd, mobilenet0_batchnorm8_gamma, mobilenet0_batchnorm8_beta, mobilenet0_batchnorm8_running_mean, mobilenet0_batchnorm8_running_var, mobilenet0_batchnorm8_fwd, mobilenet0_relu8_fwd, mobilenet0_conv9_weight, mobilenet0_conv9_fwd, mobilenet0_batchnorm9_gamma, mobilenet0_batchnorm9_beta, mobilenet0_batchnorm9_running_mean, mobilenet0_batchnorm9_running_var, mobilenet0_batchnorm9_fwd, mobilenet0_relu9_fwd, mobilenet0_conv10_weight, mobilenet0_conv10_fwd, mobilenet0_batchnorm10_gamma, mobilenet0_batchnorm10_beta, mobilenet0_batchnorm10_running_mean, mobilenet0_batchnorm10_running_var, mobilenet0_batchnorm10_fwd, mobilenet0_relu10_fwd, mobilenet0_conv11_weight, mobilenet0_conv11_fwd, mobilenet0_batchnorm11_gamma, mobilenet0_batchnorm11_beta, mobilenet0_batchnorm11_running_mean, mobilenet0_batchnorm11_running_var, mobilenet0_batchnorm11_fwd, mobilenet0_relu11_fwd, mobilenet0_conv12_weight, mobilenet0_conv12_fwd, mobilenet0_batchnorm12_gamma, mobilenet0_batchnorm12_beta, mobilenet0_batchnorm12_running_mean, mobilenet0_batchnorm12_running_var, mobilenet0_batchnorm12_fwd, mobilenet0_relu12_fwd, mobilenet0_conv13_weight, mobilenet0_conv13_fwd, mobilenet0_batchnorm13_gamma, mobilenet0_batchnorm13_beta, mobilenet0_batchnorm13_running_mean, mobilenet0_batchnorm13_running_var, mobilenet0_batchnorm13_fwd, mobilenet0_relu13_fwd, mobilenet0_conv14_weight, mobilenet0_conv14_fwd, mobilenet0_batchnorm14_gamma, mobilenet0_batchnorm14_beta, mobilenet0_batchnorm14_running_mean, mobilenet0_batchnorm14_running_var, mobilenet0_batchnorm14_fwd, mobilenet0_relu14_fwd, mobilenet0_conv15_weight, mobilenet0_conv15_fwd, mobilenet0_batchnorm15_gamma, mobilenet0_batchnorm15_beta, mobilenet0_batchnorm15_running_mean, mobilenet0_batchnorm15_running_var, mobilenet0_batchnorm15_fwd, mobilenet0_relu15_fwd, mobilenet0_conv16_weight, mobilenet0_conv16_fwd, mobilenet0_batchnorm16_gamma, mobilenet0_batchnorm16_beta, mobilenet0_batchnorm16_running_mean, mobilenet0_batchnorm16_running_var, mobilenet0_batchnorm16_fwd, mobilenet0_relu16_fwd, mobilenet0_conv17_weight, mobilenet0_conv17_fwd, mobilenet0_batchnorm17_gamma, mobilenet0_batchnorm17_beta, mobilenet0_batchnorm17_running_mean, mobilenet0_batchnorm17_running_var, mobilenet0_batchnorm17_fwd, mobilenet0_relu17_fwd, mobilenet0_conv18_weight, mobilenet0_conv18_fwd, mobilenet0_batchnorm18_gamma, mobilenet0_batchnorm18_beta, mobilenet0_batchnorm18_running_mean, mobilenet0_batchnorm18_running_var, mobilenet0_batchnorm18_fwd, mobilenet0_relu18_fwd, mobilenet0_conv19_weight, mobilenet0_conv19_fwd, mobilenet0_batchnorm19_gamma, mobilenet0_batchnorm19_beta, mobilenet0_batchnorm19_running_mean, mobilenet0_batchnorm19_running_var, mobilenet0_batchnorm19_fwd, mobilenet0_relu19_fwd, mobilenet0_conv20_weight, mobilenet0_conv20_fwd, mobilenet0_batchnorm20_gamma, mobilenet0_batchnorm20_beta, mobilenet0_batchnorm20_running_mean, mobilenet0_batchnorm20_running_var, mobilenet0_batchnorm20_fwd, mobilenet0_relu20_fwd, mobilenet0_conv21_weight, mobilenet0_conv21_fwd, mobilenet0_batchnorm21_gamma, mobilenet0_batchnorm21_beta, mobilenet0_batchnorm21_running_mean, mobilenet0_batchnorm21_running_var, mobilenet0_batchnorm21_fwd, mobilenet0_relu21_fwd, mobilenet0_conv22_weight, mobilenet0_conv22_fwd, mobilenet0_batchnorm22_gamma, mobilenet0_batchnorm22_beta, mobilenet0_batchnorm22_running_mean, mobilenet0_batchnorm22_running_var, mobilenet0_batchnorm22_fwd, mobilenet0_relu22_fwd, mobilenet0_conv23_weight, mobilenet0_conv23_fwd, mobilenet0_batchnorm23_gamma, mobilenet0_batchnorm23_beta, mobilenet0_batchnorm23_running_mean, mobilenet0_batchnorm23_running_var, mobilenet0_batchnorm23_fwd, mobilenet0_relu23_fwd, mobilenet0_conv24_weight, mobilenet0_conv24_fwd, mobilenet0_batchnorm24_gamma, mobilenet0_batchnorm24_beta, mobilenet0_batchnorm24_running_mean, mobilenet0_batchnorm24_running_var, mobilenet0_batchnorm24_fwd, mobilenet0_relu24_fwd, mobilenet0_conv25_weight, mobilenet0_conv25_fwd, mobilenet0_batchnorm25_gamma, mobilenet0_batchnorm25_beta, mobilenet0_batchnorm25_running_mean, mobilenet0_batchnorm25_running_var, mobilenet0_batchnorm25_fwd, mobilenet0_relu25_fwd, mobilenet0_conv26_weight, mobilenet0_conv26_fwd, mobilenet0_batchnorm26_gamma, mobilenet0_batchnorm26_beta, mobilenet0_batchnorm26_running_mean, mobilenet0_batchnorm26_running_var, mobilenet0_batchnorm26_fwd, mobilenet0_relu26_fwd, rf_c3_lateral_weight, rf_c3_lateral_bias, rf_c3_lateral, rf_c3_lateral_bn_gamma, rf_c3_lateral_bn_beta, rf_c3_lateral_bn_moving_mean, rf_c3_lateral_bn_moving_var, rf_c3_lateral_bn, rf_c3_lateral_relu, rf_c3_det_conv1_weight, rf_c3_det_conv1_bias, rf_c3_det_conv1, rf_c3_det_conv1_bn_gamma, rf_c3_det_conv1_bn_beta, rf_c3_det_conv1_bn_moving_mean, rf_c3_det_conv1_bn_moving_var, rf_c3_det_conv1_bn, rf_c3_det_context_conv1_weight, rf_c3_det_context_conv1_bias, rf_c3_det_context_conv1, rf_c3_det_context_conv1_bn_gamma, rf_c3_det_context_conv1_bn_beta, rf_c3_det_context_conv1_bn_moving_mean, rf_c3_det_context_conv1_bn_moving_var, rf_c3_det_context_conv1_bn, rf_c3_det_context_conv1_relu, rf_c3_det_context_conv2_weight, rf_c3_det_context_conv2_bias, rf_c3_det_context_conv2, rf_c3_det_context_conv2_bn_gamma, rf_c3_det_context_conv2_bn_beta, rf_c3_det_context_conv2_bn_moving_mean, rf_c3_det_context_conv2_bn_moving_var, rf_c3_det_context_conv2_bn, rf_c3_det_context_conv3_1_weight, rf_c3_det_context_conv3_1_bias, rf_c3_det_context_conv3_1, rf_c3_det_context_conv3_1_bn_gamma, rf_c3_det_context_conv3_1_bn_beta, rf_c3_det_context_conv3_1_bn_moving_mean, rf_c3_det_context_conv3_1_bn_moving_var, rf_c3_det_context_conv3_1_bn, rf_c3_det_context_conv3_1_relu, rf_c3_det_context_conv3_2_weight, rf_c3_det_context_conv3_2_bias, rf_c3_det_context_conv3_2, rf_c3_det_context_conv3_2_bn_gamma, rf_c3_det_context_conv3_2_bn_beta, rf_c3_det_context_conv3_2_bn_moving_mean, rf_c3_det_context_conv3_2_bn_moving_var, rf_c3_det_context_conv3_2_bn, rf_c3_det_concat, rf_c3_det_concat_relu, face_rpn_cls_score_stride32_anchor0_bg_weight, face_rpn_cls_score_stride32_anchor0_bg_bias, face_rpn_cls_score_stride32_anchor0_bg, face_rpn_cls_score_stride32_anchor0_fg_weight, face_rpn_cls_score_stride32_anchor0_fg_bias, face_rpn_cls_score_stride32_anchor0_fg, max0, face_rpn_cls_score_stride32_anchor1_bg_weight, face_rpn_cls_score_stride32_anchor1_bg_bias, face_rpn_cls_score_stride32_anchor1_bg, face_rpn_cls_score_stride32_anchor1_fg_weight, face_rpn_cls_score_stride32_anchor1_fg_bias, face_rpn_cls_score_stride32_anchor1_fg, max1, face_rpn_cls_score_stride32_anchor2_bg_weight, face_rpn_cls_score_stride32_anchor2_bg_bias, face_rpn_cls_score_stride32_anchor2_bg, face_rpn_cls_score_stride32_anchor2_fg_weight, face_rpn_cls_score_stride32_anchor2_fg_bias, face_rpn_cls_score_stride32_anchor2_fg, max2, face_rpn_cls_score_stride32_anchor3_bg_weight, face_rpn_cls_score_stride32_anchor3_bg_bias, face_rpn_cls_score_stride32_anchor3_bg, face_rpn_cls_score_stride32_anchor3_fg_weight, face_rpn_cls_score_stride32_anchor3_fg_bias, face_rpn_cls_score_stride32_anchor3_fg, max3, face_rpn_cls_score_stride32, face_rpn_cls_score_reshape_stride32, face_label_stride32, custom0, custom0, custom0, face_rpn_cls_prob_stride32, blockgrad0, face_rpn_bbox_pred_stride32_weight, face_rpn_bbox_pred_stride32_bias, face_rpn_bbox_pred_stride32, face_rpn_bbox_pred_reshape_stride32, face_bbox_target_stride32, _minus0, face_bbox_weight_stride32, tile0, reshape0, transpose0, face_bbox_weight_mul_stride32, _mul0, face_rpn_bbox_loss_stride32_, face_rpn_bbox_loss_stride32, blockgrad1, face_rpn_landmark_pred_stride32_weight, face_rpn_landmark_pred_stride32_bias, face_rpn_landmark_pred_stride32, face_rpn_landmark_pred_reshape_stride32, face_landmark_target_stride32, _minus1, face_landmark_weight_stride32, tile1, reshape1, transpose1, face_landmark_weight_mul_stride32, _mul1, face_rpn_landmark_loss_stride32_, face_rpn_landmark_loss_stride32, blockgrad2, rf_c2_lateral_weight, rf_c2_lateral_bias, rf_c2_lateral, rf_c2_lateral_bn_gamma, rf_c2_lateral_bn_beta, rf_c2_lateral_bn_moving_mean, rf_c2_lateral_bn_moving_var, rf_c2_lateral_bn, rf_c2_lateral_relu, rf_c3_upsampling, crop0, _plus0, rf_c2_aggr_weight, rf_c2_aggr_bias, rf_c2_aggr, rf_c2_aggr_bn_gamma, rf_c2_aggr_bn_beta, rf_c2_aggr_bn_moving_mean, rf_c2_aggr_bn_moving_var, rf_c2_aggr_bn, rf_c2_aggr_relu, rf_c2_det_conv1_weight, rf_c2_det_conv1_bias, rf_c2_det_conv1, rf_c2_det_conv1_bn_gamma, rf_c2_det_conv1_bn_beta, rf_c2_det_conv1_bn_moving_mean, rf_c2_det_conv1_bn_moving_var, rf_c2_det_conv1_bn, rf_c2_det_context_conv1_weight, rf_c2_det_context_conv1_bias, rf_c2_det_context_conv1, rf_c2_det_context_conv1_bn_gamma, rf_c2_det_context_conv1_bn_beta, rf_c2_det_context_conv1_bn_moving_mean, rf_c2_det_context_conv1_bn_moving_var, rf_c2_det_context_conv1_bn, rf_c2_det_context_conv1_relu, rf_c2_det_context_conv2_weight, rf_c2_det_context_conv2_bias, rf_c2_det_context_conv2, rf_c2_det_context_conv2_bn_gamma, rf_c2_det_context_conv2_bn_beta, rf_c2_det_context_conv2_bn_moving_mean, rf_c2_det_context_conv2_bn_moving_var, rf_c2_det_context_conv2_bn, rf_c2_det_context_conv3_1_weight, rf_c2_det_context_conv3_1_bias, rf_c2_det_context_conv3_1, rf_c2_det_context_conv3_1_bn_gamma, rf_c2_det_context_conv3_1_bn_beta, rf_c2_det_context_conv3_1_bn_moving_mean, rf_c2_det_context_conv3_1_bn_moving_var, rf_c2_det_context_conv3_1_bn, rf_c2_det_context_conv3_1_relu, rf_c2_det_context_conv3_2_weight, rf_c2_det_context_conv3_2_bias, rf_c2_det_context_conv3_2, rf_c2_det_context_conv3_2_bn_gamma, rf_c2_det_context_conv3_2_bn_beta, rf_c2_det_context_conv3_2_bn_moving_mean, rf_c2_det_context_conv3_2_bn_moving_var, rf_c2_det_context_conv3_2_bn, rf_c2_det_concat, rf_c2_det_concat_relu, face_rpn_cls_score_stride16_anchor0_bg_weight, face_rpn_cls_score_stride16_anchor0_bg_bias, face_rpn_cls_score_stride16_anchor0_bg, face_rpn_cls_score_stride16_anchor0_fg_weight, face_rpn_cls_score_stride16_anchor0_fg_bias, face_rpn_cls_score_stride16_anchor0_fg, max4, face_rpn_cls_score_stride16_anchor1_bg_weight, face_rpn_cls_score_stride16_anchor1_bg_bias, face_rpn_cls_score_stride16_anchor1_bg, face_rpn_cls_score_stride16_anchor1_fg_weight, face_rpn_cls_score_stride16_anchor1_fg_bias, face_rpn_cls_score_stride16_anchor1_fg, max5, face_rpn_cls_score_stride16_anchor2_bg_weight, face_rpn_cls_score_stride16_anchor2_bg_bias, face_rpn_cls_score_stride16_anchor2_bg, face_rpn_cls_score_stride16_anchor2_fg_weight, face_rpn_cls_score_stride16_anchor2_fg_bias, face_rpn_cls_score_stride16_anchor2_fg, max6, face_rpn_cls_score_stride16_anchor3_bg_weight, face_rpn_cls_score_stride16_anchor3_bg_bias, face_rpn_cls_score_stride16_anchor3_bg, face_rpn_cls_score_stride16_anchor3_fg_weight, face_rpn_cls_score_stride16_anchor3_fg_bias, face_rpn_cls_score_stride16_anchor3_fg, max7, face_rpn_cls_score_stride16, face_rpn_cls_score_reshape_stride16, face_label_stride16, custom1, custom1, custom1, face_rpn_cls_prob_stride16, blockgrad3, face_rpn_bbox_pred_stride16_weight, face_rpn_bbox_pred_stride16_bias, face_rpn_bbox_pred_stride16, face_rpn_bbox_pred_reshape_stride16, face_bbox_target_stride16, _minus2, face_bbox_weight_stride16, tile2, reshape2, transpose2, face_bbox_weight_mul_stride16, _mul2, face_rpn_bbox_loss_stride16_, face_rpn_bbox_loss_stride16, blockgrad4, face_rpn_landmark_pred_stride16_weight, face_rpn_landmark_pred_stride16_bias, face_rpn_landmark_pred_stride16, face_rpn_landmark_pred_reshape_stride16, face_landmark_target_stride16, _minus3, face_landmark_weight_stride16, tile3, reshape3, transpose3, face_landmark_weight_mul_stride16, _mul3, face_rpn_landmark_loss_stride16_, face_rpn_landmark_loss_stride16, blockgrad5, rf_c1_red_conv_weight, rf_c1_red_conv_bias, rf_c1_red_conv, rf_c1_red_conv_bn_gamma, rf_c1_red_conv_bn_beta, rf_c1_red_conv_bn_moving_mean, rf_c1_red_conv_bn_moving_var, rf_c1_red_conv_bn, rf_c1_red_conv_relu, rf_c2_upsampling, crop1, _plus1, rf_c1_aggr_weight, rf_c1_aggr_bias, rf_c1_aggr, rf_c1_aggr_bn_gamma, rf_c1_aggr_bn_beta, rf_c1_aggr_bn_moving_mean, rf_c1_aggr_bn_moving_var, rf_c1_aggr_bn, rf_c1_aggr_relu, rf_c1_det_conv1_weight, rf_c1_det_conv1_bias, rf_c1_det_conv1, rf_c1_det_conv1_bn_gamma, rf_c1_det_conv1_bn_beta, rf_c1_det_conv1_bn_moving_mean, rf_c1_det_conv1_bn_moving_var, rf_c1_det_conv1_bn, rf_c1_det_context_conv1_weight, rf_c1_det_context_conv1_bias, rf_c1_det_context_conv1, rf_c1_det_context_conv1_bn_gamma, rf_c1_det_context_conv1_bn_beta, rf_c1_det_context_conv1_bn_moving_mean, rf_c1_det_context_conv1_bn_moving_var, rf_c1_det_context_conv1_bn, rf_c1_det_context_conv1_relu, rf_c1_det_context_conv2_weight, rf_c1_det_context_conv2_bias, rf_c1_det_context_conv2, rf_c1_det_context_conv2_bn_gamma, rf_c1_det_context_conv2_bn_beta, rf_c1_det_context_conv2_bn_moving_mean, rf_c1_det_context_conv2_bn_moving_var, rf_c1_det_context_conv2_bn, rf_c1_det_context_conv3_1_weight, rf_c1_det_context_conv3_1_bias, rf_c1_det_context_conv3_1, rf_c1_det_context_conv3_1_bn_gamma, rf_c1_det_context_conv3_1_bn_beta, rf_c1_det_context_conv3_1_bn_moving_mean, rf_c1_det_context_conv3_1_bn_moving_var, rf_c1_det_context_conv3_1_bn, rf_c1_det_context_conv3_1_relu, rf_c1_det_context_conv3_2_weight, rf_c1_det_context_conv3_2_bias, rf_c1_det_context_conv3_2, rf_c1_det_context_conv3_2_bn_gamma, rf_c1_det_context_conv3_2_bn_beta, rf_c1_det_context_conv3_2_bn_moving_mean, rf_c1_det_context_conv3_2_bn_moving_var, rf_c1_det_context_conv3_2_bn, rf_c1_det_concat, rf_c1_det_concat_relu, face_rpn_cls_score_stride8_anchor0_bg_weight, face_rpn_cls_score_stride8_anchor0_bg_bias, face_rpn_cls_score_stride8_anchor0_bg, max8, face_rpn_cls_score_stride8_anchor0_fg_weight, face_rpn_cls_score_stride8_anchor0_fg_bias, face_rpn_cls_score_stride8_anchor0_fg, face_rpn_cls_score_stride8_anchor1_bg_weight, face_rpn_cls_score_stride8_anchor1_bg_bias, face_rpn_cls_score_stride8_anchor1_bg, max9, face_rpn_cls_score_stride8_anchor1_fg_weight, face_rpn_cls_score_stride8_anchor1_fg_bias, face_rpn_cls_score_stride8_anchor1_fg, face_rpn_cls_score_stride8_anchor2_bg_weight, face_rpn_cls_score_stride8_anchor2_bg_bias, face_rpn_cls_score_stride8_anchor2_bg, max10, face_rpn_cls_score_stride8_anchor2_fg_weight, face_rpn_cls_score_stride8_anchor2_fg_bias, face_rpn_cls_score_stride8_anchor2_fg, face_rpn_cls_score_stride8_anchor3_bg_weight, face_rpn_cls_score_stride8_anchor3_bg_bias, face_rpn_cls_score_stride8_anchor3_bg, max11, face_rpn_cls_score_stride8_anchor3_fg_weight, face_rpn_cls_score_stride8_anchor3_fg_bias, face_rpn_cls_score_stride8_anchor3_fg, face_rpn_cls_score_stride8, face_rpn_cls_score_reshape_stride8, face_label_stride8, custom2, custom2, custom2, face_rpn_cls_prob_stride8, blockgrad6, face_rpn_bbox_pred_stride8_weight, face_rpn_bbox_pred_stride8_bias, face_rpn_bbox_pred_stride8, face_rpn_bbox_pred_reshape_stride8, face_bbox_target_stride8, _minus4, face_bbox_weight_stride8, tile4, reshape4, transpose4, face_bbox_weight_mul_stride8, _mul4, face_rpn_bbox_loss_stride8_, face_rpn_bbox_loss_stride8, blockgrad7, face_rpn_landmark_pred_stride8_weight, face_rpn_landmark_pred_stride8_bias, face_rpn_landmark_pred_stride8, face_rpn_landmark_pred_reshape_stride8, face_landmark_target_stride8, _minus5, face_landmark_weight_stride8, tile5, reshape5, transpose5, face_landmark_weight_mul_stride8, _mul5, face_rpn_landmark_loss_stride8_, face_rpn_landmark_loss_stride8, blockgrad8]>INFO:root:providing maximum shape [('data', (1, 3, 640, 640)), ('gt_boxes', (1, 1968, 5))] [('face_label_stride32', (1, 1600)), ('face_bbox_target_stride32', (1, 16, 400)), ('face_bbox_weight_stride32', (1, 16, 400)), ('face_landmark_target_stride32', (1, 40, 400)), ('face_landmark_weight_stride32', (1, 40, 400)), ('face_label_stride16', (1, 6400)), ('face_bbox_target_stride16', (1, 16, 1600)), ('face_bbox_weight_stride16', (1, 16, 1600)), ('face_landmark_target_stride16', (1, 40, 1600)), ('face_landmark_weight_stride16', (1, 40, 1600)), ('face_label_stride8', (1, 25600)), ('face_bbox_target_stride8', (1, 16, 6400)), ('face_bbox_weight_stride8', (1, 16, 6400)), ('face_landmark_target_stride8', (1, 40, 6400)), ('face_landmark_weight_stride8', (1, 40, 6400))]
+INFO:root:output shape {'blockgrad0_output': (32, 1600),
+ 'blockgrad1_output': (32, 16, 400),
+ 'blockgrad2_output': (32, 40, 400),
+ 'blockgrad3_output': (32, 6400),
+ 'blockgrad4_output': (32, 16, 1600),
+ 'blockgrad5_output': (32, 40, 1600),
+ 'blockgrad6_output': (32, 25600),
+ 'blockgrad7_output': (32, 16, 6400),
+ 'blockgrad8_output': (32, 40, 6400),
+ 'face_rpn_bbox_loss_stride16_output': (32, 16, 1600),
+ 'face_rpn_bbox_loss_stride32_output': (32, 16, 400),
+ 'face_rpn_bbox_loss_stride8_output': (32, 16, 6400),
+ 'face_rpn_cls_prob_stride16_output': (32, 2, 6400),
+ 'face_rpn_cls_prob_stride32_output': (32, 2, 1600),
+ 'face_rpn_cls_prob_stride8_output': (32, 2, 25600),
+ 'face_rpn_landmark_loss_stride16_output': (32, 40, 1600),
+ 'face_rpn_landmark_loss_stride32_output': (32, 40, 400),
+ 'face_rpn_landmark_loss_stride8_output': (32, 40, 6400)}
+
+feat_sym:  [<Symbol face_rpn_cls_score_stride32>, <Symbol face_rpn_cls_score_stride16>, <Symbol face_rpn_cls_score_stride8>]
+0 : data
+1 : mobilenet0_conv0_weight
+2 : mobilenet0_batchnorm0_gamma
+3 : mobilenet0_batchnorm0_beta
+4 : mobilenet0_conv1_weight
+5 : mobilenet0_batchnorm1_gamma
+6 : mobilenet0_batchnorm1_beta
+7 : mobilenet0_conv2_weight
+8 : mobilenet0_batchnorm2_gamma
+9 : mobilenet0_batchnorm2_beta
+10 : mobilenet0_conv3_weight
+11 : mobilenet0_batchnorm3_gamma
+12 : mobilenet0_batchnorm3_beta
+13 : mobilenet0_conv4_weight
+14 : mobilenet0_batchnorm4_gamma
+15 : mobilenet0_batchnorm4_beta
+16 : mobilenet0_conv5_weight
+17 : mobilenet0_batchnorm5_gamma
+18 : mobilenet0_batchnorm5_beta
+19 : mobilenet0_conv6_weight
+20 : mobilenet0_batchnorm6_gamma
+21 : mobilenet0_batchnorm6_beta
+22 : mobilenet0_conv7_weight
+23 : mobilenet0_batchnorm7_gamma
+24 : mobilenet0_batchnorm7_beta
+25 : mobilenet0_conv8_weight
+26 : mobilenet0_batchnorm8_gamma
+27 : mobilenet0_batchnorm8_beta
+28 : mobilenet0_conv9_weight
+29 : mobilenet0_batchnorm9_gamma
+30 : mobilenet0_batchnorm9_beta
+31 : mobilenet0_conv10_weight
+32 : mobilenet0_batchnorm10_gamma
+33 : mobilenet0_batchnorm10_beta
+34 : mobilenet0_conv11_weight
+35 : mobilenet0_batchnorm11_gamma
+36 : mobilenet0_batchnorm11_beta
+37 : mobilenet0_conv12_weight
+38 : mobilenet0_batchnorm12_gamma
+39 : mobilenet0_batchnorm12_beta
+40 : mobilenet0_conv13_weight
+41 : mobilenet0_batchnorm13_gamma
+42 : mobilenet0_batchnorm13_beta
+43 : mobilenet0_conv14_weight
+44 : mobilenet0_batchnorm14_gamma
+45 : mobilenet0_batchnorm14_beta
+46 : mobilenet0_conv15_weight
+47 : mobilenet0_batchnorm15_gamma
+48 : mobilenet0_batchnorm15_beta
+49 : mobilenet0_conv16_weight
+50 : mobilenet0_batchnorm16_gamma
+51 : mobilenet0_batchnorm16_beta
+52 : mobilenet0_conv17_weight
+53 : mobilenet0_batchnorm17_gamma
+54 : mobilenet0_batchnorm17_beta
+55 : mobilenet0_conv18_weight
+56 : mobilenet0_batchnorm18_gamma
+57 : mobilenet0_batchnorm18_beta
+58 : mobilenet0_conv19_weight
+59 : mobilenet0_batchnorm19_gamma
+60 : mobilenet0_batchnorm19_beta
+61 : mobilenet0_conv20_weight
+62 : mobilenet0_batchnorm20_gamma
+63 : mobilenet0_batchnorm20_beta
+64 : mobilenet0_conv21_weight
+65 : mobilenet0_batchnorm21_gamma
+66 : mobilenet0_batchnorm21_beta
+67 : mobilenet0_conv22_weight
+68 : mobilenet0_batchnorm22_gamma
+69 : mobilenet0_batchnorm22_beta
+70 : mobilenet0_conv23_weight
+71 : mobilenet0_batchnorm23_gamma
+72 : mobilenet0_batchnorm23_beta
+73 : mobilenet0_conv24_weight
+74 : mobilenet0_batchnorm24_gamma
+75 : mobilenet0_batchnorm24_beta
+76 : mobilenet0_conv25_weight
+77 : mobilenet0_batchnorm25_gamma
+78 : mobilenet0_batchnorm25_beta
+79 : mobilenet0_conv26_weight
+80 : mobilenet0_batchnorm26_gamma
+81 : mobilenet0_batchnorm26_beta
+82 : rf_c3_lateral_weight
+83 : rf_c3_lateral_bias
+84 : rf_c3_lateral_bn_gamma
+85 : rf_c3_lateral_bn_beta
+86 : rf_c3_det_conv1_weight
+87 : rf_c3_det_conv1_bias
+88 : rf_c3_det_conv1_bn_gamma
+89 : rf_c3_det_conv1_bn_beta
+90 : rf_c3_det_context_conv1_weight
+91 : rf_c3_det_context_conv1_bias
+92 : rf_c3_det_context_conv1_bn_gamma
+93 : rf_c3_det_context_conv1_bn_beta
+94 : rf_c3_det_context_conv2_weight
+95 : rf_c3_det_context_conv2_bias
+96 : rf_c3_det_context_conv2_bn_gamma
+97 : rf_c3_det_context_conv2_bn_beta
+98 : rf_c3_det_context_conv3_1_weight
+99 : rf_c3_det_context_conv3_1_bias
+100 : rf_c3_det_context_conv3_1_bn_gamma
+101 : rf_c3_det_context_conv3_1_bn_beta
+102 : rf_c3_det_context_conv3_2_weight
+103 : rf_c3_det_context_conv3_2_bias
+104 : rf_c3_det_context_conv3_2_bn_gamma
+105 : rf_c3_det_context_conv3_2_bn_beta
+106 : face_rpn_cls_score_stride32_anchor0_bg_weight
+107 : face_rpn_cls_score_stride32_anchor0_bg_bias
+108 : face_rpn_cls_score_stride32_anchor0_fg_weight
+109 : face_rpn_cls_score_stride32_anchor0_fg_bias
+110 : face_rpn_cls_score_stride32_anchor1_bg_weight
+111 : face_rpn_cls_score_stride32_anchor1_bg_bias
+112 : face_rpn_cls_score_stride32_anchor1_fg_weight
+113 : face_rpn_cls_score_stride32_anchor1_fg_bias
+114 : face_rpn_cls_score_stride32_anchor2_bg_weight
+115 : face_rpn_cls_score_stride32_anchor2_bg_bias
+116 : face_rpn_cls_score_stride32_anchor2_fg_weight
+117 : face_rpn_cls_score_stride32_anchor2_fg_bias
+118 : face_rpn_cls_score_stride32_anchor3_bg_weight
+119 : face_rpn_cls_score_stride32_anchor3_bg_bias
+120 : face_rpn_cls_score_stride32_anchor3_fg_weight
+121 : face_rpn_cls_score_stride32_anchor3_fg_bias
+122 : face_label_stride32
+123 : face_rpn_bbox_pred_stride32_weight
+124 : face_rpn_bbox_pred_stride32_bias
+125 : face_bbox_target_stride32
+126 : face_bbox_weight_stride32
+127 : face_rpn_landmark_pred_stride32_weight
+128 : face_rpn_landmark_pred_stride32_bias
+129 : face_landmark_target_stride32
+130 : face_landmark_weight_stride32
+131 : rf_c2_lateral_weight
+132 : rf_c2_lateral_bias
+133 : rf_c2_lateral_bn_gamma
+134 : rf_c2_lateral_bn_beta
+135 : rf_c2_aggr_weight
+136 : rf_c2_aggr_bias
+137 : rf_c2_aggr_bn_gamma
+138 : rf_c2_aggr_bn_beta
+139 : rf_c2_det_conv1_weight
+140 : rf_c2_det_conv1_bias
+141 : rf_c2_det_conv1_bn_gamma
+142 : rf_c2_det_conv1_bn_beta
+143 : rf_c2_det_context_conv1_weight
+144 : rf_c2_det_context_conv1_bias
+145 : rf_c2_det_context_conv1_bn_gamma
+146 : rf_c2_det_context_conv1_bn_beta
+147 : rf_c2_det_context_conv2_weight
+148 : rf_c2_det_context_conv2_bias
+149 : rf_c2_det_context_conv2_bn_gamma
+150 : rf_c2_det_context_conv2_bn_beta
+151 : rf_c2_det_context_conv3_1_weight
+152 : rf_c2_det_context_conv3_1_bias
+153 : rf_c2_det_context_conv3_1_bn_gamma
+154 : rf_c2_det_context_conv3_1_bn_beta
+155 : rf_c2_det_context_conv3_2_weight
+156 : rf_c2_det_context_conv3_2_bias
+157 : rf_c2_det_context_conv3_2_bn_gamma
+158 : rf_c2_det_context_conv3_2_bn_beta
+159 : face_rpn_cls_score_stride16_anchor0_bg_weight
+160 : face_rpn_cls_score_stride16_anchor0_bg_bias
+161 : face_rpn_cls_score_stride16_anchor0_fg_weight
+162 : face_rpn_cls_score_stride16_anchor0_fg_bias
+163 : face_rpn_cls_score_stride16_anchor1_bg_weight
+164 : face_rpn_cls_score_stride16_anchor1_bg_bias
+165 : face_rpn_cls_score_stride16_anchor1_fg_weight
+166 : face_rpn_cls_score_stride16_anchor1_fg_bias
+167 : face_rpn_cls_score_stride16_anchor2_bg_weight
+168 : face_rpn_cls_score_stride16_anchor2_bg_bias
+169 : face_rpn_cls_score_stride16_anchor2_fg_weight
+170 : face_rpn_cls_score_stride16_anchor2_fg_bias
+171 : face_rpn_cls_score_stride16_anchor3_bg_weight
+172 : face_rpn_cls_score_stride16_anchor3_bg_bias
+173 : face_rpn_cls_score_stride16_anchor3_fg_weight
+174 : face_rpn_cls_score_stride16_anchor3_fg_bias
+175 : face_label_stride16
+176 : face_rpn_bbox_pred_stride16_weight
+177 : face_rpn_bbox_pred_stride16_bias
+178 : face_bbox_target_stride16
+179 : face_bbox_weight_stride16
+180 : face_rpn_landmark_pred_stride16_weight
+181 : face_rpn_landmark_pred_stride16_bias
+182 : face_landmark_target_stride16
+183 : face_landmark_weight_stride16
+184 : rf_c1_red_conv_weight
+185 : rf_c1_red_conv_bias
+186 : rf_c1_red_conv_bn_gamma
+187 : rf_c1_red_conv_bn_beta
+188 : rf_c1_aggr_weight
+189 : rf_c1_aggr_bias
+190 : rf_c1_aggr_bn_gamma
+191 : rf_c1_aggr_bn_beta
+192 : rf_c1_det_conv1_weight
+193 : rf_c1_det_conv1_bias
+194 : rf_c1_det_conv1_bn_gamma
+195 : rf_c1_det_conv1_bn_beta
+196 : rf_c1_det_context_conv1_weight
+197 : rf_c1_det_context_conv1_bias
+198 : rf_c1_det_context_conv1_bn_gamma
+199 : rf_c1_det_context_conv1_bn_beta
+200 : rf_c1_det_context_conv2_weight
+201 : rf_c1_det_context_conv2_bias
+202 : rf_c1_det_context_conv2_bn_gamma
+203 : rf_c1_det_context_conv2_bn_beta
+204 : rf_c1_det_context_conv3_1_weight
+205 : rf_c1_det_context_conv3_1_bias
+206 : rf_c1_det_context_conv3_1_bn_gamma
+207 : rf_c1_det_context_conv3_1_bn_beta
+208 : rf_c1_det_context_conv3_2_weight
+209 : rf_c1_det_context_conv3_2_bias
+210 : rf_c1_det_context_conv3_2_bn_gamma
+211 : rf_c1_det_context_conv3_2_bn_beta
+212 : face_rpn_cls_score_stride8_anchor0_bg_weight
+213 : face_rpn_cls_score_stride8_anchor0_bg_bias
+214 : face_rpn_cls_score_stride8_anchor0_fg_weight
+215 : face_rpn_cls_score_stride8_anchor0_fg_bias
+216 : face_rpn_cls_score_stride8_anchor1_bg_weight
+217 : face_rpn_cls_score_stride8_anchor1_bg_bias
+218 : face_rpn_cls_score_stride8_anchor1_fg_weight
+219 : face_rpn_cls_score_stride8_anchor1_fg_bias
+220 : face_rpn_cls_score_stride8_anchor2_bg_weight
+221 : face_rpn_cls_score_stride8_anchor2_bg_biasfixed ['mobilenet0_conv0_weight', 'mobilenet0_batchnorm0_gamma', 'mobilenet0_batchnorm0_beta', 'mobilenet0_conv1_weight', 'mobilenet0_batchnorm1_gamma', 'mobilenet0_batchnorm1_beta']
+INFO:root:lr 0.010000 lr_epoch_diff [55, 68, 80] lr_steps [(44261, 0.1), (54723, 0.1), (64380, 0.1)]
+[22:21:39] src/operator/nn/./cudnn/./cudnn_algoreg-inl.h:97: Running performance tests to find the best convolution algorithm, this can take a while... (setting env variable MXNET_CUDNN_AUTOTUNE_DEFAULT to 0 to disable)
+/home/dc2-user/.conda/envs/zhongtb/lib/python3.6/site-packages/mxnet/module/base_module.py:505: UserWarning: Optimizer created manually outside Module but rescale_grad is not normalized to 1.0/batch_size/num_workers (1.0 vs. 0.03125). Is this intended?
+  optimizer_params=optimizer_params)
+INFO:root:Epoch[0] Batch [0-20]	Speed: 16.04 samples/sec	RPNAcc_s32=0.824265	RPNAcc_s32_BG=0.857511	RPNAcc_s32_FG=0.030649	RPNL1Loss_s32=0.395685	RPNLandMarkL1Loss_s32=1.120348	RPNAcc_s16=0.801490	RPNAcc_s16_BG=0.847175	RPNAcc_s16_FG=0.036020	RPNL1Loss_s16=0.377694	RPNLandMarkL1Loss_s16=1.160915	RPNAcc_s8=0.787336	RPNAcc_s8_BG=0.808445	RPNAcc_s8_FG=0.039390	RPNL1Loss_s8=0.397782	RPNLandMarkL1Loss_s8=1.271673
+INFO:root:Epoch[0] Batch [0-40]	Speed: 17.05 samples/sec	RPNAcc_s32=0.890955	RPNAcc_s32_BG=0.927062	RPNAcc_s32_FG=0.015928	RPNL1Loss_s32=0.400042	RPNLandMarkL1Loss_s32=1.057506	RPNAcc_s16=0.871177	RPNAcc_s16_BG=0.921751	RPNAcc_s16_FG=0.018557	RPNL1Loss_s16=0.362453	RPNLandMarkL1Loss_s16=0.974361	RPNAcc_s8=0.877971	RPNAcc_s8_BG=0.901916	RPNAcc_s8_FG=0.020388	RPNL1Loss_s8=0.374343	RPNLandMarkL1Loss_s8=1.135913
+INFO:root:Epoch[0] Batch [0-60]	Speed: 17.19 samples/sec	RPNAcc_s32=0.913148	RPNAcc_s32_BG=0.950947	RPNAcc_s32_FG=0.010555	RPNL1Loss_s32=0.373076	RPNLandMarkL1Loss_s32=0.960683	RPNAcc_s16=0.894899	RPNAcc_s16_BG=0.947398	RPNAcc_s16_FG=0.012438	RPNL1Loss_s16=0.347091	RPNLandMarkL1Loss_s16=0.881720	RPNAcc_s8=0.909298	RPNAcc_s8_BG=0.934089	RPNAcc_s8_FG=0.013817	RPNL1Loss_s8=0.362412	RPNLandMarkL1Loss_s8=1.033779
+INFO:root:Epoch[0] Batch [0-80]	Speed: 16.53 samples/sec	RPNAcc_s32=0.923876	RPNAcc_s32_BG=0.963028	RPNAcc_s32_FG=0.007795	RPNL1Loss_s32=0.364824	RPNLandMarkL1Loss_s32=0.891064	RPNAcc_s16=0.907132	RPNAcc_s16_BG=0.960392	RPNAcc_s16_FG=0.009391	RPNL1Loss_s16=0.342043	RPNLandMarkL1Loss_s16=0.812824	RPNAcc_s8=0.925145	RPNAcc_s8_BG=0.950369	RPNAcc_s8_FG=0.010445	RPNL1Loss_s8=0.363293	RPNLandMarkL1Loss_s8=0.977860
+INFO:root:Epoch[0] Batch [0-100]	Speed: 17.22 samples/sec	RPNAcc_s32=0.930656	RPNAcc_s32_BG=0.970344	RPNAcc_s32_FG=0.006224	RPNL1Loss_s32=0.357425	RPNLandMarkL1Loss_s32=0.847202	RPNAcc_s16=0.914616	RPNAcc_s16_BG=0.968241	RPNAcc_s16_FG=0.007557	RPNL1Loss_s16=0.333349	RPNLandMarkL1Loss_s16=0.763379	RPNAcc_s8=0.934020	RPNAcc_s8_BG=0.960171	RPNAcc_s8_FG=0.008184	RPNL1Loss_s8=0.356131	RPNLandMarkL1Loss_s8=0.921857
+INFO:root:Epoch[0] Batch [0-120]	Speed: 16.85 samples/sec	RPNAcc_s32=0.934668	RPNAcc_s32_BG=0.975229	RPNAcc_s32_FG=0.005115	RPNL1Loss_s32=0.352431	RPNLandMarkL1Loss_s32=0.804869	RPNAcc_s16=0.919860	RPNAcc_s16_BG=0.973501	RPNAcc_s16_FG=0.006348	RPNL1Loss_s16=0.324286	RPNLandMarkL1Loss_s16=0.730081	RPNAcc_s8=0.940313	RPNAcc_s8_BG=0.966752	RPNAcc_s8_FG=0.006813	RPNL1Loss_s8=0.347470	RPNLandMarkL1Loss_s8=0.882291
+INFO:root:Epoch[0] Batch [0-140]	Speed: 16.78 samples/sec	RPNAcc_s32=0.938331	RPNAcc_s32_BG=0.978750	RPNAcc_s32_FG=0.004424	RPNL1Loss_s32=0.350572	RPNLandMarkL1Loss_s32=0.794046	RPNAcc_s16=0.923263	RPNAcc_s16_BG=0.977257	RPNAcc_s16_FG=0.005438	RPNL1Loss_s16=0.315118	RPNLandMarkL1Loss_s16=0.700961	RPNAcc_s8=0.945198	RPNAcc_s8_BG=0.971477	RPNAcc_s8_FG=0.005917	RPNL1Loss_s8=0.343639	RPNLandMarkL1Loss_s8=0.852260
+INFO:root:Epoch[0] Batch [0-160]	Speed: 16.83 samples/sec	RPNAcc_s32=0.940219	RPNAcc_s32_BG=0.981378	RPNAcc_s32_FG=0.003818	RPNL1Loss_s32=0.342180	RPNLandMarkL1Loss_s32=0.768274	RPNAcc_s16=0.926219	RPNAcc_s16_BG=0.980089	RPNAcc_s16_FG=0.004791	RPNL1Loss_s16=0.310514	RPNLandMarkL1Loss_s16=0.684708	RPNAcc_s8=0.948901	RPNAcc_s8_BG=0.975028	RPNAcc_s8_FG=0.005235	RPNL1Loss_s8=0.341689	RPNLandMarkL1Loss_s8=0.843056
+INFO:root:Epoch[0] Batch [0-180]	Speed: 16.41 samples/sec	RPNAcc_s32=0.941919	RPNAcc_s32_BG=0.983431	RPNAcc_s32_FG=0.003376	RPNL1Loss_s32=0.336731	RPNLandMarkL1Loss_s32=0.745753	RPNAcc_s16=0.928449	RPNAcc_s16_BG=0.982293	RPNAcc_s16_FG=0.004275	RPNL1Loss_s16=0.304769	RPNLandMarkL1Loss_s16=0.670586	RPNAcc_s8=0.951038	RPNAcc_s8_BG=0.977775	RPNAcc_s8_FG=0.004566	RPNL1Loss_s8=0.333827	RPNLandMarkL1Loss_s8=0.820675
+INFO:root:Epoch[0] Batch [0-200]	Speed: 16.29 samples/sec	RPNAcc_s32=0.943672	RPNAcc_s32_BG=0.985083	RPNAcc_s32_FG=0.003053	RPNL1Loss_s32=0.332448	RPNLandMarkL1Loss_s32=0.733501	RPNAcc_s16=0.929985	RPNAcc_s16_BG=0.984053	RPNAcc_s16_FG=0.003843	RPNL1Loss_s16=0.299233	RPNLandMarkL1Loss_s16=0.650201	RPNAcc_s8=0.952943	RPNAcc_s8_BG=0.979982	RPNAcc_s8_FG=0.004077	RPNL1Loss_s8=0.329375	RPNLandMarkL1Loss_s8=0.806138
+INFO:root:Epoch[0] Batch [0-220]	Speed: 17.38 samples/sec	RPNAcc_s32=0.945058	RPNAcc_s32_BG=0.986434	RPNAcc_s32_FG=0.002784	RPNL1Loss_s32=0.330038	RPNLandMarkL1Loss_s32=0.721004	RPNAcc_s16=0.931514	RPNAcc_s16_BG=0.985499	RPNAcc_s16_FG=0.003507	RPNL1Loss_s16=0.293978	RPNLandMarkL1Loss_s16=0.636844	RPNAcc_s8=0.954419	RPNAcc_s8_BG=0.981788	RPNAcc_s8_FG=0.003672	RPNL1Loss_s8=0.323531	RPNLandMarkL1Loss_s8=0.785948
+INFO:root:Epoch[0] Batch [0-240]	Speed: 16.11 samples/sec	RPNAcc_s32=0.946230	RPNAcc_s32_BG=0.987561	RPNAcc_s32_FG=0.002559	RPNL1Loss_s32=0.328593	RPNLandMarkL1Loss_s32=0.706256	RPNAcc_s16=0.932232	RPNAcc_s16_BG=0.986697	RPNAcc_s16_FG=0.003192	RPNL1Loss_s16=0.287768	RPNLandMarkL1Loss_s16=0.618063	RPNAcc_s8=0.956048	RPNAcc_s8_BG=0.983302	RPNAcc_s8_FG=0.003387	RPNL1Loss_s8=0.319495	RPNLandMarkL1Loss_s8=0.776089
+INFO:root:Epoch[0] Batch [0-260]	Speed: 17.06 samples/sec	RPNAcc_s32=0.947053	RPNAcc_s32_BG=0.988513	RPNAcc_s32_FG=0.002358	RPNL1Loss_s32=0.323874	RPNLandMarkL1Loss_s32=0.686585	RPNAcc_s16=0.933111	RPNAcc_s16_BG=0.987715	RPNAcc_s16_FG=0.002944	RPNL1Loss_s16=0.282511	RPNLandMarkL1Loss_s16=0.602831	RPNAcc_s8=0.957308	RPNAcc_s8_BG=0.984582	RPNAcc_s8_FG=0.003130	RPNL1Loss_s8=0.315834	RPNLandMarkL1Loss_s8=0.764602
+INFO:root:Epoch[0] Batch [0-280]	Speed: 16.67 samples/sec	RPNAcc_s32=0.947386	RPNAcc_s32_BG=0.989326	RPNAcc_s32_FG=0.002168	RPNL1Loss_s32=0.320545	RPNLandMarkL1Loss_s32=0.668976	RPNAcc_s16=0.934091	RPNAcc_s16_BG=0.988591	RPNAcc_s16_FG=0.002742	RPNL1Loss_s16=0.277441	RPNLandMarkL1Loss_s16=0.589777	RPNAcc_s8=0.958541	RPNAcc_s8_BG=0.985682	RPNAcc_s8_FG=0.002926	RPNL1Loss_s8=0.312731	RPNLandMarkL1Loss_s8=0.752023
+STAT | 32: (103880, 212, 0.0020) | 16: (135461, 349, 0.0026) | 8: (68483, 186, 0.0027)
+INFO:root:Epoch[0] Batch [0-300]	Speed: 16.25 samples/sec	RPNAcc_s32=0.948292	RPNAcc_s32_BG=0.990038	RPNAcc_s32_FG=0.002035	RPNL1Loss_s32=0.318474	RPNLandMarkL1Loss_s32=0.656309	RPNAcc_s16=0.934962	RPNAcc_s16_BG=0.989351	RPNAcc_s16_FG=0.002568	RPNL1Loss_s16=0.273595	RPNLandMarkL1Loss_s16=0.579578	RPNAcc_s8=0.959264	RPNAcc_s8_BG=0.986631	RPNAcc_s8_FG=0.002712	RPNL1Loss_s8=0.308933	RPNLandMarkL1Loss_s8=0.737671
+INFO:root:Epoch[0] Batch [0-320]	Speed: 16.02 samples/sec	RPNAcc_s32=0.948907	RPNAcc_s32_BG=0.990659	RPNAcc_s32_FG=0.001909	RPNL1Loss_s32=0.315171	RPNLandMarkL1Loss_s32=0.643733	RPNAcc_s16=0.935580	RPNAcc_s16_BG=0.990015	RPNAcc_s16_FG=0.002408	RPNL1Loss_s16=0.269613	RPNLandMarkL1Loss_s16=0.570265	RPNAcc_s8=0.960104	RPNAcc_s8_BG=0.987464	RPNAcc_s8_FG=0.002546	RPNL1Loss_s8=0.305747	RPNLandMarkL1Loss_s8=0.731552
+INFO:root:Epoch[0] Batch [0-340]	Speed: 15.92 samples/sec	RPNAcc_s32=0.949500	RPNAcc_s32_BG=0.991207	RPNAcc_s32_FG=0.001800	RPNL1Loss_s32=0.311925	RPNLandMarkL1Loss_s32=0.629576	RPNAcc_s16=0.936295	RPNAcc_s16_BG=0.990602	RPNAcc_s16_FG=0.002274	RPNL1Loss_s16=0.265241	RPNLandMarkL1Loss_s16=0.559936	RPNAcc_s8=0.960758	RPNAcc_s8_BG=0.988199	RPNAcc_s8_FG=0.002392	RPNL1Loss_s8=0.303646	RPNLandMarkL1Loss_s8=0.724560
+INFO:root:Epoch[0] Batch [0-360]	Speed: 16.28 samples/sec	RPNAcc_s32=0.949842	RPNAcc_s32_BG=0.991693	RPNAcc_s32_FG=0.001696	RPNL1Loss_s32=0.308163	RPNLandMarkL1Loss_s32=0.621994	RPNAcc_s16=0.936745	RPNAcc_s16_BG=0.991123	RPNAcc_s16_FG=0.002146	RPNL1Loss_s16=0.262333	RPNLandMarkL1Loss_s16=0.551256	RPNAcc_s8=0.961180	RPNAcc_s8_BG=0.988850	RPNAcc_s8_FG=0.002243	RPNL1Loss_s8=0.301076	RPNLandMarkL1Loss_s8=0.719113
+INFO:root:Epoch[0] Batch [0-380]	Speed: 17.17 samples/sec	RPNAcc_s32=0.950316	RPNAcc_s32_BG=0.992130	RPNAcc_s32_FG=0.001609	RPNL1Loss_s32=0.305256	RPNLandMarkL1Loss_s32=0.614361	RPNAcc_s16=0.937381	RPNAcc_s16_BG=0.991590	RPNAcc_s16_FG=0.002041	RPNL1Loss_s16=0.260303	RPNLandMarkL1Loss_s16=0.543126	RPNAcc_s8=0.961707	RPNAcc_s8_BG=0.989435	RPNAcc_s8_FG=0.002122	RPNL1Loss_s8=0.298557	RPNLandMarkL1Loss_s8=0.711444
+INFO:root:Epoch[0] Batch [0-400]	Speed: 16.26 samples/sec	RPNAcc_s32=0.950541	RPNAcc_s32_BG=0.992521	RPNAcc_s32_FG=0.001523	RPNL1Loss_s32=0.301077	RPNLandMarkL1Loss_s32=0.603657	RPNAcc_s16=0.937857	RPNAcc_s16_BG=0.992010	RPNAcc_s16_FG=0.001942	RPNL1Loss_s16=0.257940	RPNLandMarkL1Loss_s16=0.536817	RPNAcc_s8=0.962148	RPNAcc_s8_BG=0.989961	RPNAcc_s8_FG=0.002011	RPNL1Loss_s8=0.296019	RPNLandMarkL1Loss_s8=0.704048
+INFO:root:Epoch[0] Batch [0-420]	Speed: 15.45 samples/sec	RPNAcc_s32=0.950941	RPNAcc_s32_BG=0.992877	RPNAcc_s32_FG=0.001453	RPNL1Loss_s32=0.300267	RPNLandMarkL1Loss_s32=0.599038	RPNAcc_s16=0.938159	RPNAcc_s16_BG=0.992390	RPNAcc_s16_FG=0.001848	RPNL1Loss_s16=0.255471	RPNLandMarkL1Loss_s16=0.531121	RPNAcc_s8=0.962635	RPNAcc_s8_BG=0.990438	RPNAcc_s8_FG=0.001917	RPNL1Loss_s8=0.294407	RPNLandMarkL1Loss_s8=0.698270
+INFO:root:Epoch[0] Batch [0-440]	Speed: 16.52 samples/sec	RPNAcc_s32=0.951506	RPNAcc_s32_BG=0.993202	RPNAcc_s32_FG=0.001396	RPNL1Loss_s32=0.298416	RPNLandMarkL1Loss_s32=0.596210	RPNAcc_s16=0.938415	RPNAcc_s16_BG=0.992734	RPNAcc_s16_FG=0.001762	RPNL1Loss_s16=0.252933	RPNLandMarkL1Loss_s16=0.524416	RPNAcc_s8=0.963053	RPNAcc_s8_BG=0.990872	RPNAcc_s8_FG=0.001830	RPNL1Loss_s8=0.293059	RPNLandMarkL1Loss_s8=0.693862
+INFO:root:Epoch[0] Batch [0-460]	Speed: 16.63 samples/sec	RPNAcc_s32=0.951838	RPNAcc_s32_BG=0.993497	RPNAcc_s32_FG=0.001337	RPNL1Loss_s32=0.295826	RPNLandMarkL1Loss_s32=0.588002	RPNAcc_s16=0.938553	RPNAcc_s16_BG=0.993048	RPNAcc_s16_FG=0.001681	RPNL1Loss_s16=0.250958	RPNLandMarkL1Loss_s16=0.520381	RPNAcc_s8=0.963287	RPNAcc_s8_BG=0.991267	RPNAcc_s8_FG=0.001742	RPNL1Loss_s8=0.290244	RPNLandMarkL1Loss_s8=0.683529
+INFO:root:Epoch[0] Batch [0-480]	Speed: 16.68 samples/sec	RPNAcc_s32=0.951771	RPNAcc_s32_BG=0.993765	RPNAcc_s32_FG=0.001272	RPNL1Loss_s32=0.293478	RPNLandMarkL1Loss_s32=0.582372	RPNAcc_s16=0.938984	RPNAcc_s16_BG=0.993339	RPNAcc_s16_FG=0.001616	RPNL1Loss_s16=0.249740	RPNLandMarkL1Loss_s16=0.515449	RPNAcc_s8=0.963809	RPNAcc_s8_BG=0.991631	RPNAcc_s8_FG=0.001680	RPNL1Loss_s8=0.289317	RPNLandMarkL1Loss_s8=0.681235
+INFO:root:Epoch[0] Batch [0-500]	Speed: 16.81 samples/sec	RPNAcc_s32=0.952065	RPNAcc_s32_BG=0.994015	RPNAcc_s32_FG=0.001222	RPNL1Loss_s32=0.291508	RPNLandMarkL1Loss_s32=0.574466	RPNAcc_s16=0.939252	RPNAcc_s16_BG=0.993605	RPNAcc_s16_FG=0.001552	RPNL1Loss_s16=0.247293	RPNLandMarkL1Loss_s16=0.508717	RPNAcc_s8=0.964191	RPNAcc_s8_BG=0.991966	RPNAcc_s8_FG=0.001616	RPNL1Loss_s8=0.288156	RPNLandMarkL1Loss_s8=0.677415
+INFO:root:Epoch[0] Batch [0-520]	Speed: 16.73 samples/sec	RPNAcc_s32=0.952416	RPNAcc_s32_BG=0.994245	RPNAcc_s32_FG=0.001179	RPNL1Loss_s32=0.289665	RPNLandMarkL1Loss_s32=0.569055	RPNAcc_s16=0.939514	RPNAcc_s16_BG=0.993850	RPNAcc_s16_FG=0.001493	RPNL1Loss_s16=0.245279	RPNLandMarkL1Loss_s16=0.504454	RPNAcc_s8=0.964608	RPNAcc_s8_BG=0.992275	RPNAcc_s8_FG=0.001561	RPNL1Loss_s8=0.286821	RPNLandMarkL1Loss_s8=0.671825
+INFO:root:Epoch[0] Batch [0-540]	Speed: 16.52 samples/sec	RPNAcc_s32=0.952671	RPNAcc_s32_BG=0.994458	RPNAcc_s32_FG=0.001137	RPNL1Loss_s32=0.288191	RPNLandMarkL1Loss_s32=0.565342	RPNAcc_s16=0.939761	RPNAcc_s16_BG=0.994078	RPNAcc_s16_FG=0.001439	RPNL1Loss_s16=0.243442	RPNLandMarkL1Loss_s16=0.498467	RPNAcc_s8=0.964737	RPNAcc_s8_BG=0.992560	RPNAcc_s8_FG=0.001495	RPNL1Loss_s8=0.285493	RPNLandMarkL1Loss_s8=0.668067
+INFO:root:Epoch[0] Batch [0-560]	Speed: 16.35 samples/sec	RPNAcc_s32=0.952885	RPNAcc_s32_BG=0.994656	RPNAcc_s32_FG=0.001097	RPNL1Loss_s32=0.286875	RPNLandMarkL1Loss_s32=0.561799	RPNAcc_s16=0.939930	RPNAcc_s16_BG=0.994289	RPNAcc_s16_FG=0.001387	RPNL1Loss_s16=0.242585	RPNLandMarkL1Loss_s16=0.495866	RPNAcc_s8=0.964803	RPNAcc_s8_BG=0.992823	RPNAcc_s8_FG=0.001432	RPNL1Loss_s8=0.284179	RPNLandMarkL1Loss_s8=0.663321
+INFO:root:Epoch[0] Batch [0-580]	Speed: 16.84 samples/sec	RPNAcc_s32=0.953176	RPNAcc_s32_BG=0.994841	RPNAcc_s32_FG=0.001062	RPNL1Loss_s32=0.285438	RPNLandMarkL1Loss_s32=0.559076	RPNAcc_s16=0.940194	RPNAcc_s16_BG=0.994486	RPNAcc_s16_FG=0.001341	RPNL1Loss_s16=0.240756	RPNLandMarkL1Loss_s16=0.491239	RPNAcc_s8=0.965150	RPNAcc_s8_BG=0.993071	RPNAcc_s8_FG=0.001388	RPNL1Loss_s8=0.282595	RPNLandMarkL1Loss_s8=0.658034
+STAT | 32: (102717, 0, 0.0000) | 16: (132936, 0, 0.0000) | 8: (69517, 0, 0.0000)
+INFO:root:Epoch[0] Batch [0-600]	Speed: 17.07 samples/sec	RPNAcc_s32=0.953236	RPNAcc_s32_BG=0.995012	RPNAcc_s32_FG=0.001025	RPNL1Loss_s32=0.283392	RPNLandMarkL1Loss_s32=0.553534	RPNAcc_s16=0.940430	RPNAcc_s16_BG=0.994670	RPNAcc_s16_FG=0.001298	RPNL1Loss_s16=0.239137	RPNLandMarkL1Loss_s16=0.487034	RPNAcc_s8=0.965474	RPNAcc_s8_BG=0.993303	RPNAcc_s8_FG=0.001347	RPNL1Loss_s8=0.281639	RPNLandMarkL1Loss_s8=0.654955
+INFO:root:Epoch[0] Batch [0-620]	Speed: 16.77 samples/sec	RPNAcc_s32=0.953485	RPNAcc_s32_BG=0.995173	RPNAcc_s32_FG=0.000994	RPNL1Loss_s32=0.281819	RPNLandMarkL1Loss_s32=0.549437	RPNAcc_s16=0.940627	RPNAcc_s16_BG=0.994842	RPNAcc_s16_FG=0.001257	RPNL1Loss_s16=0.237417	RPNLandMarkL1Loss_s16=0.482332	RPNAcc_s8=0.965744	RPNAcc_s8_BG=0.993519	RPNAcc_s8_FG=0.001306	RPNL1Loss_s8=0.280491	RPNLandMarkL1Loss_s8=0.649820
+INFO:root:Epoch[0] Batch [0-640]	Speed: 17.08 samples/sec	RPNAcc_s32=0.953653	RPNAcc_s32_BG=0.995324	RPNAcc_s32_FG=0.000963	RPNL1Loss_s32=0.279937	RPNLandMarkL1Loss_s32=0.545413	RPNAcc_s16=0.940764	RPNAcc_s16_BG=0.995002	RPNAcc_s16_FG=0.001218	RPNL1Loss_s16=0.236151	RPNLandMarkL1Loss_s16=0.478391	RPNAcc_s8=0.966094	RPNAcc_s8_BG=0.993722	RPNAcc_s8_FG=0.001272	RPNL1Loss_s8=0.279188	RPNLandMarkL1Loss_s8=0.646730
+INFO:root:Epoch[0] Batch [0-660]	Speed: 16.16 samples/sec	RPNAcc_s32=0.953799	RPNAcc_s32_BG=0.995465	RPNAcc_s32_FG=0.000935	RPNL1Loss_s32=0.278416	RPNLandMarkL1Loss_s32=0.541465	RPNAcc_s16=0.940876	RPNAcc_s16_BG=0.995154	RPNAcc_s16_FG=0.001180	RPNL1Loss_s16=0.234407	RPNLandMarkL1Loss_s16=0.473831	RPNAcc_s8=0.966231	RPNAcc_s8_BG=0.993912	RPNAcc_s8_FG=0.001232	RPNL1Loss_s8=0.277944	RPNLandMarkL1Loss_s8=0.643142
+INFO:root:Epoch[0] Batch [0-680]	Speed: 16.56 samples/sec	RPNAcc_s32=0.953971	RPNAcc_s32_BG=0.995599	RPNAcc_s32_FG=0.000908	RPNL1Loss_s32=0.276709	RPNLandMarkL1Loss_s32=0.538101	RPNAcc_s16=0.940906	RPNAcc_s16_BG=0.995295	RPNAcc_s16_FG=0.001143	RPNL1Loss_s16=0.232627	RPNLandMarkL1Loss_s16=0.468985	RPNAcc_s8=0.966406	RPNAcc_s8_BG=0.994090	RPNAcc_s8_FG=0.001196	RPNL1Loss_s8=0.276772	RPNLandMarkL1Loss_s8=0.639295
+INFO:root:Epoch[0] Batch [0-700]	Speed: 16.53 samples/sec	RPNAcc_s32=0.953942	RPNAcc_s32_BG=0.995723	RPNAcc_s32_FG=0.000879	RPNL1Loss_s32=0.275125	RPNLandMarkL1Loss_s32=0.534947	RPNAcc_s16=0.941169	RPNAcc_s16_BG=0.995430	RPNAcc_s16_FG=0.001114	RPNL1Loss_s16=0.231293	RPNLandMarkL1Loss_s16=0.464784	RPNAcc_s8=0.966604	RPNAcc_s8_BG=0.994259	RPNAcc_s8_FG=0.001163	RPNL1Loss_s8=0.275639	RPNLandMarkL1Loss_s8=0.635982
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         INFO:root:Epoch[0] Batch [0-760]	Speed: 15.15 samples/sec	RPNAcc_s32=0.953650	RPNAcc_s32_BG=0.996091	RPNAcc_s32_FG=0.000903	RPNL1Loss_s32=0.263232	RPNLandMarkL1Loss_s32=0.516144	RPNAcc_s16=0.941267	RPNAcc_s16_BG=0.995910	RPNAcc_s16_FG=0.000908	RPNL1Loss_s16=0.222630	RPNLandMarkL1Loss_s16=0.447275	RPNAcc_s8=0.967525	RPNAcc_s8_BG=0.994683	RPNAcc_s8_FG=0.000716	RPNL1Loss_s8=0.267872	RPNLandMarkL1Loss_s8=0.612369
+INFO:root:Epoch[0] Batch [0-780]	Speed: 15.46 samples/sec	RPNAcc_s32=0.953745	RPNAcc_s32_BG=0.996191	RPNAcc_s32_FG=0.000880	RPNL1Loss_s32=0.261628	RPNLandMarkL1Loss_s32=0.512477	RPNAcc_s16=0.941321	RPNAcc_s16_BG=0.996015	RPNAcc_s16_FG=0.000884	RPNL1Loss_s16=0.221680	RPNLandMarkL1Loss_s16=0.445035	RPNAcc_s8=0.967547	RPNAcc_s8_BG=0.994818	RPNAcc_s8_FG=0.000695	RPNL1Loss_s8=0.266829	RPNLandMarkL1Loss_s8=0.608610
+INFO:root:Epoch[0] Batch [0-800]	Speed: 16.43 samples/sec	RPNAcc_s32=0.953826	RPNAcc_s32_BG=0.996286	RPNAcc_s32_FG=0.000857	RPNL1Loss_s32=0.260530	RPNLandMarkL1Loss_s32=0.510507	RPNAcc_s16=0.941467	RPNAcc_s16_BG=0.996115	RPNAcc_s16_FG=0.000863	RPNL1Loss_s16=0.220878	RPNLandMarkL1Loss_s16=0.442263	RPNAcc_s8=0.967675	RPNAcc_s8_BG=0.994948	RPNAcc_s8_FG=0.000678	RPNL1Loss_s8=0.266166	RPNLandMarkL1Loss_s8=0.606138
+INFO:root:Epoch[0] Train-RPNAcc_s32=0.953873
+INFO:root:Epoch[0] Train-RPNAcc_s32_BG=0.996300
+INFO:root:Epoch[0] Train-RPNAcc_s32_FG=0.000855
+INFO:root:Epoch[0] Train-RPNL1Loss_s32=0.260268
+INFO:root:Epoch[0] Train-RPNLandMarkL1Loss_s32=0.509722
+INFO:root:Epoch[0] Train-RPNAcc_s16=0.941437
+INFO:root:Epoch[0] Train-RPNAcc_s16_BG=0.996129
+INFO:root:Epoch[0] Train-RPNAcc_s16_FG=0.000859
+INFO:root:Epoch[0] Train-RPNL1Loss_s16=0.220620
+INFO:root:Epoch[0] Train-RPNLandMarkL1Loss_s16=0.441394
+INFO:root:Epoch[0] Train-RPNAcc_s8=0.967693
+INFO:root:Epoch[0] Train-RPNAcc_s8_BG=0.994967
+INFO:root:Epoch[0] Train-RPNAcc_s8_FG=0.000675
+INFO:root:Epoch[0] Train-RPNL1Loss_s8=0.266135
+INFO:root:Epoch[0] Train-RPNLandMarkL1Loss_s8=0.605711
+INFO:root:Epoch[0] Time cost=1498.621
+INFO:root:Saved checkpoint to "model/mnet_net3a_maxout2/mnet_net3a_maxout2-0000.params"
+INFO:root:Epoch[1] Batch [0-20]	Speed: 16.68 samples/sec	RPNAcc_s32=0.958525	RPNAcc_s32_BG=1.000000	RPNAcc_s32_FG=0.000000	RPNL1Loss_s32=0.212889	RPNLandMarkL1Loss_s32=0.381607	RPNAcc_s16=0.945092	RPNAcc_s16_BG=1.000000	RPNAcc_s16_FG=0.000000	RPNL1Loss_s16=0.168357	RPNLandMarkL1Loss_s16=0.283242	RPNAcc_s8=0.977533	RPNAcc_s8_BG=1.000000	RPNAcc_s8_FG=0.000000	RPNL1Loss_s8=0.240341	RPNLandMarkL1Loss_s8=0.497114
+INFO:root:Epoch[1] Batch [0-40]	Speed: 16.64 samples/sec	RPNAcc_s32=0.958699	RPNAcc_s32_BG=1.000000	RPNAcc_s32_FG=0.000000	RPNL1Loss_s32=0.222303	RPNLandMarkL1Loss_s32=0.390944	RPNAcc_s16=0.945104	RPNAcc_s16_BG=1.000000	RPNAcc_s16_FG=0.000000	RPNL1Loss_s16=0.171517	RPNLandMarkL1Loss_s16=0.309538	RPNAcc_s8=0.975264	RPNAcc_s8_BG=1.000000	RPNAcc_s8_FG=0.000000	RPNL1Loss_s8=0.241718	RPNLandMarkL1Loss_s8=0.515087
+INFO:root:Epoch[1] Batch [0-60]	Speed: 16.72 samples/sec	RPNAcc_s32=0.959611	RPNAcc_s32_BG=1.000000	RPNAcc_s32_FG=0.000000	RPNL1Loss_s32=0.214350	RPNLandMarkL1Loss_s32=0.386815	RPNAcc_s16=0.946867	RPNAcc_s16_BG=1.000000	RPNAcc_s16_FG=0.000000	RPNL1Loss_s16=0.176603	RPNLandMarkL1Loss_s16=0.319296	RPNAcc_s8=0.973407	RPNAcc_s8_BG=1.000000	RPNAcc_s8_FG=0.000000	RPNL1Loss_s8=0.235364	RPNLandMarkL1Loss_s8=0.500624
+INFO:root:Epoch[1] Batch [0-80]	Speed: 16.74 samples/sec	RPNAcc_s32=0.960399	RPNAcc_s32_BG=1.000000	RPNAcc_s32_FG=0.000000	RPNL1Loss_s32=0.207248	RPNLandMarkL1Loss_s32=0.382033	RPNAcc_s16=0.946788	RPNAcc_s16_BG=1.000000	RPNAcc_s16_FG=0.000000	RPNL1Loss_s16=0.180447	RPNLandMarkL1Loss_s16=0.321183	RPNAcc_s8=0.973261	RPNAcc_s8_BG=1.000000	RPNAcc_s8_FG=0.000000	RPNL1Loss_s8=0.232763	RPNLandMarkL1Loss_s8=0.501271
+STAT | 32: (102875, 0, 0.0000) | 16: (132548, 0, 0.0000) | 8: (69157, 0, 0.0000)
+INFO:root:Epoch[1] Batch [0-100]	Speed: 15.60 samples/sec	RPNAcc_s32=0.959901	RPNAcc_s32_BG=1.000000	RPNAcc_s32_FG=0.000000	RPNL1Loss_s32=0.209694	RPNLandMarkL1Loss_s32=0.386489	RPNAcc_s16=0.947603	RPNAcc_s16_BG=1.000000	RPNAcc_s16_FG=0.000000	RPNL1Loss_s16=0.182839	RPNLandMarkL1Loss_s16=0.320861	RPNAcc_s8=0.972533	RPNAcc_s8_BG=1.000000	RPNAcc_s8_FG=0.000000	RPNL1Loss_s8=0.233107	RPNLandMarkL1Loss_s8=0.497012
+INFO:root:Epoch[1] Batch [0-120]	Speed: 16.32 samples/sec	RPNAcc_s32=0.958934	RPNAcc_s32_BG=1.000000	RPNAcc_s32_FG=0.000000	RPNL1Loss_s32=0.211793	RPNLandMarkL1Loss_s32=0.393730	RPNAcc_s16=0.946764	RPNAcc_s16_BG=1.000000	RPNAcc_s16_FG=0.000000	RPNL1Loss_s16=0.180885	RPNLandMarkL1Loss_s16=0.321464	RPNAcc_s8=0.972125	RPNAcc_s8_BG=1.000000	RPNAcc_s8_FG=0.000000	RPNL1Loss_s8=0.235977	RPNLandMarkL1Loss_s8=0.506801
+INFO:root:Epoch[1] Batch [0-140]	Speed: 16.58 samples/sec	RPNAcc_s32=0.958694	RPNAcc_s32_BG=1.000000	RPNAcc_s32_FG=0.000000	RPNL1Loss_s32=0.212778	RPNLandMarkL1Loss_s32=0.399629	RPNAcc_s16=0.946862	RPNAcc_s16_BG=1.000000	RPNAcc_s16_FG=0.000000	RPNL1Loss_s16=0.181388	RPNLandMarkL1Loss_s16=0.321257	RPNAcc_s8=0.972579	RPNAcc_s8_BG=1.000000	RPNAcc_s8_FG=0.000000	RPNL1Loss_s8=0.235257	RPNLandMarkL1Loss_s8=0.512469
+INFO:root:Epoch[1] Batch [0-160]	Speed: 16.43 samples/sec	RPNAcc_s32=0.958654	RPNAcc_s32_BG=1.000000	RPNAcc_s32_FG=0.000000	RPNL1Loss_s32=0.211859	RPNLandMarkL1Loss_s32=0.390671	RPNAcc_s16=0.946485	RPNAcc_s16_BG=1.000000	RPNAcc_s16_FG=0.000000	RPNL1Loss_s16=0.181223	RPNLandMarkL1Loss_s16=0.323099	RPNAcc_s8=0.972079	RPNAcc_s8_BG=1.000000	RPNAcc_s8_FG=0.000000	RPNL1Loss_s8=0.235268	RPNLandMarkL1Loss_s8=0.510292
+INFO:root:Epoch[1] Batch [0-180]	Speed: 16.49 samples/sec	RPNAcc_s32=0.958330	RPNAcc_s32_BG=1.000000	RPNAcc_s32_FG=0.000000	RPNL1Loss_s32=0.210460	RPNLandMarkL1Loss_s32=0.390482	RPNAcc_s16=0.946739	RPNAcc_s16_BG=1.000000	RPNAcc_s16_FG=0.000000	RPNL1Loss_s16=0.180287	RPNLandMarkL1Loss_s16=0.325274	RPNAcc_s8=0.972272	RPNAcc_s8_BG=1.000000	RPNAcc_s8_FG=0.000000	RPNL1Loss_s8=0.234745	RPNLandMarkL1Loss_s8=0.510550
+INFO:root:Epoch[1] Batch [0-200]	Speed: 16.03 samples/sec	RPNAcc_s32=0.958367	RPNAcc_s32_BG=1.000000	RPNAcc_s32_FG=0.000000	RPNL1Loss_s32=0.209058	RPNLandMarkL1Loss_s32=0.391868	RPNAcc_s16=0.946101	RPNAcc_s16_BG=1.000000	RPNAcc_s16_FG=0.000000	RPNL1Loss_s16=0.178123	RPNLandMarkL1Loss_s16=0.323810	RPNAcc_s8=0.972201	RPNAcc_s8_BG=1.000000	RPNAcc_s8_FG=0.000000	RPNL1Loss_s8=0.233693	RPNLandMarkL1Loss_s8=0.503586
+INFO:root:Epoch[1] Batch [0-220]	Speed: 16.28 samples/sec	RPNAcc_s32=0.958426	RPNAcc_s32_BG=1.000000	RPNAcc_s32_FG=0.000000	RPNL1Loss_s32=0.208809	RPNLandMarkL1Loss_s32=0.389563	RPNAcc_s16=0.946459	RPNAcc_s16_BG=1.000000	RPNAcc_s16_FG=0.000000	RPNL1Loss_s16=0.178435	RPNLandMarkL1Loss_s16=0.325146	RPNAcc_s8=0.972324	RPNAcc_s8_BG=1.000000	RPNAcc_s8_FG=0.000000	RPNL1Loss_s8=0.234132	RPNLandMarkL1Loss_s8=0.506145
+INFO:root:Epoch[1] Batch [0-240]	Speed: 16.44 samples/sec	RPNAcc_s32=0.958386	RPNAcc_s32_BG=1.000000	RPNAcc_s32_FG=0.000000	RPNL1Loss_s32=0.207792	RPNLandMarkL1Loss_s32=0.386628	RPNAcc_s16=0.946344	RPNAcc_s16_BG=1.000000	RPNAcc_s16_FG=0.000000	RPNL1Loss_s16=0.177408	RPNLandMarkL1Loss_s16=0.323546	RPNAcc_s8=0.972334	RPNAcc_s8_BG=1.000000	RPNAcc_s8_FG=0.000000	RPNL1Loss_s8=0.233885	RPNLandMarkL1Loss_s8=0.503979
+INFO:root:Epoch[1] Batch [0-260]	Speed: 15.51 samples/sec	RPNAcc_s32=0.958291	RPNAcc_s32_BG=1.000000	RPNAcc_s32_FG=0.000000	RPNL1Loss_s32=0.207507	RPNLandMarkL1Loss_s32=0.384543	RPNAcc_s16=0.946199	RPNAcc_s16_BG=1.000000	RPNAcc_s16_FG=0.000000	RPNL1Loss_s16=0.176834	RPNLandMarkL1Loss_s16=0.321178	RPNAcc_s8=0.972223	RPNAcc_s8_BG=1.000000	RPNAcc_s8_FG=0.000000	RPNL1Loss_s8=0.233269	RPNLandMarkL1Loss_s8=0.502167
+INFO:root:Epoch[1] Batch [0-280]	Speed: 16.15 samples/sec	RPNAcc_s32=0.957950	RPNAcc_s32_BG=1.000000	RPNAcc_s32_FG=0.000000	RPNL1Loss_s32=0.207473	RPNLandMarkL1Loss_s32=0.379727	RPNAcc_s16=0.946179	RPNAcc_s16_BG=1.000000	RPNAcc_s16_FG=0.000000	RPNL1Loss_s16=0.176594	RPNLandMarkL1Loss_s16=0.320922	RPNAcc_s8=0.972563	RPNAcc_s8_BG=1.000000	RPNAcc_s8_FG=0.000000	RPNL1Loss_s8=0.233426	RPNLandMarkL1Loss_s8=0.502018
+INFO:root:Epoch[1] Batch [0-300]	Speed: 15.55 samples/sec	RPNAcc_s32=0.958014	RPNAcc_s32_BG=1.000000	RPNAcc_s32_FG=0.000000	RPNL1Loss_s32=0.206300	RPNLandMarkL1Loss_s32=0.378388	RPNAcc_s16=0.945761	RPNAcc_s16_BG=1.000000	RPNAcc_s16_FG=0.000000	RPNL1Loss_s16=0.177238	RPNLandMarkL1Loss_s16=0.319121	RPNAcc_s8=0.972516	RPNAcc_s8_BG=1.000000	RPNAcc_s8_FG=0.000000	RPNL1Loss_s8=0.231728	RPNLandMarkL1Loss_s8=0.496719
+INFO:root:Epoch[1] Batch [0-320]	Speed: 16.72 samples/sec	RPNAcc_s32=0.958112	RPNAcc_s32_BG=1.000000	RPNAcc_s32_FG=0.000000	RPNL1Loss_s32=0.206165	RPNLandMarkL1Loss_s32=0.377074	RPNAcc_s16=0.946070	RPNAcc_s16_BG=1.000000	RPNAcc_s16_FG=0.000028	RPNL1Loss_s16=0.177309	RPNLandMarkL1Loss_s16=0.320015	RPNAcc_s8=0.972475	RPNAcc_s8_BG=1.000000	RPNAcc_s8_FG=0.000000	RPNL1Loss_s8=0.231311	RPNLandMarkL1Loss_s8=0.494717
+INFO:root:Epoch[1] Batch [0-340]	Speed: 17.10 samples/sec	RPNAcc_s32=0.958031	RPNAcc_s32_BG=1.000000	RPNAcc_s32_FG=0.000000	RPNL1Loss_s32=0.204871	RPNLandMarkL1Loss_s32=0.373788	RPNAcc_s16=0.945877	RPNAcc_s16_BG=1.000000	RPNAcc_s16_FG=0.000040	RPNL1Loss_s16=0.176167	RPNLandMarkL1Loss_s16=0.318456	RPNAcc_s8=0.972562	RPNAcc_s8_BG=1.000000	RPNAcc_s8_FG=0.000000	RPNL1Loss_s8=0.230686	RPNLandMarkL1Loss_s8=0.497980
+INFO:root:Epoch[1] Batch [0-360]	Speed: 16.28 samples/sec	RPNAcc_s32=0.958013	RPNAcc_s32_BG=1.000000	RPNAcc_s32_FG=0.000000	RPNL1Loss_s32=0.204539	RPNLandMarkL1Loss_s32=0.374354	RPNAcc_s16=0.946180	RPNAcc_s16_BG=1.000000	RPNAcc_s16_FG=0.000126	RPNL1Loss_s16=0.176294	RPNLandMarkL1Loss_s16=0.318728	RPNAcc_s8=0.972502	RPNAcc_s8_BG=1.000000	RPNAcc_s8_FG=0.000000	RPNL1Loss_s8=0.230418	RPNLandMarkL1Loss_s8=0.496014
+INFO:root:Epoch[1] Batch [0-380]	Speed: 16.22 samples/sec	RPNAcc_s32=0.958164	RPNAcc_s32_BG=1.000000	RPNAcc_s32_FG=0.000000	RPNL1Loss_s32=0.205061	RPNLandMarkL1Loss_s32=0.374264	RPNAcc_s16=0.946277	RPNAcc_s16_BG=1.000000	RPNAcc_s16_FG=0.000203	RPNL1Loss_s16=0.176099	RPNLandMarkL1Loss_s16=0.318464	RPNAcc_s8=0.972282	RPNAcc_s8_BG=1.000000	RPNAcc_s8_FG=0.000000	RPNL1Loss_s8=0.230305	RPNLandMarkL1Loss_s8=0.491689
+STAT | 32: (104080, 0, 0.0000) | 16: (133529, 53, 0.0004) | 8: (68757, 0, 0.0000)
+INFO:root:Epoch[1] Batch [0-400]	Speed: 15.67 samples/sec	RPNAcc_s32=0.958234	RPNAcc_s32_BG=1.000000	RPNAcc_s32_FG=0.000000	RPNL1Loss_s32=0.205386	RPNLandMarkL1Loss_s32=0.373372	RPNAcc_s16=0.946207	RPNAcc_s16_BG=1.000000	RPNAcc_s16_FG=0.000373	RPNL1Loss_s16=0.176321	RPNLandMarkL1Loss_s16=0.317565	RPNAcc_s8=0.972190	RPNAcc_s8_BG=1.000000	RPNAcc_s8_FG=0.000000	RPNL1Loss_s8=0.230043	RPNLandMarkL1Loss_s8=0.488001
+INFO:root:Epoch[1] Batch [0-420]	Speed: 17.26 samples/sec	RPNAcc_s32=0.958131	RPNAcc_s32_BG=1.000000	RPNAcc_s32_FG=0.000000	RPNL1Loss_s32=0.205318	RPNLandMarkL1Loss_s32=0.372759	RPNAcc_s16=0.946204	RPNAcc_s16_BG=1.000000	RPNAcc_s16_FG=0.000625	RPNL1Loss_s16=0.175684	RPNLandMarkL1Loss_s16=0.317018	RPNAcc_s8=0.972126	RPNAcc_s8_BG=1.000000	RPNAcc_s8_FG=0.000000	RPNL1Loss_s8=0.229328	RPNLandMarkL1Loss_s8=0.483053
+INFO:root:Epoch[1] Batch [0-440]	Speed: 17.15 samples/sec	RPNAcc_s32=0.957777	RPNAcc_s32_BG=1.000000	RPNAcc_s32_FG=0.000000	RPNL1Loss_s32=0.203965	RPNLandMarkL1Loss_s32=0.371399	RPNAcc_s16=0.946399	RPNAcc_s16_BG=1.000000	RPNAcc_s16_FG=0.001104	RPNL1Loss_s16=0.175334	RPNLandMarkL1Loss_s16=0.317569	RPNAcc_s8=0.972068	RPNAcc_s8_BG=1.000000	RPNAcc_s8_FG=0.000000	RPNL1Loss_s8=0.229735	RPNLandMarkL1Loss_s8=0.483344
+INFO:root:Epoch[1] Batch [0-460]	Speed: 16.55 samples/sec	RPNAcc_s32=0.957575	RPNAcc_s32_BG=1.000000	RPNAcc_s32_FG=0.000000	RPNL1Loss_s32=0.203547	RPNLandMarkL1Loss_s32=0.370872	RPNAcc_s16=0.946328	RPNAcc_s16_BG=1.000000	RPNAcc_s16_FG=0.001920	RPNL1Loss_s16=0.175213	RPNLandMarkL1Loss_s16=0.317158	RPNAcc_s8=0.971999	RPNAcc_s8_BG=1.000000	RPNAcc_s8_FG=0.000000	RPNL1Loss_s8=0.229959	RPNLandMarkL1Loss_s8=0.481012
+INFO:root:Epoch[1] Batch [0-480]	Speed: 16.25 samples/sec	RPNAcc_s32=0.957375	RPNAcc_s32_BG=1.000000	RPNAcc_s32_FG=0.000000	RPNL1Loss_s32=0.203235	RPNLandMarkL1Loss_s32=0.369448	RPNAcc_s16=0.946384	RPNAcc_s16_BG=1.000000	RPNAcc_s16_FG=0.002394	RPNL1Loss_s16=0.174908	RPNLandMarkL1Loss_s16=0.316186	RPNAcc_s8=0.972073	RPNAcc_s8_BG=1.000000	RPNAcc_s8_FG=0.000000	RPNL1Loss_s8=0.229798	RPNLandMarkL1Loss_s8=0.480156
+INFO:root:Epoch[1] Batch [0-500]	Speed: 16.84 samples/sec	RPNAcc_s32=0.957411	RPNAcc_s32_BG=1.000000	RPNAcc_s32_FG=0.000000	RPNL1Loss_s32=0.202418	RPNLandMarkL1Loss_s32=0.368356	RPNAcc_s16=0.946500	RPNAcc_s16_BG=0.999998	RPNAcc_s16_FG=0.003947	RPNL1Loss_s16=0.174845	RPNLandMarkL1Loss_s16=0.317075	RPNAcc_s8=0.972049	RPNAcc_s8_BG=1.000000	RPNAcc_s8_FG=0.000000	RPNL1Loss_s8=0.229760	RPNLandMarkL1Loss_s8=0.478999
+INFO:root:Epoch[1] Batch [0-520]	Speed: 15.76 samples/sec	RPNAcc_s32=0.957361	RPNAcc_s32_BG=1.000000	RPNAcc_s32_FG=0.000000	RPNL1Loss_s32=0.202387	RPNLandMarkL1Loss_s32=0.367867	RPNAcc_s16=0.946662	RPNAcc_s16_BG=0.999998	RPNAcc_s16_FG=0.005518	RPNL1Loss_s16=0.174455	RPNLandMarkL1Loss_s16=0.316233	RPNAcc_s8=0.972184	RPNAcc_s8_BG=1.000000	RPNAcc_s8_FG=0.000000	RPNL1Loss_s8=0.229584	RPNLandMarkL1Loss_s8=0.480775
+INFO:root:Epoch[1] Batch [0-540]	Speed: 16.89 samples/sec	RPNAcc_s32=0.957266	RPNAcc_s32_BG=1.000000	RPNAcc_s32_FG=0.000000	RPNL1Loss_s32=0.202506	RPNLandMarkL1Loss_s32=0.366771	RPNAcc_s16=0.946746	RPNAcc_s16_BG=0.999996	RPNAcc_s16_FG=0.007361	RPNL1Loss_s16=0.174137	RPNLandMarkL1Loss_s16=0.315008	RPNAcc_s8=0.972342	RPNAcc_s8_BG=1.000000	RPNAcc_s8_FG=0.000000	RPNL1Loss_s8=0.229408	RPNLandMarkL1Loss_s8=0.480277
+INFO:root:Epoch[1] Batch [0-560]	Speed: 16.64 samples/sec	RPNAcc_s32=0.957321	RPNAcc_s32_BG=1.000000	RPNAcc_s32_FG=0.000000	RPNL1Loss_s32=0.201982	RPNLandMarkL1Loss_s32=0.365141	RPNAcc_s16=0.946713	RPNAcc_s16_BG=0.999997	RPNAcc_s16_FG=0.009289	RPNL1Loss_s16=0.174472	RPNLandMarkL1Loss_s16=0.315716	RPNAcc_s8=0.972331	RPNAcc_s8_BG=1.000000	RPNAcc_s8_FG=0.000000	RPNL1Loss_s8=0.228936	RPNLandMarkL1Loss_s8=0.481004
+INFO:root:Epoch[1] Batch [0-580]	Speed: 16.91 samples/sec	RPNAcc_s32=0.957333	RPNAcc_s32_BG=1.000000	RPNAcc_s32_FG=0.000000	RPNL1Loss_s32=0.200939	RPNLandMarkL1Loss_s32=0.362826	RPNAcc_s16=0.946799	RPNAcc_s16_BG=0.999996	RPNAcc_s16_FG=0.013085	RPNL1Loss_s16=0.173856	RPNLandMarkL1Loss_s16=0.314793	RPNAcc_s8=0.972374	RPNAcc_s8_BG=1.000000	RPNAcc_s8_FG=0.000000	RPNL1Loss_s8=0.228891	RPNLandMarkL1Loss_s8=0.481115
+INFO:root:Epoch[1] Batch [0-600]	Speed: 16.47 samples/sec	RPNAcc_s32=0.957464	RPNAcc_s32_BG=1.000000	RPNAcc_s32_FG=0.000000	RPNL1Loss_s32=0.200987	RPNLandMarkL1Loss_s32=0.363990	RPNAcc_s16=0.946990	RPNAcc_s16_BG=0.999996	RPNAcc_s16_FG=0.015088	RPNL1Loss_s16=0.174234	RPNLandMarkL1Loss_s16=0.315252	RPNAcc_s8=0.972432	RPNAcc_s8_BG=1.000000	RPNAcc_s8_FG=0.000000	RPNL1Loss_s8=0.228498	RPNLandMarkL1Loss_s8=0.480331
+INFO:root:Epoch[1] Batch [0-620]	Speed: 16.48 samples/sec	RPNAcc_s32=0.957468	RPNAcc_s32_BG=1.000000	RPNAcc_s32_FG=0.000000	RPNL1Loss_s32=0.200652	RPNLandMarkL1Loss_s32=0.363746	RPNAcc_s16=0.947031	RPNAcc_s16_BG=0.999991	RPNAcc_s16_FG=0.019777	RPNL1Loss_s16=0.173988	RPNLandMarkL1Loss_s16=0.313345	RPNAcc_s8=0.972545	RPNAcc_s8_BG=1.000000	RPNAcc_s8_FG=0.000000	RPNL1Loss_s8=0.228488	RPNLandMarkL1Loss_s8=0.480855
+INFO:root:Epoch[1] Batch [0-640]	Speed: 16.00 samples/sec	RPNAcc_s32=0.957481	RPNAcc_s32_BG=1.000000	RPNAcc_s32_FG=0.000000	RPNL1Loss_s32=0.200234	RPNLandMarkL1Loss_s32=0.364084	RPNAcc_s16=0.947120	RPNAcc_s16_BG=0.999989	RPNAcc_s16_FG=0.022940	RPNL1Loss_s16=0.173873	RPNLandMarkL1Loss_s16=0.313181	RPNAcc_s8=0.972589	RPNAcc_s8_BG=1.000000	RPNAcc_s8_FG=0.000000	RPNL1Loss_s8=0.228178	RPNLandMarkL1Loss_s8=0.480022
+INFO:root:Epoch[1] Batch [0-660]	Speed: 16.01 samples/sec	RPNAcc_s32=0.957499	RPNAcc_s32_BG=1.000000	RPNAcc_s32_FG=0.000000	RPNL1Loss_s32=0.200218	RPNLandMarkL1Loss_s32=0.363121	RPNAcc_s16=0.947354	RPNAcc_s16_BG=0.999988	RPNAcc_s16_FG=0.027177	RPNL1Loss_s16=0.173218	RPNLandMarkL1Loss_s16=0.312009	RPNAcc_s8=0.972477	RPNAcc_s8_BG=1.000000	RPNAcc_s8_FG=0.000000	RPNL1Loss_s8=0.227822	RPNLandMarkL1Loss_s8=0.478656
+INFO:root:Epoch[1] Batch [0-680]	Speed: 17.95 samples/sec	RPNAcc_s32=0.957651	RPNAcc_s32_BG=1.000000	RPNAcc_s32_FG=0.000000	RPNL1Loss_s32=0.199988	RPNLandMarkL1Loss_s32=0.362248	RPNAcc_s16=0.947481	RPNAcc_s16_BG=0.999978	RPNAcc_s16_FG=0.031348	RPNL1Loss_s16=0.173118	RPNLandMarkL1Loss_s16=0.311500	RPNAcc_s8=0.972342	RPNAcc_s8_BG=1.000000	RPNAcc_s8_FG=0.000000	RPNL1Loss_s8=0.227412	RPNLandMarkL1Loss_s8=0.476981
+STAT | 32: (105455, 0, 0.0000) | 16: (134513, 10599, 0.0788) | 8: (67530, 0, 0.0000)
+INFO:root:Epoch[1] Batch [0-700]	Speed: 17.80 samples/sec	RPNAcc_s32=0.957741	RPNAcc_s32_BG=1.000000	RPNAcc_s32_FG=0.000000	RPNL1Loss_s32=0.200228	RPNLandMarkL1Loss_s32=0.362204	RPNAcc_s16=0.947666	RPNAcc_s16_BG=0.999974	RPNAcc_s16_FG=0.035120	RPNL1Loss_s16=0.172935	RPNLandMarkL1Loss_s16=0.310818	RPNAcc_s8=0.972317	RPNAcc_s8_BG=1.000000	RPNAcc_s8_FG=0.000000	RPNL1Loss_s8=0.227302	RPNLandMarkL1Loss_s8=0.476112
+INFO:root:Epoch[1] Batch [0-720]	Speed: 18.23 samples/sec	RPNAcc_s32=0.957738	RPNAcc_s32_BG=1.000000	RPNAcc_s32_FG=0.000000	RPNL1Loss_s32=0.199793	RPNLandMarkL1Loss_s32=0.360124	RPNAcc_s16=0.947804	RPNAcc_s16_BG=0.999975	RPNAcc_s16_FG=0.038014	RPNL1Loss_s16=0.172845	RPNLandMarkL1Loss_s16=0.310556	RPNAcc_s8=0.972237	RPNAcc_s8_BG=1.000000	RPNAcc_s8_FG=0.000000	RPNL1Loss_s8=0.226983	RPNLandMarkL1Loss_s8=0.475427
+INFO:root:Epoch[1] Batch [0-740]	Speed: 18.23 samples/sec	RPNAcc_s32=0.957805	RPNAcc_s32_BG=1.000000	RPNAcc_s32_FG=0.000000	RPNL1Loss_s32=0.199694	RPNLandMarkL1Loss_s32=0.361326	RPNAcc_s16=0.948067	RPNAcc_s16_BG=0.999974	RPNAcc_s16_FG=0.041798	RPNL1Loss_s16=0.172711	RPNLandMarkL1Loss_s16=0.310283	RPNAcc_s8=0.972308	RPNAcc_s8_BG=1.000000	RPNAcc_s8_FG=0.000000	RPNL1Loss_s8=0.227035	RPNLandMarkL1Loss_s8=0.475499
+INFO:root:Epoch[1] Batch [0-760]	Speed: 18.10 samples/sec	RPNAcc_s32=0.957921	RPNAcc_s32_BG=1.000000	RPNAcc_s32_FG=0.000000	RPNL1Loss_s32=0.199433	RPNLandMarkL1Loss_s32=0.360877	RPNAcc_s16=0.948098	RPNAcc_s16_BG=0.999972	RPNAcc_s16_FG=0.044970	RPNL1Loss_s16=0.172828	RPNLandMarkL1Loss_s16=0.309870	RPNAcc_s8=0.972321	RPNAcc_s8_BG=1.000000	RPNAcc_s8_FG=0.000000	RPNL1Loss_s8=0.226834	RPNLandMarkL1Loss_s8=0.474679
+INFO:root:Epoch[1] Batch [0-780]	Speed: 18.38 samples/sec	RPNAcc_s32=0.957902	RPNAcc_s32_BG=1.000000	RPNAcc_s32_FG=0.000000	RPNL1Loss_s32=0.198729	RPNLandMarkL1Loss_s32=0.358757	RPNAcc_s16=0.948340	RPNAcc_s16_BG=0.999969	RPNAcc_s16_FG=0.050000	RPNL1Loss_s16=0.173027	RPNLandMarkL1Loss_s16=0.309516	RPNAcc_s8=0.972339	RPNAcc_s8_BG=1.000000	RPNAcc_s8_FG=0.000000	RPNL1Loss_s8=0.226413	RPNLandMarkL1Loss_s8=0.472999
+INFO:root:Epoch[1] Batch [0-800]	Speed: 17.92 samples/sec	RPNAcc_s32=0.957898	RPNAcc_s32_BG=1.000000	RPNAcc_s32_FG=0.000000	RPNL1Loss_s32=0.198521	RPNLandMarkL1Loss_s32=0.357163	RPNAcc_s16=0.948515	RPNAcc_s16_BG=0.999969	RPNAcc_s16_FG=0.054978	RPNL1Loss_s16=0.173214	RPNLandMarkL1Loss_s16=0.309031	RPNAcc_s8=0.972338	RPNAcc_s8_BG=1.000000	RPNAcc_s8_FG=0.000000	RPNL1Loss_s8=0.226157	RPNLandMarkL1Loss_s8=0.472400
+INFO:root:Epoch[1] Train-RPNAcc_s32=0.957890
+INFO:root:Epoch[1] Train-RPNAcc_s32_BG=1.000000
+INFO:root:Epoch[1] Train-RPNAcc_s32_FG=0.000000
+INFO:root:Epoch[1] Train-RPNL1Loss_s32=0.198547
+INFO:root:Epoch[1] Train-RPNLandMarkL1Loss_s32=0.357548
+INFO:root:Epoch[1] Train-RPNAcc_s16=0.948511
+INFO:root:Epoch[1] Train-RPNAcc_s16_BG=0.999969
+INFO:root:Epoch[1] Train-RPNAcc_s16_FG=0.055546
+INFO:root:Epoch[1] Train-RPNL1Loss_s16=0.173124
+INFO:root:Epoch[1] Train-RPNLandMarkL1Loss_s16=0.308715
+INFO:root:Epoch[1] Train-RPNAcc_s8=0.972351
+INFO:root:Epoch[1] Train-RPNAcc_s8_BG=1.000000
+INFO:root:Epoch[1] Train-RPNAcc_s8_FG=0.000000
+INFO:root:Epoch[1] Train-RPNL1Loss_s8=0.226244
+INFO:root:Epoch[1] Train-RPNLandMarkL1Loss_s8=0.472611
+INFO:root:Epoch[1] Time cost=1544.118
+INFO:root:Saved checkpoint to "model/mnet_net3a_maxout2/mnet_net3a_maxout2-0001.params"
+INFO:root:Epoch[2] Batch [0-20]	Speed: 17.89 samples/sec	RPNAcc_s32=0.957287	RPNAcc_s32_BG=1.000000	RPNAcc_s32_FG=0.000000	RPNL1Loss_s32=0.178579	RPNLandMarkL1Loss_s32=0.326021	RPNAcc_s16=0.958915	RPNAcc_s16_BG=0.999870	RPNAcc_s16_FG=0.293534	RPNL1Loss_s16=0.157272	RPNLandMarkL1Loss_s16=0.283955	RPNAcc_s8=0.973296	RPNAcc_s8_BG=1.000000	RPNAcc_s8_FG=0.000000	RPNL1Loss_s8=0.230073	RPNLandMarkL1Loss_s8=0.466441
+INFO:root:Epoch[2] Batch [0-40]	Speed: 17.23 samples/sec	RPNAcc_s32=0.958291	RPNAcc_s32_BG=1.000000	RPNAcc_s32_FG=0.000000	RPNL1Loss_s32=0.196889	RPNLandMarkL1Loss_s32=0.345265	RPNAcc_s16=0.959568	RPNAcc_s16_BG=0.999874	RPNAcc_s16_FG=0.300584	RPNL1Loss_s16=0.154830	RPNLandMarkL1Loss_s16=0.285908	RPNAcc_s8=0.973153	RPNAcc_s8_BG=1.000000	RPNAcc_s8_FG=0.000000	RPNL1Loss_s8=0.221326	RPNLandMarkL1Loss_s8=0.455715
+INFO:root:Epoch[2] Batch [0-60]	Speed: 17.72 samples/sec	RPNAcc_s32=0.957606	RPNAcc_s32_BG=1.000000	RPNAcc_s32_FG=0.000000	RPNL1Loss_s32=0.200551	RPNLandMarkL1Loss_s32=0.349678	RPNAcc_s16=0.960533	RPNAcc_s16_BG=0.999826	RPNAcc_s16_FG=0.290334	RPNL1Loss_s16=0.161544	RPNLandMarkL1Loss_s16=0.303344	RPNAcc_s8=0.972972	RPNAcc_s8_BG=1.000000	RPNAcc_s8_FG=0.000000	RPNL1Loss_s8=0.225214	RPNLandMarkL1Loss_s8=0.471561
+INFO:root:Epoch[2] Batch [0-80]	Speed: 17.98 samples/sec	RPNAcc_s32=0.957517	RPNAcc_s32_BG=1.000000	RPNAcc_s32_FG=0.000035	RPNL1Loss_s32=0.197258	RPNLandMarkL1Loss_s32=0.341737	RPNAcc_s16=0.959997	RPNAcc_s16_BG=0.999812	RPNAcc_s16_FG=0.280866	RPNL1Loss_s16=0.164295	RPNLandMarkL1Loss_s16=0.305540	RPNAcc_s8=0.972888	RPNAcc_s8_BG=1.000000	RPNAcc_s8_FG=0.000000	RPNL1Loss_s8=0.226098	RPNLandMarkL1Loss_s8=0.467423
+INFO:root:Epoch[2] Batch [0-100]	Speed: 17.98 samples/sec	RPNAcc_s32=0.957250	RPNAcc_s32_BG=1.000000	RPNAcc_s32_FG=0.000141	RPNL1Loss_s32=0.195383	RPNLandMarkL1Loss_s32=0.342129	RPNAcc_s16=0.960088	RPNAcc_s16_BG=0.999782	RPNAcc_s16_FG=0.288819	RPNL1Loss_s16=0.162895	RPNLandMarkL1Loss_s16=0.299310	RPNAcc_s8=0.973686	RPNAcc_s8_BG=1.000000	RPNAcc_s8_FG=0.000000	RPNL1Loss_s8=0.225028	RPNLandMarkL1Loss_s8=0.466604
+INFO:root:Epoch[2] Batch [0-120]	Speed: 18.53 samples/sec	RPNAcc_s32=0.957016	RPNAcc_s32_BG=1.000000	RPNAcc_s32_FG=0.000211	RPNL1Loss_s32=0.192320	RPNLandMarkL1Loss_s32=0.339259	RPNAcc_s16=0.960279	RPNAcc_s16_BG=0.999810	RPNAcc_s16_FG=0.287091	RPNL1Loss_s16=0.164471	RPNLandMarkL1Loss_s16=0.299507	RPNAcc_s8=0.973241	RPNAcc_s8_BG=1.000000	RPNAcc_s8_FG=0.000000	RPNL1Loss_s8=0.224779	RPNLandMarkL1Loss_s8=0.458857
+INFO:root:Epoch[2] Batch [0-140]	Speed: 18.31 samples/sec	RPNAcc_s32=0.956954	RPNAcc_s32_BG=1.000000	RPNAcc_s32_FG=0.000281	RPNL1Loss_s32=0.193489	RPNLandMarkL1Loss_s32=0.349543	RPNAcc_s16=0.960299	RPNAcc_s16_BG=0.999814	RPNAcc_s16_FG=0.294991	RPNL1Loss_s16=0.163500	RPNLandMarkL1Loss_s16=0.300754	RPNAcc_s8=0.973417	RPNAcc_s8_BG=1.000000	RPNAcc_s8_FG=0.000000	RPNL1Loss_s8=0.223692	RPNLandMarkL1Loss_s8=0.457213
+INFO:root:Epoch[2] Batch [0-160]	Speed: 18.36 samples/sec	RPNAcc_s32=0.957400	RPNAcc_s32_BG=1.000000	RPNAcc_s32_FG=0.000302	RPNL1Loss_s32=0.191917	RPNLandMarkL1Loss_s32=0.350173	RPNAcc_s16=0.960547	RPNAcc_s16_BG=0.999794	RPNAcc_s16_FG=0.299432	RPNL1Loss_s16=0.161734	RPNLandMarkL1Loss_s16=0.297084	RPNAcc_s8=0.973172	RPNAcc_s8_BG=1.000000	RPNAcc_s8_FG=0.000000	RPNL1Loss_s8=0.222929	RPNLandMarkL1Loss_s8=0.457044
+INFO:root:Epoch[2] Batch [0-180]	Speed: 18.16 samples/sec	RPNAcc_s32=0.956965	RPNAcc_s32_BG=1.000000	RPNAcc_s32_FG=0.000360	RPNL1Loss_s32=0.190150	RPNLandMarkL1Loss_s32=0.345527	RPNAcc_s16=0.960709	RPNAcc_s16_BG=0.999768	RPNAcc_s16_FG=0.306193	RPNL1Loss_s16=0.161414	RPNLandMarkL1Loss_s16=0.293863	RPNAcc_s8=0.973439	RPNAcc_s8_BG=1.000000	RPNAcc_s8_FG=0.000000	RPNL1Loss_s8=0.222259	RPNLandMarkL1Loss_s8=0.453563
+STAT | 32: (104690, 40, 0.0004) | 16: (137848, 36275, 0.2632) | 8: (66129, 0, 0.0000)
+INFO:root:Epoch[2] Batch [0-200]	Speed: 18.67 samples/sec	RPNAcc_s32=0.956717	RPNAcc_s32_BG=1.000000	RPNAcc_s32_FG=0.000561	RPNL1Loss_s32=0.189927	RPNLandMarkL1Loss_s32=0.344216	RPNAcc_s16=0.960860	RPNAcc_s16_BG=0.999759	RPNAcc_s16_FG=0.306347	RPNL1Loss_s16=0.162427	RPNLandMarkL1Loss_s16=0.293469	RPNAcc_s8=0.973514	RPNAcc_s8_BG=1.000000	RPNAcc_s8_FG=0.000000	RPNL1Loss_s8=0.222540	RPNLandMarkL1Loss_s8=0.455886
+INFO:root:Epoch[2] Batch [0-220]	Speed: 18.88 samples/sec	RPNAcc_s32=0.957262	RPNAcc_s32_BG=1.000000	RPNAcc_s32_FG=0.000530	RPNL1Loss_s32=0.190058	RPNLandMarkL1Loss_s32=0.344165	RPNAcc_s16=0.961047	RPNAcc_s16_BG=0.999738	RPNAcc_s16_FG=0.305593	RPNL1Loss_s16=0.163223	RPNLandMarkL1Loss_s16=0.296483	RPNAcc_s8=0.973533	RPNAcc_s8_BG=1.000000	RPNAcc_s8_FG=0.000000	RPNL1Loss_s8=0.222368	RPNLandMarkL1Loss_s8=0.452604
+INFO:root:Epoch[2] Batch [0-240]	Speed: 18.12 samples/sec	RPNAcc_s32=0.956652	RPNAcc_s32_BG=1.000000	RPNAcc_s32_FG=0.000981	RPNL1Loss_s32=0.188579	RPNLandMarkL1Loss_s32=0.340937	RPNAcc_s16=0.961420	RPNAcc_s16_BG=0.999734	RPNAcc_s16_FG=0.307251	RPNL1Loss_s16=0.162923	RPNLandMarkL1Loss_s16=0.294799	RPNAcc_s8=0.973471	RPNAcc_s8_BG=1.000000	RPNAcc_s8_FG=0.000000	RPNL1Loss_s8=0.221444	RPNLandMarkL1Loss_s8=0.454002
+INFO:root:Epoch[2] Batch [0-260]	Speed: 18.28 samples/sec	RPNAcc_s32=0.956311	RPNAcc_s32_BG=1.000000	RPNAcc_s32_FG=0.001817	RPNL1Loss_s32=0.188250	RPNLandMarkL1Loss_s32=0.343523	RPNAcc_s16=0.961659	RPNAcc_s16_BG=0.999742	RPNAcc_s16_FG=0.310002	RPNL1Loss_s16=0.162890	RPNLandMarkL1Loss_s16=0.293713	RPNAcc_s8=0.973441	RPNAcc_s8_BG=1.000000	RPNAcc_s8_FG=0.000000	RPNL1Loss_s8=0.220409	RPNLandMarkL1Loss_s8=0.452120
+INFO:root:Epoch[2] Batch [0-280]	Speed: 19.12 samples/sec	RPNAcc_s32=0.956209	RPNAcc_s32_BG=1.000000	RPNAcc_s32_FG=0.002118	RPNL1Loss_s32=0.186033	RPNLandMarkL1Loss_s32=0.339828	RPNAcc_s16=0.961976	RPNAcc_s16_BG=0.999734	RPNAcc_s16_FG=0.311895	RPNL1Loss_s16=0.162931	RPNLandMarkL1Loss_s16=0.290843	RPNAcc_s8=0.973449	RPNAcc_s8_BG=1.000000	RPNAcc_s8_FG=0.000000	RPNL1Loss_s8=0.220377	RPNLandMarkL1Loss_s8=0.455553
+INFO:root:Epoch[2] Batch [0-300]	Speed: 18.04 samples/sec	RPNAcc_s32=0.956130	RPNAcc_s32_BG=1.000000	RPNAcc_s32_FG=0.002462	RPNL1Loss_s32=0.185748	RPNLandMarkL1Loss_s32=0.340315	RPNAcc_s16=0.961899	RPNAcc_s16_BG=0.999724	RPNAcc_s16_FG=0.314461	RPNL1Loss_s16=0.163015	RPNLandMarkL1Loss_s16=0.290067	RPNAcc_s8=0.973716	RPNAcc_s8_BG=1.000000	RPNAcc_s8_FG=0.000000	RPNL1Loss_s8=0.220293	RPNLandMarkL1Loss_s8=0.454848
+INFO:root:Epoch[2] Batch [0-320]	Speed: 17.89 samples/sec	RPNAcc_s32=0.956304	RPNAcc_s32_BG=1.000000	RPNAcc_s32_FG=0.002968	RPNL1Loss_s32=0.185586	RPNLandMarkL1Loss_s32=0.338724	RPNAcc_s16=0.961970	RPNAcc_s16_BG=0.999686	RPNAcc_s16_FG=0.317474	RPNL1Loss_s16=0.163955	RPNLandMarkL1Loss_s16=0.292212	RPNAcc_s8=0.973788	RPNAcc_s8_BG=1.000000	RPNAcc_s8_FG=0.000000	RPNL1Loss_s8=0.220322	RPNLandMarkL1Loss_s8=0.456204
+INFO:root:Epoch[2] Batch [0-340]	Speed: 18.70 samples/sec	RPNAcc_s32=0.956181	RPNAcc_s32_BG=1.000000	RPNAcc_s32_FG=0.003144	RPNL1Loss_s32=0.186021	RPNLandMarkL1Loss_s32=0.339351	RPNAcc_s16=0.962221	RPNAcc_s16_BG=0.999690	RPNAcc_s16_FG=0.319783	RPNL1Loss_s16=0.163967	RPNLandMarkL1Loss_s16=0.291878	RPNAcc_s8=0.973534	RPNAcc_s8_BG=1.000000	RPNAcc_s8_FG=0.000000	RPNL1Loss_s8=0.220086	RPNLandMarkL1Loss_s8=0.456910
+INFO:root:Epoch[2] Batch [0-360]	Speed: 18.34 samples/sec	RPNAcc_s32=0.956100	RPNAcc_s32_BG=1.000000	RPNAcc_s32_FG=0.004203	RPNL1Loss_s32=0.184062	RPNLandMarkL1Loss_s32=0.333635	RPNAcc_s16=0.962707	RPNAcc_s16_BG=0.999666	RPNAcc_s16_FG=0.325635	RPNL1Loss_s16=0.164162	RPNLandMarkL1Loss_s16=0.291008	RPNAcc_s8=0.973205	RPNAcc_s8_BG=1.000000	RPNAcc_s8_FG=0.000000	RPNL1Loss_s8=0.220535	RPNLandMarkL1Loss_s8=0.456684
+INFO:root:Epoch[2] Batch [0-380]	Speed: 18.46 samples/sec	RPNAcc_s32=0.956317	RPNAcc_s32_BG=0.999999	RPNAcc_s32_FG=0.004956	RPNL1Loss_s32=0.183755	RPNLandMarkL1Loss_s32=0.331588	RPNAcc_s16=0.962858	RPNAcc_s16_BG=0.999658	RPNAcc_s16_FG=0.329179	RPNL1Loss_s16=0.163765	RPNLandMarkL1Loss_s16=0.291295	RPNAcc_s8=0.973092	RPNAcc_s8_BG=1.000000	RPNAcc_s8_FG=0.000000	RPNL1Loss_s8=0.220656	RPNLandMarkL1Loss_s8=0.456672
+INFO:root:Epoch[2] Batch [0-400]	Speed: 17.78 samples/sec	RPNAcc_s32=0.956325	RPNAcc_s32_BG=0.999999	RPNAcc_s32_FG=0.006165	RPNL1Loss_s32=0.183097	RPNLandMarkL1Loss_s32=0.328881	RPNAcc_s16=0.963121	RPNAcc_s16_BG=0.999656	RPNAcc_s16_FG=0.334768	RPNL1Loss_s16=0.163779	RPNLandMarkL1Loss_s16=0.288549	RPNAcc_s8=0.973185	RPNAcc_s8_BG=1.000000	RPNAcc_s8_FG=0.000000	RPNL1Loss_s8=0.219931	RPNLandMarkL1Loss_s8=0.454701
+INFO:root:Epoch[2] Batch [0-420]	Speed: 17.93 samples/sec	RPNAcc_s32=0.956716	RPNAcc_s32_BG=0.999999	RPNAcc_s32_FG=0.006965	RPNL1Loss_s32=0.182773	RPNLandMarkL1Loss_s32=0.328036	RPNAcc_s16=0.963392	RPNAcc_s16_BG=0.999643	RPNAcc_s16_FG=0.339480	RPNL1Loss_s16=0.163521	RPNLandMarkL1Loss_s16=0.287971	RPNAcc_s8=0.973051	RPNAcc_s8_BG=1.000000	RPNAcc_s8_FG=0.000000	RPNL1Loss_s8=0.220066	RPNLandMarkL1Loss_s8=0.455864
+INFO:root:Epoch[2] Batch [0-440]	Speed: 18.35 samples/sec	RPNAcc_s32=0.956844	RPNAcc_s32_BG=0.999999	RPNAcc_s32_FG=0.007752	RPNL1Loss_s32=0.182969	RPNLandMarkL1Loss_s32=0.327697	RPNAcc_s16=0.963429	RPNAcc_s16_BG=0.999639	RPNAcc_s16_FG=0.340049	RPNL1Loss_s16=0.164167	RPNLandMarkL1Loss_s16=0.288741	RPNAcc_s8=0.973077	RPNAcc_s8_BG=1.000000	RPNAcc_s8_FG=0.000000	RPNL1Loss_s8=0.220554	RPNLandMarkL1Loss_s8=0.455825
+INFO:root:Epoch[2] Batch [0-460]	Speed: 17.93 samples/sec	RPNAcc_s32=0.957040	RPNAcc_s32_BG=0.999997	RPNAcc_s32_FG=0.008720	RPNL1Loss_s32=0.183624	RPNLandMarkL1Loss_s32=0.328075	RPNAcc_s16=0.963576	RPNAcc_s16_BG=0.999639	RPNAcc_s16_FG=0.343262	RPNL1Loss_s16=0.163830	RPNLandMarkL1Loss_s16=0.287241	RPNAcc_s8=0.972905	RPNAcc_s8_BG=1.000000	RPNAcc_s8_FG=0.000000	RPNL1Loss_s8=0.221008	RPNLandMarkL1Loss_s8=0.453797
+INFO:root:Epoch[2] Batch [0-480]	Speed: 16.98 samples/sec	RPNAcc_s32=0.957255	RPNAcc_s32_BG=0.999997	RPNAcc_s32_FG=0.009486	RPNL1Loss_s32=0.183017	RPNLandMarkL1Loss_s32=0.326924	RPNAcc_s16=0.963814	RPNAcc_s16_BG=0.999628	RPNAcc_s16_FG=0.347993	RPNL1Loss_s16=0.163741	RPNLandMarkL1Loss_s16=0.286438	RPNAcc_s8=0.972678	RPNAcc_s8_BG=1.000000	RPNAcc_s8_FG=0.000000	RPNL1Loss_s8=0.221545	RPNLandMarkL1Loss_s8=0.453786
+STAT | 32: (105774, 1659, 0.0157) | 16: (133484, 50669, 0.3796) | 8: (68644, 0, 0.0000)
+INFO:root:Epoch[2] Batch [0-500]	Speed: 18.33 samples/sec	RPNAcc_s32=0.957397	RPNAcc_s32_BG=0.999997	RPNAcc_s32_FG=0.010157	RPNL1Loss_s32=0.183391	RPNLandMarkL1Loss_s32=0.327397	RPNAcc_s16=0.963898	RPNAcc_s16_BG=0.999626	RPNAcc_s16_FG=0.351412	RPNL1Loss_s16=0.164189	RPNLandMarkL1Loss_s16=0.286702	RPNAcc_s8=0.972537	RPNAcc_s8_BG=1.000000	RPNAcc_s8_FG=0.000000	RPNL1Loss_s8=0.221207	RPNLandMarkL1Loss_s8=0.451560
+INFO:root:Epoch[2] Batch [0-520]	Speed: 18.02 samples/sec	RPNAcc_s32=0.957419	RPNAcc_s32_BG=0.999996	RPNAcc_s32_FG=0.011150	RPNL1Loss_s32=0.183021	RPNLandMarkL1Loss_s32=0.327002	RPNAcc_s16=0.964048	RPNAcc_s16_BG=0.999628	RPNAcc_s16_FG=0.353760	RPNL1Loss_s16=0.164018	RPNLandMarkL1Loss_s16=0.285667	RPNAcc_s8=0.972456	RPNAcc_s8_BG=1.000000	RPNAcc_s8_FG=0.000000	RPNL1Loss_s8=0.220851	RPNLandMarkL1Loss_s8=0.450546
+INFO:root:Epoch[2] Batch [0-540]	Speed: 18.34 samples/sec	RPNAcc_s32=0.957699	RPNAcc_s32_BG=0.999996	RPNAcc_s32_FG=0.012277	RPNL1Loss_s32=0.182872	RPNLandMarkL1Loss_s32=0.325803	RPNAcc_s16=0.964117	RPNAcc_s16_BG=0.999622	RPNAcc_s16_FG=0.356537	RPNL1Loss_s16=0.163998	RPNLandMarkL1Loss_s16=0.286796	RPNAcc_s8=0.972320	RPNAcc_s8_BG=1.000000	RPNAcc_s8_FG=0.000000	RPNL1Loss_s8=0.221344	RPNLandMarkL1Loss_s8=0.449774
+INFO:root:Epoch[2] Batch [0-560]	Speed: 18.27 samples/sec	RPNAcc_s32=0.957719	RPNAcc_s32_BG=0.999996	RPNAcc_s32_FG=0.013756	RPNL1Loss_s32=0.182345	RPNLandMarkL1Loss_s32=0.325979	RPNAcc_s16=0.964291	RPNAcc_s16_BG=0.999599	RPNAcc_s16_FG=0.359805	RPNL1Loss_s16=0.164072	RPNLandMarkL1Loss_s16=0.287047	RPNAcc_s8=0.972317	RPNAcc_s8_BG=1.000000	RPNAcc_s8_FG=0.000000	RPNL1Loss_s8=0.220838	RPNLandMarkL1Loss_s8=0.449125
+INFO:root:Epoch[2] Batch [0-580]	Speed: 17.74 samples/sec	RPNAcc_s32=0.957890	RPNAcc_s32_BG=0.999996	RPNAcc_s32_FG=0.014565	RPNL1Loss_s32=0.182422	RPNLandMarkL1Loss_s32=0.326490	RPNAcc_s16=0.964339	RPNAcc_s16_BG=0.999594	RPNAcc_s16_FG=0.365170	RPNL1Loss_s16=0.163723	RPNLandMarkL1Loss_s16=0.286715	RPNAcc_s8=0.972221	RPNAcc_s8_BG=1.000000	RPNAcc_s8_FG=0.000000	RPNL1Loss_s8=0.221130	RPNLandMarkL1Loss_s8=0.450634
+INFO:root:Epoch[2] Batch [0-600]	Speed: 18.68 samples/sec	RPNAcc_s32=0.958008	RPNAcc_s32_BG=0.999996	RPNAcc_s32_FG=0.015431	RPNL1Loss_s32=0.182260	RPNLandMarkL1Loss_s32=0.326116	RPNAcc_s16=0.964524	RPNAcc_s16_BG=0.999583	RPNAcc_s16_FG=0.368224	RPNL1Loss_s16=0.163437	RPNLandMarkL1Loss_s16=0.286148	RPNAcc_s8=0.972176	RPNAcc_s8_BG=1.000000	RPNAcc_s8_FG=0.000000	RPNL1Loss_s8=0.220748	RPNLandMarkL1Loss_s8=0.449723
+INFO:root:Epoch[2] Batch [0-620]	Speed: 18.53 samples/sec	RPNAcc_s32=0.958139	RPNAcc_s32_BG=0.999997	RPNAcc_s32_FG=0.016243	RPNL1Loss_s32=0.182399	RPNLandMarkL1Loss_s32=0.326476	RPNAcc_s16=0.964596	RPNAcc_s16_BG=0.999558	RPNAcc_s16_FG=0.370105	RPNL1Loss_s16=0.163535	RPNLandMarkL1Loss_s16=0.286850	RPNAcc_s8=0.972203	RPNAcc_s8_BG=1.000000	RPNAcc_s8_FG=0.000000	RPNL1Loss_s8=0.220320	RPNLandMarkL1Loss_s8=0.449084
+INFO:root:Epoch[2] Batch [0-640]	Speed: 18.29 samples/sec	RPNAcc_s32=0.958234	RPNAcc_s32_BG=0.999994	RPNAcc_s32_FG=0.017615	RPNL1Loss_s32=0.181695	RPNLandMarkL1Loss_s32=0.324880	RPNAcc_s16=0.964812	RPNAcc_s16_BG=0.999546	RPNAcc_s16_FG=0.372730	RPNL1Loss_s16=0.163232	RPNLandMarkL1Loss_s16=0.286721	RPNAcc_s8=0.972179	RPNAcc_s8_BG=1.000000	RPNAcc_s8_FG=0.000007	RPNL1Loss_s8=0.220088	RPNLandMarkL1Loss_s8=0.448007
+INFO:root:Epoch[2] Batch [0-660]	Speed: 18.48 samples/sec	RPNAcc_s32=0.958236	RPNAcc_s32_BG=0.999994	RPNAcc_s32_FG=0.018764	RPNL1Loss_s32=0.181202	RPNLandMarkL1Loss_s32=0.323652	RPNAcc_s16=0.964866	RPNAcc_s16_BG=0.999551	RPNAcc_s16_FG=0.374085	RPNL1Loss_s16=0.163067	RPNLandMarkL1Loss_s16=0.285456	RPNAcc_s8=0.972264	RPNAcc_s8_BG=1.000000	RPNAcc_s8_FG=0.000007	RPNL1Loss_s8=0.219767	RPNLandMarkL1Loss_s8=0.445823
+INFO:root:Epoch[2] Batch [0-680]	Speed: 18.42 samples/sec	RPNAcc_s32=0.958320	RPNAcc_s32_BG=0.999995	RPNAcc_s32_FG=0.020030	RPNL1Loss_s32=0.181068	RPNLandMarkL1Loss_s32=0.323410	RPNAcc_s16=0.965001	RPNAcc_s16_BG=0.999537	RPNAcc_s16_FG=0.376952	RPNL1Loss_s16=0.162925	RPNLandMarkL1Loss_s16=0.285086	RPNAcc_s8=0.972330	RPNAcc_s8_BG=1.000000	RPNAcc_s8_FG=0.000006	RPNL1Loss_s8=0.219553	RPNLandMarkL1Loss_s8=0.445973
+INFO:root:Epoch[2] Batch [0-700]	Speed: 18.12 samples/sec	RPNAcc_s32=0.958567	RPNAcc_s32_BG=0.999994	RPNAcc_s32_FG=0.021423	RPNL1Loss_s32=0.180748	RPNLandMarkL1Loss_s32=0.323235	RPNAcc_s16=0.965138	RPNAcc_s16_BG=0.999532	RPNAcc_s16_FG=0.380351	RPNL1Loss_s16=0.162732	RPNLandMarkL1Loss_s16=0.284093	RPNAcc_s8=0.972309	RPNAcc_s8_BG=1.000000	RPNAcc_s8_FG=0.000019	RPNL1Loss_s8=0.219726	RPNLandMarkL1Loss_s8=0.445800
+INFO:root:Epoch[2] Batch [0-720]	Speed: 18.44 samples/sec	RPNAcc_s32=0.958660	RPNAcc_s32_BG=0.999994	RPNAcc_s32_FG=0.023245	RPNL1Loss_s32=0.181064	RPNLandMarkL1Loss_s32=0.323547	RPNAcc_s16=0.965331	RPNAcc_s16_BG=0.999518	RPNAcc_s16_FG=0.383723	RPNL1Loss_s16=0.162675	RPNLandMarkL1Loss_s16=0.283834	RPNAcc_s8=0.972221	RPNAcc_s8_BG=1.000000	RPNAcc_s8_FG=0.000043	RPNL1Loss_s8=0.220067	RPNLandMarkL1Loss_s8=0.444805
+INFO:root:Epoch[2] Batch [0-740]	Speed: 15.79 samples/sec	RPNAcc_s32=0.958687	RPNAcc_s32_BG=0.999994	RPNAcc_s32_FG=0.024562	RPNL1Loss_s32=0.180577	RPNLandMarkL1Loss_s32=0.322732	RPNAcc_s16=0.965489	RPNAcc_s16_BG=0.999503	RPNAcc_s16_FG=0.387366	RPNL1Loss_s16=0.162514	RPNLandMarkL1Loss_s16=0.283015	RPNAcc_s8=0.972366	RPNAcc_s8_BG=1.000000	RPNAcc_s8_FG=0.000066	RPNL1Loss_s8=0.220060	RPNLandMarkL1Loss_s8=0.444069
+INFO:root:Epoch[2] Batch [0-760]	Speed: 16.92 samples/sec	RPNAcc_s32=0.958743	RPNAcc_s32_BG=0.999994	RPNAcc_s32_FG=0.026137	RPNL1Loss_s32=0.180470	RPNLandMarkL1Loss_s32=0.323455	RPNAcc_s16=0.965697	RPNAcc_s16_BG=0.999477	RPNAcc_s16_FG=0.390311	RPNL1Loss_s16=0.162434	RPNLandMarkL1Loss_s16=0.282362	RPNAcc_s8=0.972307	RPNAcc_s8_BG=1.000000	RPNAcc_s8_FG=0.000122	RPNL1Loss_s8=0.219725	RPNLandMarkL1Loss_s8=0.445667
+INFO:root:Epoch[2] Batch [0-780]	Speed: 18.07 samples/sec	RPNAcc_s32=0.958775	RPNAcc_s32_BG=0.999993	RPNAcc_s32_FG=0.027940	RPNL1Loss_s32=0.180743	RPNLandMarkL1Loss_s32=0.324871	RPNAcc_s16=0.965928	RPNAcc_s16_BG=0.999473	RPNAcc_s16_FG=0.394001	RPNL1Loss_s16=0.162098	RPNLandMarkL1Loss_s16=0.281466	RPNAcc_s8=0.972359	RPNAcc_s8_BG=1.000000	RPNAcc_s8_FG=0.000266	RPNL1Loss_s8=0.219042	RPNLandMarkL1Loss_s8=0.443577
+STAT | 32: (101486, 6208, 0.0612) | 16: (137549, 64523, 0.4691) | 8: (68956, 56, 0.0008)
+INFO:root:Epoch[2] Batch [0-800]	Speed: 17.54 samples/sec	RPNAcc_s32=0.958708	RPNAcc_s32_BG=0.999993	RPNAcc_s32_FG=0.028764	RPNL1Loss_s32=0.180517	RPNLandMarkL1Loss_s32=0.324595	RPNAcc_s16=0.966098	RPNAcc_s16_BG=0.999460	RPNAcc_s16_FG=0.397224	RPNL1Loss_s16=0.161666	RPNLandMarkL1Loss_s16=0.279662	RPNAcc_s8=0.972361	RPNAcc_s8_BG=1.000000	RPNAcc_s8_FG=0.000430	RPNL1Loss_s8=0.218750	RPNLandMarkL1Loss_s8=0.443368
+INFO:root:Epoch[2] Train-RPNAcc_s32=0.958725
+INFO:root:Epoch[2] Train-RPNAcc_s32_BG=0.999993
+INFO:root:Epoch[2] Train-RPNAcc_s32_FG=0.028862
+INFO:root:Epoch[2] Train-RPNL1Loss_s32=0.180488
+INFO:root:Epoch[2] Train-RPNLandMarkL1Loss_s32=0.324347
+INFO:root:Epoch[2] Train-RPNAcc_s16=0.966100
+INFO:root:Epoch[2] Train-RPNAcc_s16_BG=0.999462
+INFO:root:Epoch[2] Train-RPNAcc_s16_FG=0.397502
+INFO:root:Epoch[2] Train-RPNL1Loss_s16=0.161620
+INFO:root:Epoch[2] Train-RPNLandMarkL1Loss_s16=0.279523
+INFO:root:Epoch[2] Train-RPNAcc_s8=0.972343
+INFO:root:Epoch[2] Train-RPNAcc_s8_BG=1.000000
+INFO:root:Epoch[2] Train-RPNAcc_s8_FG=0.000439
+INFO:root:Epoch[2] Train-RPNL1Loss_s8=0.218610
+INFO:root:Epoch[2] Train-RPNLandMarkL1Loss_s8=0.443056
+INFO:root:Epoch[2] Time cost=1424.366
+INFO:root:Saved checkpoint to "model/mnet_net3a_maxout2/mnet_net3a_maxout2-0002.params"
+INFO:root:Epoch[3] Batch [0-20]	Speed: 17.63 samples/sec	RPNAcc_s32=0.963425	RPNAcc_s32_BG=0.999909	RPNAcc_s32_FG=0.093312	RPNL1Loss_s32=0.170342	RPNLandMarkL1Loss_s32=0.352624	RPNAcc_s16=0.971935	RPNAcc_s16_BG=0.998514	RPNAcc_s16_FG=0.502603	RPNL1Loss_s16=0.161200	RPNLandMarkL1Loss_s16=0.272036	RPNAcc_s8=0.968390	RPNAcc_s8_BG=1.000000	RPNAcc_s8_FG=0.009472	RPNL1Loss_s8=0.197534	RPNLandMarkL1Loss_s8=0.374313
+INFO:root:Epoch[3] Batch [0-40]	Speed: 17.52 samples/sec	RPNAcc_s32=0.963510	RPNAcc_s32_BG=0.999953	RPNAcc_s32_FG=0.097804	RPNL1Loss_s32=0.169944	RPNLandMarkL1Loss_s32=0.346741	RPNAcc_s16=0.972171	RPNAcc_s16_BG=0.998845	RPNAcc_s16_FG=0.504333	RPNL1Loss_s16=0.157619	RPNLandMarkL1Loss_s16=0.255645	RPNAcc_s8=0.969875	RPNAcc_s8_BG=1.000000	RPNAcc_s8_FG=0.009884	RPNL1Loss_s8=0.210480	RPNLandMarkL1Loss_s8=0.409171
+INFO:root:Epoch[3] Batch [0-60]	Speed: 17.71 samples/sec	RPNAcc_s32=0.963585	RPNAcc_s32_BG=0.999967	RPNAcc_s32_FG=0.082463	RPNL1Loss_s32=0.170158	RPNLandMarkL1Loss_s32=0.357811	RPNAcc_s16=0.971934	RPNAcc_s16_BG=0.998856	RPNAcc_s16_FG=0.497484	RPNL1Loss_s16=0.158457	RPNLandMarkL1Loss_s16=0.260163	RPNAcc_s8=0.968504	RPNAcc_s8_BG=1.000000	RPNAcc_s8_FG=0.007567	RPNL1Loss_s8=0.209930	RPNLandMarkL1Loss_s8=0.416725
