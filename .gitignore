@@ -105,4 +105,6 @@ RetinaFace/model/*
 RetinaFace/data/*
 data
 model
+mobilenetV3-large_RetinaFace/test_out_dir/
+test_out_dir
 
